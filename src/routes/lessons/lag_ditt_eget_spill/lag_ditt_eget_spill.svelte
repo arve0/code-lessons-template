@@ -1,6 +1,9 @@
+<!-- generated from src/lessons/lag_ditt_eget_spill/lag_ditt_eget_spill.md -->
+
 <svelte:head>
   <title>Lag ditt eget spill</title>
 </svelte:head>
+
 <section class="intro">
   <h1 class="intro" id="introduksjon">Introduksjon</h1>
   <p>

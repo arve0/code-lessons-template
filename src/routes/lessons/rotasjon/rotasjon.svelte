@@ -1,6 +1,9 @@
+<!-- generated from src/lessons/rotasjon/rotasjon.md -->
+
 <svelte:head>
   <title>Rotasjon rundt egen akse</title>
 </svelte:head>
+
 <section class="intro">
   <h1 class="intro" id="introduksjon">Introduksjon</h1>
   <p>

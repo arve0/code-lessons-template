@@ -1,6 +1,9 @@
+<!-- generated from src/lessons/snoballkrig/snoballkrig.md -->
+
 <svelte:head>
   <title>Snøballkrig</title>
 </svelte:head>
+
 <section class="intro">
   <h1 class="intro" id="introduksjon">Introduksjon</h1>
   <p>

@@ -1,6 +1,9 @@
+<!-- generated from src/lessons/veiledning_kurs_avansert_plattform/kurs_avansert_scratch_plattform.md -->
+
 <svelte:head>
   <title>Kursveiledning</title>
 </svelte:head>
+
 <section class="intro">
   <h1 class="intro" id="avansert-scratch---plattform">
     Avansert Scratch - Plattform

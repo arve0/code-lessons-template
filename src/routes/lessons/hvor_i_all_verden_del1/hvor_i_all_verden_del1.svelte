@@ -1,6 +1,9 @@
+<!-- generated from src/lessons/hvor_i_all_verden_del1/hvor_i_all_verden_del1.md -->
+
 <svelte:head>
   <title>Hvor i All Verden? Del 1</title>
 </svelte:head>
+
 <section class="intro">
   <h1 class="intro" id="introduksjon">Introduksjon</h1>
   <p>

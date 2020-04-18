@@ -1,6 +1,9 @@
+<!-- generated from src/lessons/snurrige_figurer/snurrige_figurer.md -->
+
 <svelte:head>
   <title>Snurrige figurer</title>
 </svelte:head>
+
 <section class="intro">
   <h1 class="intro" id="introduksjon">Introduksjon</h1>
   <p>

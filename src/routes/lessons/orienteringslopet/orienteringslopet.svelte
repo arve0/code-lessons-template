@@ -1,6 +1,9 @@
+<!-- generated from src/lessons/orienteringslopet/orienteringslopet.md -->
+
 <svelte:head>
   <title>Orienteringsløpet</title>
 </svelte:head>
+
 <section class="intro">
   <h1 class="intro" id="introduksjon">Introduksjon</h1>
   <p>

@@ -1,6 +1,9 @@
+<!-- generated from src/lessons/fyrverkeri/fyrverkeri.md -->
+
 <svelte:head>
   <title>Fyrverkeri</title>
 </svelte:head>
+
 <section class="intro">
   <h1 class="intro" id="introduksjon">Introduksjon</h1>
   <p>I dette prosjektet skal vi skyte opp fyrverkeri over en by.</p>

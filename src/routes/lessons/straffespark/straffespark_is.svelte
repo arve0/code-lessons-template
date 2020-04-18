@@ -1,6 +1,9 @@
+<!-- generated from src/lessons/straffespark/straffespark_is.md -->
+
 <svelte:head>
   <title>Vítaspyrna</title>
 </svelte:head>
+
 <section class="intro">
   <h1 class="intro" id="kynning">Kynning</h1>
   <p>

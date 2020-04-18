@@ -1,6 +1,9 @@
+<!-- generated from src/lessons/veiledning_kom_i_gang/kom_i_gang_med_scratch.md -->
+
 <svelte:head>
   <title>Kom i gang med Scratch</title>
 </svelte:head>
+
 <section class="intro">
   <h1 class="intro" id="kom-i-gang-med-scratch">Kom i gang med Scratch</h1>
   <p>

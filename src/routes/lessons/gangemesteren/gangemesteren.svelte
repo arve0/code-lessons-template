@@ -1,6 +1,9 @@
+<!-- generated from src/lessons/gangemesteren/gangemesteren.md -->
+
 <svelte:head>
   <title>Gangemesteren</title>
 </svelte:head>
+
 <section class="intro">
   <h1 class="intro" id="introduksjon">Introduksjon</h1>
   <p>

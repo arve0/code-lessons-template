@@ -1,6 +1,9 @@
+<!-- generated from src/lessons/donkey_kong/donkey_kong.md -->
+
 <svelte:head>
   <title>Donkey Kong</title>
 </svelte:head>
+
 <section class="intro">
   <h1 class="intro" id="introduksjon">Introduksjon</h1>
   <p>

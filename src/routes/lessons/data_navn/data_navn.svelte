@@ -1,6 +1,9 @@
+<!-- generated from src/lessons/data_navn/data_navn.md -->
+
 <svelte:head>
   <title>Bruk data: Jente- og guttenavn</title>
 </svelte:head>
+
 <section class="intro">
   <h1 class="intro" id="introduksjon">Introduksjon</h1>
   <p>

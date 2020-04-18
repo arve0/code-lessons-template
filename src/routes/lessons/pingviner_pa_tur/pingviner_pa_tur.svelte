@@ -1,6 +1,9 @@
+<!-- generated from src/lessons/pingviner_pa_tur/pingviner_pa_tur.md -->
+
 <svelte:head>
   <title>Pingviner på tur</title>
 </svelte:head>
+
 <section class="intro">
   <h1 class="intro" id="introduksjon">Introduksjon</h1>
   <p>

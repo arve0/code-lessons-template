@@ -1,6 +1,9 @@
+<!-- generated from src/lessons/flaksefugl/flaksefugl.md -->
+
 <svelte:head>
   <title>Flaksefugl</title>
 </svelte:head>
+
 <section class="intro">
   <h1 class="intro" id="introduksjon">Introduksjon</h1>
   <p>

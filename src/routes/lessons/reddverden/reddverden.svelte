@@ -1,6 +1,9 @@
+<!-- generated from src/lessons/reddverden/reddverden.md -->
+
 <svelte:head>
   <title>Redd verden</title>
 </svelte:head>
+
 <section class="intro">
   <h1 class="intro" id="introduksjon">Introduksjon</h1>
   <p>

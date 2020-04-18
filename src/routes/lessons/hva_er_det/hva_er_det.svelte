@@ -1,6 +1,9 @@
+<!-- generated from src/lessons/hva_er_det/hva_er_det.md -->
+
 <svelte:head>
   <title>Hva er det?</title>
 </svelte:head>
+
 <section class="intro">
   <h1 class="intro" id="introduksjon">Introduksjon</h1>
   <p>

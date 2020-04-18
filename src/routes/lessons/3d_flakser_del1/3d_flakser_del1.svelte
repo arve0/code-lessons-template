@@ -1,6 +1,9 @@
+<!-- generated from src/lessons/3d_flakser_del1/3d_flakser_del1.md -->
+
 <svelte:head>
   <title>3D-flakser, del 1</title>
 </svelte:head>
+
 <section class="intro">
   <h1 class="intro" id="introduksjon">Introduksjon</h1>
   <p>

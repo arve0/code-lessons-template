@@ -1,10 +1,10 @@
 <script>
 	import Nav from '../components/Nav.svelte';
-	import { onMount } from 'svelte';
+	import { afterUpdate } from 'svelte';
 
 	export let segment;
 
-	onMount(() => {
+	afterUpdate(() => {
 		scratchblocks.renderMatching("code.blocks", { style: "scratch3" })
 	});
 </script>

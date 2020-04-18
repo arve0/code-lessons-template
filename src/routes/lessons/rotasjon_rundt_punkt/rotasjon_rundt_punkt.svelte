@@ -1,6 +1,9 @@
+<!-- generated from src/lessons/rotasjon_rundt_punkt/rotasjon_rundt_punkt.md -->
+
 <svelte:head>
   <title>Rotasjon rundt et punkt</title>
 </svelte:head>
+
 <section class="intro">
   <h1 class="intro" id="introduksjon">Introduksjon</h1>
   <p>

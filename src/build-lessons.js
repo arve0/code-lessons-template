@@ -16,6 +16,8 @@ rimraf.sync(OUTPUT_FOLDER);
 const files = globby.sync(path.join(INPUT_FOLDER, "**/*"));
 console.log(`Found ${files.length} files`);
 
+const metadata = [];
+
 for (const filename of files) {
   if (path.extname(filename) !== ".md") {
     let output_filename = path.join(
@@ -44,7 +46,7 @@ for (const filename of files) {
 
     const base_path = path.relative("src", path.dirname(filename));
     const html = prettier.format(
-      header(lesson.attributes) +
+      header({ ...lesson.attributes, filename }) +
         markdown
           .render(lesson.body)
           .replace(
@@ -54,15 +56,33 @@ for (const filename of files) {
       { parser: "html" }
     );
 
+    metadata.push({
+      url: path.relative("src", filename).replace(/\.md$/, ""),
+      ...lesson.attributes,
+    });
+
     fs.writeFileSync(output_filename, html);
   }
 }
 
-function header({ title }) {
-  return `
+const metadata_by_level = metadata.reduce((by_level, lesson) => {
+  by_level[lesson.level] = by_level[lesson.level] || [];
+  by_level[lesson.level].push(lesson);
+  return by_level;
+}, {});
+
+fs.writeFileSync(
+  path.join(STATIC_FOLDER, "metadata.json"),
+  JSON.stringify(metadata_by_level)
+);
+
+function header({ filename, title }) {
+  return `<!-- generated from ${filename} -->
+
 <svelte:head>
   <title>${title}</title>
 </svelte:head>
+
 `;
 }
 

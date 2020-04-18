@@ -1,6 +1,9 @@
+<!-- generated from src/lessons/lunar_lander/lunar_lander.md -->
+
 <svelte:head>
   <title>Lunar Lander</title>
 </svelte:head>
+
 <section class="intro">
   <h1 class="intro" id="introduksjon">Introduksjon</h1>
   <p>

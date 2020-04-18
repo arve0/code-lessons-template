@@ -1,6 +1,9 @@
+<!-- generated from src/lessons/kingkong/kingkong.md -->
+
 <svelte:head>
   <title>King Kong</title>
 </svelte:head>
+
 <section class="intro">
   <h1 class="intro" id="introduksjon">Introduksjon</h1>
   <p>

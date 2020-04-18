@@ -1,6 +1,9 @@
+<!-- generated from src/lessons/pong/pong.md -->
+
 <svelte:head>
   <title>Pong</title>
 </svelte:head>
+
 <section class="intro">
   <h1 class="intro" id="introduksjon">Introduksjon</h1>
   <p>

@@ -1,6 +1,9 @@
+<!-- generated from src/lessons/breakout/breakout.md -->
+
 <svelte:head>
   <title>Breakout</title>
 </svelte:head>
+
 <section class="intro">
   <h1 class="intro" id="introduksjon">Introduksjon</h1>
   <p>

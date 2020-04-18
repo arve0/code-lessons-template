@@ -1,6 +1,9 @@
+<!-- generated from src/lessons/felix_og_herbert/felix_og_herbert.md -->
+
 <svelte:head>
   <title>Felix og Herbert</title>
 </svelte:head>
+
 <section class="intro">
   <h1 class="intro" id="introduksjon">Introduksjon</h1>
   <p>

@@ -1,6 +1,9 @@
+<!-- generated from src/lessons/veiledning_kurs_avansert_klassikere/kurs_avansert_scratch_klassikere.md -->
+
 <svelte:head>
   <title>Kursveiledning</title>
 </svelte:head>
+
 <section class="intro">
   <h1 class="intro" id="avansert-scratch---klassikere">
     Avansert Scratch - Klassikere

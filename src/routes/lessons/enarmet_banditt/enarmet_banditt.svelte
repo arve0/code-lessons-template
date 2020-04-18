@@ -1,6 +1,9 @@
+<!-- generated from src/lessons/enarmet_banditt/enarmet_banditt.md -->
+
 <svelte:head>
   <title>Enarmet banditt</title>
 </svelte:head>
+
 <section class="intro">
   <h1 class="intro" id="introduksjon">Introduksjon</h1>
   <p>
