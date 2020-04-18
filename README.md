@@ -27,6 +27,12 @@ npm run build:lessons
 npm run dev
 ```
 
+Whenever lessons are new, run
+
+```bash
+npm run build:lessons
+```
+
 Open up [localhost:3000](http://localhost:3000) and start clicking around.
 
 Consult [sapper.svelte.dev](https://sapper.svelte.dev) for help getting started.
