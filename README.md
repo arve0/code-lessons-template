@@ -1,6 +1,22 @@
 # code-lessons-template
 
-A template for building scratch lessons to HTML pages.
+A starter template for creating teaching material for scratch using
+
+- [markdown](https://commonmark.org/help/tutorial/) as source
+- [scratchblock](http://github.com/tjvr/scratchblocks) to render code
+- [svelte](https://svelte.dev/docs) for components
+- [sapper](https://sapper.svelte.dev/) as backend, can be built to static HTML too
+
+The technique used is
+
+- read all files under src/lessons
+- parse markdown -> html, create metadata about pages
+- write html + `<svelte:header><title>` to a file under src/routes/lessons
+- copy material / images to static/lessons
+
+Result is a unstyled webpage with course material (Norwegian course used as an example):
+
+![](demo.png)
 
 ## Getting started
 
