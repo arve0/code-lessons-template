@@ -18,6 +18,8 @@ Result is a unstyled webpage with course material (Norwegian course used as an e
 
 ![](demo.png)
 
+This should be a good starting point that is easy to adapt to your own needs.
+
 ## Getting started
 
 ### Using `degit`
