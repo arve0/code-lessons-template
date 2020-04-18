@@ -40,16 +40,16 @@
     <h2 class="check" id="plan">Plan</h2>
     <ul>
       <li>
-        <p>[ ] Enda et flyvende romskip</p>
+        <p>Enda et flyvende romskip</p>
       </li>
       <li>
-        <p>[ ] Romskipet kan skyte!</p>
+        <p>Romskipet kan skyte!</p>
       </li>
       <li>
-        <p>[ ] Pass deg for asteroidene</p>
+        <p>Pass deg for asteroidene</p>
       </li>
       <li>
-        <p>[ ] .. og andre utfordringer</p>
+        <p>.. og andre utfordringer</p>
       </li>
     </ul>
   </section>
@@ -84,7 +84,7 @@
     <ul>
       <li>
         <p>
-          [ ] Åpne
+          Åpne
           <a href="lessons/asteroids/../lunar_lander/lunar_lander.html"
             >Lunar Lander</a
           >-prosjektet ditt.
@@ -92,28 +92,28 @@
       </li>
       <li>
         <p>
-          [ ] Legg merke til at det står <code>Ryggsekk</code> helt nederst på
+          Legg merke til at det står <code>Ryggsekk</code> helt nederst på
           skjermen. Klikk på <code>Ryggsekk</code> og et litt større felt skal
           åpne seg opp.
         </p>
       </li>
       <li>
         <p>
-          [ ] Dra hele romskip-figuren din til den åpne ryggsekken. En kopi av
+          Dra hele romskip-figuren din til den åpne ryggsekken. En kopi av
           romskip-figuren blir værende i ryggsekken.
         </p>
       </li>
       <li>
         <p>
-          [ ] Start et nytt prosjekt ved å velge <code>Ny</code> i
+          Start et nytt prosjekt ved å velge <code>Ny</code> i
           <code>Fil</code>-menyen. Slett kattefiguren og legg på en
           stjernebakgrunn.
         </p>
       </li>
       <li>
         <p>
-          [ ] Du kan nå dra romskip-kopien ut fra ryggsekken, og til
-          figurvinduet i det nye prosjektet.
+          Du kan nå dra romskip-kopien ut fra ryggsekken, og til figurvinduet i
+          det nye prosjektet.
         </p>
         <figure>
           <img
@@ -131,23 +131,23 @@
       </li>
       <li>
         <p>
-          [ ] Legg et skript på scenen som sender en melding til romskipet om at
-          det skal begynne å fly når det grønne flagget klikkes. Prøv spillet
-          ditt. Kan du fly romskipet rundt omkring?
+          Legg et skript på scenen som sender en melding til romskipet om at det
+          skal begynne å fly når det grønne flagget klikkes. Prøv spillet ditt.
+          Kan du fly romskipet rundt omkring?
         </p>
       </li>
       <li>
         <p>
-          [ ] Vi skal gjøre en liten forandring i hvordan romskipet oppfører
-          seg. Asteroids foregår langt ute i rommet hvor det ikke er noen
-          merkbar tyngdekraft. Slett derfor klossen som modellerer tyngdekraften
-          i <code class="blockcontrol">for alltid</code>-løkken din,
+          Vi skal gjøre en liten forandring i hvordan romskipet oppfører seg.
+          Asteroids foregår langt ute i rommet hvor det ikke er noen merkbar
+          tyngdekraft. Slett derfor klossen som modellerer tyngdekraften i
+          <code class="blockcontrol">for alltid</code>-løkken din,
           <code class="b">endre [fartY v] med (-0.01)</code>.
         </p>
       </li>
       <li>
         <p>
-          [ ] Vi skal også gjøre en litt større endring i spillet. Vi vil at
+          Vi skal også gjøre en litt større endring i spillet. Vi vil at
           verdensrommet skal føles litt stort og uoversiktlig ved at når
           romskipet går ut av skjermen på den ene siden skal det dukke opp på
           andre siden av skjermen.
@@ -196,7 +196,7 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Lag en ny figur som du kaller <code>Skudd</code>. Denne tegner du
+          Lag en ny figur som du kaller <code>Skudd</code>. Denne tegner du
           greit selv. Eventuelt finnes det for eksempel noen ball-figurer som
           kan brukes som kuler. Bruk en
           <code class="blocklooks">sett størrelse</code>-kloss for at figuren
@@ -206,9 +206,8 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Vi vil bruke kloner slik at vi kan skyte flere skudd. Først
-          trenger vi koden som lager en ny skuddklone når mellomromtasten
-          trykkes:
+          Vi vil bruke kloner slik at vi kan skyte flere skudd. Først trenger vi
+          koden som lager en ny skuddklone når mellomromtasten trykkes:
         </p>
         <p>
           Lag et skript på skudd-figuren som starter på
@@ -226,10 +225,10 @@ slutt
       </li>
       <li>
         <p>
-          [ ] For å passe på at bare en melding sendes ut hver gang
-          mellomromtasten trykkes kan vi starte
-          <code class="blockcontrol">hvis</code>-testen med å vente til
-          mellomromtasten er sluppet igjen. Dette trikset ser omtrent slik ut:
+          For å passe på at bare en melding sendes ut hver gang mellomromtasten
+          trykkes kan vi starte <code class="blockcontrol">hvis</code>-testen
+          med å vente til mellomromtasten er sluppet igjen. Dette trikset ser
+          omtrent slik ut:
         </p>
         <pre><code class="blocks">hvis &lt;tast [mellomrom v] trykket?&gt;
     vent til &lt;ikke &lt;tast [mellomrom v] trykket?&gt;&gt;
@@ -239,8 +238,8 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Nå skal vi kode oppførselen til skuddet etter at det er avfyrt.
-          Det kan være ganske enkelt. Når skuddfiguren
+          Nå skal vi kode oppførselen til skuddet etter at det er avfyrt. Det
+          kan være ganske enkelt. Når skuddfiguren
           <code class="blockcontrol">starter som klon</code> må den
           <code class="blocklooks">vises</code>, og deretter kan den flyttes i
           en løkke før den til slutt slettes. Eksperimenter med hastigheten og
@@ -250,9 +249,9 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Til slutt vil vi at også skuddene skal kunne forsvinne ut på den
-          ene siden av skjermen og dukke opp igjen på den andre. Til dette vil
-          vi bruke omtrent samme kode for romskipet.
+          Til slutt vil vi at også skuddene skal kunne forsvinne ut på den ene
+          siden av skjermen og dukke opp igjen på den andre. Til dette vil vi
+          bruke omtrent samme kode for romskipet.
         </p>
         <p>
           For å kopiere skript mellom figurer kan du bruke ryggsekken på samme
@@ -266,8 +265,8 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Vi kan nesten bruke denne koden som den er. Den eneste endringen
-          vi trenger å gjøre er at den skal starte på
+          Vi kan nesten bruke denne koden som den er. Den eneste endringen vi
+          trenger å gjøre er at den skal starte på
           <code class="b">når jeg starter som klon</code> i stedet for på
           <code class="b">når jeg mottar [Nytt spill v]</code>, siden denne
           oppførselen skal gjelde for alle skuddklonene.
@@ -275,8 +274,8 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Prøv spillet ditt. Nå skal du kunne fly rundt i verdensrommet mens
-          du skyter.
+          Prøv spillet ditt. Nå skal du kunne fly rundt i verdensrommet mens du
+          skyter.
         </p>
       </li>
     </ul>
@@ -299,8 +298,8 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Lag en asteroidefigur. En måte å gjøre dette på er å tegne en ny
-          figur med vektorgrafikk. Start med en enkel firkant, og bruk deretter
+          Lag en asteroidefigur. En måte å gjøre dette på er å tegne en ny figur
+          med vektorgrafikk. Start med en enkel firkant, og bruk deretter
           <code>Bøy</code>-verktøyet for å legge til flere hjørnepunkter og
           flytte dem rundt som i figuren under.
         </p>
@@ -313,7 +312,7 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Også for asteroidene vil vi bruke kloner. Lag et skript som
+          Også for asteroidene vil vi bruke kloner. Lag et skript som
           <code class="blocklooks">skjuler</code> figuren og lager et par
           asteroide-kloner tilfeldige steder på skjermen når det mottar
           <code>Nytt spill</code>-meldingen.
@@ -321,8 +320,8 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Når figuren <code class="blockcontrol">starter som klon</code> vil
-          vi først at den <code class="blockmotion">peker</code> i en tilfeldig
+          Når figuren <code class="blockcontrol">starter som klon</code> vil vi
+          først at den <code class="blockmotion">peker</code> i en tilfeldig
           retning og deretter <code class="blocklooks">vises</code>. Videre kan
           den gå inn i en løkke som
           <code class="blockcontrol">gjentas til</code> figuren
@@ -345,7 +344,7 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Legg på en melding eller en
+          Legg på en melding eller en
           <code class="blockcontrol">stopp</code>-kloss slik at spillet kan
           avsluttes etter at <code class="blockcontrol">gjenta til</code>-løkken
           avsluttes, siden romskipet da har krasjet i en asteroide.
@@ -353,18 +352,18 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Også asteroidene skal kunne fly ut av skjermen på en side og dukke
-          opp på en annen. Kopier derfor skriptet som fikser dette fra
-          skudd-figuren på samme måte som tidligere.
+          Også asteroidene skal kunne fly ut av skjermen på en side og dukke opp
+          på en annen. Kopier derfor skriptet som fikser dette fra skudd-figuren
+          på samme måte som tidligere.
         </p>
       </li>
       <li>
         <p>
-          [ ] Til slutt vil vi også slette skudd-klonene når de treffer
-          asteroidene. Her må vi være litt forsiktig så vi ikke sletter
-          skudd-klonene før asteroidene merker at de er truffet. Dette kan vi
-          fikse ved å legge inn en ørliten forsinkelse. Du kan for eksempel
-          legge inn kode som dette i løkka som flytter skudd-figuren:
+          Til slutt vil vi også slette skudd-klonene når de treffer asteroidene.
+          Her må vi være litt forsiktig så vi ikke sletter skudd-klonene før
+          asteroidene merker at de er truffet. Dette kan vi fikse ved å legge
+          inn en ørliten forsinkelse. Du kan for eksempel legge inn kode som
+          dette i løkka som flytter skudd-figuren:
         </p>
         <pre><code class="blocks">hvis &lt;berører [Asteroide v] ?&gt;
     vent (0.01) sekunder
@@ -394,7 +393,7 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Gi poeng når spilleren treffer en asteroide. Man burde kanskje få
+          Gi poeng når spilleren treffer en asteroide. Man burde kanskje få
           flere poeng for å treffe de små asteroidene? Det kan du fikse med en
           utregning omtrent som
         </p>
@@ -403,7 +402,7 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Dersom du plasserer asteroidene helt tilfeldig når et nytt spill
+          Dersom du plasserer asteroidene helt tilfeldig når et nytt spill
           starter er det ganske sannsynlig at romskipet krasjer i en asteroide
           allerede før spillet har begynt. Det er ikke noe moro. En måte å fikse
           det på vil være å først la asteroideklonen
@@ -415,16 +414,16 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Spillet ser litt kulere ut om du tegner flere asteroidedrakter, og
+          Spillet ser litt kulere ut om du tegner flere asteroidedrakter, og
           velger en av dem tilfeldig når en klon lages.
         </p>
       </li>
       <li>
         <p>
-          [ ] Dersom man klarer å skyte ned alle asteroidene burde man komme
-          videre til et vanskeligere nivå. Kanskje med flere asteroider? Eller
-          med asteroider som beveger seg raskere? Eller deler seg i flere deler
-          når de blir skutt?
+          Dersom man klarer å skyte ned alle asteroidene burde man komme videre
+          til et vanskeligere nivå. Kanskje med flere asteroider? Eller med
+          asteroider som beveger seg raskere? Eller deler seg i flere deler når
+          de blir skutt?
         </p>
         <p>
           For å vite når du kan gå videre til et nytt nivå må du telle hvor
@@ -440,7 +439,7 @@ slutt
       </li>
       <li>
         <p>
-          [ ] I det originale Asteroids-spillet dukket det også opp en flyvende
+          I det originale Asteroids-spillet dukket det også opp en flyvende
           tallerken (UFO) innimellom. Denne måtte man også passe seg for, men i
           motsetning til asteroidene kunne UFOen skyte tilbake. Prøv å legg til
           en slik UFO i spillet ditt!

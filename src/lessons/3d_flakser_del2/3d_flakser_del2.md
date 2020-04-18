@@ -1,21 +1,19 @@
 ---
-title: '3D-flakser, del 2'
+title: "3D-flakser, del 2"
 level: 4
-author: 'Gudbrand Tandberg og Geir Arne Hjelle'
+author: "Gudbrand Tandberg og Geir Arne Hjelle"
 language: nb
 ---
 
-
 # Introduksjon {.intro}
 
-Velkommen til andre og siste del av __3D-Flakser__! I denne delen skal vi få
+Velkommen til andre og siste del av **3D-Flakser**! I denne delen skal vi få
 Flakse til å flakse som en fugl, og snu seg i luften når vi svinger med
 piltastene. Til slutt skal vi gjøre det slik at man får poeng når man flyr
 igjennom en ring og taper hvis man treffer en ring. Etter det er det opp til
 deg; lag en meny, lag flere vanskelighetsgrader eller lag noe helt annet!
 
 ![Illustrasjon av et ferdig 3D-Flakser spill](3d_flakser.png)
-
 
 # Steg 1: Lag bakken og få den til følge med {.activity}
 
@@ -25,7 +23,7 @@ eller siden bakken. Dette gjør vi med en ny figur som vi kaller `bakken`.
 
 ## Sjekkliste {.check}
 
-- [ ] Lag en ny figur som heter `bakken`. Tegn en drakt til den. Det enkleste er
+- Lag en ny figur som heter `bakken`. Tegn en drakt til den. Det enkleste er
   å bare fylle den nederste tredjeparten av tegneområdet med grønt. Vi starter
   med å gi den følgende skript
 
@@ -38,7 +36,7 @@ eller siden bakken. Dette gjør vi med en ny figur som vi kaller `bakken`.
   Nå bør bakken ligge nederst i scenen når spillet begynner. Hvis den ikke gjør
   det kan du endre litt på tallene.
 
-- [ ] Nå vil vi at bakken skal følge med Flakse, det vil si: når Flakse er høyt
+- Nå vil vi at bakken skal følge med Flakse, det vil si: når Flakse er høyt
   oppe (`y`{.blockdata} er stor) så skal bakken gå nedover, og når Flakse er
   langt nede så er bakken tilsvarende høyt oppe. Hvis Flakse berører bakken skal
   spilleren tape. Vi legger til følgende `for alltid`{.blockcontrol}-løkke i
@@ -54,7 +52,7 @@ eller siden bakken. Dette gjør vi med en ny figur som vi kaller `bakken`.
   slutt
   ```
 
-- [ ] Til slutt så vil vi helst at bakken skal forsvinne når Flakse flyr veldig
+- Til slutt så vil vi helst at bakken skal forsvinne når Flakse flyr veldig
   høyt. Det kan vi gjøre med `skjul`{.blocklooks} og `vis`{.blocklooks}
   kommandoene, slik
 
@@ -66,7 +64,6 @@ eller siden bakken. Dette gjør vi med en ny figur som vi kaller `bakken`.
   slutt
   ```
 
-
 # Steg 2: Få Flakse til å flakse {.activity}
 
 Hvis du har gjort del en av 3D-Flakser riktig så kan du nå styre flakse-figuren
@@ -77,11 +74,11 @@ slik at den flakser med vingene når vi trykker mellomromtasten.
 
 ## Sjekkliste {.check}
 
-- [ ] For å holde styr på hvor mange ganger spilleren har trykket på mellomrom
+- For å holde styr på hvor mange ganger spilleren har trykket på mellomrom
   så lager vi en variabel `flaks`{.blockdata} som gjelder kun for
   flakse-figuren.
 
-- [ ] Vi må slette testene som sjekker om `pil opp`eller `pil ned` tastene
+- Vi må slette testene som sjekker om `pil opp`eller `pil ned` tastene
   trykkes og erstatte dem med
 
   ```blocks
@@ -94,14 +91,14 @@ slik at den flakser med vingene når vi trykker mellomromtasten.
   Alt som skjer nå er at `flaks`{.blockdata} økes med én hver gang mellomrom
   trykkes. Vi lager et nytt skript hos Flakse som tar seg av flaksingen.
 
-- [ ] Lag en ny variabel. Kall den `løft`{.blockdata}, og la den gjelde kun for
+- Lag en ny variabel. Kall den `løft`{.blockdata}, og la den gjelde kun for
   denne figuren. Denne variabelen skal fortelle oss hvor fort flakse skal
   flyttes opp eller ned.
 
-- [ ] Legg inn en `sett løft til 0`{.blockdata}-kloss et sted før spillet
+- Legg inn en `sett løft til 0`{.blockdata}-kloss et sted før spillet
   starter.
 
-- [ ] Sett inn disse klossene først i hovedløkken til Flakse:
+- Sett inn disse klossene først i hovedløkken til Flakse:
 
   ```blocks
   endre [y v] med (løft)
@@ -110,7 +107,7 @@ slik at den flakser med vingene når vi trykker mellomromtasten.
   slutt
   ```
 
-- [ ] Til slutt lager vi et nytt skript hos Flakse slik:
+- Til slutt lager vi et nytt skript hos Flakse slik:
 
   ```blocks
   når jeg mottar [Nytt spill v]
@@ -130,7 +127,6 @@ slik at den flakser med vingene når vi trykker mellomromtasten.
   Nå kan du justere litt på tallene i skriptene over for at Flakse flyr slik DU
   vil!
 
-
 # Steg 3: Få Flakse til å snu seg i luften {.activity}
 
 For at spillet skal se best mulig ut så vil vi at flakse skal rotere i luften
@@ -144,11 +140,10 @@ Dette får vi til ved å endre litt på hovedskriptet til flakse.
 
 ## Sjekkliste {.check}
 
-- [ ] Legg til klossene `pek i retning 135`{.blockmotion} og `pek i retning
-  45`{.blockmotion} i testene som sjekker om henholdsvis høyre og venstre
+- Legg til klossene `pek i retning 135`{.blockmotion} og `pek i retning 45`{.blockmotion} i testene som sjekker om henholdsvis høyre og venstre
   piltast trykkes. Prøv spillet. Peker figuren i riktig retning?
 
-- [ ] Nå vil vi at figuren skal rotere tilbake til vannrett når piltastene ikke
+- Nå vil vi at figuren skal rotere tilbake til vannrett når piltastene ikke
   trykkes lenger. Det kan vi enkelt få til ved å legge til disse klossene under
   testene som sjekker om piltastene trykkes.
 
@@ -165,19 +160,17 @@ Dette får vi til ved å endre litt på hovedskriptet til flakse.
   retning 90 (som er vannrett for figuren). Når bør flyvningen til Flakse se
   ganske bra ut!
 
-
 # Steg 4: Sjekk om Flakse treffer ringene {.activity}
 
 Nå ønsker vi at Flakse skal få poeng hver gang han flyr igjennom ringene, og
-taper om han treffer en ring. Denne oppførselen skal vi kode i `når jeg starter
-som klon`{.blockcontrol}-skriptet til ring-figuren.
+taper om han treffer en ring. Denne oppførselen skal vi kode i `når jeg starter som klon`{.blockcontrol}-skriptet til ring-figuren.
 
 ## Sjekkliste {.check}
 
-- [ ] Vi begynner med å sjekke om Flakse berører den ringen som ligger nærmest.
+- Vi begynner med å sjekke om Flakse berører den ringen som ligger nærmest.
   Husk at det er `distanse`{.blockdata} variablen til ringen som forteller oss
   hvor nærme ringen er. Så vi må hele tiden sjekke om Flakse berører ringen,
-  *og* om ringen faktisk er nærme. Du må legge til denne klossen et sted i
+  _og_ om ringen faktisk er nærme. Du må legge til denne klossen et sted i
   skriptet til ring-klonene.
 
   ```blocks
@@ -191,7 +184,7 @@ som klon`{.blockcontrol}-skriptet til ring-figuren.
   kode noe annen oppførsel når man treffer en ring (kanskje man bare mister et
   liv, eller det spilles en lyd?)
 
-- [ ] Så ønsker vi å få poeng når vi fly gjennom ringene. Lag først en variabel
+- Så ønsker vi å få poeng når vi fly gjennom ringene. Lag først en variabel
   `poeng`{.blockdata} som gjelder for alle figurene. Nå må vi sjekke at
   variablene `x`{.blockdata} og `y`{.blockdata}, som sier hvor flakse-figuren
   er, ikke er altfor langt unna `ringX`{.blockdata} og `ringY`{.blockdata}. Vi
@@ -214,8 +207,8 @@ spennende igjen du kan prøve:
 
 ## Ting å prøve {.challenge}
 
-- [ ] Lag en meny.
+- Lag en meny.
 
-- [ ] Få ringene til å komme fortere mot deg etterhvert som du får flere poeng.
+- Få ringene til å komme fortere mot deg etterhvert som du får flere poeng.
 
-- [ ] Gi Flakse flere drakter å det ser ut som han flyr når han skifter drakt.
+- Gi Flakse flere drakter å det ser ut som han flyr når han skifter drakt.

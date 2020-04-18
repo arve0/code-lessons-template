@@ -6,7 +6,6 @@ translator: Stein Olav Romslo og Aldís Mjöll Geirsdóttir
 language: is
 ---
 
-
 # Kynning {.intro}
 
 Við ætlum að gera einfaldan fótboltaleik, þar sem þú verður að reyna að skora
@@ -14,24 +13,23 @@ eins margar vítaspyrnur og hægt er.
 
 ![Mynd af tilbúnum vítaspyrnuleik](straffespark.png)
 
-
 # Skref 1: Kötturinn og fótboltavöllurinn {.activity}
 
-*Við byrjum á því að búa til kött sem getur hreyft sig á fótboltavelli.*
+_Við byrjum á því að búa til kött sem getur hreyft sig á fótboltavelli._
 
 ## Gátlisti {.check}
 
-- [ ] Byrjaðu nýtt verkefni, til dæmis með því að smella á `Smiða` efst á
+- Byrjaðu nýtt verkefni, til dæmis með því að smella á `Smiða` efst á
   síðunni. Ef þú hefur nú þegar hafið verkefni geturðu byrjað nýtt með því að
   velja `Skrá` og síðan `Ný`.
 
-- [ ] Smelltu á köttinn, og kallaðu köttinn `Leo`.
+- Smelltu á köttinn, og kallaðu köttinn `Leo`.
 
-- [ ] Smelltu á ![Velja nýjan bakgrunn](../bilder/velg-bakgrunn.png) neðst til
+- Smelltu á ![Velja nýjan bakgrunn](../bilder/velg-bakgrunn.png) neðst til
   hægri á skjánum til að sækja nýjan bakgrunn. Veldu til dæmis bakgrunninn
   `Soccer 2` til þess að fá fótboltavöll með marki.
 
-- [ ] Nú skulum við skrifa örforrit sem færir köttinn `Leo` þegar við smellum á
+- Nú skulum við skrifa örforrit sem færir köttinn `Leo` þegar við smellum á
   hann. Smelltu á `Leo` í myndglugganum neðst á skjánum til þess að kóða hvað
   hann á að gera. Settu saman eftirfarandi kubba í kóðunargluggann til vinstri:
 
@@ -42,18 +40,18 @@ eins margar vítaspyrnur og hægt er.
 
 ## Prófaðu verkefnið {.flag}
 
-__Smelltu á græna fánann.__
+**Smelltu á græna fánann.**
 
-- [ ] Fer `Leo` áfram þegar þú smellir á hann?
+- Fer `Leo` áfram þegar þú smellir á hann?
 
-- [ ] Hvað gerist þegar þú smellir á `Leo` þangað til hann fer út á enda?
+- Hvað gerist þegar þú smellir á `Leo` þangað til hann fer út á enda?
 
 ## Gátlisti {.check}
 
-- [ ] Þú getur flutt `Leo` aftur á skjáinn með því að smella á hann og draga
+- Þú getur flutt `Leo` aftur á skjáinn með því að smella á hann og draga
   hann þar sem þú vilt.
 
-- [ ] Við munum forrita auðveldari leið til að fá `Leo` aftur á völlinn. Búðu
+- Við munum forrita auðveldari leið til að fá `Leo` aftur á völlinn. Búðu
   til nýtt örforrit við hliðina á því sem þú hefur þegar búið til, sem lítur
   svona út:
 
@@ -62,7 +60,7 @@ __Smelltu á græna fánann.__
   fara til x: (-90) og y: (-60)
   ```
 
-- [ ] Nú mun `Leo` koma aftur á völlinn í hvert skipti sem þú smellir á græna
+- Nú mun `Leo` koma aftur á völlinn í hvert skipti sem þú smellir á græna
   fánann.
 
 ## Vista verkefnið {.save}
@@ -70,28 +68,26 @@ __Smelltu á græna fánann.__
 Þú hefur nú skrifað lítið forrit! Scratch vistar allt sem þú gerir reglulega.
 Það er engu að síður góð venja að vista inni á milli.
 
-- [ ] Yfir senunni er textareitur þar sem þú getur gefið leiknum þínum nafn. Til
+- Yfir senunni er textareitur þar sem þú getur gefið leiknum þínum nafn. Til
   dæmis geturðu kallað hann `Vítaspyrna`.
 
-- [ ] Í valmyndinni `Skrá` er hægt að velja `Vista núna` til að vista verkefnið.
-
+- Í valmyndinni `Skrá` er hægt að velja `Vista núna` til að vista verkefnið.
 
 # Skref 2: Leo sparkar boltanum {.activity}
 
-*Það næsta sem við þurfum í leik okkar er bolti!*
+_Það næsta sem við þurfum í leik okkar er bolti!_
 
 ## Gátlisti {.check}
 
-- [ ] Við munum nú bæta við bolta í leik okkar. Smelltu á ![Veldu mynd úr
-  safni](../bilder/hent-fra-bibliotek.png) og veldu fótboltann `Sports/Soccer
-  Ball`.
+- Við munum nú bæta við bolta í leik okkar. Smelltu á ![Veldu mynd úr
+safni](../bilder/hent-fra-bibliotek.png) og veldu fótboltann `Sports/Soccer Ball`.
 
-- [ ] Kallaðu boltann `Bolti`.
+- Kallaðu boltann `Bolti`.
 
-- [ ] Gerðu boltann minni með því að ýta fyrst á `Stærð` reitinn og breyta
+- Gerðu boltann minni með því að ýta fyrst á `Stærð` reitinn og breyta
   númerinu frá 100 til 60.
 
-- [ ] Við munum nú skrifa örlítið lengra örforrit fyrir boltann. Í þessu
+- Við munum nú skrifa örlítið lengra örforrit fyrir boltann. Í þessu
   örforriti setjum við fyrst boltann fyrir framan köttinn. Eftir að boltinn
   snertir `Leo` (þ.e. `Leo` sparkar í boltann) byrjar boltinn að hreyfa sig.
   Sjáðu hvort þú þekkir hvar í örforritinu mismunandi hlutir eru gerðir:
@@ -107,37 +103,35 @@ __Smelltu á græna fánann.__
 
 ## Prófaðu verkefnið {.flag}
 
-__Smelltu á græna fánann.__
+**Smelltu á græna fánann.**
 
-- [ ] Sparkar `Leo` í boltann þegar þú smellir á hann?
+- Sparkar `Leo` í boltann þegar þú smellir á hann?
 
-- [ ] Getur `Leo` sparkað í boltann aftur ef þú smellir á græna fánann aftur?
+- Getur `Leo` sparkað í boltann aftur ef þú smellir á græna fánann aftur?
 
-- [ ] Ef `Leo` snertir boltann áður en þú smellir á hann (þegar þú smellir á
+- Ef `Leo` snertir boltann áður en þú smellir á hann (þegar þú smellir á
   græna fánann) þarftu að breyta tölunum í `fara til x: () og y: ()`{.b}-kubbnum
   þannig að boltinn er í hvild fyrir framan `Leo`.
 
-- [ ] Stundum hreyfist boltinn aftur *áður en* `Leo` er á réttum stað, þannig að
+- Stundum hreyfist boltinn aftur _áður en_ `Leo` er á réttum stað, þannig að
   hann snertir boltann aftur og boltinn byrjar hreyfast. Þá hjálpar það að bæta
-  við einu `bíða í (1) sekúndur`{.b}-kubba fyrir `bíða þangað til <snertir [Leo
-  v]?>`{.b}-kubbann.
-
+  við einu `bíða í (1) sekúndur`{.b}-kubba fyrir `bíða þangað til <snertir [Leo v]?>`{.b}-kubbann.
 
 # Skref 3: Við þurfum markvörð! {.activity}
 
-*Við munum nú gera leikinn svolítið erfiðari með því að forrita markvörð.*
+_Við munum nú gera leikinn svolítið erfiðari með því að forrita markvörð._
 
 ## Gátlisti {.check}
 
-- [ ] Bættu við fígúru sem getur verið markvörður. Við höfum notað kolkrabba
+- Bættu við fígúru sem getur verið markvörður. Við höfum notað kolkrabba
   `Animals/Octopus`, en þú getur líka notað aðrar fígúrur ef þú vilt.
 
-- [ ] Settu fígúruna inn í markið. Það er hægt að snúa fígúrunni með því að
+- Settu fígúruna inn í markið. Það er hægt að snúa fígúrunni með því að
   smella á `Búningar` og síðan á táknið sem er hægra megin við eyða-takkann.
 
-- [ ] Gefðu fígúrunni nafnið `Markvörður`.
+- Gefðu fígúrunni nafnið `Markvörður`.
 
-- [ ] Gerðu eftirfarandi örforrit fyrir markvörðinn:
+- Gerðu eftirfarandi örforrit fyrir markvörðinn:
 
   ```blocks
   þegar smellt er á @greenFlag
@@ -154,15 +148,15 @@ __Smelltu á græna fánann.__
 
 ## Prófaðu verkefnið {.flag}
 
-__Smelltu á græna fánann.__
+**Smelltu á græna fánann.**
 
-- [ ] Byrjar markvörðurinn í markinu?
+- Byrjar markvörðurinn í markinu?
 
-- [ ] Fer `Markvörður` til hægri og vinstri á skjánum?
+- Fer `Markvörður` til hægri og vinstri á skjánum?
 
 ## Gátlisti {.check}
 
-- [ ] Finnst þér kannski markvörðurinn vera svolítið stór? Þú getur breytt stærð
+- Finnst þér kannski markvörðurinn vera svolítið stór? Þú getur breytt stærð
   hans eins og þú gerðir áður. Önnur leið til að breyta stærð er með því að nota
   kubba úr flipanum `Útlit`{.blocklooks}.
 
@@ -173,21 +167,20 @@ __Smelltu á græna fánann.__
 
 ## Prófaðu verkefnið {.flag}
 
-__Smelltu á græna fánann.__
+**Smelltu á græna fánann.**
 
-- [ ] Hvað gerist þegar `Leo` skýtur á markið? Getur markvörðurinn varið markið?
-
+- Hvað gerist þegar `Leo` skýtur á markið? Getur markvörðurinn varið markið?
 
 # Skref 4: Markvörðurinn ver! {.activity}
 
-*Nú er kominn tími á að markvörðurinn verji markið!*
+_Nú er kominn tími á að markvörðurinn verji markið!_
 
-Við munum nú gera nokkrar *prófanir* sem segja okkur hvort markvörðurinn verji
+Við munum nú gera nokkrar _prófanir_ sem segja okkur hvort markvörðurinn verji
 boltann eða hvort boltinn fari í mark.
 
 ## Gátlisti {.check}
 
-- [ ] Við byrjum á að finna út hvort markvörðurinn ver boltann. Smelltu á
+- Við byrjum á að finna út hvort markvörðurinn ver boltann. Smelltu á
   `Bolti`. Bættu við einum `ef annars`{.blockcontrol}-kubbi í örforritið:
 
   ```blocks
@@ -209,7 +202,7 @@ boltann eða hvort boltinn fari í mark.
   raun. Þetta gerir það einfaldara fyrir margar fígúrur að bregðast við því sem
   gerist.
 
-- [ ] Nú viljum við að bæði boltinn og markvörðurinn hætti að hreyfa sig ef
+- Nú viljum við að bæði boltinn og markvörðurinn hætti að hreyfa sig ef
   boltinn verður varinn. Bættu þessu við sem nýju örforriti bæði á `Bolti` og
   `Markvörður`:
 
@@ -224,9 +217,9 @@ boltann eða hvort boltinn fari í mark.
 
 ## Prófaðu verkefnið {.flag}
 
-__Smelltu á græna fánann.__
+**Smelltu á græna fánann.**
 
-- [ ] Hættir bæði boltinn og markvörðurinn að hreyfa sig ef markvörðurinn ver
+- Hættir bæði boltinn og markvörðurinn að hreyfa sig ef markvörðurinn ver
   boltann?
 
 ## Gátlisti {.check}
@@ -240,7 +233,7 @@ hnit músarbendilsins. Þær breytast sjálfkrafa þegar hann færist.
 
 ![Mynd af því hvar x og y hnitin birtast í Scratch](koordinater.png)
 
-- [ ] `Leo` skorar ef boltinn fer nógu langt til hægri án þess að hann sé
+- `Leo` skorar ef boltinn fer nógu langt til hægri án þess að hann sé
   varinn. Ef þú reynir að setja músarbendilinn á markið sérðu að marklínan er
   þar sem `x` er 230. Breyttu örforriti boltans svolítið meira þannig að það
   líti svona út:
@@ -261,7 +254,7 @@ hnit músarbendilsins. Þær breytast sjálfkrafa þegar hann færist.
   end
   ```
 
-- [ ] A sama hátt og boltinn er varinn er hægt að stoppa hreyfingu `Bolti` og
+- A sama hátt og boltinn er varinn er hægt að stoppa hreyfingu `Bolti` og
   `Markvörður` með því að setja þetta örforrit á báðar fígúrurnar.
 
   ```blocks
@@ -269,7 +262,7 @@ hnit músarbendilsins. Þær breytast sjálfkrafa þegar hann færist.
   stöðva [önnur forrit á karakter v]
   ```
 
-- [ ] Við getum líka látið `Leo` fagna smá þegar hann skorar mörk. Smelltu á
+- Við getum líka látið `Leo` fagna smá þegar hann skorar mörk. Smelltu á
   köttinn og gefðu honum eftirfarandi örforrit:
 
   ```blocks
@@ -277,16 +270,16 @@ hnit músarbendilsins. Þær breytast sjálfkrafa þegar hann færist.
   segðu [Já, ég skoraði!!] í (2) sekúndur
   ```
 
-- [ ] Gerðu svipað örforrit þar sem `Leo` segir eitthvað um að hann sé leiður
+- Gerðu svipað örforrit þar sem `Leo` segir eitthvað um að hann sé leiður
   vegna þess að skotið hans var varið. Prófaðu þetta á eigin spýtur!
 
 ## Prófaðu verkefnið {.flag}
 
-__Smelltu á græna fánann.__
+**Smelltu á græna fánann.**
 
-- [ ] Geturðu skorað mörk?
+- Geturðu skorað mörk?
 
-- [ ] Getur markvörðurinn varið einhver skot?
+- Getur markvörðurinn varið einhver skot?
 
 ## Breyttu hraða {.protip}
 
@@ -298,23 +291,22 @@ Prófaðu mismumandi tölur fyrir bæði boltann og markvörðinn þar til þú 
 samsetningu sem þér líkar best. Gakktu úr skugga um að það verði svolítið
 erfitt, en ekki ómögulegt.
 
-
 # Skref 5: Fyrri til að ná 10! {.activity}
 
-*Við munum skoða hvernig við getum talið hversu mörg mörk eru skoruð.*
+_Við munum skoða hvernig við getum talið hversu mörg mörk eru skoruð._
 
 ## Gátlisti {.check}
 
 Til að telja hversu mörg mörk þú hefur skorað og hversu mörgum sinnum
-`Markvörður` hefur varið markið munum við nota *breytur*.
+`Markvörður` hefur varið markið munum við nota _breytur_.
 
-- [ ] Smelltu á senuna hægra megin við kóðunarsvæðið.
+- Smelltu á senuna hægra megin við kóðunarsvæðið.
 
-- [ ] Smelltu á flipann `Breytur`{.blockdata} og búðu til nýja breytu. Gefðu
+- Smelltu á flipann `Breytur`{.blockdata} og búðu til nýja breytu. Gefðu
   nýju breytunni nafnið `Mörk`. Athugaðu að nýr kassi birtist á senunni sem
   merktur er `Mörk` og sem sýnir númerið `0`{.blockdata}.
 
-- [ ] Við munum nú telja mörkin. Búðu til nýtt örforrit sem breytir `(Mörk)`{.b}
+- Við munum nú telja mörkin. Búðu til nýtt örforrit sem breytir `(Mörk)`{.b}
   í hvert skipti sem skilaboðin `Mark` eru send með því að búa til þetta
   örforrit á senunni:
 
@@ -323,10 +315,10 @@ Til að telja hversu mörg mörk þú hefur skorað og hversu mörgum sinnum
   breyttu [Mörk v] um (1)
   ```
 
-- [ ] Við getum gert það sama til að telja hversu oft markmaðurinn varði. Búðu
+- Við getum gert það sama til að telja hversu oft markmaðurinn varði. Búðu
   til nýja breytu sem heitir `(Varin)`{.b}.
 
-- [ ] Búðu til nýtt örforrit til að telja hversu mörg skot eru varin:
+- Búðu til nýtt örforrit til að telja hversu mörg skot eru varin:
 
   ```blocks
   þegar ég fæ sent [Varið v]
@@ -335,32 +327,32 @@ Til að telja hversu mörg mörk þú hefur skorað og hversu mörgum sinnum
 
 ## Prófaðu verkefnið {.flag}
 
-__Smelltu á græna fánann.__
+**Smelltu á græna fánann.**
 
-- [ ] Telur leikurinn hvert skipti sem þú skorar mörk?
+- Telur leikurinn hvert skipti sem þú skorar mörk?
 
-- [ ] Telur leikurinn einnig hvert skipti sem markvörðurinn ver boltann?
+- Telur leikurinn einnig hvert skipti sem markvörðurinn ver boltann?
 
 ## Gátlisti {.check}
 
 Að lokum munum við prófa hvort `Leo` tekst að skora 10 mörk eða hvort
 `Markvörður` tekst að verja hann 10 sinnum. Þetta er svolítið mikið.
 
-- [ ] Í fyrsta lagi munum við búa til tvo nýja bakgrunni, einn sem við getum
+- Í fyrsta lagi munum við búa til tvo nýja bakgrunni, einn sem við getum
   notað ef leikmaðurinn vinnur (kötturinn skorar 10 sinnum) og einn sem við
   notum ef leikmaðurinn tapar (markvörðurinn ver 10 sinnum). Smelltu á flipann
   `Bakgrunnar`. Hægrismelltu á litlu útgáfuna af bakgrunninum þínum og veldu
   `Gerðu afrit`.
 
-- [ ] Veldu viðeigandi lit og smelltu síðan á textaverkfærið. Veldu leturgerðina
+- Veldu viðeigandi lit og smelltu síðan á textaverkfærið. Veldu leturgerðina
   `Marker` neðst á skjánum. Skrifaðu texta eins og `Til hamingu, þú vannst!`
   svolítið hátt á afritinu af bakgrunninum. Gefðu þessum bakgrunni nafnið
   `Sigur`.
 
-- [ ] Búðu til nýtt afrit af upprunalega bakgrunninum. Gefðu þessum bakgrunni
+- Búðu til nýtt afrit af upprunalega bakgrunninum. Gefðu þessum bakgrunni
   nafnið `Tap` og skrifaðu viðeigandi texta.
 
-- [ ] Búðu til örforrit á bakgrunninn sem setur breyturnar þínar í 0 í upphafi
+- Búðu til örforrit á bakgrunninn sem setur breyturnar þínar í 0 í upphafi
   leiksins.
 
   ```blocks
@@ -371,7 +363,7 @@ Að lokum munum við prófa hvort `Leo` tekst að skora 10 mörk eða hvort
   senda [Nýtt spark v]
   ```
 
-- [ ] Við munum spila án þess að þurfa að smella á græna fánann í hvert skipti
+- Við munum spila án þess að þurfa að smella á græna fánann í hvert skipti
   sem við tökum vítaspyrnu. Fyrir þetta notum við skilaboðin `Nýtt spark`. Við
   verðum nú að skipta um
 
@@ -393,7 +385,7 @@ Að lokum munum við prófa hvort `Leo` tekst að skora 10 mörk eða hvort
   fara til x: (-90) og y: (-60)
   ```
 
-- [ ] Að lokum prófum við hvort við höfum skorað 10 mörk eða hvort markvörðurinn
+- Að lokum prófum við hvort við höfum skorað 10 mörk eða hvort markvörðurinn
   hefur varið 10 sinnum. Breyttu `Mark` örforritinu á senunni þannig að það líti
   svona út:
 
@@ -409,7 +401,7 @@ Að lokum munum við prófa hvort `Leo` tekst að skora 10 mörk eða hvort
   end
   ```
 
-- [ ] Á sama hátt skaltu breyta `Varið` örforritinu á senunni:
+- Á sama hátt skaltu breyta `Varið` örforritinu á senunni:
 
   ```blocks
   þegar ég fæ sent [Varið v]
@@ -425,16 +417,16 @@ Að lokum munum við prófa hvort `Leo` tekst að skora 10 mörk eða hvort
 
 ## Prófaðu verkefnið {.flag}
 
-__Smelltu á græna fánann.__
+**Smelltu á græna fánann.**
 
-- [ ] Færðu að taka margar vítaspyrnur án þess að þurfa að smella á græna fánann
+- Færðu að taka margar vítaspyrnur án þess að þurfa að smella á græna fánann
   í hvert skipti?
 
-- [ ] Breytist leikurinn í réttan bakgrunn ef þú skorar 10 mörk?
+- Breytist leikurinn í réttan bakgrunn ef þú skorar 10 mörk?
 
-- [ ] Breytist leikurinn í réttan bakgrunn ef markvörðurinn ver 10 sinnum?
+- Breytist leikurinn í réttan bakgrunn ef markvörðurinn ver 10 sinnum?
 
-- [ ] Endurstillir þú breyturnar `mörk` og `varin` þegar þú smellir á græna
+- Endurstillir þú breyturnar `mörk` og `varin` þegar þú smellir á græna
   fánann?
 
 ## Hljóðbrellur {.protip}

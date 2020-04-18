@@ -31,27 +31,27 @@
     <ul>
       <li>
         <p>
-          [ ] Start et nytt Scratch-prosjekt. Slett katten ved klikke på
+          Start et nytt Scratch-prosjekt. Slett katten ved klikke på
           søppelkassen.
         </p>
       </li>
       <li>
         <p>
-          [ ] Bytt ut bakgrunnen med et landskap. <code>Desert</code> er et bra
+          Bytt ut bakgrunnen med et landskap. <code>Desert</code> er et bra
           valg.
         </p>
       </li>
       <li>
         <p>
-          [ ] Legg til Flakse-figuren. Du trenger en figur med drakter for
-          vinger opp og vinger ned. <code>Parrot</code> er et bra forslag.
+          Legg til Flakse-figuren. Du trenger en figur med drakter for vinger
+          opp og vinger ned. <code>Parrot</code> er et bra forslag.
         </p>
       </li>
       <li>
-        <p>[ ] Bytt navn på figuren til <code>Flakse</code>.</p>
+        <p>Bytt navn på figuren til <code>Flakse</code>.</p>
       </li>
       <li>
-        <p>[ ] Gi Flakse dette skriptet:</p>
+        <p>Gi Flakse dette skriptet:</p>
         <pre><code class="blocks">når grønt flagg klikkes
 gå til x: (-50) y: (0)
 gjenta for alltid
@@ -65,7 +65,7 @@ slutt
     <h2 class="flag" id="test-prosjektet">Test prosjektet</h2>
     <p><strong>Klikk det grønne flagget.</strong></p>
     <ul>
-      <li>[ ] Starter Flakse midt på skjermen og faller mot bunnen?</li>
+      <li>Starter Flakse midt på skjermen og faller mot bunnen?</li>
     </ul>
   </section>
 </section>
@@ -83,12 +83,12 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Klikk på <code>Drakter</code> og gi de to draktene navnene
+          Klikk på <code>Drakter</code> og gi de to draktene navnene
           <code>Vinger opp</code> og <code>Vinger ned</code>.
         </p>
       </li>
       <li>
-        <p>[ ] Gå tilbake til <code>Kode</code> og legg til dette skriptet:</p>
+        <p>Gå tilbake til <code>Kode</code> og legg til dette skriptet:</p>
         <pre><code class="blocks">Når [mellomrom v] trykkes
 bytt drakt til [Vinger ned v]
 gjenta (10) ganger
@@ -107,13 +107,13 @@ slutt
     <p><strong>Klikk det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Klarer du å kontrollere Flakse med mellomromtasten?</p>
+        <p>Klarer du å kontrollere Flakse med mellomromtasten?</p>
       </li>
       <li>
         <p>
-          [ ] La du merke til at om du trykker mellomrom flere ganger raskt
-          etter hverandre så flakser Flakse av og til bare en gang? Det er det
-          neste vi skal fikse.
+          La du merke til at om du trykker mellomrom flere ganger raskt etter
+          hverandre så flakser Flakse av og til bare en gang? Det er det neste
+          vi skal fikse.
         </p>
       </li>
     </ul>
@@ -137,15 +137,15 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Lag en ny variabel og kall den
-          <code class="blockdata">flaks</code>. Velg at den bare skal gjelde
-          <code>For denne figuren</code>. Klikk <code>OK</code>. Skjul
-          variabelen ved å ta vekk avhukingen foran variabelen.
+          Lag en ny variabel og kall den <code class="blockdata">flaks</code>.
+          Velg at den bare skal gjelde <code>For denne figuren</code>. Klikk
+          <code>OK</code>. Skjul variabelen ved å ta vekk avhukingen foran
+          variabelen.
         </p>
       </li>
       <li>
         <p>
-          [ ] Vi skal nå gjøre om på skriptet som starter med
+          Vi skal nå gjøre om på skriptet som starter med
           <code class="blockevents">når mellomrom trykkes</code>. Dra i
           <code class="blocklooks">bytt drakt til Vinger ned</code>-klossen slik
           at den og klossene under løsner. Legg disse klossene til siden. Vi
@@ -154,8 +154,8 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Legg til enda et nytt skript. Legg merke til at klossene du
-          nettopp la til siden kan brukes igjen inne i
+          Legg til enda et nytt skript. Legg merke til at klossene du nettopp la
+          til siden kan brukes igjen inne i
           <code class="blockcontrol">gjenta til flaks = 0</code>-løkken:
         </p>
         <pre><code class="blocks">når grønt flagg klikkes
@@ -178,7 +178,7 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Til slutt, legg følgende skript på
+          Til slutt, legg følgende skript på
           <code class="blockevents">når mellomrom trykkes</code>-klossen som ble
           til overs tidligere:
         </p>
@@ -187,7 +187,7 @@ endre [flaks v] med (1)
 </code></pre>
       </li>
       <li>
-        <p>[ ] Du skal nå ha tre forskjellige skript på Flakse.</p>
+        <p>Du skal nå ha tre forskjellige skript på Flakse.</p>
       </li>
     </ul>
   </section>
@@ -195,9 +195,7 @@ endre [flaks v] med (1)
     <h2 class="flag" id="test-prosjektet-3">Test prosjektet</h2>
     <p><strong>Klikk det grønne flagget.</strong></p>
     <ul>
-      <li>
-        [ ] Flakser Flakse en gang for hver gang du trykker mellomromtasten?
-      </li>
+      <li>Flakser Flakse en gang for hver gang du trykker mellomromtasten?</li>
     </ul>
   </section>
 </section>
@@ -210,27 +208,26 @@ endre [flaks v] med (1)
     <h2 class="check" id="sjekkliste-4">Sjekkliste</h2>
     <ul>
       <li>
-        <p>[ ] Legg til en ny figur ved å klikke på <em>Tegn</em>-knappen.</p>
+        <p>Legg til en ny figur ved å klikke på <em>Tegn</em>-knappen.</p>
         <figure>
           <img src="lessons/flaksefugl/tegn-ny.png" alt="Tegn ny figur" />
         </figure>
       </li>
       <li>
         <p>
-          [ ] Hvis det står <code>Gå til vektorgrafikk</code> på en knapp til
+          Hvis det står <code>Gå til vektorgrafikk</code> på en knapp til
           venstre under tegneområdet, klikk på knappen.
         </p>
       </li>
       <li>
-        <p>[ ] Klikk på <code>Zoom =</code> så du kan se hele tegneområdet.</p>
+        <p>Klikk på <code>Zoom =</code> så du kan se hele tegneområdet.</p>
         <figure>
           <img src="lessons/flaksefugl/zoom_eq.png" alt="Zoom =" />
         </figure>
       </li>
       <li>
         <p>
-          [ ] Klikk på <code>Rektangel</code>-ikonet, til venstre ved
-          tegneområdet
+          Klikk på <code>Rektangel</code>-ikonet, til venstre ved tegneområdet
           <img src="lessons/flaksefugl/rektangel.png" alt="Rektangel" />. Velg
           farge på rektangelet som skal tegnes ved å klikke på
           <code>Fyll</code>. Velg en fin farge. Vi ønsker å gjøre omrisset av
@@ -244,7 +241,7 @@ endre [flaks v] med (1)
       </li>
       <li>
         <p>
-          [ ] Tegn to bokser ved å klikke og dra i tegneområdet. Tegn én boks på
+          Tegn to bokser ved å klikke og dra i tegneområdet. Tegn én boks på
           toppen og én på bunnen av tegneflaten. Det skal se omtrent sånn ut:
         </p>
         <figure>
@@ -256,7 +253,7 @@ endre [flaks v] med (1)
       </li>
       <li>
         <p>
-          [ ] Skyggelegg rørene. Dette gjør du ved å klikke <code>Velg</code>
+          Skyggelegg rørene. Dette gjør du ved å klikke <code>Velg</code>
           <img src="lessons/flaksefugl/velg.png" alt="velg" />. Deretter klikker
           du på firkanten som skal skyggelegges. Klikk på
           <code>Fyll</code>-ikonet over tegneområdet til venstre. I den nye
@@ -271,7 +268,7 @@ endre [flaks v] med (1)
         </figure>
       </li>
       <li>
-        <p>[ ] Gi den nye figuren navnet <code>Rør</code>.</p>
+        <p>Gi den nye figuren navnet <code>Rør</code>.</p>
       </li>
     </ul>
   </section>
@@ -290,10 +287,10 @@ endre [flaks v] med (1)
     <h2 class="check" id="sjekkliste-5">Sjekkliste</h2>
     <ul>
       <li>
-        <p>[ ] Klikk på <code>Rør</code>-figuren og velg <code>Kode</code>.</p>
+        <p>Klikk på <code>Rør</code>-figuren og velg <code>Kode</code>.</p>
       </li>
       <li>
-        <p>[ ] Legg til disse to skriptene:</p>
+        <p>Legg til disse to skriptene:</p>
         <pre><code class="blocks">når grønt flagg klikkes
 skjul
 sett størrelse til (200)%
@@ -318,15 +315,15 @@ slett denne klonen
     <p><strong>Klikk det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Kommer det mange rør flygende mot Flakse?</p>
+        <p>Kommer det mange rør flygende mot Flakse?</p>
       </li>
       <li>
-        <p>[ ] Har rørene åpninger til å fly gjennom?</p>
+        <p>Har rørene åpninger til å fly gjennom?</p>
       </li>
       <li>
         <p>
-          [ ] Om du synes det er vanskelig å fly Flakse gjennom åpningene, kan
-          du for eksempel endre på åpningen mellom rørene med tegneverktøyet. En
+          Om du synes det er vanskelig å fly Flakse gjennom åpningene, kan du
+          for eksempel endre på åpningen mellom rørene med tegneverktøyet. En
           annen mulighet er å lage Flakse mindre.
         </p>
       </li>
@@ -352,27 +349,27 @@ slett denne klonen
     <ul>
       <li>
         <p>
-          [ ] Vi legger til en lyd som vi kan spille når Flakse kræsjer. Klikk
-          på <code>Flakse</code>-figuren og så på fanen <code>Lyder</code>.
+          Vi legger til en lyd som vi kan spille når Flakse kræsjer. Klikk på
+          <code>Flakse</code>-figuren og så på fanen <code>Lyder</code>.
         </p>
       </li>
       <li>
         <p>
-          [ ] Klikk på <code>Velg en lyd</code>-ikonet, nederst til venstre i
+          Klikk på <code>Velg en lyd</code>-ikonet, nederst til venstre i
           vinduet.
         </p>
       </li>
       <li>
         <p>
-          [ ] Velg en kræsjelyd for <code>Flakse</code>. <code>Screech</code> er
-          en kul lyd.
+          Velg en kræsjelyd for <code>Flakse</code>. <code>Screech</code> er en
+          kul lyd.
         </p>
       </li>
       <li>
-        <p>[ ] Klikk deg tilbake til <code>Kode</code>-fanen.</p>
+        <p>Klikk deg tilbake til <code>Kode</code>-fanen.</p>
       </li>
       <li>
-        <p>[ ] Legg til dette skriptet på Flakse:</p>
+        <p>Legg til dette skriptet på Flakse:</p>
         <pre><code class="blocks">når grønt flagg klikkes
 vent til &lt;&lt;berører [kant v]?&gt; eller &lt;berører [Rør v]?&gt;&gt;
 start lyden [screech v]
@@ -382,9 +379,7 @@ stopp [andre skript i figuren v] :: control
 </code></pre>
       </li>
       <li>
-        <p>
-          [ ] Klikk så på <code>Rør</code>-figuren og legg til dette skriptet:
-        </p>
+        <p>Klikk så på <code>Rør</code>-figuren og legg til dette skriptet:</p>
         <pre><code class="blocks">når jeg mottar [Tap v]
 stopp [andre skript i figuren v] :: control
 </code></pre>
@@ -396,8 +391,7 @@ stopp [andre skript i figuren v] :: control
     <p><strong>Klikk det grønne flagget.</strong></p>
     <ul>
       <li>
-        [ ] Stopper spillet hvis Flakse kommer borti et rør eller kanten av
-        brettet?
+        Stopper spillet hvis Flakse kommer borti et rør eller kanten av brettet?
       </li>
     </ul>
   </section>
@@ -415,28 +409,28 @@ stopp [andre skript i figuren v] :: control
     <ul>
       <li>
         <p>
-          [ ] Vi legger til en lyd hver gang Flakse scorer ett poeng. Klikk på
+          Vi legger til en lyd hver gang Flakse scorer ett poeng. Klikk på
           <code>Rør</code>-figuren og legg til en lyd. <code>Bird</code> er et
           lurt valg.
         </p>
       </li>
       <li>
-        <p>[ ] Gå tilbake til <code>Kode</code>-fanen.</p>
+        <p>Gå tilbake til <code>Kode</code>-fanen.</p>
       </li>
       <li>
         <p>
-          [ ] Lag en ny variabel som skal gjelde <code>For alle figurer</code>.
-          Kall den <code class="blockdata">poeng</code>.
+          Lag en ny variabel som skal gjelde <code>For alle figurer</code>. Kall
+          den <code class="blockdata">poeng</code>.
         </p>
       </li>
       <li>
         <p>
-          [ ] Legg til et skript som setter poengene til 0 når det grønne
-          flagget klikkes. Dette klarer du selv!
+          Legg til et skript som setter poengene til 0 når det grønne flagget
+          klikkes. Dette klarer du selv!
         </p>
       </li>
       <li>
-        <p>[ ] Legg så til dette skriptet på <code>Rør</code>:</p>
+        <p>Legg så til dette skriptet på <code>Rør</code>:</p>
         <pre><code class="blocks">når jeg starter som klon
 vent til &lt;(x-posisjon) &lt; ([x-posisjon v] av [Flakse v])&gt;
 endre [poeng v] med (1)
@@ -450,12 +444,10 @@ start lyden [bird v]
     <p><strong>Klikk det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>
-          [ ] Scorer du poeng når Flakse flyr forbi en åpning mellom rørene?
-        </p>
+        <p>Scorer du poeng når Flakse flyr forbi en åpning mellom rørene?</p>
       </li>
       <li>
-        <p>[ ] Hvordan kan du lage dette spillet lettere eller vanskeligere?</p>
+        <p>Hvordan kan du lage dette spillet lettere eller vanskeligere?</p>
       </li>
     </ul>
   </section>
@@ -477,13 +469,13 @@ start lyden [bird v]
     <ul>
       <li>
         <p>
-          [ ] Legg til en ny variabel for <code>Flakse</code> som heter
+          Legg til en ny variabel for <code>Flakse</code> som heter
           <code class="blockdata">løft</code>. Variablen skal gjelde for
           <code>For denne figuren</code>.
         </p>
       </li>
       <li>
-        <p>[ ] Endre Flakses falleskript:</p>
+        <p>Endre Flakses falleskript:</p>
         <pre><code class="blocks">når grønt flagg klikkes
 sett [løft v] til [0]
 gå til x: (-50) y: (0)
@@ -494,7 +486,7 @@ slutt
 </code></pre>
       </li>
       <li>
-        <p>[ ] Deretter må vi endre Flakses flakseskript:</p>
+        <p>Deretter må vi endre Flakses flakseskript:</p>
         <pre><code class="blocks">når grønt flagg klikkes
 sett [flaks v] til [0]
 bytt drakt til [Vinger opp v]
@@ -516,7 +508,7 @@ slutt
     <h2 class="flag" id="test-prosjektet-7">Test prosjektet</h2>
     <p><strong>Klikk det grønne flagget.</strong></p>
     <ul>
-      <li>[ ] Faller Flakse fortere jo lenger han detter?</li>
+      <li>Faller Flakse fortere jo lenger han detter?</li>
     </ul>
   </section>
   <section class="challenge">
@@ -527,16 +519,15 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Bytt ut
-          <code class="blockevents">send meldingen Tap</code>-klossen med
-          <code class="blockevents">send meldingen Fall</code> i skriptet som
-          merker når Flakse kræsjer i kanten eller i et rør. Slett
+          Bytt ut <code class="blockevents">send meldingen Tap</code>-klossen
+          med <code class="blockevents">send meldingen Fall</code> i skriptet
+          som merker når Flakse kræsjer i kanten eller i et rør. Slett
           <code class="blockcontrol">stopp</code>-klossen på slutten av
           skriptet.
         </p>
       </li>
       <li>
-        <p>[ ] Legg til disse nye skriptene på <code>Flakse</code>-figuren:</p>
+        <p>Legg til disse nye skriptene på <code>Flakse</code>-figuren:</p>
         <pre><code class="blocks">når jeg mottar [Fall v]
 gjenta for alltid
     snu @turnRight (5) grader
@@ -554,8 +545,8 @@ stopp [andre skript i figuren v] :: control
       </li>
       <li>
         <p>
-          [ ] Du må også legge til en <code class="blocklooks">vis</code>-kloss
-          samt sette Flakses retning når spillet starter på nytt.
+          Du må også legge til en <code class="blocklooks">vis</code>-kloss samt
+          sette Flakses retning når spillet starter på nytt.
         </p>
       </li>
     </ul>
@@ -565,10 +556,10 @@ stopp [andre skript i figuren v] :: control
     <p><strong>Klikk det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Faller Flakse ut av skjermen når han treffer et rør?</p>
+        <p>Faller Flakse ut av skjermen når han treffer et rør?</p>
       </li>
       <li>
-        <p>[ ] Flyr Flakse riktig vei når spillet starter igjen?</p>
+        <p>Flyr Flakse riktig vei når spillet starter igjen?</p>
       </li>
     </ul>
   </section>
@@ -579,16 +570,15 @@ stopp [andre skript i figuren v] :: control
     <ul>
       <li>
         <p>
-          [ ] Lag en ny variabel og merk av
+          Lag en ny variabel og merk av
           <code>Nett variabel (lagret på nett)</code>-boksen. Kall variabelen
           <code class="blockdata">Rekord</code>.
         </p>
       </li>
       <li>
         <p>
-          [ ] Når spillet er ferdig må vi sjekke om det er en ny rekord. Det
-          gjør vi ved å endre <code>Tap</code>-skriptet på
-          <code>Rør</code> slik:
+          Når spillet er ferdig må vi sjekke om det er en ny rekord. Det gjør vi
+          ved å endre <code>Tap</code>-skriptet på <code>Rør</code> slik:
         </p>
         <pre><code class="blocks">når jeg mottar [Tap v]
 hvis &lt;(poeng) &gt; (Rekord)&gt;
@@ -618,7 +608,7 @@ stopp [andre skript i figuren v] :: control
     <h2 class="flag" id="test-prosjektet-9">Test prosjektet</h2>
     <p><strong>Klikk det grønne flagget.</strong></p>
     <ul>
-      <li>[ ] Oppdaterer rekorden seg hver gang du setter ny rekord?</li>
+      <li>Oppdaterer rekorden seg hver gang du setter ny rekord?</li>
     </ul>
   </section>
   <section class="save">

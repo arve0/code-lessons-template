@@ -32,18 +32,18 @@
     <ul>
       <li>
         <p>
-          [ ] Start et nytt prosjekt, for eksempel ved å klikke
+          Start et nytt prosjekt, for eksempel ved å klikke
           <code>Programmering</code> i menyen. Hvis du allerede har startet et
           prosjekt kan du begynne på et nytt ved å velge <code>Fil</code> og
           deretter <code>Ny</code>.
         </p>
       </li>
       <li>
-        <p>[ ] Slett kattefiguren.</p>
+        <p>Slett kattefiguren.</p>
       </li>
       <li>
         <p>
-          [ ] Vi vil starte med en enkel trekant-figur. Denne kan vi lage på
+          Vi vil starte med en enkel trekant-figur. Denne kan vi lage på
           forskjellige måter. Først tegner vi denne selv, men nedenfor vil vi
           også vise deg hvordan du kan lage en trekant fra en av de eksisterende
           figurene.
@@ -73,7 +73,7 @@
         </figure>
       </li>
       <li>
-        <p>[ ] Nå skal vi få trekanten til å flytte seg! Skriv denne koden:</p>
+        <p>Nå skal vi få trekanten til å flytte seg! Skriv denne koden:</p>
         <pre><code class="blocks">når [a v] trykkes
 gå til x: (0) y: (120)
 pek i retning (90 v)
@@ -90,10 +90,10 @@ slutt
     <p><strong>Trykk på A-tasten.</strong></p>
     <ul>
       <li>
-        <p>[ ] Flytter trekanten seg rundt på skjermen?</p>
+        <p>Flytter trekanten seg rundt på skjermen?</p>
       </li>
       <li>
-        <p>[ ] Legg merke til at trekanten snurrer mens den flytter seg.</p>
+        <p>Legg merke til at trekanten snurrer mens den flytter seg.</p>
       </li>
     </ul>
   </section>
@@ -106,13 +106,13 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Over scenen er det et tekstfelt hvor du kan gi et navn til
-          prosjektet ditt. Kall det for eksempel <code>Snurrige figurer</code>.
+          Over scenen er det et tekstfelt hvor du kan gi et navn til prosjektet
+          ditt. Kall det for eksempel <code>Snurrige figurer</code>.
         </p>
       </li>
       <li>
         <p>
-          [ ] I menyen <code>Fil</code> kan du velge <code>Lagre nå</code> for å
+          I menyen <code>Fil</code> kan du velge <code>Lagre nå</code> for å
           lagre prosjektet.
         </p>
       </li>
@@ -131,20 +131,20 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Velg en ny figur og klikk på forstørrelsesglasset for å hente en
+          Velg en ny figur og klikk på forstørrelsesglasset for å hente en
           eksisterende figur. Velg figuren <code>Party Hats</code> i
           Mote-kategorien.
         </p>
       </li>
       <li>
         <p>
-          [ ] Gå til <code>Drakter</code>-fanen. Ser du at denne hatten består
-          av en trekant sammen med forskjellige andre former?
+          Gå til <code>Drakter</code>-fanen. Ser du at denne hatten består av en
+          trekant sammen med forskjellige andre former?
         </p>
       </li>
       <li>
         <p>
-          [ ] Klikk forskjellige steder på hatten. Du vil da se at blå firkanter
+          Klikk forskjellige steder på hatten. Du vil da se at blå firkanter
           merker forskjellige deler av hatten. Disse delene kalles grupper.
         </p>
         <figure>
@@ -156,15 +156,15 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Du kan slette grupper ved å trykke på <code>delete</code>-tasten
-          på tastaturet. Slett gruppene som ikke er en del av trekanten.
+          Du kan slette grupper ved å trykke på <code>delete</code>-tasten på
+          tastaturet. Slett gruppene som ikke er en del av trekanten.
         </p>
       </li>
       <li>
         <p>
-          [ ] Trekanten består egentlig av en gruppe figurer den også. Den
-          grønne trekanten i bakgrunnen, og flere sirkelfigurer i forskjellige
-          farger. Om du vil endre på disse kan du bruke knappen
+          Trekanten består egentlig av en gruppe figurer den også. Den grønne
+          trekanten i bakgrunnen, og flere sirkelfigurer i forskjellige farger.
+          Om du vil endre på disse kan du bruke knappen
           <code>Del opp gruppe</code>.
         </p>
         <figure>
@@ -176,7 +176,7 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Du kan leke videre med trekant-figuren! Bruk gjerne
+          Du kan leke videre med trekant-figuren! Bruk gjerne
           <code>Fyll farge</code>-verktøyet,
           <img
             src="lessons/snurrige_figurer/../bilder/fyll-med-farge.png"
@@ -198,8 +198,8 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Vi skal nå lage mange trekanter. Dette gjør vi ved hjelp av noe
-          som heter <strong>kloning</strong>. I Scratch er en
+          Vi skal nå lage mange trekanter. Dette gjør vi ved hjelp av noe som
+          heter <strong>kloning</strong>. I Scratch er en
           <strong>klon</strong> en kopi av en figur.
         </p>
         <p>
@@ -227,11 +227,11 @@ slutt
     <p><strong>Trykk på B-tasten.</strong></p>
     <ul>
       <li>
-        <p>[ ] Nå skal det tegnes mange trekanter på skjermen i en sirkel.</p>
+        <p>Nå skal det tegnes mange trekanter på skjermen i en sirkel.</p>
       </li>
       <li>
         <p>
-          [ ] Om du stopper skriptet (klikk på den røde knappen ved siden av det
+          Om du stopper skriptet (klikk på den røde knappen ved siden av det
           grønne flagget) blir trekantene borte! Dette er fordi trekantene var
           kopier som bare lever så lenge programmet kjører, de er ikke egne
           figurer.
@@ -244,8 +244,8 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Vi kan også få trekantene til å røre på seg. Skriv først denne
-          enkle koden:
+          Vi kan også få trekantene til å røre på seg. Skriv først denne enkle
+          koden:
         </p>
         <pre><code class="blocks">når jeg mottar [snurr v]
 for alltid
@@ -255,9 +255,8 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Legg til klossen
-          <code class="b">send melding [snurr v]</code> nederst i
-          <em>B</em>-skriptet (etter
+          Legg til klossen <code class="b">send melding [snurr v]</code> nederst
+          i <em>B</em>-skriptet (etter
           <code class="blockcontrol">gjenta</code>-løkken).
         </p>
       </li>
@@ -269,14 +268,14 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Begynner trekantene å røre på seg etter at de er tegnet opp? Blir
+          Begynner trekantene å røre på seg etter at de er tegnet opp? Blir
           mønsteret levende?
         </p>
       </li>
       <li>
         <p>
-          [ ] Prøv å endre på <code>4</code>-tallet i <em>snurr</em>-skriptet.
-          Hva skjer? Alt dette skjer bare fordi mange trekanter snurrer sammen!
+          Prøv å endre på <code>4</code>-tallet i <em>snurr</em>-skriptet. Hva
+          skjer? Alt dette skjer bare fordi mange trekanter snurrer sammen!
         </p>
       </li>
     </ul>
@@ -286,8 +285,7 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Vi kan også la trekantene flytte litt på seg. Skriv et nytt
-          skript:
+          Vi kan også la trekantene flytte litt på seg. Skriv et nytt skript:
         </p>
         <pre><code class="blocks">når jeg mottar [flytt og snurr v]
 for alltid
@@ -298,7 +296,7 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Endre <code class="b">send melding [ v]</code>-klossen nederst i
+          Endre <code class="b">send melding [ v]</code>-klossen nederst i
           <em>B</em>-skriptet slik at den starter dette nye
           <em>flytt og snurr</em>-skriptet.
         </p>
@@ -310,10 +308,10 @@ slutt
     <p><strong>Trykk på B-tasten.</strong></p>
     <ul>
       <li>
-        <p>[ ] Hvordan endrer mønsteret seg?</p>
+        <p>Hvordan endrer mønsteret seg?</p>
       </li>
       <li>
-        <p>[ ] Prøv igjen å endre på tallene i det siste skriptet.</p>
+        <p>Prøv igjen å endre på tallene i det siste skriptet.</p>
       </li>
     </ul>
   </section>
@@ -331,16 +329,16 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Lag en ny variabel, <code class="b">retning :: variables</code>.
-          Det er viktig at du merker av at variabelen gjelder kun
+          Lag en ny variabel, <code class="b">retning :: variables</code>. Det
+          er viktig at du merker av at variabelen gjelder kun
           <strong>For denne figuren</strong>. Dette gjør nemlig at hver klon kan
           ha sin egen verdi for <code class="b">retning :: variables</code>.
         </p>
       </li>
       <li>
         <p>
-          [ ] Lag en kopi av <em>B</em>-skriptet. Endre tasten som starter
-          skriptet til <code>c</code>, og legg også til de to
+          Lag en kopi av <em>B</em>-skriptet. Endre tasten som starter skriptet
+          til <code>c</code>, og legg også til de to
           <code class="b">retning :: stack variables</code>-klossene.
         </p>
         <pre><code class="blocks">når [c v] trykkes
@@ -358,8 +356,8 @@ send melding [flytt og snurr v]
       </li>
       <li>
         <p>
-          [ ] Nå skal vi sette retningen på hver klon i det den lages. Lag dette
-          nye skriptet:
+          Nå skal vi sette retningen på hver klon i det den lages. Lag dette nye
+          skriptet:
         </p>
         <pre><code class="blocks">når jeg starter som klon
 pek i retning (retning :: variables)
@@ -373,13 +371,13 @@ pek i retning (retning :: variables)
     <ul>
       <li>
         <p>
-          [ ] Ser du at trekantene peker i andre retninger. Dette forandrer
+          Ser du at trekantene peker i andre retninger. Dette forandrer
           mønsteret helt!
         </p>
       </li>
       <li>
         <p>
-          [ ] Det ser ut som om en enkelt trekant svever rundt litt utenfor
+          Det ser ut som om en enkelt trekant svever rundt litt utenfor
           mønsteret! Hva skjer med denne trekanten?
         </p>
       </li>
@@ -390,10 +388,10 @@ pek i retning (retning :: variables)
     <ul>
       <li>
         <p>
-          [ ] Den ene trekanten som ikke passer helt inn i mønsteret er figuren
-          vår. Alle de andre trekantene er kloner. Vi har ikke sett denne
-          trekanten tidligere fordi den pekte i samme retning som klonene. Men
-          nå snur vi jo på klonene!
+          Den ene trekanten som ikke passer helt inn i mønsteret er figuren vår.
+          Alle de andre trekantene er kloner. Vi har ikke sett denne trekanten
+          tidligere fordi den pekte i samme retning som klonene. Men nå snur vi
+          jo på klonene!
         </p>
         <p>
           La oss skjule figuren så den ikke ødelegger mønsteret. Legg til en
@@ -402,8 +400,8 @@ pek i retning (retning :: variables)
       </li>
       <li>
         <p>
-          [ ] Siden klonene er kopier av figuren vil de også skjules. Det vil vi
-          jo ikke. Vi må derfor passe på at klonene vises. Legg til en
+          Siden klonene er kopier av figuren vil de også skjules. Det vil vi jo
+          ikke. Vi må derfor passe på at klonene vises. Legg til en
           <code class="b">vis</code>-kloss som dette:
         </p>
         <pre><code class="blocks">når jeg starter som klon
@@ -418,13 +416,11 @@ pek i retning (retning :: variables)
     <p><strong>Trykk på C-tasten.</strong></p>
     <ul>
       <li>
-        <p>
-          [ ] Er den flytende trekanten som ikke passet inn i mønsteret borte?
-        </p>
+        <p>Er den flytende trekanten som ikke passet inn i mønsteret borte?</p>
       </li>
       <li>
         <p>
-          [ ] Lek med tallet <code>-4</code> i
+          Lek med tallet <code>-4</code> i
           <code class="b">endre [retning v] :: variables</code>-klossen. Hvilken
           effekt har det å endre dette tallet?
         </p>
@@ -451,8 +447,8 @@ pek i retning (retning :: variables)
     <ul>
       <li>
         <p>
-          [ ] Klikk på <code>Drakter</code>-fanen. Velg en ny drakt fra
-          biblioteket ved å klikke på
+          Klikk på <code>Drakter</code>-fanen. Velg en ny drakt fra biblioteket
+          ved å klikke på
           <img
             src="lessons/snurrige_figurer/../bilder/hent-fra-bibliotek.png"
             alt="Velg drakt fra biblioteket"
@@ -461,16 +457,16 @@ pek i retning (retning :: variables)
       </li>
       <li>
         <p>
-          [ ] Start programmet igjen ved å trykke på <strong>C</strong>-tasten.
+          Start programmet igjen ved å trykke på <strong>C</strong>-tasten.
           Dannes det nå et mønster av hjerter? Prøv å hente inn andre drakter
           eller tegn dine egne.
         </p>
       </li>
       <li>
         <p>
-          [ ] For å lage spennende mønstre er det også andre ting du kan endre
-          på. Prøv å legg til klosser for gjennomsiktig effekt og fargeeffekt
-          som følger:
+          For å lage spennende mønstre er det også andre ting du kan endre på.
+          Prøv å legg til klosser for gjennomsiktig effekt og fargeeffekt som
+          følger:
         </p>
         <pre><code class="blocks">når [c v] trykkes
 skjul
@@ -497,25 +493,24 @@ send melding [flytt og snurr v]
       </p>
       <ul>
         <li>
-          <p>[ ] Endre størrelsen på de forskjellige klonene.</p>
+          <p>Endre størrelsen på de forskjellige klonene.</p>
         </li>
         <li>
           <p>
-            [ ] Tegn en figur som består av tekst. Kanskje du kan få navnet ditt
-            til å danse rundt på skjermen?
+            Tegn en figur som består av tekst. Kanskje du kan få navnet ditt til
+            å danse rundt på skjermen?
           </p>
         </li>
         <li>
           <p>
-            [ ] Endre senterpunktet til drakten: Klikk
-            <code>Drakter</code>-fanen og dra figuren litt vekk fra sentrum av
-            tegneområdet.
+            Endre senterpunktet til drakten: Klikk <code>Drakter</code>-fanen og
+            dra figuren litt vekk fra sentrum av tegneområdet.
           </p>
         </li>
         <li>
           <p>
-            [ ] Bruk penn-verktøyet for å tegne mønster på bakgrunnen samtidig.
-            Legg for eksempel til klossen <code class="b">penn på</code> under
+            Bruk penn-verktøyet for å tegne mønster på bakgrunnen samtidig. Legg
+            for eksempel til klossen <code class="b">penn på</code> under
             <code class="b">når jeg starter som klon</code>.
           </p>
           <p>

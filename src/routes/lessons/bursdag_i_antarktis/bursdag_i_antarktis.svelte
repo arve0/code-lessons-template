@@ -33,8 +33,8 @@
     <ul>
       <li>
         <p>
-          [ ] Start et nytt prosjekt. Gi kattefiguren navnet <code>Felix</code>,
-          og sett rotasjonsmåten hans til
+          Start et nytt prosjekt. Gi kattefiguren navnet <code>Felix</code>, og
+          sett rotasjonsmåten hans til
           <img
             src="lessons/bursdag_i_antarktis/../bilder/rotasjonsmate-hv.png"
             alt="sideveis"
@@ -43,7 +43,7 @@
       </li>
       <li>
         <p>
-          [ ] Lag en ny bakgrunn ved å klikke
+          Lag en ny bakgrunn ved å klikke
           <img
             src="lessons/bursdag_i_antarktis/../bilder/velg-bakgrunn.png"
             alt="velg en ferdigbakgrunn"
@@ -52,11 +52,11 @@
         </p>
       </li>
       <li>
-        <p>[ ] Legg også til bakgrunnen <code>Holiday/winter-lights</code>.</p>
+        <p>Legg også til bakgrunnen <code>Holiday/winter-lights</code>.</p>
       </li>
       <li>
         <p>
-          [ ] Vi begynner med et skript på scenen, som passer på at vi viser
+          Vi begynner med et skript på scenen, som passer på at vi viser
           <code>winter</code>-bakgrunnen når animasjonen starter. Gå til
           <code class="blocklightgrey">Skript</code>-fanen og legg til
         </p>
@@ -66,7 +66,7 @@ bytt bakgrunn til [winter v]
       </li>
       <li>
         <p>
-          [ ] Da kan vi få katten til å flytte på seg. Klikk på
+          Da kan vi få katten til å flytte på seg. Klikk på
           <code>Felix</code> og gi ham dette skriptet:
         </p>
         <pre><code class="blocks">når grønt flagg klikkes
@@ -79,8 +79,8 @@ gå til x: (-100) y: (-50)
       </li>
       <li>
         <p>
-          [ ] La oss nå få Felix til å bevege seg over skjermen. Vi skifter
-          mellom de to draktene hans for at det skal se ut som om han går. Utvid
+          La oss nå få Felix til å bevege seg over skjermen. Vi skifter mellom
+          de to draktene hans for at det skal se ut som om han går. Utvid
           skriptet til Felix på denne måten:
         </p>
         <pre><code class="blocks">når grønt flagg klikkes
@@ -105,15 +105,15 @@ slutt
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Vandrer Felix over skjermen?</p>
+        <p>Vandrer Felix over skjermen?</p>
       </li>
       <li>
-        <p>[ ] Stopper han når kommer til kanten på skjermen?</p>
+        <p>Stopper han når kommer til kanten på skjermen?</p>
       </li>
       <li>
         <p>
-          [ ] Starter han på nytt på venstre side av skjermen om du klikker på
-          det grønne flagget igjen?
+          Starter han på nytt på venstre side av skjermen om du klikker på det
+          grønne flagget igjen?
         </p>
       </li>
     </ul>
@@ -135,7 +135,7 @@ slutt
     </p>
     <ul>
       <li>
-        <p>[ ] Lag et nytt skript på Scenen.</p>
+        <p>Lag et nytt skript på Scenen.</p>
         <pre><code class="blocks">når grønt flagg klikkes
 vent (3) sekunder
 bytt bakgrunn til [winter-lights v]
@@ -143,7 +143,7 @@ bytt bakgrunn til [winter-lights v]
       </li>
       <li>
         <p>
-          [ ] Legg også til en kloss som flytter Felix inn til veien etter at
+          Legg også til en kloss som flytter Felix inn til veien etter at
           bakgrunnen er byttet.
         </p>
         <pre><code class="blocks">når grønt flagg klikkes
@@ -164,11 +164,11 @@ gå til x: (-20) y: (-100)
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Skifter bakgrunnen når Felix kommer til enden av skjermen?</p>
+        <p>Skifter bakgrunnen når Felix kommer til enden av skjermen?</p>
       </li>
       <li>
         <p>
-          [ ] Klarer du å endre tallet i klossen
+          Klarer du å endre tallet i klossen
           <code class="blockcontrol">vent 3 sekunder</code> slik at det ser
           bedre ut?
         </p>
@@ -201,7 +201,7 @@ gå til x: (-20) y: (-100)
     <h2 class="check" id="sjekkliste-3">Sjekkliste</h2>
     <ul>
       <li>
-        <p>[ ] La katten sende en melding når han når kanten av skjermen.</p>
+        <p>La katten sende en melding når han når kanten av skjermen.</p>
         <pre><code class="blocks">når grønt flagg klikkes
 gå til x: (-100) y: (-50)
 pek i retning (100 v)
@@ -215,8 +215,8 @@ send melding [Scene 2 v]
       </li>
       <li>
         <p>
-          [ ] Vi kan nå slette det gamle skriptet på scenen som byttet bakgrunn
-          til <code>winter-lights</code>, og heller bruke dette:
+          Vi kan nå slette det gamle skriptet på scenen som byttet bakgrunn til
+          <code>winter-lights</code>, og heller bruke dette:
         </p>
         <pre><code class="blocks">når jeg mottar [Scene 2 v]
 bytt bakgrunn til [winter-lights v]
@@ -224,9 +224,9 @@ bytt bakgrunn til [winter-lights v]
       </li>
       <li>
         <p>
-          [ ] Felix kan også motta meldinger han sender selv. Vi kan bruke dette
-          til å flytte ham inn på veien samtidig som vi bytter bakgrunn. Legg
-          til følgende som et nytt skript på Felix:
+          Felix kan også motta meldinger han sender selv. Vi kan bruke dette til
+          å flytte ham inn på veien samtidig som vi bytter bakgrunn. Legg til
+          følgende som et nytt skript på Felix:
         </p>
         <pre><code class="blocks">når jeg mottar [Scene 2 v]
 gå til x: (-20) y: (-100)
@@ -239,11 +239,11 @@ gå til x: (-20) y: (-100)
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Går Felix fortsatt over skjermen?</p>
+        <p>Går Felix fortsatt over skjermen?</p>
       </li>
       <li>
         <p>
-          [ ] Hva skjer når han kommer til kanten av skjermen? Vi har laget to
+          Hva skjer når han kommer til kanten av skjermen? Vi har laget to
           skript som sier at bakgrunnen skal endre seg og katten skal flytte til
           midten av skjermen. Skjer dette?
         </p>
@@ -266,7 +266,7 @@ gå til x: (-20) y: (-100)
     <h2 class="check" id="sjekkliste-4">Sjekkliste</h2>
     <ul>
       <li>
-        <p>[ ] Start et nytt skript på Felix:</p>
+        <p>Start et nytt skript på Felix:</p>
         <pre><code class="blocks">når jeg mottar [Si hei v]
 si [Å nei! Hvor er jeg?] i (2) sekunder
 tenk [Jeg har gått meg bort ... også på bursdagen min] i (2) sekunder
@@ -275,15 +275,14 @@ spør [Hvor gammel blir jeg igjen?] og vent
       </li>
       <li>
         <p>
-          [ ] For å teste hvordan skriptet virker kan du bare klikke på for
-          eksempel klossen
-          <code class="blockevents">når jeg mottar Si hei</code>. Snakker og
-          tenker Felix?
+          For å teste hvordan skriptet virker kan du bare klikke på for eksempel
+          klossen <code class="blockevents">når jeg mottar Si hei</code>.
+          Snakker og tenker Felix?
         </p>
       </li>
       <li>
         <p>
-          [ ] Når du svarer på Felix spørsmål blir svaret ditt tatt vare på i en
+          Når du svarer på Felix spørsmål blir svaret ditt tatt vare på i en
           variabel som heter <code class="blocksensing">svar</code>. Vi vil lage
           en ny variabel med et bedre navn som kan ta vare på dette svaret. Lag
           en ny variabel som heter <code class="blockdata">alder</code>. La
@@ -292,7 +291,7 @@ spør [Hvor gammel blir jeg igjen?] og vent
         </p>
       </li>
       <li>
-        <p>[ ] Legg til en kloss nederst i skriptet:</p>
+        <p>Legg til en kloss nederst i skriptet:</p>
         <pre><code class="blocks">når jeg mottar [Si hei v]
 si [Å nei! Hvor er jeg?] i (2) sekunder
 tenk [Jeg har gått meg bort ... også på bursdagen min] i (2) sekunder
@@ -302,8 +301,8 @@ sett [alder v] til (svar)
       </li>
       <li>
         <p>
-          [ ] Nå vil vi at Felix skal si og gjøre alt dette før han vandrer
-          gjennom skogen. Legg til en
+          Nå vil vi at Felix skal si og gjøre alt dette før han vandrer gjennom
+          skogen. Legg til en
           <code class="blockevents">send melding</code>-kloss i det første
           skriptet til Felix:
         </p>
@@ -326,12 +325,12 @@ send melding [Scene 2 v]
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Snakker Felix som han skal?</p>
+        <p>Snakker Felix som han skal?</p>
       </li>
       <li>
         <p>
-          [ ] Det er kanskje litt uhøflig at Felix bare springer av gårde mens
-          han snakker med oss?
+          Det er kanskje litt uhøflig at Felix bare springer av gårde mens han
+          snakker med oss?
         </p>
       </li>
     </ul>
@@ -341,7 +340,7 @@ send melding [Scene 2 v]
     <ul>
       <li>
         <p>
-          [ ] Vi vil at Felix snakker ferdig før han begynner å gå. Dette er
+          Vi vil at Felix snakker ferdig før han begynner å gå. Dette er
           heldigvis ganske enkelt. Hvis vi bytter ut
           <code class="blockevents">send melding</code>-klossen med en
           <code class="blockevents">send melding og vent</code>-kloss, vil ikke
@@ -366,7 +365,7 @@ send melding [Scene 2 v]
     <h2 class="flag" id="test-prosjektet-5">Test prosjektet</h2>
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
-      <li>[ ] Venter Felix med å gå til du har svart på spørsmålet hans?</li>
+      <li>Venter Felix med å gå til du har svart på spørsmålet hans?</li>
     </ul>
   </section>
 </section>
@@ -390,7 +389,7 @@ send melding [Scene 2 v]
     <ul>
       <li>
         <p>
-          [ ] Vi skal nå fortsette på skriptet til Felix som begynner med at han
+          Vi skal nå fortsette på skriptet til Felix som begynner med at han
           mottar meldingen <code>Scene 2</code>. Legg til en liten
           <code class="blocklooks">si</code>-kloss først:
         </p>
@@ -401,7 +400,7 @@ si [Å! Der er det noen hus!] i (2) sekunder
       </li>
       <li>
         <p>
-          [ ] Nå skal vi la Felix følge veien oppover. Prøv først med følgende
+          Nå skal vi la Felix følge veien oppover. Prøv først med følgende
           skript:
         </p>
         <pre><code class="blocks">når jeg mottar [Scene 2 v]
@@ -418,10 +417,9 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Følger Felix veien oppover? Blir han mindre mens han går? Husk at
-          om du vil teste dette skriptet uten å se hele animasjonen kan du
-          klikke på
-          <code class="blockevents">når jeg mottar Scene 2</code>-klossen. Du
+          Følger Felix veien oppover? Blir han mindre mens han går? Husk at om
+          du vil teste dette skriptet uten å se hele animasjonen kan du klikke
+          på <code class="blockevents">når jeg mottar Scene 2</code>-klossen. Du
           bør også klikke på
           <code class="blocklooks">sett størrelse til 100%</code>-klossen i
           <code class="blocklooks">Utseende</code>-kategorien innimellom, slik
@@ -430,10 +428,10 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Nå vil vi at Felix skal forandre retning slik at han følger veien.
-          Et triks er at vi kan gange retningen hans med -1. Da blir det som om
-          han snur seg rundt. Siden vi vil gjøre dette fire ganger lager vi også
-          en ny <code class="blockcontrol">gjenta</code>-kloss:
+          Nå vil vi at Felix skal forandre retning slik at han følger veien. Et
+          triks er at vi kan gange retningen hans med -1. Da blir det som om han
+          snur seg rundt. Siden vi vil gjøre dette fire ganger lager vi også en
+          ny <code class="blockcontrol">gjenta</code>-kloss:
         </p>
         <pre><code class="blocks">når jeg mottar [Scene 2 v]
 gå til x: (-20) y: (-100)
@@ -456,7 +454,7 @@ slutt
     <h2 class="flag" id="test-prosjektet-6">Test prosjektet</h2>
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
-      <li>[ ] Følger Felix veien oppover mot de to husene?</li>
+      <li>Følger Felix veien oppover mot de to husene?</li>
     </ul>
     <p>
       Hvis du ser litt nærmere på veien ser du at den flater ut. Dette kan vi
@@ -469,22 +467,22 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Endre <code>-1</code> i
+          Endre <code>-1</code> i
           <code class="blockmotion">pek i retning</code>-klossen til
           <code>-1.5</code>.
         </p>
       </li>
       <li>
         <p>
-          [ ] For å skjønne bedre hva som skjer kan du klikke på
+          For å skjønne bedre hva som skjer kan du klikke på
           <code class="blockmotion">i</code> på Felix og følge med på
           <code>retning</code> mens skriptet kjører.
         </p>
       </li>
       <li>
         <p>
-          [ ] Når Felix kommer fram til huset kan vi skjule ham, og skifte til
-          en ny scene.
+          Når Felix kommer fram til huset kan vi skjule ham, og skifte til en ny
+          scene.
         </p>
         <pre><code class="blocks">når jeg mottar [Scene 2 v]
 gå til x: (-20) y: (-100)
@@ -506,7 +504,7 @@ send melding [Scene 3 v]
       </li>
       <li>
         <p>
-          [ ] For den scenen trenger vi en ny bakgrunn. Klikk
+          For den scenen trenger vi en ny bakgrunn. Klikk
           <img
             src="lessons/bursdag_i_antarktis/../bilder/velg-bakgrunn.png"
             alt="velg en ferdig bakgrunn"
@@ -520,7 +518,7 @@ bytt bakgrunn til [gingerbread v]
       </li>
       <li>
         <p>
-          [ ] I det vi skifter til den nye scenen vil vi også at Felix skal få
+          I det vi skifter til den nye scenen vil vi også at Felix skal få
           tilbake sin vanlige størrelse. Klikk på Felix og start et nytt skript:
         </p>
         <pre><code class="blocks">når jeg mottar [Scene 3 v]
@@ -537,23 +535,22 @@ vis
     <ul>
       <li>
         <p>
-          [ ] Har Felix blitt flinkere til å følge veien oppover mot de to
-          husene?
+          Har Felix blitt flinkere til å følge veien oppover mot de to husene?
         </p>
       </li>
       <li>
-        <p>[ ] Skifter bakgrunnen over til huset som det skal?</p>
+        <p>Skifter bakgrunnen over til huset som det skal?</p>
       </li>
       <li>
         <p>
-          [ ] Får Felix riktig størrelse igjen på slutten av animasjonen? Og når
-          du starter animasjonen på nytt?
+          Får Felix riktig størrelse igjen på slutten av animasjonen? Og når du
+          starter animasjonen på nytt?
         </p>
       </li>
       <li>
         <p>
-          [ ] Hvordan kan du sørge for at Felix alltid dukker opp i full
-          størrelse når det grønne flagget klikkes på nytt?
+          Hvordan kan du sørge for at Felix alltid dukker opp i full størrelse
+          når det grønne flagget klikkes på nytt?
         </p>
       </li>
     </ul>
@@ -574,7 +571,7 @@ vis
     <ul>
       <li>
         <p>
-          [ ] Lag to nye figurer ved å trykke på
+          Lag to nye figurer ved å trykke på
           <img
             src="lessons/bursdag_i_antarktis/../bilder/hent-fra-bibliotek.png"
             alt="velg figur fra biblioteket"
@@ -585,9 +582,9 @@ vis
       </li>
       <li>
         <p>
-          [ ] For at pingvinene først skal dukke opp i <code>Scene 3</code>, må
-          vi skjule dem når animasjonen starter. Legg til følgende skript på
-          begge figurene:
+          For at pingvinene først skal dukke opp i <code>Scene 3</code>, må vi
+          skjule dem når animasjonen starter. Legg til følgende skript på begge
+          figurene:
         </p>
         <pre><code class="blocks">når grønt flagg klikkes
 skjul
@@ -595,9 +592,9 @@ skjul
       </li>
       <li>
         <p>
-          [ ] Først skal Felix spørre om det er noen hjemme, og så skal han
-          sende en melding hvor han ber pingvinene om å komme ut. Endre Felix
-          sitt skript ved å legge til to klosser på slutten:
+          Først skal Felix spørre om det er noen hjemme, og så skal han sende en
+          melding hvor han ber pingvinene om å komme ut. Endre Felix sitt skript
+          ved å legge til to klosser på slutten:
         </p>
         <pre><code class="blocks">når jeg mottar [Scene 3 v]
 sett størrelse til (100)%
@@ -609,7 +606,7 @@ send melding [Kom ut v]
       </li>
       <li>
         <p>
-          [ ] Pingu skal nå komme ut av døra og gå litt til siden. Sjekk med
+          Pingu skal nå komme ut av døra og gå litt til siden. Sjekk med
           musepekeren hva <code>x</code> og <code>y</code>-posisjonen til døren
           er. Legg til følgende skript på Pingu:
         </p>
@@ -621,8 +618,8 @@ gli (1) sekunder til x: (150) y: (-100)
       </li>
       <li>
         <p>
-          [ ] Pappa Pingu kommer ut litt senere, og stiller Felix et spørsmål.
-          Legg til følgende script på Pappa Pingu:
+          Pappa Pingu kommer ut litt senere, og stiller Felix et spørsmål. Legg
+          til følgende script på Pappa Pingu:
         </p>
         <pre><code class="blocks">når jeg mottar [Kom ut v]
 vent (2) sekunder
@@ -640,10 +637,10 @@ send melding [Navn1]
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Kommer pingvinene ut av huset som forventet?</p>
+        <p>Kommer pingvinene ut av huset som forventet?</p>
       </li>
       <li>
-        <p>[ ] Hva tror du skjer med navnet du skrev inn?</p>
+        <p>Hva tror du skjer med navnet du skrev inn?</p>
       </li>
     </ul>
   </section>
@@ -663,12 +660,12 @@ send melding [Navn1]
     <ul>
       <li>
         <p>
-          [ ] Få Pappa Pingu til å sende en melding etter at han har spurt hva
-          Felix heter. Kall for eksempel meldingen <code>Navn1</code>
+          Få Pappa Pingu til å sende en melding etter at han har spurt hva Felix
+          heter. Kall for eksempel meldingen <code>Navn1</code>
         </p>
       </li>
       <li>
-        <p>[ ] Legg til følgende skript på Pingu</p>
+        <p>Legg til følgende skript på Pingu</p>
         <pre><code class="blocks">når jeg mottar [Navn1 v]
 si (svar) i (2) sekunder
 si [Det er et rart navn!] i (2) sekunder
@@ -677,8 +674,8 @@ send melding [Navn2 v]
       </li>
       <li>
         <p>
-          [ ] Legg til følgende skript på Felix for å få ham til å svare og si
-          at han har bursdag:
+          Legg til følgende skript på Felix for å få ham til å svare og si at
+          han har bursdag:
         </p>
         <pre><code class="blocks">når jeg mottar [Navn2 v]
 si [Jeg har bursdag i dag!] i (2) sekunder
@@ -695,8 +692,8 @@ send melding [Party v]
     <ul>
       <li>
         <p>
-          [ ] Nå skal vi få Pingu til å danse! Lag to nye drakter for Pingu ved
-          å importere <code>Dyr/Penguin1</code> to ganger. Roter de to nye
+          Nå skal vi få Pingu til å danse! Lag to nye drakter for Pingu ved å
+          importere <code>Dyr/Penguin1</code> to ganger. Roter de to nye
           draktene litt i forhold til hverandre ved å klikke på draktene i
           tegnevinduet og rotere rundt med musen (du må kanskje bytte til
           vektorgrafikk).
@@ -710,7 +707,7 @@ send melding [Party v]
       </li>
       <li>
         <p>
-          [ ] Legg til en lyd du liker under
+          Legg til en lyd du liker under
           <code class="blocklightgrey">Lyder</code>, og lag følgende skript på
           Pingu (vi har brukt lyden <code>human beatbox1</code>):
         </p>
@@ -729,17 +726,17 @@ slutt
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Danser pingvinen slik du forventet?</p>
+        <p>Danser pingvinen slik du forventet?</p>
       </li>
       <li>
         <p>
-          [ ] Hvorfor tror du det kan være lurt å spare på svaret Pappa Pingu
-          får i en variabel?
+          Hvorfor tror du det kan være lurt å spare på svaret Pappa Pingu får i
+          en variabel?
         </p>
       </li>
       <li>
         <p>
-          [ ] Dukker Pingu opp i riktig drakt når du starter animasjonen på nytt
+          Dukker Pingu opp i riktig drakt når du starter animasjonen på nytt
           igjen? Hvis ikke: finn ut hvordan du kan fikse det!
         </p>
       </li>

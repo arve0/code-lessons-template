@@ -35,18 +35,18 @@
     <ul>
       <li>
         <p>
-          [ ] Byrjaðu nýtt verkefni, til dæmis með því að smella á
+          Byrjaðu nýtt verkefni, til dæmis með því að smella á
           <code>Smiða</code> efst á síðunni. Ef þú hefur nú þegar hafið verkefni
           geturðu byrjað nýtt með því að velja <code>Skrá</code> og síðan
           <code>Ný</code>.
         </p>
       </li>
       <li>
-        <p>[ ] Smelltu á köttinn, og kallaðu köttinn <code>Leo</code>.</p>
+        <p>Smelltu á köttinn, og kallaðu köttinn <code>Leo</code>.</p>
       </li>
       <li>
         <p>
-          [ ] Smelltu á
+          Smelltu á
           <img
             src="lessons/straffespark/../bilder/velg-bakgrunn.png"
             alt="Velja nýjan bakgrunn"
@@ -58,11 +58,10 @@
       </li>
       <li>
         <p>
-          [ ] Nú skulum við skrifa örforrit sem færir köttinn
-          <code>Leo</code> þegar við smellum á hann. Smelltu á
-          <code>Leo</code> í myndglugganum neðst á skjánum til þess að kóða hvað
-          hann á að gera. Settu saman eftirfarandi kubba í kóðunargluggann til
-          vinstri:
+          Nú skulum við skrifa örforrit sem færir köttinn <code>Leo</code> þegar
+          við smellum á hann. Smelltu á <code>Leo</code> í myndglugganum neðst á
+          skjánum til þess að kóða hvað hann á að gera. Settu saman eftirfarandi
+          kubba í kóðunargluggann til vinstri:
         </p>
         <pre><code class="blocks">þegar smellt er á þennan karakter
 fara (10) skref
@@ -77,12 +76,12 @@ fara (10) skref
     <p><strong>Smelltu á græna fánann.</strong></p>
     <ul>
       <li>
-        <p>[ ] Fer <code>Leo</code> áfram þegar þú smellir á hann?</p>
+        <p>Fer <code>Leo</code> áfram þegar þú smellir á hann?</p>
       </li>
       <li>
         <p>
-          [ ] Hvað gerist þegar þú smellir á <code>Leo</code> þangað til hann
-          fer út á enda?
+          Hvað gerist þegar þú smellir á <code>Leo</code> þangað til hann fer út
+          á enda?
         </p>
       </li>
     </ul>
@@ -92,14 +91,14 @@ fara (10) skref
     <ul>
       <li>
         <p>
-          [ ] Þú getur flutt <code>Leo</code> aftur á skjáinn með því að smella
-          á hann og draga hann þar sem þú vilt.
+          Þú getur flutt <code>Leo</code> aftur á skjáinn með því að smella á
+          hann og draga hann þar sem þú vilt.
         </p>
       </li>
       <li>
         <p>
-          [ ] Við munum forrita auðveldari leið til að fá <code>Leo</code> aftur
-          á völlinn. Búðu til nýtt örforrit við hliðina á því sem þú hefur þegar
+          Við munum forrita auðveldari leið til að fá <code>Leo</code> aftur á
+          völlinn. Búðu til nýtt örforrit við hliðina á því sem þú hefur þegar
           búið til, sem lítur svona út:
         </p>
         <pre><code class="blocks">þegar smellt er á @greenFlag
@@ -108,7 +107,7 @@ fara til x: (-90) og y: (-60)
       </li>
       <li>
         <p>
-          [ ] Nú mun <code>Leo</code> koma aftur á völlinn í hvert skipti sem þú
+          Nú mun <code>Leo</code> koma aftur á völlinn í hvert skipti sem þú
           smellir á græna fánann.
         </p>
       </li>
@@ -123,13 +122,13 @@ fara til x: (-90) og y: (-60)
     <ul>
       <li>
         <p>
-          [ ] Yfir senunni er textareitur þar sem þú getur gefið leiknum þínum
-          nafn. Til dæmis geturðu kallað hann <code>Vítaspyrna</code>.
+          Yfir senunni er textareitur þar sem þú getur gefið leiknum þínum nafn.
+          Til dæmis geturðu kallað hann <code>Vítaspyrna</code>.
         </p>
       </li>
       <li>
         <p>
-          [ ] Í valmyndinni <code>Skrá</code> er hægt að velja
+          Í valmyndinni <code>Skrá</code> er hægt að velja
           <code>Vista núna</code> til að vista verkefnið.
         </p>
       </li>
@@ -146,7 +145,7 @@ fara til x: (-90) og y: (-60)
     <ul>
       <li>
         <p>
-          [ ] Við munum nú bæta við bolta í leik okkar. Smelltu á
+          Við munum nú bæta við bolta í leik okkar. Smelltu á
           <img
             src="lessons/straffespark/../bilder/hent-fra-bibliotek.png"
             alt="Veldu mynd úrsafni"
@@ -155,17 +154,17 @@ fara til x: (-90) og y: (-60)
         </p>
       </li>
       <li>
-        <p>[ ] Kallaðu boltann <code>Bolti</code>.</p>
+        <p>Kallaðu boltann <code>Bolti</code>.</p>
       </li>
       <li>
         <p>
-          [ ] Gerðu boltann minni með því að ýta fyrst á
-          <code>Stærð</code> reitinn og breyta númerinu frá 100 til 60.
+          Gerðu boltann minni með því að ýta fyrst á <code>Stærð</code> reitinn
+          og breyta númerinu frá 100 til 60.
         </p>
       </li>
       <li>
         <p>
-          [ ] Við munum nú skrifa örlítið lengra örforrit fyrir boltann. Í þessu
+          Við munum nú skrifa örlítið lengra örforrit fyrir boltann. Í þessu
           örforriti setjum við fyrst boltann fyrir framan köttinn. Eftir að
           boltinn snertir <code>Leo</code> (þ.e. <code>Leo</code> sparkar í
           boltann) byrjar boltinn að hreyfa sig. Sjáðu hvort þú þekkir hvar í
@@ -188,27 +187,27 @@ end
     <p><strong>Smelltu á græna fánann.</strong></p>
     <ul>
       <li>
-        <p>[ ] Sparkar <code>Leo</code> í boltann þegar þú smellir á hann?</p>
+        <p>Sparkar <code>Leo</code> í boltann þegar þú smellir á hann?</p>
       </li>
       <li>
         <p>
-          [ ] Getur <code>Leo</code> sparkað í boltann aftur ef þú smellir á
-          græna fánann aftur?
+          Getur <code>Leo</code> sparkað í boltann aftur ef þú smellir á græna
+          fánann aftur?
         </p>
       </li>
       <li>
         <p>
-          [ ] Ef <code>Leo</code> snertir boltann áður en þú smellir á hann
-          (þegar þú smellir á græna fánann) þarftu að breyta tölunum í
+          Ef <code>Leo</code> snertir boltann áður en þú smellir á hann (þegar
+          þú smellir á græna fánann) þarftu að breyta tölunum í
           <code class="b">fara til x: () og y: ()</code>-kubbnum þannig að
           boltinn er í hvild fyrir framan <code>Leo</code>.
         </p>
       </li>
       <li>
         <p>
-          [ ] Stundum hreyfist boltinn aftur <em>áður en</em>
-          <code>Leo</code> er á réttum stað, þannig að hann snertir boltann
-          aftur og boltinn byrjar hreyfast. Þá hjálpar það að bæta við einu
+          Stundum hreyfist boltinn aftur <em>áður en</em> <code>Leo</code> er á
+          réttum stað, þannig að hann snertir boltann aftur og boltinn byrjar
+          hreyfast. Þá hjálpar það að bæta við einu
           <code class="b">bíða í (1) sekúndur</code>-kubba fyrir
           <code class="b">bíða þangað til &lt;snertir [Leo v]?&gt;</code
           >-kubbann.
@@ -232,23 +231,23 @@ end
     <ul>
       <li>
         <p>
-          [ ] Bættu við fígúru sem getur verið markvörður. Við höfum notað
-          kolkrabba <code>Animals/Octopus</code>, en þú getur líka notað aðrar
-          fígúrur ef þú vilt.
+          Bættu við fígúru sem getur verið markvörður. Við höfum notað kolkrabba
+          <code>Animals/Octopus</code>, en þú getur líka notað aðrar fígúrur ef
+          þú vilt.
         </p>
       </li>
       <li>
         <p>
-          [ ] Settu fígúruna inn í markið. Það er hægt að snúa fígúrunni með því
-          að smella á <code>Búningar</code> og síðan á táknið sem er hægra megin
+          Settu fígúruna inn í markið. Það er hægt að snúa fígúrunni með því að
+          smella á <code>Búningar</code> og síðan á táknið sem er hægra megin
           við eyða-takkann.
         </p>
       </li>
       <li>
-        <p>[ ] Gefðu fígúrunni nafnið <code>Markvörður</code>.</p>
+        <p>Gefðu fígúrunni nafnið <code>Markvörður</code>.</p>
       </li>
       <li>
-        <p>[ ] Gerðu eftirfarandi örforrit fyrir markvörðinn:</p>
+        <p>Gerðu eftirfarandi örforrit fyrir markvörðinn:</p>
         <pre><code class="blocks">þegar smellt er á @greenFlag
 fara til x: (200) og y: (-50)
 stefna í (0 v) gráður
@@ -271,10 +270,10 @@ end
     <p><strong>Smelltu á græna fánann.</strong></p>
     <ul>
       <li>
-        <p>[ ] Byrjar markvörðurinn í markinu?</p>
+        <p>Byrjar markvörðurinn í markinu?</p>
       </li>
       <li>
-        <p>[ ] Fer <code>Markvörður</code> til hægri og vinstri á skjánum?</p>
+        <p>Fer <code>Markvörður</code> til hægri og vinstri á skjánum?</p>
       </li>
     </ul>
   </section>
@@ -283,9 +282,9 @@ end
     <ul>
       <li>
         <p>
-          [ ] Finnst þér kannski markvörðurinn vera svolítið stór? Þú getur
-          breytt stærð hans eins og þú gerðir áður. Önnur leið til að breyta
-          stærð er með því að nota kubba úr flipanum
+          Finnst þér kannski markvörðurinn vera svolítið stór? Þú getur breytt
+          stærð hans eins og þú gerðir áður. Önnur leið til að breyta stærð er
+          með því að nota kubba úr flipanum
           <code class="blocklooks">Útlit</code>.
         </p>
         <p>
@@ -306,8 +305,8 @@ end
     <p><strong>Smelltu á græna fánann.</strong></p>
     <ul>
       <li>
-        [ ] Hvað gerist þegar <code>Leo</code> skýtur á markið? Getur
-        markvörðurinn varið markið?
+        Hvað gerist þegar <code>Leo</code> skýtur á markið? Getur markvörðurinn
+        varið markið?
       </li>
     </ul>
   </section>
@@ -326,8 +325,8 @@ end
     <ul>
       <li>
         <p>
-          [ ] Við byrjum á að finna út hvort markvörðurinn ver boltann. Smelltu
-          á <code>Bolti</code>. Bættu við einum
+          Við byrjum á að finna út hvort markvörðurinn ver boltann. Smelltu á
+          <code>Bolti</code>. Bættu við einum
           <code class="blockcontrol">ef annars</code>-kubbi í örforritið:
         </p>
         <pre><code class="blocks">þegar smellt er á @greenFlag
@@ -353,8 +352,8 @@ end
       </li>
       <li>
         <p>
-          [ ] Nú viljum við að bæði boltinn og markvörðurinn hætti að hreyfa sig
-          ef boltinn verður varinn. Bættu þessu við sem nýju örforriti bæði á
+          Nú viljum við að bæði boltinn og markvörðurinn hætti að hreyfa sig ef
+          boltinn verður varinn. Bættu þessu við sem nýju örforriti bæði á
           <code>Bolti</code> og <code>Markvörður</code>:
         </p>
         <pre><code class="blocks">þegar ég fæ sent [Varið v]
@@ -375,8 +374,8 @@ stöðva [önnur forrit á karakter v]
     <p><strong>Smelltu á græna fánann.</strong></p>
     <ul>
       <li>
-        [ ] Hættir bæði boltinn og markvörðurinn að hreyfa sig ef markvörðurinn
-        ver boltann?
+        Hættir bæði boltinn og markvörðurinn að hreyfa sig ef markvörðurinn ver
+        boltann?
       </li>
     </ul>
   </section>
@@ -401,10 +400,10 @@ stöðva [önnur forrit á karakter v]
     <ul>
       <li>
         <p>
-          [ ] <code>Leo</code> skorar ef boltinn fer nógu langt til hægri án
-          þess að hann sé varinn. Ef þú reynir að setja músarbendilinn á markið
-          sérðu að marklínan er þar sem <code>x</code> er 230. Breyttu örforriti
-          boltans svolítið meira þannig að það líti svona út:
+          <code>Leo</code> skorar ef boltinn fer nógu langt til hægri án þess að
+          hann sé varinn. Ef þú reynir að setja músarbendilinn á markið sérðu að
+          marklínan er þar sem <code>x</code> er 230. Breyttu örforriti boltans
+          svolítið meira þannig að það líti svona út:
         </p>
         <pre><code class="blocks">þegar smellt er á @greenFlag
 fara til x: (0) og y: (-50)
@@ -423,7 +422,7 @@ end
       </li>
       <li>
         <p>
-          [ ] A sama hátt og boltinn er varinn er hægt að stoppa hreyfingu
+          A sama hátt og boltinn er varinn er hægt að stoppa hreyfingu
           <code>Bolti</code> og <code>Markvörður</code> með því að setja þetta
           örforrit á báðar fígúrurnar.
         </p>
@@ -433,7 +432,7 @@ stöðva [önnur forrit á karakter v]
       </li>
       <li>
         <p>
-          [ ] Við getum líka látið <code>Leo</code> fagna smá þegar hann skorar
+          Við getum líka látið <code>Leo</code> fagna smá þegar hann skorar
           mörk. Smelltu á köttinn og gefðu honum eftirfarandi örforrit:
         </p>
         <pre><code class="blocks">þegar ég fæ sent [Mark v]
@@ -442,8 +441,8 @@ segðu [Já, ég skoraði!!] í (2) sekúndur
       </li>
       <li>
         <p>
-          [ ] Gerðu svipað örforrit þar sem <code>Leo</code> segir eitthvað um
-          að hann sé leiður vegna þess að skotið hans var varið. Prófaðu þetta á
+          Gerðu svipað örforrit þar sem <code>Leo</code> segir eitthvað um að
+          hann sé leiður vegna þess að skotið hans var varið. Prófaðu þetta á
           eigin spýtur!
         </p>
       </li>
@@ -456,10 +455,10 @@ segðu [Já, ég skoraði!!] í (2) sekúndur
     <p><strong>Smelltu á græna fánann.</strong></p>
     <ul>
       <li>
-        <p>[ ] Geturðu skorað mörk?</p>
+        <p>Geturðu skorað mörk?</p>
       </li>
       <li>
-        <p>[ ] Getur markvörðurinn varið einhver skot?</p>
+        <p>Getur markvörðurinn varið einhver skot?</p>
       </li>
     </ul>
   </section>
@@ -497,20 +496,19 @@ segðu [Já, ég skoraði!!] í (2) sekúndur
     </p>
     <ul>
       <li>
-        <p>[ ] Smelltu á senuna hægra megin við kóðunarsvæðið.</p>
+        <p>Smelltu á senuna hægra megin við kóðunarsvæðið.</p>
       </li>
       <li>
         <p>
-          [ ] Smelltu á flipann <code class="blockdata">Breytur</code> og búðu
-          til nýja breytu. Gefðu nýju breytunni nafnið <code>Mörk</code>.
-          Athugaðu að nýr kassi birtist á senunni sem merktur er
-          <code>Mörk</code> og sem sýnir númerið
-          <code class="blockdata">0</code>.
+          Smelltu á flipann <code class="blockdata">Breytur</code> og búðu til
+          nýja breytu. Gefðu nýju breytunni nafnið <code>Mörk</code>. Athugaðu
+          að nýr kassi birtist á senunni sem merktur er <code>Mörk</code> og sem
+          sýnir númerið <code class="blockdata">0</code>.
         </p>
       </li>
       <li>
         <p>
-          [ ] Við munum nú telja mörkin. Búðu til nýtt örforrit sem breytir
+          Við munum nú telja mörkin. Búðu til nýtt örforrit sem breytir
           <code class="b">(Mörk)</code> í hvert skipti sem skilaboðin
           <code>Mark</code> eru send með því að búa til þetta örforrit á
           senunni:
@@ -521,14 +519,12 @@ breyttu [Mörk v] um (1)
       </li>
       <li>
         <p>
-          [ ] Við getum gert það sama til að telja hversu oft markmaðurinn
-          varði. Búðu til nýja breytu sem heitir <code class="b">(Varin)</code>.
+          Við getum gert það sama til að telja hversu oft markmaðurinn varði.
+          Búðu til nýja breytu sem heitir <code class="b">(Varin)</code>.
         </p>
       </li>
       <li>
-        <p>
-          [ ] Búðu til nýtt örforrit til að telja hversu mörg skot eru varin:
-        </p>
+        <p>Búðu til nýtt örforrit til að telja hversu mörg skot eru varin:</p>
         <pre><code class="blocks">þegar ég fæ sent [Varið v]
 breyttu [Varin v] um (1)
 </code></pre>
@@ -542,11 +538,11 @@ breyttu [Varin v] um (1)
     <p><strong>Smelltu á græna fánann.</strong></p>
     <ul>
       <li>
-        <p>[ ] Telur leikurinn hvert skipti sem þú skorar mörk?</p>
+        <p>Telur leikurinn hvert skipti sem þú skorar mörk?</p>
       </li>
       <li>
         <p>
-          [ ] Telur leikurinn einnig hvert skipti sem markvörðurinn ver boltann?
+          Telur leikurinn einnig hvert skipti sem markvörðurinn ver boltann?
         </p>
       </li>
     </ul>
@@ -561,17 +557,16 @@ breyttu [Varin v] um (1)
     <ul>
       <li>
         <p>
-          [ ] Í fyrsta lagi munum við búa til tvo nýja bakgrunni, einn sem við
-          getum notað ef leikmaðurinn vinnur (kötturinn skorar 10 sinnum) og
-          einn sem við notum ef leikmaðurinn tapar (markvörðurinn ver 10
-          sinnum). Smelltu á flipann <code>Bakgrunnar</code>. Hægrismelltu á
-          litlu útgáfuna af bakgrunninum þínum og veldu
-          <code>Gerðu afrit</code>.
+          Í fyrsta lagi munum við búa til tvo nýja bakgrunni, einn sem við getum
+          notað ef leikmaðurinn vinnur (kötturinn skorar 10 sinnum) og einn sem
+          við notum ef leikmaðurinn tapar (markvörðurinn ver 10 sinnum). Smelltu
+          á flipann <code>Bakgrunnar</code>. Hægrismelltu á litlu útgáfuna af
+          bakgrunninum þínum og veldu <code>Gerðu afrit</code>.
         </p>
       </li>
       <li>
         <p>
-          [ ] Veldu viðeigandi lit og smelltu síðan á textaverkfærið. Veldu
+          Veldu viðeigandi lit og smelltu síðan á textaverkfærið. Veldu
           leturgerðina <code>Marker</code> neðst á skjánum. Skrifaðu texta eins
           og <code>Til hamingu, þú vannst!</code>
           svolítið hátt á afritinu af bakgrunninum. Gefðu þessum bakgrunni
@@ -581,13 +576,13 @@ breyttu [Varin v] um (1)
       </li>
       <li>
         <p>
-          [ ] Búðu til nýtt afrit af upprunalega bakgrunninum. Gefðu þessum
+          Búðu til nýtt afrit af upprunalega bakgrunninum. Gefðu þessum
           bakgrunni nafnið <code>Tap</code> og skrifaðu viðeigandi texta.
         </p>
       </li>
       <li>
         <p>
-          [ ] Búðu til örforrit á bakgrunninn sem setur breyturnar þínar í 0 í
+          Búðu til örforrit á bakgrunninn sem setur breyturnar þínar í 0 í
           upphafi leiksins.
         </p>
         <pre><code class="blocks">þegar smellt er á @greenFlag
@@ -599,7 +594,7 @@ senda [Nýtt spark v]
       </li>
       <li>
         <p>
-          [ ] Við munum spila án þess að þurfa að smella á græna fánann í hvert
+          Við munum spila án þess að þurfa að smella á græna fánann í hvert
           skipti sem við tökum vítaspyrnu. Fyrir þetta notum við skilaboðin
           <code>Nýtt spark</code>. Við verðum nú að skipta um
         </p>
@@ -619,7 +614,7 @@ fara til x: (-90) og y: (-60)
       </li>
       <li>
         <p>
-          [ ] Að lokum prófum við hvort við höfum skorað 10 mörk eða hvort
+          Að lokum prófum við hvort við höfum skorað 10 mörk eða hvort
           markvörðurinn hefur varið 10 sinnum. Breyttu
           <code>Mark</code> örforritinu á senunni þannig að það líti svona út:
         </p>
@@ -636,8 +631,7 @@ end
       </li>
       <li>
         <p>
-          [ ] Á sama hátt skaltu breyta <code>Varið</code> örforritinu á
-          senunni:
+          Á sama hátt skaltu breyta <code>Varið</code> örforritinu á senunni:
         </p>
         <pre><code class="blocks">þegar ég fæ sent [Varið v]
 breyttu [Varin v] um (1)
@@ -660,22 +654,21 @@ end
     <ul>
       <li>
         <p>
-          [ ] Færðu að taka margar vítaspyrnur án þess að þurfa að smella á
-          græna fánann í hvert skipti?
+          Færðu að taka margar vítaspyrnur án þess að þurfa að smella á græna
+          fánann í hvert skipti?
         </p>
       </li>
       <li>
-        <p>[ ] Breytist leikurinn í réttan bakgrunn ef þú skorar 10 mörk?</p>
+        <p>Breytist leikurinn í réttan bakgrunn ef þú skorar 10 mörk?</p>
       </li>
       <li>
         <p>
-          [ ] Breytist leikurinn í réttan bakgrunn ef markvörðurinn ver 10
-          sinnum?
+          Breytist leikurinn í réttan bakgrunn ef markvörðurinn ver 10 sinnum?
         </p>
       </li>
       <li>
         <p>
-          [ ] Endurstillir þú breyturnar <code>mörk</code> og
+          Endurstillir þú breyturnar <code>mörk</code> og
           <code>varin</code> þegar þú smellir á græna fánann?
         </p>
       </li>

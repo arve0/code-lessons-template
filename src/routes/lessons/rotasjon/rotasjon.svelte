@@ -28,17 +28,17 @@
     <h2 class="check" id="sjekkliste">Sjekkliste</h2>
     <ul>
       <li>
-        <p>[ ] Start et nytt prosjekt.</p>
+        <p>Start et nytt prosjekt.</p>
       </li>
       <li>
         <p>
-          [ ] Slett kattefiguren ved å høyreklikke på den og velge
+          Slett kattefiguren ved å høyreklikke på den og velge
           <code>slett</code>.
         </p>
       </li>
       <li>
         <p>
-          [ ] Legg til en ny figur. Klikk på
+          Legg til en ny figur. Klikk på
           <img
             src="lessons/rotasjon/../bilder/hent-fra-bibliotek.png"
             alt="Velg figur frabiblioteket"
@@ -47,11 +47,11 @@
         </p>
       </li>
       <li>
-        <p>[ ] Gi den nye figuren navnet <code>Hattulf</code>.</p>
+        <p>Gi den nye figuren navnet <code>Hattulf</code>.</p>
       </li>
       <li>
         <p>
-          [ ] Før vi begynner med selve oppgaven, skal vi legge inn en liten
+          Før vi begynner med selve oppgaven, skal vi legge inn en liten
           hjelpefunksjon om noe uventet skulle skje:
         </p>
         <pre><code class="blocks">når [n v] trykkes
@@ -62,9 +62,9 @@ gå til x: (0) y: (0)
       </li>
       <li>
         <p>
-          [ ] Skulle noe uventet skje nå, trenger du bare å trykke på tasten N
-          på tastaturet, så vil Hattulf gå tilbake til utgangspunktet, slik at
-          du kan prøve på nytt.
+          Skulle noe uventet skje nå, trenger du bare å trykke på tasten N på
+          tastaturet, så vil Hattulf gå tilbake til utgangspunktet, slik at du
+          kan prøve på nytt.
         </p>
       </li>
     </ul>
@@ -74,7 +74,7 @@ gå til x: (0) y: (0)
     </p>
     <ul>
       <li>
-        <p>[ ] Legg til følgende skript på <code>Hattulf</code>-figuren din.</p>
+        <p>Legg til følgende skript på <code>Hattulf</code>-figuren din.</p>
         <pre><code class="blocks">når @greenFlag klikkes
 snu @turnRight (90) grader
 </code></pre>
@@ -86,21 +86,21 @@ snu @turnRight (90) grader
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Hva skjer når du trykker på det grønne flagget?</p>
+        <p>Hva skjer når du trykker på det grønne flagget?</p>
       </li>
       <li>
-        <p>[ ] Roterer hatten som forventet?</p>
+        <p>Roterer hatten som forventet?</p>
       </li>
       <li>
         <p>
-          [ ] Hva tror du skjer om du trykker på det grønne flagget en gang til?
-          I hvilken retning vil toppen av hatten peke?
+          Hva tror du skjer om du trykker på det grønne flagget en gang til? I
+          hvilken retning vil toppen av hatten peke?
         </p>
       </li>
       <li>
         <p>
-          [ ] Hvor mange ganger må du be hatten om å rotere før den er tilbake
-          til utgangspunktet?
+          Hvor mange ganger må du be hatten om å rotere før den er tilbake til
+          utgangspunktet?
         </p>
       </li>
     </ul>
@@ -113,7 +113,7 @@ snu @turnRight (90) grader
     </p>
     <ul>
       <li>
-        <p>[ ] Halver antall grader hatten skal rotere per gang:</p>
+        <p>Halver antall grader hatten skal rotere per gang:</p>
         <pre><code class="blocks">når @greenFlag klikkes
 snu @turnRight (45) grader
 </code></pre>
@@ -126,16 +126,15 @@ snu @turnRight (45) grader
     <ul>
       <li>
         <p>
-          [ ] Hvor mange ganger må du trykke på hatten for at den skal rotere
-          hele veien rundt nå?
+          Hvor mange ganger må du trykke på hatten for at den skal rotere hele
+          veien rundt nå?
         </p>
       </li>
       <li>
         <p>
-          [ ] Fortsett å halvere antall grader hatten skal rotere. Prøv å finne
-          en sammenheng mellom hvor mange grader den roteres, og hvor mange
-          ganger du må trykke på det grønne flagget for at den skal roteres helt
-          rundt.
+          Fortsett å halvere antall grader hatten skal rotere. Prøv å finne en
+          sammenheng mellom hvor mange grader den roteres, og hvor mange ganger
+          du må trykke på det grønne flagget for at den skal roteres helt rundt.
         </p>
       </li>
     </ul>
@@ -157,8 +156,8 @@ snu @turnRight (45) grader
     <ul>
       <li>
         <p>
-          [ ] Vi legger til en <code class="blockcontrol">styring</code>-kloss
-          som ber hatten om å rotere et bestemt antall ganger:
+          Vi legger til en <code class="blockcontrol">styring</code>-kloss som
+          ber hatten om å rotere et bestemt antall ganger:
         </p>
         <pre><code class="blocks">når @greenFlag klikkes
 gjenta (8) ganger
@@ -167,7 +166,7 @@ snu @turnRight (45) grader
       </li>
       <li>
         <p>
-          [ ] Tips: For hver gang du halverer vinkelen, må du doble antall
+          Tips: For hver gang du halverer vinkelen, må du doble antall
           repetisjoner for at hatten skal snurre like langt.
         </p>
       </li>
@@ -181,10 +180,10 @@ snu @turnRight (45) grader
   <ul>
     <li>
       <p>
-        [ ] Du vet kanskje at vi vanligvis omtaler en sirkel som 360 grader.
-        Hvis du fortsetter å halvere antall grader forbi 1,40625, vil du oppdage
-        at gradene blir mindre enn 1, og vi må gjenta roteringen 512 ganger.
-        Selv om dette selvfølgelig er mulig, og absolutt nødvendig i enkelte
+        Du vet kanskje at vi vanligvis omtaler en sirkel som 360 grader. Hvis du
+        fortsetter å halvere antall grader forbi 1,40625, vil du oppdage at
+        gradene blir mindre enn 1, og vi må gjenta roteringen 512 ganger. Selv
+        om dette selvfølgelig er mulig, og absolutt nødvendig i enkelte
         sammenhenger, er det ikke nøvendig for oss nå. Vi tar derfor en snarvei
         her, og røper at Hattulf skal rotere 1 grad 360 ganger.
       </p>
@@ -200,16 +199,16 @@ snu @turnRight (1) grader
     <ul>
       <li>
         <p>
-          [ ] Roterer hatten hele veien rundt seg selv når du trykker på grønt
+          Roterer hatten hele veien rundt seg selv når du trykker på grønt
           flagg?
         </p>
       </li>
       <li>
         <p>
-          [ ] Ved å sette antall grader du roterer pr gang til 1, hvor mange
-          ganger må du rotere <code>Hattulf</code> for at han skal gjøre to
-          fulle roteringer? Hva med tre og en halv rotasjon? Ser disse tallene
-          kjent ut?
+          Ved å sette antall grader du roterer pr gang til 1, hvor mange ganger
+          må du rotere <code>Hattulf</code> for at han skal gjøre to fulle
+          roteringer? Hva med tre og en halv rotasjon? Ser disse tallene kjent
+          ut?
         </p>
       </li>
     </ul>
@@ -218,7 +217,7 @@ snu @turnRight (1) grader
     <h2 id="avslutning">Avslutning</h2>
     <ul>
       <li>
-        [ ] Lagre prosjektet ved å gi det et navn, for eksempel &quot;Geometri
+        Lagre prosjektet ved å gi det et navn, for eksempel &quot;Geometri
         1&quot;
       </li>
     </ul>

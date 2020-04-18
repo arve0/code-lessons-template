@@ -27,13 +27,13 @@
     <ul>
       <li>
         <p>
-          [ ] Start et nytt Scratch-prosjekt. <strong>Slett katten</strong> ved
-          å høyreklikke og velge <code>slett</code>.
+          Start et nytt Scratch-prosjekt. <strong>Slett katten</strong> ved å
+          høyreklikke og velge <code>slett</code>.
         </p>
       </li>
       <li>
         <p>
-          [ ] Importer <strong>en ny figur</strong>,
+          Importer <strong>en ny figur</strong>,
           <img
             src="lessons/enarmet_banditt/../bilder/hent-fra-bibliotek.png"
             alt="Velg figur fra biblioteket"
@@ -42,7 +42,7 @@
       </li>
       <li>
         <p>
-          [ ] Gå til <code class="blocklightgrey">Drakter</code>, og importer to
+          Gå til <code class="blocklightgrey">Drakter</code>, og importer to
           ekstra drakter fra biblioteket, slik at figuren har tre drakter til
           sammen. Det er bra om draktene er ganske forskjellige.
         </p>
@@ -64,10 +64,10 @@
     <h2 class="check" id="sjekkliste-2">Sjekkliste</h2>
     <ul>
       <li>
-        <p>[ ] Klikk på <code>Kode</code>-fanen,</p>
+        <p>Klikk på <code>Kode</code>-fanen,</p>
       </li>
       <li>
-        <p>[ ] Legg til dette skriptet:</p>
+        <p>Legg til dette skriptet:</p>
         <pre><code class="blocks">Når @greenFlag klikkes
 gjenta for alltid
     neste drakt
@@ -77,7 +77,7 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Tilpass tiden i <code class="blockcontrol">vent</code>-klossen til
+          Tilpass tiden i <code class="blockcontrol">vent</code>-klossen til
           figuren endrer drakt i et passende tempo. Hva tror du ville skjedd om
           vi ikke hadde med <code class="blockcontrol">vent</code>-klossen?
         </p>
@@ -88,7 +88,7 @@ slutt
     <h2 class="flag" id="test-prosjektet">Test Prosjektet</h2>
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
-      <li>[ ] Endrer figuren drakt i et fornuftig tempo?</li>
+      <li>Endrer figuren drakt i et fornuftig tempo?</li>
     </ul>
   </section>
   <section class="challenge">
@@ -118,7 +118,7 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Klikk på <code class="blockdata">Variabler</code> og
+          Klikk på <code class="blockdata">Variabler</code> og
           <code>Lag en variabel</code>. Kall variabelen
           <code class="blockdata">stoppet</code> og huk av for
           <code>For denne figuren</code>. Fjern avhukingen foran variabelen slik
@@ -127,8 +127,8 @@ slutt
       </li>
       <li>
         <p>
-          [ ] På starten av spillet vil ikke figuren ha blitt klikket så da
-          setter vi variabelen til <code>0</code>.
+          På starten av spillet vil ikke figuren ha blitt klikket så da setter
+          vi variabelen til <code>0</code>.
         </p>
         <pre><code class="blocks">når @greenFlag klikkes
 sett [stoppet v] til [0]
@@ -140,9 +140,8 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Nå vil vi sette variabelen
-          <code class="blockdata">stoppet</code> til <code>1</code> når noen
-          klikker på figuren.
+          Nå vil vi sette variabelen <code class="blockdata">stoppet</code> til
+          <code>1</code> når noen klikker på figuren.
         </p>
         <pre><code class="blocks">når denne figuren klikkes
 sett [stoppet v] til [1]
@@ -150,7 +149,7 @@ sett [stoppet v] til [1]
       </li>
       <li>
         <p>
-          [ ] Til slutt må vi få figuren til å slutte å forandre drakt når
+          Til slutt må vi få figuren til å slutte å forandre drakt når
           variabelen <code class="blockdata">stoppet</code> blir <code>1</code>.
           Legg til en <code class="blockcontrol">hvis</code>-løkke og bruk en
           <code class="b">&lt;() = ()&gt;</code> operator-kloss for å sjekke om
@@ -173,10 +172,10 @@ slutt
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Endres drakten før du klikker på den?</p>
+        <p>Endres drakten før du klikker på den?</p>
       </li>
       <li>
-        <p>[ ] Stopper den når du klikker på den?</p>
+        <p>Stopper den når du klikker på den?</p>
       </li>
     </ul>
     <p>
@@ -187,14 +186,12 @@ slutt
     </p>
     <ul>
       <li>
-        <p>
-          [ ] Stopper figuren når du setter musepekeren over den uten å klikke?
-        </p>
+        <p>Stopper figuren når du setter musepekeren over den uten å klikke?</p>
       </li>
       <li>
         <p>
-          [ ] Stopper den når du klikker andre steder på scenen eller andre
-          steder i Scratch?
+          Stopper den når du klikker andre steder på scenen eller andre steder i
+          Scratch?
         </p>
       </li>
     </ul>
@@ -210,20 +207,20 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] <strong>Dupliser figuren din</strong> ved å høyreklikke på den og
+          <strong>Dupliser figuren din</strong> ved å høyreklikke på den og
           velge <code>lag en kopi</code>.
         </p>
       </li>
       <li>
         <p>
-          [ ] Lag en kopi til slik at du har tre figurer på skjermen. Vi har
-          kalt våre figurer <code>Figur1</code>, <code>Figur2</code> og
+          Lag en kopi til slik at du har tre figurer på skjermen. Vi har kalt
+          våre figurer <code>Figur1</code>, <code>Figur2</code> og
           <code>Figur3</code>.
         </p>
       </li>
       <li>
         <p>
-          [ ] Flytt figurene slik at de er en linje. Gjør figurene mindre ved å
+          Flytt figurene slik at de er en linje. Gjør figurene mindre ved å
           skrive inn et mindre tall enn &quot;100&quot; i feltet
           &quot;Størrelse&quot;, hvis det trengs.
         </p>
@@ -235,7 +232,7 @@ slutt
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        [ ] Alle figurene skal nå forandre seg. Prøv å stoppe dem, én etter én!
+        Alle figurene skal nå forandre seg. Prøv å stoppe dem, én etter én!
       </li>
     </ul>
   </section>
@@ -260,23 +257,22 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Hvis du ser under
-          <code class="blocklightgrey">Drakter</code>-fanen til en figur vil du
-          se at hver drakt har et nummer. Du kan spesifisere hvilken drakt
-          figuren skal ha ved å bruke enten navnet eller nummeret.
+          Hvis du ser under <code class="blocklightgrey">Drakter</code>-fanen
+          til en figur vil du se at hver drakt har et nummer. Du kan spesifisere
+          hvilken drakt figuren skal ha ved å bruke enten navnet eller nummeret.
         </p>
       </li>
       <li>
         <p>
-          [ ] For å få figuren til å starte med en tilfeldig drakt, la oss legge
-          til en <code class="b">bytt drakt til ()</code>-kloss med
+          For å få figuren til å starte med en tilfeldig drakt, la oss legge til
+          en <code class="b">bytt drakt til ()</code>-kloss med
           <code class="b">tilfeldig tall fra (1) til (3)</code> for å velge
           draktnummer.
         </p>
       </li>
       <li>
         <p>
-          [ ] Vi kan også bruke den samme klossen i
+          Vi kan også bruke den samme klossen i
           <code class="blockcontrol">gjenta for alltid</code>-løkken slik at
           figuren skifter til en ulik drakt hver gang den forandres.
         </p>
@@ -292,7 +288,7 @@ slutt
 </code></pre>
       </li>
       <li>
-        <p>[ ] Gjør det samme for hver av de andre figurene.</p>
+        <p>Gjør det samme for hver av de andre figurene.</p>
       </li>
     </ul>
   </section>
@@ -301,12 +297,11 @@ slutt
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Alle figurene skal nå skifte drakter i tilfeldig rekkefølge.</p>
+        <p>Alle figurene skal nå skifte drakter i tilfeldig rekkefølge.</p>
       </li>
       <li>
         <p>
-          [ ] Hvordan må vi forandre skriptet dersom vi legger til en annen
-          drakt?
+          Hvordan må vi forandre skriptet dersom vi legger til en annen drakt?
         </p>
       </li>
     </ul>
@@ -321,13 +316,13 @@ slutt
     </p>
     <ul>
       <li>
-        <p>[ ] Endre antall drakter hver figur har.</p>
+        <p>Endre antall drakter hver figur har.</p>
       </li>
       <li>
-        <p>[ ] Gi noen av figurene helt forskjellige drakter.</p>
+        <p>Gi noen av figurene helt forskjellige drakter.</p>
       </li>
       <li>
-        <p>[ ] Bruk forskjellige tider mellom hvert draktbytte.</p>
+        <p>Bruk forskjellige tider mellom hvert draktbytte.</p>
       </li>
     </ul>
     <p><strong>Lek og kom opp meg egne idéer!</strong></p>
@@ -354,14 +349,14 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Klikk på scenen og deretter på
+          Klikk på scenen og deretter på
           <code class="blocklightgrey">Bakgrunner</code>-fanen. Forandre navnet
           på den eksisterende bakgrunnen til <code>Spill</code>.
         </p>
       </li>
       <li>
         <p>
-          [ ] Lag en kopi av bakgrunnen og legg til en tekst som sier
+          Lag en kopi av bakgrunnen og legg til en tekst som sier
           <code>Spillet er slutt!</code>. Du kan forandre størrelsen på teksten
           ved å klikke på den og dra i hjørnene. Kall bakgrunnen
           <code>Slutt</code>.
@@ -369,15 +364,15 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Klikk på <code>Kode</code>-fanen for scenen og pass på at du
-          bytter til <code>Spill</code>-bakgrunnen når spillet starter.
+          Klikk på <code>Kode</code>-fanen for scenen og pass på at du bytter
+          til <code>Spill</code>-bakgrunnen når spillet starter.
         </p>
       </li>
       <li>
         <p>
-          [ ] Hvordan kan vi sjekke om alle figurene har stoppet? Husk at vi
-          brukte <code class="blockdata">stoppet</code>-variabelene for å sjekke
-          om figurene hadde blitt klikket på. La oss sjekke
+          Hvordan kan vi sjekke om alle figurene har stoppet? Husk at vi brukte
+          <code class="blockdata">stoppet</code>-variabelene for å sjekke om
+          figurene hadde blitt klikket på. La oss sjekke
           <code class="blockdata">stoppet</code>-variabelen for
           <code>Figur3</code> for å se om den er klikket. For å gjøre dette
           bruker vi en
@@ -399,13 +394,13 @@ bytt bakgrunn til [Slutt v]
     <ul>
       <li>
         <p>
-          [ ] Vises <code>Spillet er slutt</code>-meldingen når du klikker på
+          Vises <code>Spillet er slutt</code>-meldingen når du klikker på
           <code>Figur3</code>?
         </p>
       </li>
       <li>
         <p>
-          [ ] Hva skjer dersom du stopper <code>Figur3</code> før du har klikket
+          Hva skjer dersom du stopper <code>Figur3</code> før du har klikket
           begge de andre figurene?
         </p>
       </li>
@@ -420,7 +415,7 @@ bytt bakgrunn til [Slutt v]
     <ul>
       <li>
         <p>
-          [ ] For å sjekke om <strong>alle tre</strong> figurene sine
+          For å sjekke om <strong>alle tre</strong> figurene sine
           <code class="blockdata">stoppet</code>-variabler er satt til
           <code>1</code>, kan vi bruke
           <code class="blockoperators">og</code>-operatoren. Dette er en
@@ -443,8 +438,8 @@ bytt bakgrunn til [Slutt v]
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        [ ] Vises <code>Spillet er slutt</code>-meldingen når alle tre figurene
-        er stoppet, uansett hvilken rekkefølge du klikket på dem?
+        Vises <code>Spillet er slutt</code>-meldingen når alle tre figurene er
+        stoppet, uansett hvilken rekkefølge du klikket på dem?
       </li>
     </ul>
   </section>
@@ -469,25 +464,25 @@ bytt bakgrunn til [Slutt v]
     <ul>
       <li>
         <p>
-          [ ] Gå tilbake til bakgrunnene. Gi bakgrunnen <code>Slutt</code> et
-          nytt navn, og kall den for <code>Vinner</code>.
+          Gå tilbake til bakgrunnene. Gi bakgrunnen <code>Slutt</code> et nytt
+          navn, og kall den for <code>Vinner</code>.
         </p>
       </li>
       <li>
         <p>
-          [ ] Legg til teksten <code>Du vant!</code> på
+          Legg til teksten <code>Du vant!</code> på
           <code>Vinner</code>-bakgrunnen.
         </p>
       </li>
       <li>
         <p>
-          [ ] Lag en kopi av <code>Vinner</code>-bakgrunnen. Kall den nye
-          bakgrunnen for <code>Taper</code>.
+          Lag en kopi av <code>Vinner</code>-bakgrunnen. Kall den nye bakgrunnen
+          for <code>Taper</code>.
         </p>
       </li>
       <li>
         <p>
-          [ ] I <code>Taper</code>-bakgrunnen kan du skrive teksten
+          I <code>Taper</code>-bakgrunnen kan du skrive teksten
           <code>Du tapte!</code>.
         </p>
       </li>
@@ -499,9 +494,8 @@ bytt bakgrunn til [Slutt v]
     <ul>
       <li>
         <p>
-          [ ] Vi kan bruke en
-          <code class="blockcontrol">hvis ellers</code> kloss for å se om
-          brukeren har vunnet eller tapt ved å sammenligne
+          Vi kan bruke en <code class="blockcontrol">hvis ellers</code> kloss
+          for å se om brukeren har vunnet eller tapt ved å sammenligne
           <code>drakt nr.</code> (drakt nummer). Vi bruker en kloss som ligner
           på <code class="blocksensing">x-posisjon av Figur</code>-klossen vi
           brukte tidligere. Denne gangen, istedet for å se på
@@ -527,10 +521,10 @@ slutt
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Vises den riktige meldingen når spillet er over?</p>
+        <p>Vises den riktige meldingen når spillet er over?</p>
       </li>
       <li>
-        <p>[ ] Hva skjer hvis draktnummerene ikke er like?</p>
+        <p>Hva skjer hvis draktnummerene ikke er like?</p>
       </li>
     </ul>
     <p>

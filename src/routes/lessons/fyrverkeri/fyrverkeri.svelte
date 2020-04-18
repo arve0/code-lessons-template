@@ -24,7 +24,7 @@
     <ul>
       <li>
         <p>
-          [ ] Last ned zip-filen
+          Last ned zip-filen
           <a href="lessons/fyrverkeri/fyrverkeri_lydogbilder.zip"
             >fyrverkeri_lydogbilder.zip</a
           >
@@ -34,7 +34,7 @@
       </li>
       <li>
         <p>
-          [ ] Pakk ut zip-filen ved å høyreklikke på den og velge
+          Pakk ut zip-filen ved å høyreklikke på den og velge
           <code>Extract All</code>, <code>Pakk ut filer</code> eller noe
           lignende.
         </p>
@@ -57,19 +57,19 @@
     <ul>
       <li>
         <p>
-          [ ] Lag et nytt Scratch-prosjekt. Fjern katten ved å høyreklikke på
-          den og velge <code>slett</code>.
+          Lag et nytt Scratch-prosjekt. Fjern katten ved å høyreklikke på den og
+          velge <code>slett</code>.
         </p>
       </li>
       <li>
         <p>
-          [ ] Bytt bakgrunnsbilde til for eksempel
+          Bytt bakgrunnsbilde til for eksempel
           <code>utendørs/city-with-water</code>.
         </p>
       </li>
       <li>
         <p>
-          [ ] Klikk på <em>Ny figur: Last opp figur fra fil</em>,
+          Klikk på <em>Ny figur: Last opp figur fra fil</em>,
           <img
             src="lessons/fyrverkeri/../bilder/hent-fra-fil.png"
             alt="Last opp figur frafil"
@@ -79,8 +79,7 @@
       </li>
       <li>
         <p>
-          [ ] Vi vil at raketten skal skjules når du klikker på det grønne
-          flagget.
+          Vi vil at raketten skal skjules når du klikker på det grønne flagget.
         </p>
         <pre><code class="blocks">når grønt flagg klikkes
 skjul
@@ -94,7 +93,7 @@ skjul
     <ul>
       <li>
         <p>
-          [ ] Legg til en kloss
+          Legg til en kloss
           <code class="blockevents">når mellomrom trykkes</code>. Deretter lager
           vi to klosser som gjør raketten synlig og lar den bevege seg mot
           musepekeren.
@@ -111,15 +110,15 @@ gli (1) sekunder til x: (mus x) y: (mus y)
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Plasser musepekeren over scenen og trykk mellomromstasten.</p>
+        <p>Plasser musepekeren over scenen og trykk mellomromstasten.</p>
       </li>
       <li>
-        <p>[ ] Ser du raketten som beveger seg mot musepekeren?</p>
+        <p>Ser du raketten som beveger seg mot musepekeren?</p>
       </li>
       <li>
         <p>
-          [ ] Hva skjer hvis du flytter på musepekeren og trykker
-          mellomromstasten igjen?
+          Hva skjer hvis du flytter på musepekeren og trykker mellomromstasten
+          igjen?
         </p>
       </li>
     </ul>
@@ -133,7 +132,7 @@ gli (1) sekunder til x: (mus x) y: (mus y)
     <ul>
       <li>
         <p>
-          [ ] Før du fyrer opp raketten: bruk klossen
+          Før du fyrer opp raketten: bruk klossen
           <code class="blockmotion">gå til</code> for å få raketten til å flytte
           seg til bunnen av skjermen, men slik at den er samme sted horisontalt.
         </p>
@@ -153,15 +152,14 @@ gli (1) sekunder til x: (mus x) y: (mus y)
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Trykk mellomromstasten.</p>
+        <p>Trykk mellomromstasten.</p>
       </li>
       <li>
-        <p>[ ] Flyr raketten mot musepekeren fra bunnen av skjermen?</p>
+        <p>Flyr raketten mot musepekeren fra bunnen av skjermen?</p>
       </li>
       <li>
         <p>
-          [ ] Hva skjer hvis du flytter på musa og trykker mellomromstasten
-          igjen?
+          Hva skjer hvis du flytter på musa og trykker mellomromstasten igjen?
         </p>
       </li>
     </ul>
@@ -171,15 +169,15 @@ gli (1) sekunder til x: (mus x) y: (mus y)
     <ul>
       <li>
         <p>
-          [ ] Endelig, prøv å få til det samme ved å bruke museknappen i stedet
-          for mellomromstasten. For å gjøre dette kan vi pakke skriptet vårt inn
-          i <code class="blockcontrol">for alltid</code>- og
+          Endelig, prøv å få til det samme ved å bruke museknappen i stedet for
+          mellomromstasten. For å gjøre dette kan vi pakke skriptet vårt inn i
+          <code class="blockcontrol">for alltid</code>- og
           <code class="blockcontrol">hvis museknappen er trykket</code>-klosser.
         </p>
       </li>
       <li>
         <p>
-          [ ] Flytt skriptet fra
+          Flytt skriptet fra
           <code class="blockevents">når mellomrom trykkes</code> til
           <code class="blockevents">når grønt flagg klikkes</code>, slik at det
           blir seende slik ut:
@@ -202,10 +200,10 @@ slutt
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Klikk musknappen over scenen. Klikk igjen et annet sted.</p>
+        <p>Klikk musknappen over scenen. Klikk igjen et annet sted.</p>
       </li>
       <li>
-        <p>[ ] Kommer det raketter flyvende?</p>
+        <p>Kommer det raketter flyvende?</p>
       </li>
     </ul>
   </section>
@@ -214,13 +212,13 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Prøv å få noen raketter til å bevege seg litt saktere eller
-          fortere enn andre.
+          Prøv å få noen raketter til å bevege seg litt saktere eller fortere
+          enn andre.
         </p>
       </li>
       <li>
         <p>
-          [ ] Prøv å endre måten raketten flyr mot musepekeren på: få den for
+          Prøv å endre måten raketten flyr mot musepekeren på: få den for
           eksempel til å bue seg litt.
         </p>
       </li>
@@ -237,7 +235,7 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Første steg for å få raketten til å eksplodere er å spille av en
+          Første steg for å få raketten til å eksplodere er å spille av en
           bang-lyd før den begynner å bevege seg, og deretter gjemme seg når den
           når musepekeren. For å importere en lyd gå til fanen
           <code class="blocklightgrey">Lyder</code> og klikk på
@@ -262,7 +260,7 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Neste steg er å få raketten til å sende en melding til resten av
+          Neste steg er å få raketten til å sende en melding til resten av
           spillet når den eksploderer. Vi skal lytte etter meldingen senere. Lag
           en ny melding som heter <code>Eksploder</code>.
         </p>
@@ -288,13 +286,13 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Sørg for at raketten spiller av lyden og gjemmer seg når den når
+          Sørg for at raketten spiller av lyden og gjemmer seg når den når
           musepekeren.
         </p>
       </li>
       <li>
         <p>
-          [ ] Prøv å endre tallet i <code class="blockmotion">gli</code>-klossen
+          Prøv å endre tallet i <code class="blockmotion">gli</code>-klossen
           slik at raketten skjules akkurat samtidig som det smeller.
         </p>
       </li>
@@ -305,14 +303,14 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Last opp en ny figur fra fil,
+          Last opp en ny figur fra fil,
           <code>fyrverkeri_lydogbilder/firework1.png</code>.
         </p>
       </li>
       <li>
         <p>
-          [ ] Når denne figuren får meldingen <code>Eksploder</code> passer vi
-          på at den er gjemt, flytter den til raketten ved bruk av klossen
+          Når denne figuren får meldingen <code>Eksploder</code> passer vi på at
+          den er gjemt, flytter den til raketten ved bruk av klossen
           <code class="blockmotion">gå til</code>, viser den og skjuler den
           igjen 1 sekund senere.
         </p>
@@ -332,13 +330,12 @@ skjul
     <ul>
       <li>
         <p>
-          [ ] Blir raketten erstattet av et eksplosjonsbilde når den
-          eksploderer?
+          Blir raketten erstattet av et eksplosjonsbilde når den eksploderer?
         </p>
       </li>
       <li>
         <p>
-          [ ] Hva skjer hvis du holder musknappen nede mens du beveger på musa?
+          Hva skjer hvis du holder musknappen nede mens du beveger på musa?
           (Ikke bekymre deg, vi skal fikse det senere.)
         </p>
       </li>
@@ -360,7 +357,7 @@ skjul
     <ul>
       <li>
         <p>
-          [ ] Vi kan gjøre hver eksplosjon unik ved å bruke klossen
+          Vi kan gjøre hver eksplosjon unik ved å bruke klossen
           <code class="blocklooks">sett fargeeffekt</code> og velge en tilfeldig
           farge før eksplosjonen vises.
         </p>
@@ -375,8 +372,8 @@ skjul
       </li>
       <li>
         <p>
-          [ ] Legg til forskjellige bilder av eksplosjoner som drakter ved å
-          velge <code class="blocklightgrey">Drakter</code>-fanen til
+          Legg til forskjellige bilder av eksplosjoner som drakter ved å velge
+          <code class="blocklightgrey">Drakter</code>-fanen til
           <code>firework1</code>. Ved å klikke <em>Last opp drakt fra fil</em>,
           <img
             src="lessons/fyrverkeri/../bilder/hent-fra-fil.png"
@@ -388,8 +385,8 @@ skjul
       </li>
       <li>
         <p>
-          [ ] Klarer du å få eksplosjonene til å bruke forskjellige drakter?
-          (Hint: Du kan for eksempel bruke
+          Klarer du å få eksplosjonene til å bruke forskjellige drakter? (Hint:
+          Du kan for eksempel bruke
           <code class="blocklooks">neste drakt</code> et passende sted i
           skriptet til Firework1.)
         </p>
@@ -401,10 +398,10 @@ skjul
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Har hver eksplosjon en forskjellig farge?</p>
+        <p>Har hver eksplosjon en forskjellig farge?</p>
       </li>
       <li>
-        <p>[ ] Ser hver eksplosjon forskjellig ut?</p>
+        <p>Ser hver eksplosjon forskjellig ut?</p>
       </li>
     </ul>
   </section>
@@ -413,8 +410,8 @@ skjul
     <ul>
       <li>
         <p>
-          [ ] Til slutt, gjør eksplosjonen større etter at raketten eksploderer!
-          I stedet for å vente i 1 sekund sett størrelsen til figuren til 5% før
+          Til slutt, gjør eksplosjonen større etter at raketten eksploderer! I
+          stedet for å vente i 1 sekund sett størrelsen til figuren til 5% før
           den vises, og etter at den blir synlig øk størrelsen med 5 tjue ganger
           ved bruk av klossen <code class="blockcontrol">gjenta</code>.
         </p>
@@ -439,10 +436,10 @@ skjul
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Sprer eksplosjonen seg ut fra midten av raketten?</p>
+        <p>Sprer eksplosjonen seg ut fra midten av raketten?</p>
       </li>
       <li>
-        <p>[ ] Vokser eksplosjonen gradvis?</p>
+        <p>Vokser eksplosjonen gradvis?</p>
       </li>
     </ul>
   </section>
@@ -477,7 +474,7 @@ skjul
     <ul>
       <li>
         <p>
-          [ ] For å fikse dette kan du erstatte klossen
+          For å fikse dette kan du erstatte klossen
           <code class="blockevents">send melding</code> med
           <code class="blockevents">send melding og vent</code>. Da vil ikke
           løkken gjentas før den forrige eksplosjonen er ferdig. Gå tilbake til
@@ -504,8 +501,7 @@ slutt
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        [ ] Får du eksplosjonen til å dukke opp på riktig sted og til riktig
-        tid?
+        Får du eksplosjonen til å dukke opp på riktig sted og til riktig tid?
       </li>
     </ul>
   </section>

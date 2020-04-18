@@ -51,22 +51,22 @@
   <p>Tenk for eksempel på</p>
   <ul>
     <li>
-      <p>[ ] Hvordan man vinner spillet?</p>
+      <p>Hvordan man vinner spillet?</p>
     </li>
     <li>
-      <p>[ ] Hvordan man får poeng?</p>
+      <p>Hvordan man får poeng?</p>
     </li>
     <li>
-      <p>[ ] Hvor mange spillere kan spille?</p>
+      <p>Hvor mange spillere kan spille?</p>
     </li>
     <li>
-      <p>[ ] Skal det være nedtelling?</p>
+      <p>Skal det være nedtelling?</p>
     </li>
     <li>
-      <p>[ ] Hvordan styres spillet? Med tastene eller med museknappen?</p>
+      <p>Hvordan styres spillet? Med tastene eller med museknappen?</p>
     </li>
     <li>
-      <p>[ ] Skal det være lydeffekter? Hvilke?</p>
+      <p>Skal det være lydeffekter? Hvilke?</p>
     </li>
   </ul>
   <p>Skriv ned tankene dine!</p>
@@ -81,15 +81,13 @@
     <h2 class="check" id="ting-%C3%A5-huske%3A">Ting å huske:</h2>
     <ul>
       <li>
-        <p>
-          [ ] Du kan alltid se tilbake til de spillene du allerede har laget.
-        </p>
+        <p>Du kan alltid se tilbake til de spillene du allerede har laget.</p>
       </li>
       <li>
-        <p>[ ] Husk å teste og lagre fortløpende.</p>
+        <p>Husk å teste og lagre fortløpende.</p>
       </li>
       <li>
-        <p>[ ] Vær kreativ!</p>
+        <p>Vær kreativ!</p>
       </li>
     </ul>
   </section>

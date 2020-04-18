@@ -26,11 +26,11 @@
     <h2 class="check" id="sjekkliste">Sjekkliste</h2>
     <ul>
       <li>
-        <p>[ ] Start et nytt Scratch prosjekt.</p>
+        <p>Start et nytt Scratch prosjekt.</p>
       </li>
       <li>
         <p>
-          [ ] <strong>Riktig bakgrunn</strong> får du ved å trykke på
+          <strong>Riktig bakgrunn</strong> får du ved å trykke på
           <img
             src="lessons/jafsefisk/../bilder/velg-bakgrunn.png"
             alt="Velg en ferdig bakgrunn"
@@ -41,7 +41,7 @@
       </li>
       <li>
         <p>
-          [ ] Slett Figur1 og legg til en ny figur <code>Dyr/Shark 2</code>ved å
+          Slett Figur1 og legg til en ny figur <code>Dyr/Shark 2</code>ved å
           trykke på
           <img
             src="lessons/jafsefisk/../bilder/hent-fra-bibliotek.png"
@@ -51,8 +51,8 @@
       </li>
       <li>
         <p>
-          [ ] Pass på at figuren bare kan bevege seg fra side til side ved å
-          velge rotasjonsmåte
+          Pass på at figuren bare kan bevege seg fra side til side ved å velge
+          rotasjonsmåte
           <img
             src="lessons/jafsefisk/../bilder/rotasjonsmate-hv.png"
             alt="Høyre/Venstre"
@@ -61,7 +61,7 @@
       </li>
       <li>
         <p>
-          [ ] Få fisken til å følge musepekeren rundt i sjøen ved å lage dette
+          Få fisken til å følge musepekeren rundt i sjøen ved å lage dette
           skriptet:
         </p>
         <pre><code class="blocks">når grønt flagg klikkes
@@ -79,12 +79,12 @@ slutt
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Flytt musepekeren rundt i sjøen. Følger fisken etter?</p>
+        <p>Flytt musepekeren rundt i sjøen. Følger fisken etter?</p>
       </li>
       <li>
         <p>
-          [ ] Hva skjer hvis du ikke flytter musepekeren og fisken når den
-          igjen? Hvordan ser den ut? Hvorfor gjør den dette?
+          Hva skjer hvis du ikke flytter musepekeren og fisken når den igjen?
+          Hvordan ser den ut? Hvorfor gjør den dette?
         </p>
       </li>
     </ul>
@@ -94,8 +94,8 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Du kan stoppe flippingen til JafseFisk hvis du sørger for at den
-          bare flytter seg når den ikke er for nær musepekeren (<code class="b"
+          Du kan stoppe flippingen til JafseFisk hvis du sørger for at den bare
+          flytter seg når den ikke er for nær musepekeren (<code class="b"
             >avstand til [musepeker v]</code
           >
           ligger i <code class="blocksensing">Sansning</code>-kategorien).
@@ -121,13 +121,13 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Sett avstandsgrensen til et stort tall (f.eks. 100), eller et lite
+          Sett avstandsgrensen til et stort tall (f.eks. 100), eller et lite
           tall (f.eks. 1).
         </p>
       </li>
       <li>
         <p>
-          [ ] Sett antall steg fisken flytter seg til et stort tall (f.eks. 20)
+          Sett antall steg fisken flytter seg til et stort tall (f.eks. 20)
           eller et lite tall (f.eks. 1, eller til og med 0, hva skjer?).
         </p>
       </li>
@@ -144,15 +144,15 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Legg til en ny figur fra biblioteket ved å bruke
+          Legg til en ny figur fra biblioteket ved å bruke
           <code>Dyr/Fish</code>. Gi figuren navnet <code>Byttedyr</code>.
         </p>
       </li>
       <li>
         <p>
-          [ ] Få byttedyret til å bevege seg i tilfeldige retninger. Først skal
-          vi la det bevege seg litt framover, og så snu en tilfeldig valgt
-          vinkel med eller mot klokka, og deretter gjenta.
+          Få byttedyret til å bevege seg i tilfeldige retninger. Først skal vi
+          la det bevege seg litt framover, og så snu en tilfeldig valgt vinkel
+          med eller mot klokka, og deretter gjenta.
         </p>
         <pre><code class="blocks">når grønt flagg klikkes
 sett størrelse til (40) %
@@ -170,10 +170,10 @@ slutt
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Svømmer byttedyret rundt slik du forventet?</p>
+        <p>Svømmer byttedyret rundt slik du forventet?</p>
       </li>
       <li>
-        <p>[ ] Ser bevegelsene naturlige ut?</p>
+        <p>Ser bevegelsene naturlige ut?</p>
       </li>
     </ul>
     <p>
@@ -188,14 +188,14 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Prøv å forandre tallene for <code class="b">gå (2) steg</code> og
+          Prøv å forandre tallene for <code class="b">gå (2) steg</code> og
           <code class="b">tilfeldig tall fra (-20) til (20)</code>. Hvordan
           forandrer det byttedyrets bevegelser?
         </p>
       </li>
       <li>
         <p>
-          [ ] Hva gjør <code class="b">sprett tilbake ved kanten</code>? Fjern
+          Hva gjør <code class="b">sprett tilbake ved kanten</code>? Fjern
           klossen og se hva som skjer.
         </p>
       </li>
@@ -217,8 +217,8 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Vi starter med å la byttet forsvinne hvis det berører JafseFisk,
-          og så komme tilbake etter 3 sekunder. Bruk
+          Vi starter med å la byttet forsvinne hvis det berører JafseFisk, og så
+          komme tilbake etter 3 sekunder. Bruk
           <code class="b">berører [JafseFisk v]?</code> for å sjekke om byttet
           kommer borti JafseFisk. Utvid skriptet på byttedyret slik som dette:
         </p>
@@ -244,13 +244,13 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Legg merke til at byttet forsvinner uansett hvor det berører
+          Legg merke til at byttet forsvinner uansett hvor det berører
           JafseFisk.
         </p>
       </li>
       <li>
         <p>
-          [ ] Dessuten kan JafseFisk bare vente 3 sekunder og så spise byttet i
+          Dessuten kan JafseFisk bare vente 3 sekunder og så spise byttet i
           samme øyeblikk som det dukker opp igjen, det er ikke særlig
           rettferdig!
         </p>
@@ -270,17 +270,16 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Legg til
-          <code class="b">&lt;berører fargen [#FFFFFF]?&gt;</code> i tillegg til
-          <code class="b">&lt;berører [JafseFisk v]?&gt;</code> i skriptet ditt.
-          For å velge hvit klikker du på fargen i klossen og deretter på fiskens
-          tenner.
+          Legg til <code class="b">&lt;berører fargen [#FFFFFF]?&gt;</code> i
+          tillegg til <code class="b">&lt;berører [JafseFisk v]?&gt;</code> i
+          skriptet ditt. For å velge hvit klikker du på fargen i klossen og
+          deretter på fiskens tenner.
         </p>
       </li>
       <li>
         <p>
-          [ ] Nå kan vi la byttet flytte seg til et tilfeldig punkt på skjermen
-          før det dukker opp igjen ved å bruke
+          Nå kan vi la byttet flytte seg til et tilfeldig punkt på skjermen før
+          det dukker opp igjen ved å bruke
           <code class="b"
             >gå til x: (tilfeldig tall fra (-220) til (220)) y: (tilfeldig tall
             fra (-170) til (170))</code
@@ -310,12 +309,12 @@ slutt
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Forsvinner byttet bare når det berører fiskens tenner?</p>
+        <p>Forsvinner byttet bare når det berører fiskens tenner?</p>
       </li>
       <li>
         <p>
-          [ ] Kommer det tilbake et tilfeldig sted på skjermen – altså ikke
-          samme sted som det ble spist?
+          Kommer det tilbake et tilfeldig sted på skjermen – altså ikke samme
+          sted som det ble spist?
         </p>
       </li>
     </ul>
@@ -336,7 +335,7 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] For at JafseFisk skal vite hva som skjer kan vi la byttet
+          For at JafseFisk skal vite hva som skjer kan vi la byttet
           <code class="b">send melding [Du tok meg! v]</code> om at det er
           spist, før det forsvinner.
         </p>
@@ -364,7 +363,7 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Legg så til et nytt skript til JafseFisk slik at han kan svare på
+          Legg så til et nytt skript til JafseFisk slik at han kan svare på
           meldingen <code>Du tok meg!</code> fra byttedyret. Dette skriptet gjør
           at fisken spiller av en bitelyd og
           <code class="b">bytt drakt til [Shark2-a v]</code> drakten, venter
@@ -384,8 +383,8 @@ slutt
     <p>Nå er JafseFisk klar til å spise, så la oss fylle havet med byttedyr.</p>
     <ul>
       <li>
-        [ ] Høyreklikk på byttedyret og velg <code>lag kopi</code> til du føler
-        at du har fått nok fisk.
+        Høyreklikk på byttedyret og velg <code>lag kopi</code> til du føler at
+        du har fått nok fisk.
       </li>
     </ul>
   </section>
@@ -394,10 +393,10 @@ slutt
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Spiser JafseFisk byttet?</p>
+        <p>Spiser JafseFisk byttet?</p>
       </li>
       <li>
-        <p>[ ] Spiser den alle byttedyrene?</p>
+        <p>Spiser den alle byttedyrene?</p>
       </li>
     </ul>
   </section>
@@ -449,18 +448,18 @@ slutt
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Beveger byttet seg saktere? Gjør dette spillet bedre?</p>
+        <p>Beveger byttet seg saktere? Gjør dette spillet bedre?</p>
       </li>
       <li>
         <p>
-          [ ] Hvis du klarte dette, prøv å gjøre et av byttedyrene
+          Hvis du klarte dette, prøv å gjøre et av byttedyrene
           <strong>raskere enn de andre.</strong>
         </p>
       </li>
       <li>
         <p>
-          [ ] Beveger byttedyrene seg på en fornuftig måte? Gjør disse
-          forandringene spillet bedre?
+          Beveger byttedyrene seg på en fornuftig måte? Gjør disse forandringene
+          spillet bedre?
         </p>
         <p>
           <strong>Hint:</strong> Hvis byttet ditt svømmer rundt i sirkler, sjekk
@@ -472,15 +471,15 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Hva om du lar alle byttedyrene bevege seg forskjellig, ved å bruke
+          Hva om du lar alle byttedyrene bevege seg forskjellig, ved å bruke
           forskjellige kombinasjoner av disse bevegelsene?
         </p>
       </li>
       <li>
         <p>
-          [ ] Gjør noen av disse forandringene spillet bedre? Gjør de spillet
-          med interessant, morsommere, vanskeligere eller lettere? Er noe av
-          dette bedre synes du?
+          Gjør noen av disse forandringene spillet bedre? Gjør de spillet med
+          interessant, morsommere, vanskeligere eller lettere? Er noe av dette
+          bedre synes du?
         </p>
       </li>
     </ul>
@@ -517,7 +516,7 @@ slutt
     <p><strong>Klikke på det grønne flagget.</strong></p>
     <ul>
       <li>
-        [ ] Gjør dette at fisken blir vanskeligere å ta? Gjør det spillet bedre?
+        Gjør dette at fisken blir vanskeligere å ta? Gjør det spillet bedre?
       </li>
     </ul>
   </section>
@@ -539,10 +538,10 @@ slutt
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Går poengsummen opp hver gang JafseFisk spiser byttedyr?</p>
+        <p>Går poengsummen opp hver gang JafseFisk spiser byttedyr?</p>
       </li>
       <li>
-        <p>[ ] Går den tilbake til null når spillet starter?</p>
+        <p>Går den tilbake til null når spillet starter?</p>
       </li>
     </ul>
   </section>
@@ -567,16 +566,16 @@ slutt
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Begynner tidtakeren på 30?</p>
+        <p>Begynner tidtakeren på 30?</p>
       </li>
       <li>
-        <p>[ ] Teller den ned med rett hastighet?</p>
+        <p>Teller den ned med rett hastighet?</p>
       </li>
       <li>
-        <p>[ ] Kan du fange fisk mens tiden telles ned?</p>
+        <p>Kan du fange fisk mens tiden telles ned?</p>
       </li>
       <li>
-        <p>[ ] Stopper spillet når telleren når null?</p>
+        <p>Stopper spillet når telleren når null?</p>
       </li>
     </ul>
   </section>
@@ -597,7 +596,7 @@ slutt
     <h2 class="flag" id="test-prosjektet-10">Test prosjektet</h2>
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
-      <li>[ ] Får du bonuspoeng for å spise opp alle fiskene?</li>
+      <li>Får du bonuspoeng for å spise opp alle fiskene?</li>
     </ul>
   </section>
   <section class="challenge">

@@ -1,10 +1,9 @@
 ---
-title: 'Redd verden'
+title: "Redd verden"
 level: 2
-author: 'Shayan Zeida og [Arne Hassel](http://icanhasweb.net/)'
+author: "Shayan Zeida og [Arne Hassel](http://icanhasweb.net/)"
 language: nb
 ---
-
 
 # Introduksjon {.intro}
 
@@ -14,7 +13,6 @@ programmering.
 
 ![Illustrasjon av et ferdig kildesorterings spill](reddverden.png)
 
-
 # Steg 1: Legg til Ronny og søppelet {.activity}
 
 Vi starter spillet med å introdusere Ronny, som er vår hjelper underveis, og
@@ -22,13 +20,13 @@ søppelet som vi skal kaste.
 
 ## Sjekkliste {.check}
 
-- [ ] Start et nytt prosjekt. Legg til en ny figur, enten fra biblioteket, slik
+- Start et nytt prosjekt. Legg til en ny figur, enten fra biblioteket, slik
   vi har gjort, eller tegn din helt egen hjelper! Vi valgte figuren `nano`, da
   han har flere drakter som vi tenker å bruke i utfordrings-delene.
 
   ![Viser figuren nano](ronny.png)
 
-- [ ] Målet med spillet er å få all søppelet i bøttene de hører til. Hver gang
+- Målet med spillet er å få all søppelet i bøttene de hører til. Hver gang
   vi fjerner en søppel-figur så får vi et poeng. Målet vårt er å få så mange
   poeng som det er søppel-biter.
 
@@ -42,7 +40,7 @@ søppelet som vi skal kaste.
   sett [Poeng v] til [0]
   ```
 
-- [ ] Legg til seks figurer som representerer søppel. Her kan du igjen velge
+- Legg til seks figurer som representerer søppel. Her kan du igjen velge
   eksisterende figurer fra biblioteket, tegne dine egne, eller finne noen bilder
   på nettet du syns passer. Selv valgte vi noen bananer, et eple, en ballong, et
   helikopter, en melkekartong, og en avis.
@@ -62,13 +60,13 @@ søppelet som vi skal kaste.
     <img src="avis.png" alt="Bilde av en avis"/>
   </figure>
 
-- [ ] Velg så en bakgrunn som vi kan plassere figurene våre rundt i. Vi valgte
+- Velg så en bakgrunn som vi kan plassere figurene våre rundt i. Vi valgte
   kjøkken fra biblioteket, men tegn gjerne noe eget eller finn et annet bilde du
   heller har lyst til å bruke.
 
   ![Bildet av et kjøkken fra Scratch biblioteket](kitchen.png)
 
-- [ ] Vi kommer til å flytte rundt på søppel-figurene, så det er viktig at vi
+- Vi kommer til å flytte rundt på søppel-figurene, så det er viktig at vi
   plasserer dem på nytt hver gang vi starter spillet.
 
   ```blocks
@@ -81,9 +79,8 @@ søppelet som vi skal kaste.
 
 ## Test prosjektet {.flag}
 
-- [ ] Om du flytter rundt på søppel-bitene, blir de satt tilbake når du trykker
+- Om du flytter rundt på søppel-bitene, blir de satt tilbake når du trykker
   på det grønne flagget?
-
 
 # Steg 2: Sett opp spillet {.activity}
 
@@ -92,7 +89,7 @@ av det, så ber vi om hjelp fra søppel-figurene selv.
 
 ## Sjekkliste {.check}
 
-- [ ] Ronny kan kommunisere med søppelet ved hjelp av meldinger. Start med å
+- Ronny kan kommunisere med søppelet ved hjelp av meldinger. Start med å
   sende meldingen `Forbered spill`.
 
   ```blocks
@@ -102,14 +99,14 @@ av det, så ber vi om hjelp fra søppel-figurene selv.
   send melding [Forbered spill v]
   ```
 
-- [ ] Hver av søppel-bitene må nå svare på beskjeden ved å øke `Mål` med en.
+- Hver av søppel-bitene må nå svare på beskjeden ved å øke `Mål` med en.
 
   ```blocks
   når jeg mottar [Forbered spill v]
   endre [Mål v] med (1)
   ```
 
-- [ ] Før spillet kan starte må vi gi Ronny litt tid til å kommunisere og la
+- Før spillet kan starte må vi gi Ronny litt tid til å kommunisere og la
   søppelet telle opp målet vi skal nå. En ting vi kan gjøre er å la Ronny snakke
   litt. Når Ronny er ferdig med å prate, så kan vi starte spillet.
 
@@ -125,11 +122,11 @@ av det, så ber vi om hjelp fra søppel-figurene selv.
 
 ## Test prosjektet {.flag}
 
-__Klikk på det grønne flagget.__
+**Klikk på det grønne flagget.**
 
-- [ ] Blir mål satt til riktig antall søppel-biter? I vårt tilfelle skal det bli seks.
+- Blir mål satt til riktig antall søppel-biter? I vårt tilfelle skal det bli seks.
 
-- [ ] Snakker Ronny?
+- Snakker Ronny?
 
 ## Utfordring {.challenge}
 
@@ -145,14 +142,13 @@ __Klikk på det grønne flagget.__
   spill lyden [opptak 1 v] til den er ferdig
   ```
 
-
 # Steg 3: Start spillet {.activity}
 
 Nå som vi vet antall poeng vi skal nå, kan vi sette opp bøttene våre.
 
 ## Sjekkliste {.check}
 
-- [ ] Tegn en ny figur for hver av bøttene `Mat`, `Plast` og `Papir`.
+- Tegn en ny figur for hver av bøttene `Mat`, `Plast` og `Papir`.
 
   <figure class="inline">
     <img src="mat.png" alt="Bilde av søpelbøtte for mat"/>
@@ -160,7 +156,7 @@ Nå som vi vet antall poeng vi skal nå, kan vi sette opp bøttene våre.
     <img src="papir.png" alt="Bilde av søpelbøtte for papir"/>
   </figure>
 
-- [ ] Vi ønsker ikke å vise bøttene før spillet er i gang. For å få til dette
+- Vi ønsker ikke å vise bøttene før spillet er i gang. For å få til dette
   kan vi benytte oss av `Start spill`-meldingen.
 
   ```blocks
@@ -173,7 +169,7 @@ Nå som vi vet antall poeng vi skal nå, kan vi sette opp bøttene våre.
   vis
   ```
 
-- [ ] Dette trikset kan vi også gjøre for søppelet, som også er greit å skjule
+- Dette trikset kan vi også gjøre for søppelet, som også er greit å skjule
   før spillet er i gang.
 
   ```blocks
@@ -189,12 +185,11 @@ Nå som vi vet antall poeng vi skal nå, kan vi sette opp bøttene våre.
 
 ## Test prosjektet {.flag}
 
-__Klikk på det grønne flagget.__
+**Klikk på det grønne flagget.**
 
-- [ ] Skjules bøttene i starten? Blir de vist når Ronny er ferdig å snakke?
+- Skjules bøttene i starten? Blir de vist når Ronny er ferdig å snakke?
 
-- [ ] Skjer det samme med søppel-bitene?
-
+- Skjer det samme med søppel-bitene?
 
 # Steg 4: Sortering {.activity}
 
@@ -202,7 +197,7 @@ Nå må vi få til poeng-giving når vi flytter søppel-bitene opp i bøttene.
 
 ## Sjekkliste {.check}
 
-- [ ] Måten vi flytter på søppel-bitene er at vi lar dem bevege seg etter
+- Måten vi flytter på søppel-bitene er at vi lar dem bevege seg etter
   musepekeren til de er flyttet til sin passende bøtte.
 
   ```blocks
@@ -212,7 +207,7 @@ Nå må vi få til poeng-giving når vi flytter søppel-bitene opp i bøttene.
   slutt
   ```
 
-- [ ] Når søppelet er lagt i sin passende bøtte, trenger vi å legge til ett
+- Når søppelet er lagt i sin passende bøtte, trenger vi å legge til ett
   poeng og skjule søppelet.
 
   ```blocks
@@ -226,9 +221,9 @@ Nå må vi få til poeng-giving når vi flytter søppel-bitene opp i bøttene.
 
 ## Test prosjektet {.flag}
 
-__Klikk på det grønne flagget.__
+**Klikk på det grønne flagget.**
 
-- [ ] Når du trykker på en søppel-bit, følger den etter musepekeren? Forsvinner
+- Når du trykker på en søppel-bit, følger den etter musepekeren? Forsvinner
   søppelbiten når den går i den riktige bøtten? Husk at ikke alt skal i `Mat`,
   noe skal også i `Plast` eller `Papir`.
 
@@ -239,14 +234,13 @@ __Klikk på det grønne flagget.__
 
   ![Bilde av Ronny som er kjempesur!](ronny_sur.png) <!-- ikke figur -->
 
-
 # Steg 5: Avslutt spillet {.activity}
 
 Når vi har fått alt søppelet på plass, må vi avslutte spillet.
 
 ## Sjekkliste {.check}
 
-- [ ] `Ronny` trenger å vite når spillet er over. Det kan vi gjøre ved å legge
+- `Ronny` trenger å vite når spillet er over. Det kan vi gjøre ved å legge
   til `vent til`-blokk i skriptet hans.
 
   ```blocks
@@ -261,7 +255,7 @@ Når vi har fått alt søppelet på plass, må vi avslutte spillet.
   si [Takk for at du hjelper meg med å redde verden!]
   ```
 
-- [ ] I tillegg til at Ronny takker oss for at vi kildesorterte alt avfallet, så
+- I tillegg til at Ronny takker oss for at vi kildesorterte alt avfallet, så
   ber vi han også sende meldingen `Spill ferdig`. Dette gjør at vi kan fortelle
   de andre figurene at spillet er ferdig.
 
@@ -273,7 +267,7 @@ Når vi har fått alt søppelet på plass, må vi avslutte spillet.
   skjul
   ```
 
-- [ ] Til slutt kan vi forandre bakgrunnen når spillet avsluttes, for å gjøre
+- Til slutt kan vi forandre bakgrunnen når spillet avsluttes, for å gjøre
   avslutningen enda litt finere. Trykk på `Scene` og legg til en bakgrunn.
 
   Vi valgte `water and rocks` fra biblioteket, men det er bare å velge noe du
@@ -281,7 +275,7 @@ Når vi har fått alt søppelet på plass, må vi avslutte spillet.
 
   ![Bilde av en elv](finale.png)
 
-- [ ] Til slutt trenger vi å fortelle når bakgrunnen skal skiftes. Du kan gjøre
+- Til slutt trenger vi å fortelle når bakgrunnen skal skiftes. Du kan gjøre
   det ved å legge til følgende på skriptet til `Scene`.
 
   ```blocks
@@ -291,10 +285,10 @@ Når vi har fått alt søppelet på plass, må vi avslutte spillet.
 
 ## Test prosjektet {.flag}
 
-__Klikk på det grønne flagget.__
+**Klikk på det grønne flagget.**
 
-- [ ] Når alt søppelet er sortert, blir bakgrunnen byttet og Ronny takker for
-      hjelpen?
+- Når alt søppelet er sortert, blir bakgrunnen byttet og Ronny takker for
+  hjelpen?
 
 ## Utfordring {.challenge}
 
@@ -305,7 +299,6 @@ __Klikk på det grønne flagget.__
   reddet verden?
 
   ![Bilde av Ronny som er kjempeglad!](ronny_blid.png) <!-- ikke figur -->
-
 
 # Hva har vi lært? {.activity}
 

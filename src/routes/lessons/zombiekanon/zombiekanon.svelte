@@ -24,14 +24,14 @@
     <ul>
       <li>
         <p>
-          [ ] Gå til
+          Gå til
           <a href="https://scratch.mit.edu/projects/266969817" target="_blank"
             >https://scratch.mit.edu/projects/266969817</a
           >.
         </p>
       </li>
       <li>
-        <p>[ ] Se inni prosjektet, og trykk remiks-knappen.</p>
+        <p>Se inni prosjektet, og trykk remiks-knappen.</p>
       </li>
     </ul>
     <p>Nå får du en kopi av prosjektet.</p>
@@ -51,10 +51,10 @@
     <h2 class="check" id="sjekkliste-2">Sjekkliste</h2>
     <ul>
       <li>
-        <p>[ ] Hva må skje når pil høyre trykkes?</p>
+        <p>Hva må skje når pil høyre trykkes?</p>
       </li>
       <li>
-        <p>[ ] Prøv å justere hvor raskt kanonen snus.</p>
+        <p>Prøv å justere hvor raskt kanonen snus.</p>
       </li>
     </ul>
   </section>
@@ -81,14 +81,14 @@
   <section class="check">
     <h2 class="check" id="sjekkliste-3">Sjekkliste</h2>
     <ul>
-      <li>[ ] Hvordan kan kanonen vite hvor zombiene er?</li>
+      <li>Hvordan kan kanonen vite hvor zombiene er?</li>
     </ul>
   </section>
   <section class="flag">
     <h2 class="flag" id="test-prosjektet">Test prosjektet</h2>
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
-      <li>[ ] Fungerer koden?</li>
+      <li>Fungerer koden?</li>
     </ul>
   </section>
   <section class="save">

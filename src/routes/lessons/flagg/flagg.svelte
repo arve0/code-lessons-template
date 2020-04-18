@@ -47,10 +47,10 @@
     <h2 class="check" id="sjekkliste">Sjekkliste</h2>
     <ul>
       <li>
-        <p>[ ] Start et nytt prosjekt.</p>
+        <p>Start et nytt prosjekt.</p>
       </li>
       <li>
-        <p>[ ] Skriv det følgende skriptet på kattefiguren:</p>
+        <p>Skriv det følgende skriptet på kattefiguren:</p>
         <pre><code class="blocks">når @greenFlag klikkes
 begrens rotasjon [ikke roter v]
 gjenta for alltid
@@ -68,7 +68,7 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Hva skjer? Skjønner du hvorfor kattefiguren flytter seg rundt i en
+          Hva skjer? Skjønner du hvorfor kattefiguren flytter seg rundt i en
           sirkel?
         </p>
         <p>
@@ -79,13 +79,13 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Hva skjer om du bruker forskjellige tall de to stedene i stedet
-          for <code>100</code>?
+          Hva skjer om du bruker forskjellige tall de to stedene i stedet for
+          <code>100</code>?
         </p>
       </li>
       <li>
         <p>
-          [ ] Hvordan forandrer bevegelsen til katten seg om du forandrer tallet
+          Hvordan forandrer bevegelsen til katten seg om du forandrer tallet
           <code>5</code> i <code class="b">snu @turnLeft (5) grader</code>? Prøv
           gjerne med negative tall også!
         </p>
@@ -115,17 +115,17 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Siden vi allerede flytter figuren langs en sirkel kan vi ikke
-          bruke <code class="b">gå til x: () y: ()</code>-klosser for å flytte
-          hele sirkelen. I stedet vil vi bruke variabler. Lag to variabler som
-          heter <code class="b">(sentrumX)</code> og
+          Siden vi allerede flytter figuren langs en sirkel kan vi ikke bruke
+          <code class="b">gå til x: () y: ()</code>-klosser for å flytte hele
+          sirkelen. I stedet vil vi bruke variabler. Lag to variabler som heter
+          <code class="b">(sentrumX)</code> og
           <code class="b">(sentrumY)</code> og som gjelder kun
           <em>for denne figuren</em>.
         </p>
       </li>
       <li>
         <p>
-          [ ] Vi kan nå flytte sirkelen over ved å sette
+          Vi kan nå flytte sirkelen over ved å sette
           <code class="b">(sentrumX)</code>- og
           <code class="b">(sentrumY)</code>-variablene:
         </p>
@@ -146,7 +146,7 @@ slutt
     <h2 class="flag" id="test-prosjektet-2">Test prosjektet</h2>
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
-      <li>[ ] Flytter sirkelen seg til det nye sentrumet?</li>
+      <li>Flytter sirkelen seg til det nye sentrumet?</li>
     </ul>
   </section>
   <section class="challenge">
@@ -154,7 +154,7 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Legg til en ny variabel, <code class="b">(radius)</code>, som også
+          Legg til en ny variabel, <code class="b">(radius)</code>, som også
           gjelder kun <em>for denne figuren</em>. Kan du bruke denne til å styre
           hvor stor sirkelen er? Det vil si,
           <code class="b">(radius)</code> skal fortelle lengden av den skrå
@@ -179,8 +179,8 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Tegn en ny drakt på figuren din. Bruk vektorgrafikk til å tegne en
-          rød fyllt sirkel (disk). Denne kan være ganske liten, for eksempel
+          Tegn en ny drakt på figuren din. Bruk vektorgrafikk til å tegne en rød
+          fyllt sirkel (disk). Denne kan være ganske liten, for eksempel
           <code>20 x 20</code> piksler.
         </p>
         <figure>
@@ -192,8 +192,8 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Vi kan lage mange røde disker ved å klone denne ene disken. Del
-          koden din i to deler, og endre den på denne måten:
+          Vi kan lage mange røde disker ved å klone denne ene disken. Del koden
+          din i to deler, og endre den på denne måten:
         </p>
         <pre><code class="blocks">når @greenFlag klikkes
 gjenta (99) ganger
@@ -213,8 +213,8 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Om du kjører programmet ditt nå vil du se 99 disker som danser (og
-          1 som står i ro) rundt på skjermen i et herlig kaos!
+          Om du kjører programmet ditt nå vil du se 99 disker som danser (og 1
+          som står i ro) rundt på skjermen i et herlig kaos!
         </p>
         <p>
           Kaoset kommer faktisk av at Scratch bruker litt tid på å starte hver
@@ -247,7 +247,7 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] I forrige steg klonet vi disker til tilfeldige steder. Nå skal vi
+          I forrige steg klonet vi disker til tilfeldige steder. Nå skal vi
           legge dem ut litt mer organisert. Skriv om skriptet som legger ut
           diskene dine slik:
         </p>
@@ -269,8 +269,8 @@ skjul
       </li>
       <li>
         <p>
-          [ ] La så <code>flagre</code>-skriptet være det samme som du brukte
-          til å danse tidligere:
+          La så <code>flagre</code>-skriptet være det samme som du brukte til å
+          danse tidligere:
         </p>
         <pre><code class="blocks">når jeg mottar [flagre v]
 gjenta for alltid
@@ -282,9 +282,9 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Kjør programmet ditt. Du vil nå se et flagg bestående av mange
-          røde disker som beveger seg i sirkel. Men nå kommer det morsomme: Vi
-          kan la de røde diskene bevege seg litt i utakt!
+          Kjør programmet ditt. Du vil nå se et flagg bestående av mange røde
+          disker som beveger seg i sirkel. Men nå kommer det morsomme: Vi kan la
+          de røde diskene bevege seg litt i utakt!
         </p>
         <p>
           Legg til klossen
@@ -306,9 +306,9 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Tegn først to nye drakter, begge kopier av den røde disken. Den
-          første skal være en hvit disk mens den andre skal være en blå disk. Gi
-          de tre diskfigurene dine navnene <code>r</code>, <code>h</code> og
+          Tegn først to nye drakter, begge kopier av den røde disken. Den første
+          skal være en hvit disk mens den andre skal være en blå disk. Gi de tre
+          diskfigurene dine navnene <code>r</code>, <code>h</code> og
           <code>b</code> slik at navnet er første bokstaven i fargen på disken:
           <code>r</code>ød, <code>h</code>vit og <code>b</code>lå.
         </p>
@@ -321,7 +321,7 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Vi skal nå bruke en ny variabel <code class="b">(flagg)</code> som
+          Vi skal nå bruke en ny variabel <code class="b">(flagg)</code> som
           beskriver fargene i flagget. Lag variabelen
           <em>for alle figurer</em> og legg deretter til koden:
         </p>
@@ -335,23 +335,22 @@ sett [flagg v] til [rrrrrhbbhrrrrr]
       </li>
       <li>
         <p>
-          [ ] For å kunne bruke den nye
-          <code class="b">(flagg)</code>-variabelen må også hver disk vite
-          hvilket nummer den har. Lag en ny variabel
+          For å kunne bruke den nye <code class="b">(flagg)</code>-variabelen må
+          også hver disk vite hvilket nummer den har. Lag en ny variabel
           <code class="b">(nummer)</code> som gjelder kun
           <em>for denne figuren</em>.
         </p>
       </li>
       <li>
         <p>
-          [ ] Legg til <code class="b">sett [nummer v] til [1]</code> rett under
+          Legg til <code class="b">sett [nummer v] til [1]</code> rett under
           <code class="b">vis</code> og
           <code class="b">endre [nummer v] med (1)</code> rett under
           <code class="b">lag klon av [meg v]</code>-klossen.
         </p>
       </li>
       <li>
-        <p>[ ] Til slutt skal vi endre drakt på diskene. Legg til</p>
+        <p>Til slutt skal vi endre drakt på diskene. Legg til</p>
         <pre><code class="blocks">bytt drakt til (bokstav (nummer) i (flagg))
 </code></pre>
         <p>
@@ -361,7 +360,7 @@ sett [flagg v] til [rrrrrhbbhrrrrr]
       </li>
       <li>
         <p>
-          [ ] Kjør programmet ditt. Den venstre delen av flagget ditt skal nå ha
+          Kjør programmet ditt. Den venstre delen av flagget ditt skal nå ha
           fått fargene til det norske flagget. For å fargelegge hele flagget må
           vi gi mange flere bokstaver til
           <code class="b">(flagg)</code>-variabelen. Hele det norske flagget vil
@@ -375,9 +374,9 @@ rrrrrhbbhrrrrrrrrrrhbbhrrrrrrrrrrhbbhrrrrrrrrrrhbbhrrrrr</span>
       </li>
       <li>
         <p>
-          [ ] En enklere måte å tegne flagg på er å si at vi vil at mønsteret
-          skal gjenta seg selv. Da trenger vi ikke skrive en bokstav for hver
-          disk. Til dette kan vi bruke <code class="b">() mod ()</code>-klossen.
+          En enklere måte å tegne flagg på er å si at vi vil at mønsteret skal
+          gjenta seg selv. Da trenger vi ikke skrive en bokstav for hver disk.
+          Til dette kan vi bruke <code class="b">() mod ()</code>-klossen.
         </p>
         <p>
           Bytt <code class="b">(bokstav (nummer) i (flagg))</code> med
@@ -397,14 +396,13 @@ rrrrrhbbhrrrrrrrrrrhbbhrrrrrrrrrrhbbhrrrrrrrrrrhbbhrrrrr</span>
     <ul>
       <li>
         <p>
-          [ ] Tegn egne flagg. Om du trenger flere farger er det bare å lage
-          flere drakter. Pass på at hver drakt har en bokstav eller tall som
-          navn.
+          Tegn egne flagg. Om du trenger flere farger er det bare å lage flere
+          drakter. Pass på at hver drakt har en bokstav eller tall som navn.
         </p>
       </li>
       <li>
         <p>
-          [ ] Du kan også leke litt med de forskjellige tallene for en litt
+          Du kan også leke litt med de forskjellige tallene for en litt
           annerledes animasjon. Prøv for eksempel med
           <code class="b">snu @turnRight (25) grader</code> i klossen etter
           <code class="b">lag klon av [meg v]</code>.
@@ -412,10 +410,10 @@ rrrrrhbbhrrrrrrrrrrhbbhrrrrrrrrrrhbbhrrrrrrrrrrhbbhrrrrr</span>
       </li>
       <li>
         <p>
-          [ ] Du kan endre utseendet på flagget underveis. For eksempel om du
-          bruker en <code class="b">når [ v] trykkes</code>-kloss kan du endre
-          verdien av <code class="b">(flagg)</code> basert på hvilke taster som
-          trykkes. Fargene i flagget vil da også oppdatere seg.
+          Du kan endre utseendet på flagget underveis. For eksempel om du bruker
+          en <code class="b">når [ v] trykkes</code>-kloss kan du endre verdien
+          av <code class="b">(flagg)</code> basert på hvilke taster som trykkes.
+          Fargene i flagget vil da også oppdatere seg.
         </p>
       </li>
     </ul>

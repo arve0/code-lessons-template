@@ -28,11 +28,11 @@
     <h2 class="check" id="sjekkliste">Sjekkliste</h2>
     <ul>
       <li>
-        <p>[ ] Start et nytt prosjekt.</p>
+        <p>Start et nytt prosjekt.</p>
       </li>
       <li>
         <p>
-          [ ] Trykk på kattefiguren nede i høyre del av skjermen og bytt navn på
+          Trykk på kattefiguren nede i høyre del av skjermen og bytt navn på
           figuren til <code>Felix</code>.
         </p>
         <figure>
@@ -41,7 +41,7 @@
       </li>
       <li>
         <p>
-          [ ] Sørg for at Felix kun ser til høyre og venstre ved å sette
+          Sørg for at Felix kun ser til høyre og venstre ved å sette
           rotasjonsmåte til høyre-venstre.
         </p>
         <p>
@@ -53,7 +53,7 @@
       </li>
       <li>
         <p>
-          [ ] Klikk på
+          Klikk på
           <img
             src="lessons/felix_og_herbert/../bilder/velg-bakgrunn.png"
             alt="Velg en ferdig bakgrunn"
@@ -64,8 +64,7 @@
       </li>
       <li>
         <p>
-          [ ] Klikk på Felix, velg <code>Kode</code>-fanen og lag dette
-          skriptet:
+          Klikk på Felix, velg <code>Kode</code>-fanen og lag dette skriptet:
         </p>
         <pre><code class="blocks">når grønt flagg klikkes
 gjenta for alltid
@@ -82,18 +81,18 @@ slutt
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Følger Felix musepekeren?</p>
+        <p>Følger Felix musepekeren?</p>
       </li>
       <li>
-        <p>[ ] Ser det ut som han går når han beveger seg?</p>
+        <p>Ser det ut som han går når han beveger seg?</p>
       </li>
       <li>
-        <p>[ ] Beveger han seg med riktig hastighet?</p>
+        <p>Beveger han seg med riktig hastighet?</p>
       </li>
       <li>
         <p>
-          [ ] Klikk det røde stopp-symbolet for at Felix skal slutte å følge
-          etter musepekeren.
+          Klikk det røde stopp-symbolet for at Felix skal slutte å følge etter
+          musepekeren.
         </p>
       </li>
     </ul>
@@ -106,7 +105,7 @@ slutt
       å lagre manuelt innimellom.
     </p>
     <ul>
-      <li>[ ] I filmenyen, velg <code>Lagre nå</code>.</li>
+      <li>I filmenyen, velg <code>Lagre nå</code>.</li>
     </ul>
     <p>Hvis du ikke har bruker kan du ikke lagre, bare fortsett til steg 2.</p>
   </section>
@@ -126,7 +125,7 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Lag en ny figur ved å trykke på
+          Lag en ny figur ved å trykke på
           <img
             src="lessons/felix_og_herbert/../bilder/hent-fra-bibliotek.png"
             alt="Velg figur fra biblioteket"
@@ -135,17 +134,17 @@ slutt
         </p>
       </li>
       <li>
-        <p>[ ] Bytt navn på figuren til <code>Herbert</code>.</p>
+        <p>Bytt navn på figuren til <code>Herbert</code>.</p>
       </li>
       <li>
         <p>
-          [ ] Gjør Herbert mindre enn Felix ved å velge
+          Gjør Herbert mindre enn Felix ved å velge
           <code>Størrelse</code> feltet rett over figuren, og skriv inn et
           mindre tall. Prøv å endre tallet fra 100 til 30.
         </p>
       </li>
       <li>
-        <p>[ ] Gi Herbert dette skriptet:</p>
+        <p>Gi Herbert dette skriptet:</p>
         <pre><code class="blocks">når grønt flagg klikkes
 gjenta for alltid
     gå til [musepeker v]
@@ -160,10 +159,10 @@ slutt
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Flytter Herbert seg med musepekeren?</p>
+        <p>Flytter Herbert seg med musepekeren?</p>
       </li>
       <li>
-        <p>[ ] Jager Felix Herbert?</p>
+        <p>Jager Felix Herbert?</p>
       </li>
     </ul>
   </section>
@@ -185,7 +184,7 @@ slutt
     <h2 class="check" id="sjekkliste-3">Sjekkliste</h2>
     <ul>
       <li>
-        <p>[ ] Endre skriptet til Felix til dette:</p>
+        <p>Endre skriptet til Felix til dette:</p>
         <pre><code class="blocks">når grønt flagg klikkes
 gjenta for alltid
     pek mot [musepeker v]
@@ -203,7 +202,7 @@ slutt
     <h2 class="flag" id="test-prosjektet-3">Test prosjektet</h2>
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
-      <li>[ ] Sier Felix fra når han har fanget Herbert?</li>
+      <li>Sier Felix fra når han har fanget Herbert?</li>
     </ul>
   </section>
 </section>
@@ -225,8 +224,8 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Endre skriptet til Felix slik at det sender en melding og lager en
-          lyd når han fanger Herbert:
+          Endre skriptet til Felix slik at det sender en melding og lager en lyd
+          når han fanger Herbert:
         </p>
         <pre><code class="blocks">når grønt flagg klikkes
 gjenta for alltid
@@ -235,7 +234,7 @@ gjenta for alltid
     neste drakt
     hvis &lt;berører [Herbert v]?&gt;
         send melding [Fanget! v]
-  	  start lyden [Mjau]
+]
         si [Tok deg!] i (1) sekunder
         vent (1) sekunder
     slutt
@@ -243,11 +242,11 @@ slutt
 </code></pre>
       </li>
       <li>
-        <p>[ ] Velg Herbert og gå til <code>Drakter</code>-fanen.</p>
+        <p>Velg Herbert og gå til <code>Drakter</code>-fanen.</p>
       </li>
       <li>
         <p>
-          [ ] Hent en ny drakt ved å trykke på
+          Hent en ny drakt ved å trykke på
           <img
             src="lessons/felix_og_herbert/../bilder/hent-fra-bibliotek.png"
             alt="Velg drakt fra biblioteket"
@@ -257,14 +256,14 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Endre navnene på Herberts drakter slik at musedrakten heter
+          Endre navnene på Herberts drakter slik at musedrakten heter
           <code>levende</code> og spøkelsesdrakten heter <code>død</code>.
         </p>
       </li>
       <li>
         <p>
-          [ ] Gå til <code>Kode</code>-fanen, og lag et nytt skript for Herbert
-          for å gjøre ham om til et spøkelse. Ikke slett det gamle skriptet:
+          Gå til <code>Kode</code>-fanen, og lag et nytt skript for Herbert for
+          å gjøre ham om til et spøkelse. Ikke slett det gamle skriptet:
         </p>
         <pre><code class="blocks">når jeg mottar [Fanget! v]
 bytt drakt til [død v]
@@ -279,13 +278,13 @@ bytt drakt til [levende v]
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Forvandles Herbert til et spøkelse når han fanges?</p>
+        <p>Forvandles Herbert til et spøkelse når han fanges?</p>
       </li>
       <li>
-        <p>[ ] Spiller Felix lyden sin til riktig tid?</p>
+        <p>Spiller Felix lyden sin til riktig tid?</p>
       </li>
       <li>
-        <p>[ ] Står Felix stille lenge nok til at Herbert kommer seg unna?</p>
+        <p>Står Felix stille lenge nok til at Herbert kommer seg unna?</p>
       </li>
     </ul>
   </section>
@@ -305,7 +304,7 @@ bytt drakt til [levende v]
     <ul>
       <li>
         <p>
-          [ ] På <code>Kode</code>-fanen under kategorien
+          På <code>Kode</code>-fanen under kategorien
           <code class="blockdata">Variabler</code>, lag en ny variabel. Kall
           variabelen for <code>Poeng</code>, og la den gjelde for alle figurer.
         </p>
@@ -322,8 +321,8 @@ bytt drakt til [levende v]
       </li>
       <li>
         <p>
-          [ ] Klikk på <code>Scene</code> helt til høyre på skjermen, ved siden
-          av lista over figurene Felix og Herbert. Lag disse to skriptene på
+          Klikk på <code>Scene</code> helt til høyre på skjermen, ved siden av
+          lista over figurene Felix og Herbert. Lag disse to skriptene på
           scenen:
         </p>
         <pre><code class="blocks">når grønt flagg klikkes
@@ -344,18 +343,16 @@ endre [Poeng v] med (-10)
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Øker poengsummen med en hvert sekund?</p>
+        <p>Øker poengsummen med en hvert sekund?</p>
       </li>
       <li>
-        <p>[ ] Går poengsummen ned med ti når Herbert blir fanget?</p>
+        <p>Går poengsummen ned med ti når Herbert blir fanget?</p>
       </li>
       <li>
-        <p>[ ] Hva skjer om Herbert fanges før du har ti poeng?</p>
+        <p>Hva skjer om Herbert fanges før du har ti poeng?</p>
       </li>
       <li>
-        <p>
-          [ ] Går poengsummen tilbake til null når du starter spillet på nytt?
-        </p>
+        <p>Går poengsummen tilbake til null når du starter spillet på nytt?</p>
       </li>
     </ul>
   </section>

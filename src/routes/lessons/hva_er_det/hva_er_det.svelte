@@ -30,11 +30,11 @@
     <h2 class="check" id="sjekkliste">Sjekkliste</h2>
     <ul>
       <li>
-        <p>[ ] Start et nytt Scratch-prosjekt og slett kattefiguren.</p>
+        <p>Start et nytt Scratch-prosjekt og slett kattefiguren.</p>
       </li>
       <li>
         <p>
-          [ ] Klikk på scenen og deretter <code>Bakgrunner</code>-fanen. Åpne
+          Klikk på scenen og deretter <code>Bakgrunner</code>-fanen. Åpne
           biblioteket med bakgrunner ved å trykke på
           <img
             src="lessons/hva_er_det/../bilder/velg-bakgrunn.png"
@@ -45,26 +45,26 @@
       </li>
       <li>
         <p>
-          [ ] Importer en valgfri figur. Velg gjerne en figur fra
+          Importer en valgfri figur. Velg gjerne en figur fra
           <code>Ting</code>-mappen.
         </p>
       </li>
       <li>
         <p>
-          [ ] Plasser figuren på midten av tavlen, og endre størrelsen hvis den
-          ikke passer.
+          Plasser figuren på midten av tavlen, og endre størrelsen hvis den ikke
+          passer.
         </p>
       </li>
       <li>
         <p>
-          [ ] Legg til fire nye drakter fra <code>Ting</code>-mappen. Du kan
-          velge de figurene du vil!
+          Legg til fire nye drakter fra <code>Ting</code>-mappen. Du kan velge
+          de figurene du vil!
         </p>
       </li>
       <li>
         <p>
-          [ ] La oss nå få en tilfeldig ting til å dukke opp på tavlen. Bruk
-          dette skriptet.
+          La oss nå få en tilfeldig ting til å dukke opp på tavlen. Bruk dette
+          skriptet.
         </p>
         <pre><code class="blocks">når grønt flagg klikkes
 bytt drakt til (tilfeldig tall fra (1) til (5))
@@ -77,10 +77,10 @@ bytt drakt til (tilfeldig tall fra (1) til (5))
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Endrer figuren seg?</p>
+        <p>Endrer figuren seg?</p>
       </li>
       <li>
-        <p>[ ] Klikk flere ganger. Får figuren stadig nye drakter? Flott.</p>
+        <p>Klikk flere ganger. Får figuren stadig nye drakter? Flott.</p>
       </li>
     </ul>
     <p>
@@ -111,13 +111,13 @@ bytt drakt til (tilfeldig tall fra (1) til (5))
     <ul>
       <li>
         <p>
-          [ ] Velg <code class="blockdata">Data</code>-kategorien og lag en
-          variabel kalt <code class="blockdata">poeng</code>. La den gjelde
+          Velg <code class="blockdata">Data</code>-kategorien og lag en variabel
+          kalt <code class="blockdata">poeng</code>. La den gjelde
           <code>for alle figurer</code>.
         </p>
       </li>
       <li>
-        <p>[ ] Endre skriptet slik:</p>
+        <p>Endre skriptet slik:</p>
         <pre><code class="blocks">når grønt flagg klikkes
 bytt drakt til (tilfeldig tall fra (1) til (5))
 sett [poeng v] til [110]
@@ -136,20 +136,20 @@ slutt
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Kommer det opp et tilfeldig og forvrengt bilde?</p>
+        <p>Kommer det opp et tilfeldig og forvrengt bilde?</p>
       </li>
       <li>
-        <p>[ ] Blir bildet gradvis tydeligere?</p>
+        <p>Blir bildet gradvis tydeligere?</p>
       </li>
       <li>
-        <p>[ ] Går poengsummen ned i takt med at bildet blir tydeligere?</p>
+        <p>Går poengsummen ned i takt med at bildet blir tydeligere?</p>
       </li>
       <li>
-        <p>[ ] Blir bildet fullstendig tydelig når poengsummen er 0?</p>
+        <p>Blir bildet fullstendig tydelig når poengsummen er 0?</p>
       </li>
       <li>
         <p>
-          [ ] Får du fremdeles nye ting på tavlen når du klikker på det grønne
+          Får du fremdeles nye ting på tavlen når du klikker på det grønne
           flagget?
         </p>
       </li>
@@ -160,15 +160,15 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Prøv å <strong>endre poengsummen</strong> fra start, samt hvor mye
-          den skal <strong>forandre seg</strong> for hver gang den går gjennom
+          Prøv å <strong>endre poengsummen</strong> fra start, samt hvor mye den
+          skal <strong>forandre seg</strong> for hver gang den går gjennom
           løkken. Hvordan endrer det utseendet til bildet? Blir det vanskeligere
           eller enklere å se hva bildet forestiller?
         </p>
       </li>
       <li>
         <p>
-          [ ] Forsøk noen <strong>ulike grafiske effekter</strong> fra
+          Forsøk noen <strong>ulike grafiske effekter</strong> fra
           nedtrekkslisten. Hvordan påvirker dette vanskelighetgsraden?
         </p>
       </li>
@@ -195,15 +195,14 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Lag en ny variabel og kall den
-          <code class="blockdata">riktig</code>. Pass på at den er tilgjengelig
-          <code>for alle figurer</code>. Fjern avhukingen slik at variabelen
-          ikke vises i spillet.
+          Lag en ny variabel og kall den <code class="blockdata">riktig</code>.
+          Pass på at den er tilgjengelig <code>for alle figurer</code>. Fjern
+          avhukingen slik at variabelen ikke vises i spillet.
         </p>
       </li>
       <li>
         <p>
-          [ ] Endre skriptet slik at det klarer å holde styr på hva som er rett
+          Endre skriptet slik at det klarer å holde styr på hva som er rett
           svar. Etter at vi har bestemt drakten legger du derfor til klossen
           <code class="blockdata">sett riktig til</code
           ><code class="blocklooks">drakt nr.</code>:
@@ -224,33 +223,33 @@ slutt
     <p>Nå skal vi legge til flere figurer som spilleren kan klikke på.</p>
     <ul>
       <li>
-        <p>[ ] Gi først figuren din navnet <code>Spørsmål</code>.</p>
+        <p>Gi først figuren din navnet <code>Spørsmål</code>.</p>
       </li>
       <li>
         <p>
-          [ ] Lag så en kopi av figuren ved å høyreklikke på den. På scenen drar
-          du deretter den nye figuren ned i venstre hjørne.
+          Lag så en kopi av figuren ved å høyreklikke på den. På scenen drar du
+          deretter den nye figuren ned i venstre hjørne.
         </p>
       </li>
       <li>
-        <p>[ ] Endre denne nye figurens navn til <code>Svar1</code>.</p>
+        <p>Endre denne nye figurens navn til <code>Svar1</code>.</p>
       </li>
       <li>
         <p>
-          [ ] Slett skriptet til <code>Svar1</code> og alle draktene bortsett
-          fra den første.
+          Slett skriptet til <code>Svar1</code> og alle draktene bortsett fra
+          den første.
         </p>
       </li>
       <li>
         <p>
-          [ ] Gjenta de tre siste stegene igjen (kall neste kopi
+          Gjenta de tre siste stegene igjen (kall neste kopi
           <code>Svar2</code>), plasser <code>Svar2</code> ved siden av
           <code>Svar1</code> og slett alle bortsett fra den andre drakten.
         </p>
       </li>
       <li>
         <p>
-          [ ] Gjenta disse punktene tre ganger til, slik at du har også figurene
+          Gjenta disse punktene tre ganger til, slik at du har også figurene
           <code>Svar3</code>, <code>Svar4</code> og <code>Svar5</code>.
         </p>
         <p>
@@ -261,9 +260,9 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Nå må vi få alle figurene til å reagere når de blir klikket på.
-          Hva som skal skje avhenger av om spilleren har klikket riktig eller
-          galt. Legg til dette skriptet til <code>Svar1</code>:
+          Nå må vi få alle figurene til å reagere når de blir klikket på. Hva
+          som skal skje avhenger av om spilleren har klikket riktig eller galt.
+          Legg til dette skriptet til <code>Svar1</code>:
         </p>
         <pre><code class="blocks">når denne figuren klikkes
 hvis &lt;(riktig) = [1]&gt;
@@ -275,13 +274,13 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Dra skriptet over til de andre figurene, slik at alle får hver sin
+          Dra skriptet over til de andre figurene, slik at alle får hver sin
           kopi. For hver figur, bytt 1 til 2, 3, og så videre.
         </p>
       </li>
       <li>
         <p>
-          [ ] Nå skal vi lage skriptet som gir melding til spilleren når han har
+          Nå skal vi lage skriptet som gir melding til spilleren når han har
           vunnet. Klikk på <code>Spørsmål</code> igjen og legg til dette
           skriptet:
         </p>
@@ -300,13 +299,13 @@ si (sett sammen [Gratulerer! Din poengsum ble ] (poeng))
     </p>
     <ul>
       <li>
-        <p>[ ] Hva skjer når du klikker på riktig svar?</p>
+        <p>Hva skjer når du klikker på riktig svar?</p>
       </li>
       <li>
-        <p>[ ] Hva skjer når du klikker på galt svar?</p>
+        <p>Hva skjer når du klikker på galt svar?</p>
       </li>
       <li>
-        <p>[ ] Hva skjer med det gale svaret når du starter et nytt spill?</p>
+        <p>Hva skjer med det gale svaret når du starter et nytt spill?</p>
       </li>
     </ul>
   </section>
@@ -321,8 +320,8 @@ si (sett sammen [Gratulerer! Din poengsum ble ] (poeng))
     <ul>
       <li>
         <p>
-          [ ] For å fikse det første problemet kan vi bare legge til følgende
-          skript for hver av de fem svarfigurene:
+          For å fikse det første problemet kan vi bare legge til følgende skript
+          for hver av de fem svarfigurene:
         </p>
         <pre><code class="blocks">når grønt flagg klikkes
 vis
@@ -341,7 +340,7 @@ vis
     <ul>
       <li>
         <p>
-          [ ] Vi må videre stoppe
+          Vi må videre stoppe
           <code class="blockcontrol">gjenta til</code>-løkken når poengsummen
           har blitt <code>0</code> eller <code class="blockdata">vant</code> er
           <code>1</code>.
@@ -349,7 +348,7 @@ vis
       </li>
       <li>
         <p>
-          [ ] Til slutt legger vi også inn en
+          Til slutt legger vi også inn en
           <code class="blocklooks">ta bort grafiske effekter</code>-kloss som
           avslører spørsmålsfiguren når spilleren har gjettet riktig. Skriptene
           på <code>Spørsmål</code> skal nå se slik ut:

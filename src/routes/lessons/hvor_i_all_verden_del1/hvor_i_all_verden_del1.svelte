@@ -39,13 +39,13 @@
     <ul>
       <li>
         <p>
-          [ ] Start et nytt Scratch-prosjekt. Slett kattefiguren, for eksempel
-          ved å høyreklikke på den og velge <code>slett</code>.
+          Start et nytt Scratch-prosjekt. Slett kattefiguren, for eksempel ved å
+          høyreklikke på den og velge <code>slett</code>.
         </p>
       </li>
       <li>
         <p>
-          [ ] Legg til en ny figur ved å klikke
+          Legg til en ny figur ved å klikke
           <img
             src="lessons/hvor_i_all_verden_del1/../bilder/hent-fra-bibliotek.png"
             alt="Velg figur frabiblioteket"
@@ -57,13 +57,13 @@
       </li>
       <li>
         <p>
-          [ ] Klikk <code class="blockmotion">i</code> og skift navn på figuren
-          til <code>Helikopter</code>.
+          Klikk <code class="blockmotion">i</code> og skift navn på figuren til
+          <code>Helikopter</code>.
         </p>
       </li>
       <li>
         <p>
-          [ ] Klikk på scenen til venstre for figurene, og lag det følgende
+          Klikk på scenen til venstre for figurene, og lag det følgende
           skriptet:
         </p>
         <pre><code class="blocks">når @greenFlag klikkes
@@ -77,7 +77,7 @@ send melding [Nytt spill v]
       </li>
       <li>
         <p>
-          [ ] Klikk på helikopteret igjen. Klikk deretter
+          Klikk på helikopteret igjen. Klikk deretter
           <code class="blockdata">Data</code> og lag en variabel som heter
           <code class="blockdata">hastighet</code> og som gjelder for denne
           figuren.
@@ -85,7 +85,7 @@ send melding [Nytt spill v]
       </li>
       <li>
         <p>
-          [ ] Deretter bygger vi noen klosser hvor vi bestemmer egenskaper ved
+          Deretter bygger vi noen klosser hvor vi bestemmer egenskaper ved
           helikopteret som ikke forandrer seg i løpet av spillet, for eksempel
           størrelsen og hastigheten.
         </p>
@@ -102,9 +102,9 @@ sett [hastighet v] til [5]
       </li>
       <li>
         <p>
-          [ ] Nå skal vi lage en av de viktigste delene av spillet, nemlig
-          hvordan helikopteret flytter seg rundt. Dette legger vi inn i en løkke
-          som alltid kjører.
+          Nå skal vi lage en av de viktigste delene av spillet, nemlig hvordan
+          helikopteret flytter seg rundt. Dette legger vi inn i en løkke som
+          alltid kjører.
         </p>
         <pre><code class="blocks">når jeg mottar [Nytt spill v]
 gå til x: (0) y: (0)
@@ -129,8 +129,8 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Kan du bruke piltastene til å styre helikopteret rundt omkring? Vi
-          har bare bestemt hva som skal skje når <code>pil høyre</code> og
+          Kan du bruke piltastene til å styre helikopteret rundt omkring? Vi har
+          bare bestemt hva som skal skje når <code>pil høyre</code> og
           <code>pil venstre</code> trykkes. Prøv selv å legge inn kode for hva
           som skal skje når <code>pil opp</code> og
           <code>pil ned</code> trykkes.
@@ -138,7 +138,7 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Hva gjør klossen
+          Hva gjør klossen
           <code class="blockmotion">begrens rotasjon vend sideveis</code>? Prøv
           å endre verdiene i nedtrekksmenyen for å se hva som skjer.
         </p>
@@ -160,7 +160,7 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Vi vil først laste ned kartet fra nettet. Åpne lenken
+          Vi vil først laste ned kartet fra nettet. Åpne lenken
           <a href="lessons/hvor_i_all_verden_del1/europakart.png"
             >europakart.png</a
           >
@@ -172,7 +172,7 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Velg
+          Velg
           <img
             src="lessons/hvor_i_all_verden_del1/../bilder/hent-fra-fil.png"
             alt="Last opp bakgrunn fra fil"
@@ -188,7 +188,7 @@ slutt
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        [ ] Ser det ut som om helikopteret flyr rundt i Europa? Prøv gjerne å
+        Ser det ut som om helikopteret flyr rundt i Europa? Prøv gjerne å
         eksperimentere mer med egenskapene til helikopteret: størrelse,
         hastighet og så videre.
       </li>
@@ -205,8 +205,8 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Vi begynner med å tegne en liten figur som kan markere reisemålet
-          i kartet. Velg
+          Vi begynner med å tegne en liten figur som kan markere reisemålet i
+          kartet. Velg
           <img
             src="lessons/hvor_i_all_verden_del1/../bilder/tegn-ny.png"
             alt="Tegn ny figur"
@@ -216,17 +216,17 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Velg en passende farge. For eksempel vil rød synes ganske godt på
+          Velg en passende farge. For eksempel vil rød synes ganske godt på
           kartet. Velg deretter sirkeverktøyet, og marker den fyllte sirkelen
           (ellipsen) til venstre under tegnevinduet.
         </p>
       </li>
       <li>
         <p>
-          [ ] Før du begynner å tegne kan du forstørre tegningen din ved å
-          trykke på forstørrelsesglasset nederst til høyre. For eksempel vil
-          800% forstørrelse passe bra. Hold inne <code>skift</code>-knappen mens
-          du drar ut en sirkel som er omtrent fire ruter stor.
+          Før du begynner å tegne kan du forstørre tegningen din ved å trykke på
+          forstørrelsesglasset nederst til høyre. For eksempel vil 800%
+          forstørrelse passe bra. Hold inne <code>skift</code>-knappen mens du
+          drar ut en sirkel som er omtrent fire ruter stor.
           <code>skift</code>-knappen hjelper deg til å lage en helt rund sirkel.
         </p>
         <figure>
@@ -237,19 +237,19 @@ slutt
         </figure>
       </li>
       <li>
-        <p>[ ] Gi denne nye figuren navnet <code>Sted</code>.</p>
+        <p>Gi denne nye figuren navnet <code>Sted</code>.</p>
       </li>
       <li>
         <p>
-          [ ] Dra denne nye sted-figuren til et sted på kartet du vil at skal
-          være reisemålet. Vi har brukt <code>Barcelona</code> her, men du kan
-          velge et annet sted om du vil.
+          Dra denne nye sted-figuren til et sted på kartet du vil at skal være
+          reisemålet. Vi har brukt <code>Barcelona</code> her, men du kan velge
+          et annet sted om du vil.
         </p>
       </li>
       <li>
         <p>
-          [ ] Vi trenger nå posisjonen til sted-figuren vår. Denne finner vi
-          enklest ved å se på figurinformasjonen etter tallene som står bak
+          Vi trenger nå posisjonen til sted-figuren vår. Denne finner vi enklest
+          ved å se på figurinformasjonen etter tallene som står bak
           <code>x</code> og <code>y</code>. Disse tallene kalles koordinater. I
           eksempelet under er koordinatene <code>x: -98</code> og
           <code>y: -120</code>. Koordinatene forteller hvor på kartet vi har
@@ -264,7 +264,7 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Vi lager nå litt kode som passer på at reisemålet ligger riktig
+          Vi lager nå litt kode som passer på at reisemålet ligger riktig
           plassert på kartet, og som sier i fra hvis vi finner veien til
           Barcelona.
         </p>
@@ -284,10 +284,10 @@ si [Fant Barcelona!] i (2) sekunder
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Ligger den røde sirkelen der den skal være?</p>
+        <p>Ligger den røde sirkelen der den skal være?</p>
       </li>
       <li>
-        <p>[ ] Hva skjer om du styrer helikopteret til den røde sirkelen?</p>
+        <p>Hva skjer om du styrer helikopteret til den røde sirkelen?</p>
       </li>
     </ul>
   </section>
@@ -309,15 +309,14 @@ si [Fant Barcelona!] i (2) sekunder
     <ul>
       <li>
         <p>
-          [ ] En måte å gi beskjed til spilleren på, er ved å bruke variabler.
-          Lag en ny variabel som du kaller
-          <code class="blockdata">Reis til</code>. La denne variabelen gjelde
-          <em>for alle figurer</em>.
+          En måte å gi beskjed til spilleren på, er ved å bruke variabler. Lag
+          en ny variabel som du kaller <code class="blockdata">Reis til</code>.
+          La denne variabelen gjelde <em>for alle figurer</em>.
         </p>
       </li>
       <li>
         <p>
-          [ ] Legg merke til at det dukket opp en boks på kartet,
+          Legg merke til at det dukket opp en boks på kartet,
           <code class="blocklightgrey">Reis til</code
           ><code class="blockdata">0</code>. Flytt denne boksen til et passende
           sted slik at den er lett å lese.
@@ -325,7 +324,7 @@ si [Fant Barcelona!] i (2) sekunder
       </li>
       <li>
         <p>
-          [ ] Oppdater skriptet til <strong>Sted</strong> slik at
+          Oppdater skriptet til <strong>Sted</strong> slik at
           <code class="blockdata">Reis til</code>-variabelen blir satt til
           <code>Barcelona</code> rett etter
           <code class="blockmotion">gå til</code>-klossen.
@@ -338,7 +337,7 @@ si [Fant Barcelona!] i (2) sekunder
     </p>
     <ul>
       <li>
-        [ ] Legg til en <code class="blocklooks">skjul</code>-kloss etter
+        Legg til en <code class="blocklooks">skjul</code>-kloss etter
         <code class="blockevents">når jeg mottar Nytt spill</code>.
       </li>
     </ul>
@@ -348,10 +347,10 @@ si [Fant Barcelona!] i (2) sekunder
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Blir den røde sirkelen borte?</p>
+        <p>Blir den røde sirkelen borte?</p>
       </li>
       <li>
-        <p>[ ] Hva skjer om du reiser til Barcelona?</p>
+        <p>Hva skjer om du reiser til Barcelona?</p>
       </li>
     </ul>
     <p>
@@ -366,7 +365,7 @@ si [Fant Barcelona!] i (2) sekunder
     <ul>
       <li>
         <p>
-          [ ] I stedet for å skjule sirkelen helt vil vi heller gjøre den
+          I stedet for å skjule sirkelen helt vil vi heller gjøre den
           gjennomsiktig. Bytt ut <code class="blocklooks">skjul</code>-klossen
           med en <code class="blocklooks">sett effekt</code>-kloss:
         </p>
@@ -383,10 +382,10 @@ send melding [Nytt sted v]
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Er den røde sirkelen fortsatt borte?</p>
+        <p>Er den røde sirkelen fortsatt borte?</p>
       </li>
       <li>
-        <p>[ ] Hva skjer nå om du flyr til Barcelona?</p>
+        <p>Hva skjer nå om du flyr til Barcelona?</p>
       </li>
     </ul>
   </section>
@@ -406,14 +405,14 @@ send melding [Nytt sted v]
     <ul>
       <li>
         <p>
-          [ ] La oss lage en liten animasjon når spilleren flyr til Barcelona.
-          Først må vi vise den røde sirkelen igjen. Det gjør vi ved å sette
+          La oss lage en liten animasjon når spilleren flyr til Barcelona. Først
+          må vi vise den røde sirkelen igjen. Det gjør vi ved å sette
           gjennomsiktig effekt til 0 etter at sirkelen berører
           <strong>Helikopter</strong>.
         </p>
       </li>
       <li>
-        <p>[ ] Animasjonen kan vi for eksempel lage med den følgende koden:</p>
+        <p>Animasjonen kan vi for eksempel lage med den følgende koden:</p>
         <pre><code class="blocks">gjenta (5) ganger
     gjenta (10) ganger
         endre størrelse med (10)
@@ -432,13 +431,13 @@ slutt
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Vises den røde sirkelen etter at du har flydd til Barcelona?</p>
+        <p>Vises den røde sirkelen etter at du har flydd til Barcelona?</p>
       </li>
       <li>
-        <p>[ ] Animeres sirkelen etter at den er funnet?</p>
+        <p>Animeres sirkelen etter at den er funnet?</p>
       </li>
       <li>
-        <p>[ ] Hva skjer med snakkeboblen <code>Fant Barcelona!</code>?</p>
+        <p>Hva skjer med snakkeboblen <code>Fant Barcelona!</code>?</p>
       </li>
     </ul>
   </section>
@@ -453,7 +452,7 @@ slutt
     </p>
     <ul>
       <li>
-        <p>[ ] Legg til klossen</p>
+        <p>Legg til klossen</p>
         <pre><code class="blocks">si [Fant Barcelona!]
 </code></pre>
         <p>
@@ -462,9 +461,8 @@ slutt
       </li>
       <li>
         <p>
-          [ ] For at sirkelen skal slutte å si
-          <code>Fant Barcelona!</code> etter at animasjonen er slutt må du legge
-          klossen
+          For at sirkelen skal slutte å si <code>Fant Barcelona!</code> etter at
+          animasjonen er slutt må du legge klossen
         </p>
         <pre><code class="blocks">si [ ]
 </code></pre>
@@ -486,18 +484,18 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Tenk over hvordan du kan legge til flere reisemål! Prøv å lage
-          kode som gjør dette!
+          Tenk over hvordan du kan legge til flere reisemål! Prøv å lage kode
+          som gjør dette!
         </p>
       </li>
       <li>
         <p>
-          [ ] For å gjøre spillet litt mer spennende kan vi følge med på hvor
-          lang tid spilleren bruker på å fly til reisemålet. Se om du klarer å
-          lage et skript som gjør dette! Et hint er at du kan lage en ny
-          variabel, f.eks. <code class="blockdata">Tid</code>, og et skript som
-          går i løkke og endrer <code class="blockdata">Tid</code> med 1 for
-          deretter å vente 1 sekund.
+          For å gjøre spillet litt mer spennende kan vi følge med på hvor lang
+          tid spilleren bruker på å fly til reisemålet. Se om du klarer å lage
+          et skript som gjør dette! Et hint er at du kan lage en ny variabel,
+          f.eks. <code class="blockdata">Tid</code>, og et skript som går i
+          løkke og endrer <code class="blockdata">Tid</code> med 1 for deretter
+          å vente 1 sekund.
         </p>
       </li>
     </ul>

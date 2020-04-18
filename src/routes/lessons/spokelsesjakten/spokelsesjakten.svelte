@@ -27,20 +27,20 @@
     <h2 class="check" id="sjekkliste">Sjekkliste</h2>
     <ul>
       <li>
-        <p>[ ] Start et nytt Scratch-prosjekt.</p>
+        <p>Start et nytt Scratch-prosjekt.</p>
       </li>
       <li>
         <p>
-          [ ] Slett kattefiguren ved å høyreklikke på den og velge
+          Slett kattefiguren ved å høyreklikke på den og velge
           <code>slett</code>
         </p>
       </li>
       <li>
-        <p>[ ] Endre bakgrunnen til <code>Utendørs/Woods</code>.</p>
+        <p>Endre bakgrunnen til <code>Utendørs/Woods</code>.</p>
       </li>
       <li>
         <p>
-          [ ] For å legge til et spøkelse klikker du på
+          For å legge til et spøkelse klikker du på
           <img
             src="lessons/spokelsesjakten/../bilder/hent-fra-bibliotek.png"
             alt="Velg figur fra biblioteket"
@@ -48,7 +48,7 @@
         </p>
       </li>
       <li>
-        <p>[ ] Gi spøkelset navnet <code>spøkelse1</code>.</p>
+        <p>Gi spøkelset navnet <code>spøkelse1</code>.</p>
       </li>
     </ul>
     <p>
@@ -59,7 +59,7 @@
     <ul>
       <li>
         <p>
-          [ ] Under <code class="blocklightgrey">Kode</code>, trykk på
+          Under <code class="blocklightgrey">Kode</code>, trykk på
           <code class="blockdata">Variabler</code> og så
           <code>Lag en variabel</code>. Kall variabelen <code>hastighet</code>.
           Huk av der det står <code>For denne figuren</code>.
@@ -67,15 +67,15 @@
       </li>
       <li>
         <p>
-          [ ] På scenen skal variabelen hete <code>spøkelse1: hastighet</code>.
-          Hvis den bare heter <code>hastighet</code>, så slett den og legg den
-          til en gang til.
+          På scenen skal variabelen hete <code>spøkelse1: hastighet</code>. Hvis
+          den bare heter <code>hastighet</code>, så slett den og legg den til en
+          gang til.
         </p>
       </li>
       <li>
         <p>
-          [ ] Fjern avhukingen ved siden av variabelen, slik at den ikke vises
-          på scenen:
+          Fjern avhukingen ved siden av variabelen, slik at den ikke vises på
+          scenen:
           <img
             src="lessons/spokelsesjakten/hastighet.png"
             alt="Bilde av hvordan ikke vise hastighet variabelen"
@@ -84,8 +84,8 @@
       </li>
       <li>
         <p>
-          [ ] Vi vil at spøkelset skal bevege seg når spillet starter. Det gjør
-          vi ved å lage følgende skript:
+          Vi vil at spøkelset skal bevege seg når spillet starter. Det gjør vi
+          ved å lage følgende skript:
         </p>
         <pre><code class="blocks">når grønt flagg klikkes
 sett [hastighet v] til [5]
@@ -101,12 +101,10 @@ slutt
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Flyr spøkelset over skjermen?</p>
+        <p>Flyr spøkelset over skjermen?</p>
       </li>
       <li>
-        <p>
-          [ ] Hvorfor sitter spøkelset fast når det treffer kanten på skjermen?
-        </p>
+        <p>Hvorfor sitter spøkelset fast når det treffer kanten på skjermen?</p>
       </li>
     </ul>
   </section>
@@ -115,8 +113,8 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] For å unngå at spøkelset sitter fast i kanten må vi få det til å
-          snu når det treffer den. Dette gjøres ved å legge til klossen
+          For å unngå at spøkelset sitter fast i kanten må vi få det til å snu
+          når det treffer den. Dette gjøres ved å legge til klossen
           <code class="blockmotion">sprett tilbake ved kanten</code>. Skriptet
           ser da slik ut:
         </p>
@@ -130,7 +128,7 @@ slutt
       </li>
       <li>
         <p>
-          [ ] For å hindre at spøkelset snur seg opp-ned, klikk på
+          For å hindre at spøkelset snur seg opp-ned, klikk på
           <code>Retning</code> boksen over figuren. Velg den midterste
           rotasjonsmåten (&quot;frem og tilbake&quot;).
         </p>
@@ -148,10 +146,10 @@ slutt
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Flyr spøkelset fram og tilbake?</p>
+        <p>Flyr spøkelset fram og tilbake?</p>
       </li>
       <li>
-        <p>[ ] Flyr spøkelset riktig vei?</p>
+        <p>Flyr spøkelset riktig vei?</p>
       </li>
     </ul>
   </section>
@@ -160,13 +158,13 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] <strong>Endre hastighetsvariabelen</strong>, slik at spøkelset går
+          <strong>Endre hastighetsvariabelen</strong>, slik at spøkelset går
           raskere eller saktere.
         </p>
       </li>
       <li>
         <p>
-          [ ] Hvordan kan vi få spøkelset til å
+          Hvordan kan vi få spøkelset til å
           <strong>fly fortere jo lenger det flyr?</strong> (Dette er nokså
           vanskelig, så ikke vær bekymret hvis du ikke skjønner hvordan. Du vil
           få flere hint underveis.)
@@ -193,7 +191,7 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Vi lager et nytt skript, som skal kjøre samtidig med skriptet som
+          Vi lager et nytt skript, som skal kjøre samtidig med skriptet som
           beveger på spøkelset. Det nye skriptet
           <strong>viser spøkelset en tilfeldig periode</strong> og
           <strong>gjemmer det deretter bort i en tilfeldig periode</strong>.
@@ -216,10 +214,10 @@ slutt
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Flytter spøkelset seg fra side til side?</p>
+        <p>Flytter spøkelset seg fra side til side?</p>
       </li>
       <li>
-        <p>[ ] Forsvinner det og dukker opp igjen helt tilfeldig?</p>
+        <p>Forsvinner det og dukker opp igjen helt tilfeldig?</p>
       </li>
     </ul>
   </section>
@@ -227,7 +225,7 @@ slutt
     <h2 class="challenge" id="ting-%C3%A5-pr%C3%B8ve-2">Ting å prøve</h2>
     <ul>
       <li>
-        [ ] Prøv å <strong>endre tallene i koden</strong> der det står
+        Prøv å <strong>endre tallene i koden</strong> der det står
         <code class="blockoperators">tilfeldig tall fra _ til _</code>. Hva
         skjer hvis du velger veldig store eller små tall? (Dette gir deg kanskje
         et nytt hint for hvordan vi skal få spøkelset til å gå fortere jo lenger
@@ -252,16 +250,16 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Gå inn på <code class="blocklightgrey">Lyder</code>-fanen, legg
-          til en ny lyd med ikonet nede til venstre. Søk opp lyden
+          Gå inn på <code class="blocklightgrey">Lyder</code>-fanen, legg til en
+          ny lyd med ikonet nede til venstre. Søk opp lyden
           <code>Fairydust</code> i søkefeltet, og velg den. Nå er den
           tilgjengelig for skriptene i spøkelset.
         </p>
       </li>
       <li>
         <p>
-          [ ] Lag skriptet som får
-          <strong>spøkelset til å forsvinne</strong> når det blir klikket på:
+          Lag skriptet som får <strong>spøkelset til å forsvinne</strong> når
+          det blir klikket på:
         </p>
         <pre><code class="blocks">når denne figuren klikkes
 skjul
@@ -274,15 +272,15 @@ start lyden [fairydust v]
     <h2 class="flag" id="test-prosjektet-4">Test prosjektet</h2>
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
-      <li>[ ] Forsvinner spøkelset med en tryllelyd når du klikker på det?</li>
+      <li>Forsvinner spøkelset med en tryllelyd når du klikker på det?</li>
     </ul>
   </section>
   <section class="challenge">
     <h2 class="challenge" id="ting-%C3%A5-pr%C3%B8ve-3">Ting å prøve</h2>
     <ul>
       <li>
-        [ ] Spør de voksne om du kan ta opp en egen lyd. Denne kan du bruke i
-        stedet for tryllelyden.
+        Spør de voksne om du kan ta opp en egen lyd. Denne kan du bruke i stedet
+        for tryllelyden.
       </li>
     </ul>
   </section>
@@ -303,7 +301,7 @@ start lyden [fairydust v]
     <ul>
       <li>
         <p>
-          [ ] Lag en ny variabel som heter <code class="blockdata">Poeng</code>.
+          Lag en ny variabel som heter <code class="blockdata">Poeng</code>.
           Denne skal gjelde <code>For alle figurer</code>. Legg til en ny kloss
           som gjør at <code class="blockdata">Poeng</code>-variabelen økes med 1
           poeng for hver gang spilleren klikker på spøkelset.
@@ -316,13 +314,13 @@ endre [Poeng v] med (1)
       </li>
       <li>
         <p>
-          [ ] Klikk på <code>Scene</code> og lag en ny variabel som heter
+          Klikk på <code>Scene</code> og lag en ny variabel som heter
           <code>Tid</code>. La variablen vises på skjermen.
         </p>
       </li>
       <li>
         <p>
-          [ ] Lag et nytt skript som setter
+          Lag et nytt skript som setter
           <code class="blockdata">Tid</code>-variabelen til
           <strong>30</strong> og <code>Poeng</code>-variablen til
           <strong>0</strong> når det grønne flagget klikkes.
@@ -330,8 +328,8 @@ endre [Poeng v] med (1)
       </li>
       <li>
         <p>
-          [ ] Bruk så en <code class="blockcontrol">gjenta til</code>-kloss for
-          å vente i <strong>1</strong>
+          Bruk så en <code class="blockcontrol">gjenta til</code>-kloss for å
+          vente i <strong>1</strong>
           sekund og deretter redusere tiden med 1 sekund. Denne skal kjøre fram
           til tiden er ute. Til slutt stopper du hele spillet med en
           <code class="blockcontrol">stopp alle</code>-kloss.
@@ -356,8 +354,7 @@ stopp [alle v] :: control
     <h2 class="challenge" id="ting-%C3%A5-pr%C3%B8ve-4">Ting å prøve</h2>
     <ul>
       <li>
-        [ ] Hvordan kan du få spøkelset til å gå fortere etter at spillet er i
-        gang?
+        Hvordan kan du få spøkelset til å gå fortere etter at spillet er i gang?
       </li>
     </ul>
   </section>
@@ -365,8 +362,8 @@ stopp [alle v] :: control
     <h2 class="save" id="lagre-prosjektet">Lagre prosjektet</h2>
     <ul>
       <li>
-        [ ] <strong>Bra jobba!</strong> Nå er du egentlig ferdig med spillet,
-        men prøv deg gjerne på neste steg også.
+        <strong>Bra jobba!</strong> Nå er du egentlig ferdig med spillet, men
+        prøv deg gjerne på neste steg også.
       </li>
     </ul>
   </section>
@@ -383,27 +380,27 @@ stopp [alle v] :: control
     <ul>
       <li>
         <p>
-          [ ] <strong>Lag flere spøkelser</strong> ved å høyreklikke på det du
+          <strong>Lag flere spøkelser</strong> ved å høyreklikke på det du
           allerede har, og så kopiere dette.
         </p>
       </li>
       <li>
         <p>
-          [ ] <strong>La spøkelsene få ulik størrelse</strong>. Dette gjør du
-          ved å velge et spøkelse, trykke <code>Størrelse</code>-boksen og endre
+          <strong>La spøkelsene få ulik størrelse</strong>. Dette gjør du ved å
+          velge et spøkelse, trykke <code>Størrelse</code>-boksen og endre
           tallet litt.
         </p>
       </li>
       <li>
         <p>
-          [ ] Du kan også <strong>endre spøkelsenes flyvefart</strong>. Dette
-          gjøres i <code class="blockdata">hastighet</code>-variabelen i det
-          øverste skriptet for hver enkelt figur.
+          Du kan også <strong>endre spøkelsenes flyvefart</strong>. Dette gjøres
+          i <code class="blockdata">hastighet</code>-variabelen i det øverste
+          skriptet for hver enkelt figur.
         </p>
       </li>
       <li>
         <p>
-          [ ] Til slutt kan du <strong>spre spøkelsene</strong> litt bedre ut på
+          Til slutt kan du <strong>spre spøkelsene</strong> litt bedre ut på
           scenen. Dette gjør du ved å klikke og dra figurene rundt i selve
           skjermbildet.
         </p>
@@ -415,13 +412,13 @@ stopp [alle v] :: control
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Har du nå tre spøkelser som flyr fra side til side?</p>
+        <p>Har du nå tre spøkelser som flyr fra side til side?</p>
       </li>
       <li>
-        <p>[ ] Som plutselig forsvinner og dukker opp igjen?</p>
+        <p>Som plutselig forsvinner og dukker opp igjen?</p>
       </li>
       <li>
-        <p>[ ] Forsvinner de når du klikker på dem?</p>
+        <p>Forsvinner de når du klikker på dem?</p>
       </li>
     </ul>
     <p>Gratulerer! Da har du gjort alt riktig!</p>
@@ -431,22 +428,21 @@ stopp [alle v] :: control
     <ul>
       <li>
         <p>
-          [ ] Hvor mange spøkelser synes du spillet fungerer best med?
+          Hvor mange spøkelser synes du spillet fungerer best med?
           <strong>Legg til flere</strong> og prøv!
         </p>
       </li>
       <li>
         <p>
-          [ ] Klarer du å få spøkelsene til
-          <strong>å se forskjellige ut</strong>? Klikk på
-          <code class="blocklightgrey">Drakter</code> og prøv deg frem. Du kan
-          også velge noen av klossene under
+          Klarer du å få spøkelsene til <strong>å se forskjellige ut</strong>?
+          Klikk på <code class="blocklightgrey">Drakter</code> og prøv deg frem.
+          Du kan også velge noen av klossene under
           <code class="blocklooks">Utseende</code>.
         </p>
       </li>
       <li>
         <p>
-          [ ] Kan du få spøkelsene til
+          Kan du få spøkelsene til
           <strong>å bli verdt forskjellige antall poeng?</strong> Hva med å få
           den minste og raskeste til å gi 10 poeng?
         </p>

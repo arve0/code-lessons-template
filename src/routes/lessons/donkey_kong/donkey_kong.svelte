@@ -34,16 +34,16 @@
     <h2 class="check" id="plan">Plan</h2>
     <ul>
       <li>
-        <p>[ ] Hvordan styre en plattform-helt som kan hoppe?</p>
+        <p>Hvordan styre en plattform-helt som kan hoppe?</p>
       </li>
       <li>
-        <p>[ ] Plattformer og stiger</p>
+        <p>Plattformer og stiger</p>
       </li>
       <li>
-        <p>[ ] Donkey Kong og rullende ildkuler</p>
+        <p>Donkey Kong og rullende ildkuler</p>
       </li>
       <li>
-        <p>[ ] .. og andre utfordringer</p>
+        <p>.. og andre utfordringer</p>
       </li>
     </ul>
   </section>
@@ -66,13 +66,13 @@
     <h2 class="check" id="sjekkliste">Sjekkliste</h2>
     <ul>
       <li>
-        <p>[ ] Start et nytt prosjekt.</p>
+        <p>Start et nytt prosjekt.</p>
       </li>
       <li>
         <p>
-          [ ] For å kunne teste at heltefiguren oppfører seg som vi vil trenger
-          vi en enkel plattform (vi skal tegne flere plattformer senere). Tegn
-          en ny bakgrunn. Velg å tegne med <code>Vektorgrafikk</code>. Tegn en
+          For å kunne teste at heltefiguren oppfører seg som vi vil trenger vi
+          en enkel plattform (vi skal tegne flere plattformer senere). Tegn en
+          ny bakgrunn. Velg å tegne med <code>Vektorgrafikk</code>. Tegn en
           smal, lang boks nederst på skjermen. Fyll den med en farge forskjellig
           fra linjefargen.
         </p>
@@ -85,9 +85,9 @@
       </li>
       <li>
         <p>
-          [ ] Velg eller lag deg en figur du ønsker å bruke som den hoppende
-          helten du skal styre. Om du ikke bruker Scratch-katten så slett denne.
-          Kall figuren <code>Jumpman</code>. Sannsynligvis vil vi gjøre figuren
+          Velg eller lag deg en figur du ønsker å bruke som den hoppende helten
+          du skal styre. Om du ikke bruker Scratch-katten så slett denne. Kall
+          figuren <code>Jumpman</code>. Sannsynligvis vil vi gjøre figuren
           mindre slik at vi får plass til flere plattformer på skjermen. Dette
           kan du gjøre med kode som kun kjører i det du starter spillet, for
           eksempel:
@@ -103,17 +103,17 @@ begrens rotasjon [vend sideveis v]
       </li>
       <li>
         <p>
-          [ ] Vi trenger to variabler som vi skal bruke til å kontrollere
-          bevegelsen til <code>Jumpman</code>. Lag to variabler,
+          Vi trenger to variabler som vi skal bruke til å kontrollere bevegelsen
+          til <code>Jumpman</code>. Lag to variabler,
           <code class="b">(fartX)</code> og <code class="b">(fartY)</code>. Pass
           på at begge gjelder kun <em>for denne figuren</em>.
         </p>
       </li>
       <li>
         <p>
-          [ ] I hovedløkken som styrer <code>Jumpman</code> vil vi først endre
-          litt på disse <code class="blockdata">fart</code>-variablene, og til
-          slutt flytte selve figuren basert på dem.
+          I hovedløkken som styrer <code>Jumpman</code> vil vi først endre litt
+          på disse <code class="blockdata">fart</code>-variablene, og til slutt
+          flytte selve figuren basert på dem.
         </p>
         <p>
           Dersom ingenting påvirker figuren vår vil vi at
@@ -138,7 +138,7 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Om du prøver spillet ditt så langt (husk å legge til et skript på
+          Om du prøver spillet ditt så langt (husk å legge til et skript på
           bakgrunnen som sender en <code>nytt spill</code>-melding når det
           grønne flagget klikkes), vil du se at figuren din faller ned til
           plattformen. Men du kan ikke kontrollere den.
@@ -146,7 +146,7 @@ slutt
       </li>
       <li>
         <p>
-          [ ] For å styre <code>Jumpman</code> legger vi flere
+          For å styre <code>Jumpman</code> legger vi flere
           <code class="blockcontrol">hvis</code>-tester inn i hovedløkken. For
           eksempel kan du få figuren til å bevege seg mot venstre ved å legge
           til dette rett før <code class="b">endre x med (fartX)</code>:
@@ -161,7 +161,7 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Vi vil også at <code>Jumpman</code> hopper når vi trykker på
+          Vi vil også at <code>Jumpman</code> hopper når vi trykker på
           <code>pil opp</code>-tasten. Her må vi være litt forsiktig, siden vi
           bare vil at figuren kan hoppe hvis den står på en plattform (ikke når
           den allerede hopper). En enkel måte å få til dette på er å legge
@@ -188,7 +188,7 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Du har kanskje oppdaget at av og til faller
+          Du har kanskje oppdaget at av og til faller
           <code>Jumpman</code> delvis <em>gjennom</em> plattformen? Hvis ikke,
           prøv å slipp ham fra toppen av skjermen. Den følgende testen fikser
           dette ganske greit:
@@ -225,8 +225,8 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Før vi tegner flere plattformer skal vi lage stiger, som vil gjøre
-          det enklere for helten vår å klatre opp eller ned. Som for plattformer
+          Før vi tegner flere plattformer skal vi lage stiger, som vil gjøre det
+          enklere for helten vår å klatre opp eller ned. Som for plattformer
           skal vi kjenne igjen stiger ved hjelp av fargen. For å gjøre litt
           enkel testing, tegn først en strek rett opp fra plattformen (vi skal
           tegne en finere stige senere) i en ny farge:
@@ -244,7 +244,7 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Hvordan skal helten vår klatre i en stige? Først og fremst vil han
+          Hvordan skal helten vår klatre i en stige? Først og fremst vil han
           ikke falle nedover (på samme måte som når han står på en plattform). I
           tillegg vil vi kunne klatre opp og ned i stigen. Legg til denne testen
           på <code>Jumpman</code>:
@@ -265,17 +265,17 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Tegn flere plattformer og stiger. Test underveis at det er mulig
-          for <code>Jumpman</code> å klatre eller hoppe mellom plattformene, men
+          Tegn flere plattformer og stiger. Test underveis at det er mulig for
+          <code>Jumpman</code> å klatre eller hoppe mellom plattformene, men
           samtidig at han ikke klarer å hoppe mellom to plattformer når det ikke
           er meningen at det skal gå an.
         </p>
       </li>
       <li>
         <p>
-          [ ] Når du er fornøyd med hvordan brettet ser ut kan du også tegne
-          stigene litt finere. Om du vil kan du også vente med dette til etter
-          at du har programmert Donkey Kong i neste steg.
+          Når du er fornøyd med hvordan brettet ser ut kan du også tegne stigene
+          litt finere. Om du vil kan du også vente med dette til etter at du har
+          programmert Donkey Kong i neste steg.
         </p>
         <figure>
           <img
@@ -302,34 +302,33 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Lag en <code>Donkey Kong</code>-figur, og plasser den på en
-          passende plattform. Denne vil ikke bevege seg i dette spillet, slik at
-          den eneste koden vi egentlig trenger er for å kaste ildkuler. Vi skal
-          lage denne koden snart.
+          Lag en <code>Donkey Kong</code>-figur, og plasser den på en passende
+          plattform. Denne vil ikke bevege seg i dette spillet, slik at den
+          eneste koden vi egentlig trenger er for å kaste ildkuler. Vi skal lage
+          denne koden snart.
         </p>
       </li>
       <li>
         <p>
-          [ ] Lag også en ny <code>Ildkule</code>-figur. Dette kan være en
-          sirkel du farger oransje, eller du kan prøve å tegne noe mer avansert.
-          La figuren <code class="blocklooks">skjules</code> når det grønne
-          flagget klikkes.
+          Lag også en ny <code>Ildkule</code>-figur. Dette kan være en sirkel du
+          farger oransje, eller du kan prøve å tegne noe mer avansert. La
+          figuren <code class="blocklooks">skjules</code> når det grønne flagget
+          klikkes.
         </p>
       </li>
       <li>
         <p>
-          [ ] Nå skal vi skrive koden på Donkey Kong. Den blir ganske enkel.
-          Etter at <code>Donkey Kong</code> mottar <code>nytt spill</code> kan
-          du la han gå inn i en
-          <code class="blockcontrol">for alltid</code>-løkke hvor han
-          <code class="blockcontrol">lager klon av Ildkule</code> og deretter
-          <code class="blockcontrol">venter 3 sekunder</code>.
+          Nå skal vi skrive koden på Donkey Kong. Den blir ganske enkel. Etter
+          at <code>Donkey Kong</code> mottar <code>nytt spill</code> kan du la
+          han gå inn i en <code class="blockcontrol">for alltid</code>-løkke
+          hvor han <code class="blockcontrol">lager klon av Ildkule</code> og
+          deretter <code class="blockcontrol">venter 3 sekunder</code>.
         </p>
       </li>
       <li>
         <p>
-          [ ] Men nå må vi programmere hvordan ildkulene skal oppføre seg. Vi
-          vil holde styr på hvordan de beveger seg ved hjelp av
+          Men nå må vi programmere hvordan ildkulene skal oppføre seg. Vi vil
+          holde styr på hvordan de beveger seg ved hjelp av
           <code class="b">(fartX)</code> og <code class="b">(fartY)</code> på
           samme måte som for <code>Jumpman</code>. Lag derfor disse to
           variablene også på <code>Ildkule</code>. Husk at de skal gjelde kun
@@ -338,7 +337,7 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Først bestemmer vi hvilken fart kula har når
+          Først bestemmer vi hvilken fart kula har når
           <code>Donkey Kong</code> kaster den. Dette gjør vi ved å sette
           <code class="blockdata">fart</code>-variablene, for eksempel på denne
           måten:
@@ -352,7 +351,7 @@ vis
       </li>
       <li>
         <p>
-          [ ] Videre bestemmer vi hvordan kulene oppfører seg ved å lage en
+          Videre bestemmer vi hvordan kulene oppfører seg ved å lage en
           hovedløkke på omtrent samme måte som for <code>Jumpman</code>.
         </p>
         <p>
@@ -366,7 +365,7 @@ vis
       </li>
       <li>
         <p>
-          [ ] Legg også til kode som gjør at ildkulene snur,
+          Legg også til kode som gjør at ildkulene snur,
           <code class="b">sett [fartX v] til ((-1) * (fartX))</code>, når de
           <code class="blocksensing">berører kant</code>, og kode som sender en
           melding, <code>fanget Jumpman</code>, når de
@@ -375,17 +374,17 @@ vis
       </li>
       <li>
         <p>
-          [ ] Lag kode på <code>Jumpman</code> som mottar
+          Lag kode på <code>Jumpman</code> som mottar
           <code>fanget Jumpman</code>, og som kanskje
           <code class="blocksound">spiller en lyd</code>.
         </p>
       </li>
       <li>
         <p>
-          [ ] Til slutt, lag en skatt som Jumpman skal redde. Dette blir en ny
-          figur som kan stå i ro til den <code>berører Jumpman</code> og
-          deretter sende en melding <code>fant skatten</code>. Skriv kode som
-          svarer på denne meldingen på passende måte.
+          Til slutt, lag en skatt som Jumpman skal redde. Dette blir en ny figur
+          som kan stå i ro til den <code>berører Jumpman</code> og deretter
+          sende en melding <code>fant skatten</code>. Skriv kode som svarer på
+          denne meldingen på passende måte.
         </p>
       </li>
     </ul>
@@ -410,27 +409,27 @@ vis
     <ul>
       <li>
         <p>
-          [ ] Legg gjerne til flere animasjoner og lyder. For eksempel kan
-          Donkey Kong gjøre en kastebevegelse når han kaster ildkuler.
+          Legg gjerne til flere animasjoner og lyder. For eksempel kan Donkey
+          Kong gjøre en kastebevegelse når han kaster ildkuler.
         </p>
       </li>
       <li>
         <p>
-          [ ] Lag en forside og meny. Om du lager en forside som forteller litt
-          om hvordan man spiller spillet ditt blir det enklere for andre å
-          spille det også!
+          Lag en forside og meny. Om du lager en forside som forteller litt om
+          hvordan man spiller spillet ditt blir det enklere for andre å spille
+          det også!
         </p>
       </li>
       <li>
         <p>
-          [ ] Vi har laget ett brett, men du kan enkelt tegne flere bakgrunner
-          med andre plattformer og hindringer. Prøv å lag flere brett hvor man
+          Vi har laget ett brett, men du kan enkelt tegne flere bakgrunner med
+          andre plattformer og hindringer. Prøv å lag flere brett hvor man
           kommer videre til neste nivå etter at man har funnet skatten.
         </p>
       </li>
       <li>
         <p>
-          [ ] For å gi spillerene litt mer motivasjon kan det være lurt å telle
+          For å gi spillerene litt mer motivasjon kan det være lurt å telle
           poeng og liv. Til dette trenger du to nye variabler,
           <code class="b">(poeng)</code> og <code class="b">(liv)</code>. For å
           telle liv kan du bruke <code>fanget Jumpman</code>-meldingen. Før du
@@ -440,7 +439,7 @@ vis
       </li>
       <li>
         <p>
-          [ ] Du kan legge til en tidsbegrensning om du vil gjøre spillet mer
+          Du kan legge til en tidsbegrensning om du vil gjøre spillet mer
           utfordrende. Til dette bruker du en variabel
           <code class="b">(tid)</code> som du
           <code class="blockdata">endrer</code> og deretter

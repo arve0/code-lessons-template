@@ -36,12 +36,12 @@
     <ul>
       <li>
         <p>
-          [ ] du har et helikopter som du kan styre rundt på skjermen med
+          du har et helikopter som du kan styre rundt på skjermen med
           piltastene, og
         </p>
       </li>
       <li>
-        <p>[ ] du har en stedfigur som kan bli funnet av helikopteret.</p>
+        <p>du har en stedfigur som kan bli funnet av helikopteret.</p>
       </li>
     </ul>
     <p>
@@ -66,13 +66,13 @@
     <ul>
       <li>
         <p>
-          [ ] Slett <code>Europakart</code>-bakgrunnen din. En helt hvit
-          bakgrunn vil passe bra nå.
+          Slett <code>Europakart</code>-bakgrunnen din. En helt hvit bakgrunn
+          vil passe bra nå.
         </p>
       </li>
       <li>
         <p>
-          [ ] Lag en ny figur ved å klikke
+          Lag en ny figur ved å klikke
           <img
             src="lessons/hvor_i_all_verden_del2/../bilder/hent-fra-fil.png"
             alt="Last opp figur frafil"
@@ -86,12 +86,12 @@
         </p>
       </li>
       <li>
-        <p>[ ] Gi denne nye kartfiguren navnet <code>Kart</code>.</p>
+        <p>Gi denne nye kartfiguren navnet <code>Kart</code>.</p>
       </li>
       <li>
         <p>
-          [ ] For å være sikre på at denne figuren ligger bakerst som en
-          bakgrunn kan vi starte med følgende kode:
+          For å være sikre på at denne figuren ligger bakerst som en bakgrunn
+          kan vi starte med følgende kode:
         </p>
         <pre><code class="blocks">når @greenFlag klikkes
 flytt bakover (50) lag
@@ -99,11 +99,10 @@ flytt bakover (50) lag
       </li>
       <li>
         <p>
-          [ ] Vi vil nå lage denne figuren så stor som mulig. Dessverre har
-          Scratch en begrensning på hvor store figurer kan være. Du kan se dette
-          om du først krysser av for at
-          <code class="blocklooks">størrelse</code> skal vises på kart-figuren.
-          Deretter kan du endre størrelsen med
+          Vi vil nå lage denne figuren så stor som mulig. Dessverre har Scratch
+          en begrensning på hvor store figurer kan være. Du kan se dette om du
+          først krysser av for at <code class="blocklooks">størrelse</code> skal
+          vises på kart-figuren. Deretter kan du endre størrelsen med
         </p>
         <pre><code class="blocks">sett størrelse til (9999) %
 </code></pre>
@@ -115,9 +114,9 @@ flytt bakover (50) lag
       </li>
       <li>
         <p>
-          [ ] Til bruk senere, når vi skal lage en intro til spillet, er det
-          greit å <code class="blocklooks">skjule</code> kartfiguren når det
-          grønne flagget klikkes.
+          Til bruk senere, når vi skal lage en intro til spillet, er det greit å
+          <code class="blocklooks">skjule</code> kartfiguren når det grønne
+          flagget klikkes.
         </p>
       </li>
     </ul>
@@ -174,15 +173,15 @@ flytt bakover (50) lag
     <ul>
       <li>
         <p>
-          [ ] Lag to nye variabler som gjelder for alle figurer. Disse skal hete
+          Lag to nye variabler som gjelder for alle figurer. Disse skal hete
           <code>X</code> og <code>Y</code>, og vil beskrive hvor helikopteret er
           i forhold til kartet.
         </p>
       </li>
       <li>
         <p>
-          [ ] Vi skal nå endre hva som skjer når du trykker på piltastene. I
-          stedet for at helikopteret skal
+          Vi skal nå endre hva som skjer når du trykker på piltastene. I stedet
+          for at helikopteret skal
         </p>
         <pre><code class="blocks">gå (hastighet) steg
 </code></pre>
@@ -203,14 +202,14 @@ flytt bakover (50) lag
     <ul>
       <li>
         <p>
-          [ ] Helikopteret skal nå <strong>ikke</strong> flytte seg når du
-          trykker på piltastene. Hvis helikopteret flytter seg må du slette
+          Helikopteret skal nå <strong>ikke</strong> flytte seg når du trykker
+          på piltastene. Hvis helikopteret flytter seg må du slette
           <code class="blockmotion">gå</code>-klossene.
         </p>
       </li>
       <li>
         <p>
-          [ ] Helikopteret skal fortsatt snu seg til høyre eller venstre når du
+          Helikopteret skal fortsatt snu seg til høyre eller venstre når du
           trykker på piltastene.
         </p>
       </li>
@@ -230,7 +229,7 @@ flytt bakover (50) lag
     </p>
     <ul>
       <li>
-        <p>[ ] Legg til denne koden på kartet:</p>
+        <p>Legg til denne koden på kartet:</p>
         <pre><code class="blocks">når jeg mottar [Nytt spill v]
 vis
 gjenta for alltid
@@ -246,18 +245,18 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Ser det ut som om helikopteret flytter på seg når du trykker på
+          Ser det ut som om helikopteret flytter på seg når du trykker på
           piltastene?
         </p>
       </li>
       <li>
         <p>
-          [ ] Se nøye etter. Ser du at helikopteret faktisk står på samme sted
-          hele tiden?
+          Se nøye etter. Ser du at helikopteret faktisk står på samme sted hele
+          tiden?
         </p>
       </li>
       <li>
-        <p>[ ] Hva skjer om du flyr ut av kartet?</p>
+        <p>Hva skjer om du flyr ut av kartet?</p>
       </li>
     </ul>
   </section>
@@ -279,7 +278,7 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Det er litt vanskelig å teste når vi har gjort reisemålet usynlig.
+          Det er litt vanskelig å teste når vi har gjort reisemålet usynlig.
           Endre derfor på gjennomsiktigheten til sted-figuren. For eksempel kan
           du sette
         </p>
@@ -288,15 +287,15 @@ slutt
       </li>
       <li>
         <p>
-          [ ] For at det skal se ut som om stedet ligger i ro på kartet må
-          faktisk sted-figuren flytte seg sammen med kartet. Vi behøver da to
-          variabler som holder rede på hvor stedet skal ligge i forhold til
-          kartet. Lag to variabler som heter <code>stedX</code> og
-          <code>stedY</code>. Begge disse skal gjelde kun for sted-figuren.
+          For at det skal se ut som om stedet ligger i ro på kartet må faktisk
+          sted-figuren flytte seg sammen med kartet. Vi behøver da to variabler
+          som holder rede på hvor stedet skal ligge i forhold til kartet. Lag to
+          variabler som heter <code>stedX</code> og <code>stedY</code>. Begge
+          disse skal gjelde kun for sted-figuren.
         </p>
       </li>
       <li>
-        <p>[ ] Bytt ut</p>
+        <p>Bytt ut</p>
         <pre><code class="blocks">gå til x: (-98) y: (-120)
 </code></pre>
         <p>med kode som setter variablene i stedet:</p>
@@ -306,8 +305,7 @@ sett [stedY v] til [-120]
       </li>
       <li>
         <p>
-          [ ] Vi kan nå lage en helt ny blokk som flytter stedet rundt på
-          skjermen.
+          Vi kan nå lage en helt ny blokk som flytter stedet rundt på skjermen.
         </p>
         <pre><code class="blocks">når jeg mottar [Nytt spill v]
 gjenta for alltid
@@ -318,9 +316,9 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Du ser kanskje at den røde prikken ikke lenger ligger ved
-          Barcelona? Det er fordi vi har laget et større kart. Da stemmer ikke
-          lengre de gamle koordinatene.
+          Du ser kanskje at den røde prikken ikke lenger ligger ved Barcelona?
+          Det er fordi vi har laget et større kart. Da stemmer ikke lengre de
+          gamle koordinatene.
         </p>
         <p>
           Endre verdiene for <code>X</code> og <code>Y</code> til det ser ut som
@@ -356,8 +354,8 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Klikk på <code class="blockmoreblocks">Flere klosser</code> og lag
-          en kloss som ser slik ut:
+          Klikk på <code class="blockmoreblocks">Flere klosser</code> og lag en
+          kloss som ser slik ut:
         </p>
         <figure>
           <img
@@ -372,7 +370,7 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Etter at du klikker <code>OK</code> dukker det opp en ny kloss på
+          Etter at du klikker <code>OK</code> dukker det opp en ny kloss på
           skjermen:
         </p>
         <pre><code class="blocks">definer Reis til (sted) (x) (y)
@@ -383,7 +381,7 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Flytt skriptet ditt fra
+          Flytt skriptet ditt fra
           <code class="blockevents">Nytt sted</code>-blokken til den nye
           funksjonen, og endre litt - spesielt i variablene - slik at funksjonen
           din ser slik ut:
@@ -409,7 +407,7 @@ si []
       </li>
       <li>
         <p>
-          [ ] Til slutt kan vi endre på
+          Til slutt kan vi endre på
           <code class="blockevents">Nytt spill</code>-blokken slik at vi bruker
           den nye funksjonen. For eksempel
         </p>
@@ -422,10 +420,10 @@ Reis til [Barcelona] (-135) (-175) :: custom
       </li>
       <li>
         <p>
-          [ ] Om du prøver spillet nå vil du kanskje oppdage et lite problem.
-          Dersom du ikke flytter deg etter å ha funnet det første reisemålet,
-          vil det neste reisemålet bli funnet automatisk. Det er fordi vi ikke
-          rekker å flytte sirkelen før vi tester om den berører helikopteret.
+          Om du prøver spillet nå vil du kanskje oppdage et lite problem. Dersom
+          du ikke flytter deg etter å ha funnet det første reisemålet, vil det
+          neste reisemålet bli funnet automatisk. Det er fordi vi ikke rekker å
+          flytte sirkelen før vi tester om den berører helikopteret.
         </p>
         <p>Den enkleste måten å løse dette på er å legge på klossen</p>
         <pre><code class="blocks">vent til &lt;ikke &lt;berører [Helikopter v]?&gt;&gt;
@@ -441,16 +439,16 @@ Reis til [Barcelona] (-135) (-175) :: custom
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Flyr helikopteret rundt på kartet på en naturlig måte?</p>
+        <p>Flyr helikopteret rundt på kartet på en naturlig måte?</p>
       </li>
       <li>
         <p>
-          [ ] Fungerer reisemålene slik de skal? Ligger de omtrent der de skal
+          Fungerer reisemålene slik de skal? Ligger de omtrent der de skal
           ligge?
         </p>
       </li>
       <li>
-        <p>[ ] Kan du reise til flere reisemål på rad?</p>
+        <p>Kan du reise til flere reisemål på rad?</p>
       </li>
     </ul>
   </section>
@@ -468,21 +466,21 @@ Reis til [Barcelona] (-135) (-175) :: custom
     <ul>
       <li>
         <p>
-          [ ] Kan du legge til flere reisemål på egen hånd? Husk at det er lurt
-          å gjøre reisemålet synlig mens du tester. Da blir det enklere å finne
+          Kan du legge til flere reisemål på egen hånd? Husk at det er lurt å
+          gjøre reisemålet synlig mens du tester. Da blir det enklere å finne
           koordinatene til reisemålet!
         </p>
       </li>
       <li>
         <p>
-          [ ] Spillet blir morsommere hvis ikke reisemålene kommer i samme
+          Spillet blir morsommere hvis ikke reisemålene kommer i samme
           rekkefølge hver gang du spiller. Hvordan kan du få reisemålene til å
           komme i tilfeldig rekkefølge? Prøv å lage kode som gjør dette!
         </p>
       </li>
       <li>
         <p>
-          [ ] Fortsatt er ikke kartet så veldig stort. En måte å komme seg rundt
+          Fortsatt er ikke kartet så veldig stort. En måte å komme seg rundt
           begrensningen på figurstørrelse i Scratch er å la bakgrunnen bestå av
           flere deler. Filen
           <a href="lessons/hvor_i_all_verden_del2/europakart.zip"

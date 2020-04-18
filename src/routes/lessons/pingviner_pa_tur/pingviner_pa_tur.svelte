@@ -40,25 +40,25 @@
     <ul>
       <li>
         <p>
-          [ ] Gå til nettsiden
+          Gå til nettsiden
           <a href="https://scratch.mit.edu/">scratch.mit.edu</a> i en nettleser.
         </p>
       </li>
       <li>
         <p>
-          [ ] Om siden er på engelsk kan du endre språk til norsk (bokmål eller
+          Om siden er på engelsk kan du endre språk til norsk (bokmål eller
           nynorsk) i nedtrekksmenyen nederst på siden.
         </p>
       </li>
       <li>
         <p>
-          [ ] Klikk <strong>Bli Scratch-bruker</strong> øverst til høyre, og
-          fyll ut skjemaet som dukker opp.
+          Klikk <strong>Bli Scratch-bruker</strong> øverst til høyre, og fyll ut
+          skjemaet som dukker opp.
         </p>
       </li>
       <li>
         <p>
-          [ ] Etter at du har blitt Scratchbruker kan du klikke
+          Etter at du har blitt Scratchbruker kan du klikke
           <strong>Programmering</strong> øverst til venstre for å begynne å
           programmere.
         </p>
@@ -86,15 +86,14 @@
     <ul>
       <li>
         <p>
-          [ ] Når du starter et nytt Scratch-prosjekt ser du en kattefigur. I
-          dette spillet skal vi ikke bruke denne. Vi begynner derfor med å
-          slette kattefiguren. Høyreklikk på kattefiguren, og klikk
-          <code>slett</code>.
+          Når du starter et nytt Scratch-prosjekt ser du en kattefigur. I dette
+          spillet skal vi ikke bruke denne. Vi begynner derfor med å slette
+          kattefiguren. Høyreklikk på kattefiguren, og klikk <code>slett</code>.
         </p>
       </li>
       <li>
         <p>
-          [ ] Vi skal nå legge til en pingvinfigur. Klikk på
+          Vi skal nå legge til en pingvinfigur. Klikk på
           <img
             src="lessons/pingviner_pa_tur/../bilder/hent-fra-bibliotek.png"
             alt="Velg figur fra biblioteket"
@@ -105,10 +104,10 @@
       </li>
       <li>
         <p>
-          [ ] Du har nå fått en pingvin inn i spillet ditt. La oss programmere
-          den!
+          Du har nå fått en pingvin inn i spillet ditt. La oss programmere den!
         </p>
-        <p>Trykk på <code>Kode</code>-fanen oppe til venstre.</p>
+        <pre><code>	Trykk på `Kode`-fanen oppe til venstre.
+</code></pre>
         <p>
           Til venstre på skjermen ser du mange fargede klosser, for eksempel
           <code class="b">gå (10) steg</code>. Disse er kommandoer vi kan gi til
@@ -117,7 +116,7 @@
         </p>
       </li>
       <li>
-        <p>[ ] Pusle sammen denne koden for pingvinen din:</p>
+        <p>Pusle sammen denne koden for pingvinen din:</p>
         <pre><code class="blocks">når @greenFlag klikkes
 gjenta for alltid
     gå (10) steg
@@ -144,13 +143,12 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Pingvinen skal nå begynne å flytte seg frem og tilbake over
-          skjermen.
+          Pingvinen skal nå begynne å flytte seg frem og tilbake over skjermen.
         </p>
       </li>
       <li>
         <p>
-          [ ] Du merker kanskje at pingvinen snur seg på hodet når den går mot
+          Du merker kanskje at pingvinen snur seg på hodet når den går mot
           venstre? Det er fordi scratchfigurer i utgangspunktet roterer når de
           skifter retning. Vi kan forbedre dette ved å legge til klossen
           <code class="b">begrens rotasjon [vend sideveis v]</code> rett under
@@ -174,7 +172,7 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Øverst på skjermen er det et tekstfelt hvor du kan gi navn til
+          Øverst på skjermen er det et tekstfelt hvor du kan gi navn til
           prosjektet ditt. Der står det kanskje noe sånt som
           <code>Untitled</code> nå. Kall det for eksempel
           <code>Pingviner på tur</code>.
@@ -182,7 +180,7 @@ slutt
       </li>
       <li>
         <p>
-          [ ] I menyen <code>Fil</code> kan du velge <code>Lagre nå</code> for å
+          I menyen <code>Fil</code> kan du velge <code>Lagre nå</code> for å
           lagre prosjektet.
         </p>
       </li>
@@ -201,7 +199,7 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Se nærmere på koden du har laget. Vi har fortalt pingvinen at den
+          Se nærmere på koden du har laget. Vi har fortalt pingvinen at den
           <em>for alltid</em> skal <em>gå</em> og
           <em>sprette tilbake ved kanten</em>. Ser du hvordan pingvinen gjør
           akkurat som den har blitt fortalt?
@@ -214,8 +212,8 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Vi kan også endre størrelsen på pingvinen. Endre koden din slik at
-          den nå ser slik ut:
+          Vi kan også endre størrelsen på pingvinen. Endre koden din slik at den
+          nå ser slik ut:
         </p>
         <pre><code class="blocks">når @greenFlag klikkes
 sett størrelse til (40) %
@@ -228,9 +226,8 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Til slutt skal vi la pingvinen gå <em>tilfeldig</em> på kryss og
-          tvers på skjermen. Legg til flere klosser slik at koden nå ser slik
-          ut:
+          Til slutt skal vi la pingvinen gå <em>tilfeldig</em> på kryss og tvers
+          på skjermen. Legg til flere klosser slik at koden nå ser slik ut:
         </p>
         <pre><code class="blocks">når @greenFlag klikkes
 sett størrelse til (40) %
@@ -260,12 +257,12 @@ slutt
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Går pingvinen mer på kryss og tvers?</p>
+        <p>Går pingvinen mer på kryss og tvers?</p>
       </li>
       <li>
         <p>
-          [ ] Starter pingvinen forskjellige steder på skjermen om du klikker på
-          det grønne flagget flere ganger?
+          Starter pingvinen forskjellige steder på skjermen om du klikker på det
+          grønne flagget flere ganger?
         </p>
       </li>
     </ul>
@@ -284,7 +281,7 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Vi skal nå legge til en bakgrunn på spillet vårt som viser et kart
+          Vi skal nå legge til en bakgrunn på spillet vårt som viser et kart
           over Bergen. Last ned filen
           <a href="lessons/pingviner_pa_tur/bergen.png">bergen.png</a> til
           datamaskinen din.
@@ -300,21 +297,18 @@ slutt
       </li>
       <li>
         <p>
-          [ ] For å legge til en ny bakgrunn klikker du
+          For å legge til en ny bakgrunn klikker du
           <code>Last opp bakgrunn</code>:
         </p>
-        <figure>
-          <img
-            src="lessons/pingviner_pa_tur/../bilder/scratch3-last-opp-bakgrunn.png"
-            alt="Last opp bilde"
-          />
-        </figure>
-        <p>Velg deretter filen du nettopp lastet ned.</p>
+        <pre><code>	![Last opp bilde](../bilder/scratch3-last-opp-bakgrunn.png)
+
+	Velg deretter filen du nettopp lastet ned.
+</code></pre>
       </li>
       <li>
         <p>
-          [ ] La oss nå markere Akvariet i Bergen på kartet. Hent en ny figur
-          ved å klikke på
+          La oss nå markere Akvariet i Bergen på kartet. Hent en ny figur ved å
+          klikke på
           <img
             src="lessons/pingviner_pa_tur/../bilder/hent-fra-bibliotek.png"
             alt="Velg figur fra biblioteket"
@@ -330,8 +324,8 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Vi vil nå endre navn på akvariefiguren slik at vi enklere husker
-          hva den er. Trykk på figuren, og så på navnefeltet over figuren. Endre
+          Vi vil nå endre navn på akvariefiguren slik at vi enklere husker hva
+          den er. Trykk på figuren, og så på navnefeltet over figuren. Endre
           navnet fra <code>Button5</code> til <code>Akvariet</code>.
         </p>
       </li>
@@ -358,13 +352,13 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Klikk på <strong>Scene</strong> nede til venstre på skjermen.
-          Dette gir oss muligheten til å skrive kode som gjelder for bakgrunnen
-          og ikke for pingvinen.
+          Klikk på <strong>Scene</strong> nede til venstre på skjermen. Dette
+          gir oss muligheten til å skrive kode som gjelder for bakgrunnen og
+          ikke for pingvinen.
         </p>
       </li>
       <li>
-        <p>[ ] Lag den følgende nye koden på Scenen:</p>
+        <p>Lag den følgende nye koden på Scenen:</p>
         <pre><code class="blocks">når scenen klikkes :: hat events
 send melding [snu retning v]
 trommeslag (1 v) som varer (0.25) takter
@@ -382,8 +376,8 @@ trommeslag (1 v) som varer (0.25) takter
       </li>
       <li>
         <p>
-          [ ] Klikk på pingvinen. Vi skal nå skrive et nytt skript. Lag denne
-          koden ved siden av koden du skrev tidligere:
+          Klikk på pingvinen. Vi skal nå skrive et nytt skript. Lag denne koden
+          ved siden av koden du skrev tidligere:
         </p>
         <pre><code class="blocks">når jeg mottar [snu retning v]
 pek mot [musepeker v]
@@ -396,9 +390,7 @@ vend venstre (180) grader
     <h2 class="flag" id="test-prosjektet-3">Test prosjektet</h2>
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
-      <li>
-        [ ] Snur pingvinen seg vekk fra musepekeren om du klikker på kartet?
-      </li>
+      <li>Snur pingvinen seg vekk fra musepekeren om du klikker på kartet?</li>
     </ul>
   </section>
 </section>
@@ -417,8 +409,8 @@ vend venstre (180) grader
     <ul>
       <li>
         <p>
-          [ ] Klossen <code class="b">berører [ v]</code> kan brukes for å
-          oppdage om to figurer berører hverandre. Legg til en
+          Klossen <code class="b">berører [ v]</code> kan brukes for å oppdage
+          om to figurer berører hverandre. Legg til en
           <code class="blockcontrol">hvis</code>-test i koden som flytter
           pingvinen:
         </p>
@@ -444,12 +436,12 @@ slutt
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Hva skjer når pingvinen kommer til Akvariet?</p>
+        <p>Hva skjer når pingvinen kommer til Akvariet?</p>
       </li>
       <li>
         <p>
-          [ ] Etter at pingvinen har vært hjemme i 7 sekunder tar den seg en ny
-          tur. Dukker den opp på et nytt tilfeldig sted?
+          Etter at pingvinen har vært hjemme i 7 sekunder tar den seg en ny tur.
+          Dukker den opp på et nytt tilfeldig sted?
         </p>
       </li>
     </ul>
@@ -463,14 +455,14 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Legg til flere pingviner! Dette er ganske enkelt. Høyreklikk på
+          Legg til flere pingviner! Dette er ganske enkelt. Høyreklikk på
           pingvin-figuren og klikk deretter på <code>lag en kopi</code> for å
           lage en kopi av den.
         </p>
       </li>
       <li>
         <p>
-          [ ] Kan du lage en test for om alle pingvinene har kommet hjem? Denne
+          Kan du lage en test for om alle pingvinene har kommet hjem? Denne
           lager du enklest på akvariefiguren. Du bør bruke en
           <code class="blockcontrol">gjenta for alltid</code>-løkke, en
           <code class="blockcontrol">hvis</code>-test samt
@@ -480,7 +472,7 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Kanskje vi kan telle poeng hver gang en pingvin finner veien til
+          Kanskje vi kan telle poeng hver gang en pingvin finner veien til
           Akvariet? Til dette trenger du noe som heter variabler. Disse finner
           du under <code class="blockdata">Data</code>. Prøv selv om du får til
           noe!

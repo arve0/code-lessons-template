@@ -37,7 +37,7 @@
     <ul>
       <li>
         <p>
-          [ ] Gå inn på
+          Gå inn på
           <a href="http://scratch.mit.edu/users/gubbisduff/"
             >http://scratch.mit.edu/users/gubbisduff/</a
           >
@@ -47,17 +47,16 @@
       </li>
       <li>
         <p>
-          [ ] Trykk på knappen der det står <code>Remiks</code> øverst i høyre
+          Trykk på knappen der det står <code>Remiks</code> øverst i høyre
           hjørne. Nå har du en kopi av spillet på din egen bruker som du kan
           gjøre hva du vil med uten at du endrer originalen.
         </p>
       </li>
       <li>
         <p>
-          [ ] Bruk noen minutter på å se igjennom alle skriptene i prosjektet.
-          Les igjennom alle kommentarene og vær helt sikker på at du har
-          forstått hvordan spillet fungerer før du går videre; spør gjerne om
-          hjelp!
+          Bruk noen minutter på å se igjennom alle skriptene i prosjektet. Les
+          igjennom alle kommentarene og vær helt sikker på at du har forstått
+          hvordan spillet fungerer før du går videre; spør gjerne om hjelp!
         </p>
       </li>
     </ul>
@@ -67,7 +66,7 @@
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        [ ] Prøv spillet en gang eller to for å bli bedre kjent med hvordan det
+        Prøv spillet en gang eller to for å bli bedre kjent med hvordan det
         fungerer.
       </li>
     </ul>
@@ -102,8 +101,8 @@
     <ul>
       <li>
         <p>
-          [ ] Først må du lage en figur som skal fungere som startknapp. Denne
-          kan du tegne selv ved å klikke på
+          Først må du lage en figur som skal fungere som startknapp. Denne kan
+          du tegne selv ved å klikke på
           <img
             src="lessons/krabbeangrep_remiks/../bilder/tegn-ny.png"
             alt="Tegn ny"
@@ -115,8 +114,8 @@
       </li>
       <li>
         <p>
-          [ ] Vi må også lage en bakgrunn som kan fungere som hovedmeny. Trykk
-          på scenen og velg <code>Bakgrunner</code>. Lag en kopi av bakgrunnen
+          Vi må også lage en bakgrunn som kan fungere som hovedmeny. Trykk på
+          scenen og velg <code>Bakgrunner</code>. Lag en kopi av bakgrunnen
           <code>Rommet</code> ved å høyreklikke og trykke på
           <code>lag en kopi</code>. Pynt litt på den med tekst og hva annet du
           måtte ønske så man ser at det er en hovedmeny. Gi den navnet
@@ -151,7 +150,7 @@
     <h2 class="check" id="sjekkliste-3">Sjekkliste</h2>
     <ul>
       <li>
-        <p>[ ] Endre på skriptene i scenen slik at du har følgende skript:</p>
+        <p>Endre på skriptene i scenen slik at du har følgende skript:</p>
         <pre><code class="blocks">når grønt flagg klikkes
 send melding [hovedmeny v]
 
@@ -161,7 +160,7 @@ bytt bakgrunn til [Hovedmeny v]
       </li>
       <li>
         <p>
-          [ ] Gi startknappen de følgende skriptene (de to første sørger for at
+          Gi startknappen de følgende skriptene (de to første sørger for at
           knappen oppfører seg riktig i starten av spillet, og det siste sørger
           for at startknappen faktisk er en startknapp):
         </p>
@@ -178,10 +177,10 @@ send melding [nytt spill v]
       </li>
       <li>
         <p>
-          [ ] Nå må vi sørge for at resten av figurene oppfører seg som vi vil
-          både når flagget klikkes, når hovedmenyen skal vises og når
-          startknappen klikkes! Det betyr at vi må ha mange små skript som
-          lytter etter disse meldingene (skript som starter med klossene under
+          Nå må vi sørge for at resten av figurene oppfører seg som vi vil både
+          når flagget klikkes, når hovedmenyen skal vises og når startknappen
+          klikkes! Det betyr at vi må ha mange små skript som lytter etter disse
+          meldingene (skript som starter med klossene under
           <code class="blockevents">Hendelser</code>). Vi skal ikke skrive
           nøyaktig opp hvordan disse skriptene skal se ut, det skal du klare
           selv, men her er det som må med:
@@ -189,7 +188,7 @@ send melding [nytt spill v]
       </li>
       <li>
         <p>
-          [ ] Både romskipet, romvesenet og godbiten må gjøre følgende: figuren
+          Både romskipet, romvesenet og godbiten må gjøre følgende: figuren
           skjules når flagget klikkes og figuren går inn i
           <em>hovedløkken</em> sin når <code>nytt spill</code> mottas. Hva som
           er <em>hovedløkken</em> til en figur står tydelig skrevet i
@@ -197,11 +196,11 @@ send melding [nytt spill v]
         </p>
       </li>
       <li>
-        <p>[ ] Startknappen må skjules når <code>nytt spill</code> mottas.</p>
+        <p>Startknappen må skjules når <code>nytt spill</code> mottas.</p>
       </li>
       <li>
         <p>
-          [ ] Scenen må skifte bakgrunn til <code>Rommet</code> når
+          Scenen må skifte bakgrunn til <code>Rommet</code> når
           <code>nytt spill</code> mottas.
         </p>
       </li>
@@ -212,12 +211,10 @@ send melding [nytt spill v]
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>
-          [ ] Skjules alle figurene utenom startknappen når hovedmenyen vises?
-        </p>
+        <p>Skjules alle figurene utenom startknappen når hovedmenyen vises?</p>
       </li>
       <li>
-        <p>[ ] Starter spillet som det skal når startknappen klikkes?</p>
+        <p>Starter spillet som det skal når startknappen klikkes?</p>
       </li>
     </ul>
   </section>

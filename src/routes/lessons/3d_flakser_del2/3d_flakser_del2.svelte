@@ -39,9 +39,9 @@
     <ul>
       <li>
         <p>
-          [ ] Lag en ny figur som heter <code>bakken</code>. Tegn en drakt til
-          den. Det enkleste er å bare fylle den nederste tredjeparten av
-          tegneområdet med grønt. Vi starter med å gi den følgende skript
+          Lag en ny figur som heter <code>bakken</code>. Tegn en drakt til den.
+          Det enkleste er å bare fylle den nederste tredjeparten av tegneområdet
+          med grønt. Vi starter med å gi den følgende skript
         </p>
         <pre><code class="blocks">når jeg mottar [Nytt spill v]
 gå til x: (0) y: (-300)
@@ -54,9 +54,9 @@ sett størrelse til (200) %
       </li>
       <li>
         <p>
-          [ ] Nå vil vi at bakken skal følge med Flakse, det vil si: når Flakse
-          er høyt oppe (<code class="blockdata">y</code> er stor) så skal bakken
-          gå nedover, og når Flakse er langt nede så er bakken tilsvarende høyt
+          Nå vil vi at bakken skal følge med Flakse, det vil si: når Flakse er
+          høyt oppe (<code class="blockdata">y</code> er stor) så skal bakken gå
+          nedover, og når Flakse er langt nede så er bakken tilsvarende høyt
           oppe. Hvis Flakse berører bakken skal spilleren tape. Vi legger til
           følgende <code class="blockcontrol">for alltid</code>-løkke i skriptet
           til bakken,
@@ -72,7 +72,7 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Til slutt så vil vi helst at bakken skal forsvinne når Flakse flyr
+          Til slutt så vil vi helst at bakken skal forsvinne når Flakse flyr
           veldig høyt. Det kan vi gjøre med
           <code class="blocklooks">skjul</code> og
           <code class="blocklooks">vis</code> kommandoene, slik
@@ -104,7 +104,7 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] For å holde styr på hvor mange ganger spilleren har trykket på
+          For å holde styr på hvor mange ganger spilleren har trykket på
           mellomrom så lager vi en variabel
           <code class="blockdata">flaks</code> som gjelder kun for
           flakse-figuren.
@@ -112,7 +112,7 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Vi må slette testene som sjekker om <code>pil opp</code>eller
+          Vi må slette testene som sjekker om <code>pil opp</code>eller
           <code>pil ned</code> tastene trykkes og erstatte dem med
         </p>
         <pre><code class="blocks">hvis &lt;tast [mellomrom v] trykket?&gt;
@@ -128,19 +128,19 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Lag en ny variabel. Kall den <code class="blockdata">løft</code>,
-          og la den gjelde kun for denne figuren. Denne variabelen skal fortelle
+          Lag en ny variabel. Kall den <code class="blockdata">løft</code>, og
+          la den gjelde kun for denne figuren. Denne variabelen skal fortelle
           oss hvor fort flakse skal flyttes opp eller ned.
         </p>
       </li>
       <li>
         <p>
-          [ ] Legg inn en <code class="blockdata">sett løft til 0</code>-kloss
-          et sted før spillet starter.
+          Legg inn en <code class="blockdata">sett løft til 0</code>-kloss et
+          sted før spillet starter.
         </p>
       </li>
       <li>
-        <p>[ ] Sett inn disse klossene først i hovedløkken til Flakse:</p>
+        <p>Sett inn disse klossene først i hovedløkken til Flakse:</p>
         <pre><code class="blocks">endre [y v] med (løft)
 hvis &lt;(løft) &gt; [-5]&gt;
     endre [løft v] med (-0.5)
@@ -148,7 +148,7 @@ slutt
 </code></pre>
       </li>
       <li>
-        <p>[ ] Til slutt lager vi et nytt skript hos Flakse slik:</p>
+        <p>Til slutt lager vi et nytt skript hos Flakse slik:</p>
         <pre><code class="blocks">når jeg mottar [Nytt spill v]
 gjenta for alltid
     gjenta til &lt;(flaks) = [0]&gt;
@@ -191,7 +191,7 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Legg til klossene
+          Legg til klossene
           <code class="blockmotion">pek i retning 135</code> og
           <code class="blockmotion">pek i retning 45</code> i testene som
           sjekker om henholdsvis høyre og venstre piltast trykkes. Prøv spillet.
@@ -200,9 +200,9 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Nå vil vi at figuren skal rotere tilbake til vannrett når
-          piltastene ikke trykkes lenger. Det kan vi enkelt få til ved å legge
-          til disse klossene under testene som sjekker om piltastene trykkes.
+          Nå vil vi at figuren skal rotere tilbake til vannrett når piltastene
+          ikke trykkes lenger. Det kan vi enkelt få til ved å legge til disse
+          klossene under testene som sjekker om piltastene trykkes.
         </p>
         <pre><code class="blocks">hvis &lt;(retning) &lt; [90]&gt;
     snu @turnRight (1) grader
@@ -235,7 +235,7 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Vi begynner med å sjekke om Flakse berører den ringen som ligger
+          Vi begynner med å sjekke om Flakse berører den ringen som ligger
           nærmest. Husk at det er
           <code class="blockdata">distanse</code> variablen til ringen som
           forteller oss hvor nærme ringen er. Så vi må hele tiden sjekke om
@@ -255,7 +255,7 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Så ønsker vi å få poeng når vi fly gjennom ringene. Lag først en
+          Så ønsker vi å få poeng når vi fly gjennom ringene. Lag først en
           variabel <code class="blockdata">poeng</code> som gjelder for alle
           figurene. Nå må vi sjekke at variablene
           <code class="blockdata">x</code> og <code class="blockdata">y</code>,
@@ -286,17 +286,17 @@ slutt
     <h2 class="challenge" id="ting-%C3%A5-pr%C3%B8ve">Ting å prøve</h2>
     <ul>
       <li>
-        <p>[ ] Lag en meny.</p>
+        <p>Lag en meny.</p>
       </li>
       <li>
         <p>
-          [ ] Få ringene til å komme fortere mot deg etterhvert som du får flere
+          Få ringene til å komme fortere mot deg etterhvert som du får flere
           poeng.
         </p>
       </li>
       <li>
         <p>
-          [ ] Gi Flakse flere drakter å det ser ut som han flyr når han skifter
+          Gi Flakse flere drakter å det ser ut som han flyr når han skifter
           drakt.
         </p>
       </li>

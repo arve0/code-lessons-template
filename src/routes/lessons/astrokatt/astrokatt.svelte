@@ -28,8 +28,8 @@
     <ul>
       <li>
         <p>
-          [ ] Start et nytt prosjekt. Når du står på startsiden til Scratch kan
-          du starte et nytt prosjekt på to måter. Gå til
+          Start et nytt prosjekt. Når du står på startsiden til Scratch kan du
+          starte et nytt prosjekt på to måter. Gå til
           <a href="https://scratch.mit.edu">scratch.mit.edu</a>.
         </p>
         <ol>
@@ -57,8 +57,8 @@
       </li>
       <li>
         <p>
-          [ ] Prøv å klikk på de blå klossene til venstre på skjermen. For
-          eksempel, om du klikker på
+          Prøv å klikk på de blå klossene til venstre på skjermen. For eksempel,
+          om du klikker på
         </p>
         <pre><code class="blocks">gå (10) steg
 </code></pre>
@@ -71,7 +71,7 @@
       </li>
       <li>
         <p>
-          [ ] Legg merke til at til venstre for de blå klossene er det flere
+          Legg merke til at til venstre for de blå klossene er det flere
           kategorier av kommandoer i forskjellige farger, for eksempel
           <code class="blocklooks">Utseende</code> og
           <code class="blocksound">Lyd</code>. Klikk på disse kategoriene og
@@ -80,8 +80,8 @@
       </li>
       <li>
         <p>
-          [ ] Når vi programmerer så lager vi script, som er lister over
-          kommandoer som skal kjøres.
+          Når vi programmerer så lager vi script, som er lister over kommandoer
+          som skal kjøres.
         </p>
         <p>
           For å sette sammen flere kommandoer til et skript kan du dra klosser
@@ -110,14 +110,14 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Du skal se at katten flytter seg rundt i en sirkel. Les koden du
-          laget en gang til. Skjønner du hvorfor katten går i sirkel?
+          Du skal se at katten flytter seg rundt i en sirkel. Les koden du laget
+          en gang til. Skjønner du hvorfor katten går i sirkel?
         </p>
       </li>
       <li>
         <p>
-          [ ] Prøv å endre tallene i koden din. Kan du få katten til å gå
-          saktere? I større sirkler?
+          Prøv å endre tallene i koden din. Kan du få katten til å gå saktere? I
+          større sirkler?
         </p>
       </li>
     </ul>
@@ -127,7 +127,7 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Nå skal vi endre litt på koden slik at vi kan kontrollere hvordan
+          Nå skal vi endre litt på koden slik at vi kan kontrollere hvordan
           katten beveger seg. I kategorien
           <code class="blocksensing">Sansning</code> finnes en kloss som
           reagerer når en tast er trykket. Den kan vi bruke til å styre katten
@@ -155,15 +155,14 @@ slutt
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Kan du styre katten rundt ved å bruke piltastene?</p>
+        <p>Kan du styre katten rundt ved å bruke piltastene?</p>
       </li>
       <li>
-        <p>[ ] Forstår du hvordan katten kontrolleres?</p>
+        <p>Forstår du hvordan katten kontrolleres?</p>
       </li>
       <li>
         <p>
-          [ ] Kan du få katten til å fly raskere eller saktere ved å endre i
-          koden?
+          Kan du få katten til å fly raskere eller saktere ved å endre i koden?
         </p>
       </li>
     </ul>
@@ -179,7 +178,7 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Klikk på
+          Klikk på
           <img
             src="lessons/astrokatt/../bilder/velg-bakgrunn.png"
             alt="Velg ny bakgrunn"
@@ -191,15 +190,15 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Vi skal også gi katten en liten romhjelm, siden den flyr rundt ute
-          i rommet. Klikk på katten i figurvinduet og deretter på fanen
+          Vi skal også gi katten en liten romhjelm, siden den flyr rundt ute i
+          rommet. Klikk på katten i figurvinduet og deretter på fanen
           <code>Drakter</code> øverst til venstre på skjermen.
         </p>
       </li>
       <li>
         <p>
-          [ ] Velg først en litt lys farge. Klikk deretter på Sirkel-verktøyet
-          på siden av katten, og tegn en sirkel rundt hodet på katten.
+          Velg først en litt lys farge. Klikk deretter på Sirkel-verktøyet på
+          siden av katten, og tegn en sirkel rundt hodet på katten.
         </p>
         <figure>
           <img
@@ -212,7 +211,7 @@ slutt
     <p>Til slutt lager vi også en jordklode, som katten kan fly rundt.</p>
     <ul>
       <li>
-        [ ] Klikk på fanen <code>Kode</code> og deretter på
+        Klikk på fanen <code>Kode</code> og deretter på
         <img
           src="lessons/astrokatt/../bilder/hent-fra-bibliotek.png"
           alt="Velg figur frabiblioteket"
@@ -227,7 +226,7 @@ slutt
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        [ ] Flyr katten fortsatt rundt omkring i verdensrommet når du trykker på
+        Flyr katten fortsatt rundt omkring i verdensrommet når du trykker på
         piltastene?
       </li>
     </ul>
@@ -246,8 +245,8 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Først kan vi få jordkloden til å rotere. Dette er enkelt, vi har
-          jo allerede gjort det for katten! Pass på at jordkloden er merket i
+          Først kan vi få jordkloden til å rotere. Dette er enkelt, vi har jo
+          allerede gjort det for katten! Pass på at jordkloden er merket i
           figurlisten, og lag deretter dette skriptet:
         </p>
         <pre><code class="blocks">når @greenFlag klikkes
@@ -258,7 +257,7 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Videre skal vi gjøre det slik at det ser ut som om katten flyr mot
+          Videre skal vi gjøre det slik at det ser ut som om katten flyr mot
           jorda. Det gjør vi ved å endre størrelsen slik at katten blir mindre
           jo nærmere den kommer jordkloden.
         </p>
@@ -290,12 +289,11 @@ slutt
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Blir katten mindre når den nærmer seg jorda?</p>
+        <p>Blir katten mindre når den nærmer seg jorda?</p>
       </li>
       <li>
         <p>
-          [ ] Ser det ut som om den flyr ned mot jorda, og kommer tilbake til
-          oss?
+          Ser det ut som om den flyr ned mot jorda, og kommer tilbake til oss?
         </p>
       </li>
     </ul>
@@ -305,9 +303,9 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] For å gjøre det enda mer realistisk vil vi forandre hvor langt
-          katten flytter seg med. Når den er langt unna oss flytter den seg ikke
-          like mange steg. Bytt ut
+          For å gjøre det enda mer realistisk vil vi forandre hvor langt katten
+          flytter seg med. Når den er langt unna oss flytter den seg ikke like
+          mange steg. Bytt ut
         </p>
         <pre><code class="blocks">gå (5) steg
 </code></pre>
@@ -321,9 +319,9 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Av og til vil katten fly bak jordkloden. For å slippe det kan du
-          legge klossen <code class="blocklooks">Legg foran alt</code> øverst i
-          katten sitt skript.
+          Av og til vil katten fly bak jordkloden. For å slippe det kan du legge
+          klossen <code class="blocklooks">Legg foran alt</code> øverst i katten
+          sitt skript.
         </p>
       </li>
     </ul>
@@ -334,14 +332,14 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Flyr katten rundt omkring i verdensrommet? Kan du få den til å
-          lande på jorda?
+          Flyr katten rundt omkring i verdensrommet? Kan du få den til å lande
+          på jorda?
         </p>
       </li>
       <li>
         <p>
-          [ ] Prøv også å flytte jordkloden til andre steder på skjermen. Blir
-          det annerledes å fly med katten nå?
+          Prøv også å flytte jordkloden til andre steder på skjermen. Blir det
+          annerledes å fly med katten nå?
         </p>
       </li>
     </ul>
@@ -358,8 +356,8 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Lag et nytt skript på katten. Du kan bare legge klossene ved siden
-          av det skriptet du allerede har laget. Skriptet skal se slik ut:
+          Lag et nytt skript på katten. Du kan bare legge klossene ved siden av
+          det skriptet du allerede har laget. Skriptet skal se slik ut:
         </p>
         <pre><code class="blocks">når @greenFlag klikkes
 gå til x: (-200) y: (150)
@@ -371,14 +369,13 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Når du tester programmet ditt ved å klikke på det grønne flagget,
-          vil du se at katten svever mot jordkloden. Gravitasjonen trekker på
-          den!
+          Når du tester programmet ditt ved å klikke på det grønne flagget, vil
+          du se at katten svever mot jordkloden. Gravitasjonen trekker på den!
         </p>
       </li>
       <li>
         <p>
-          [ ] MEN, vi har et problem: Vi kan ikke lengre styre katten! Hva har
+          MEN, vi har et problem: Vi kan ikke lengre styre katten! Hva har
           skjedd?
         </p>
         <p>
@@ -390,10 +387,10 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Det er ingen kommando i Scratch for å flytte en figur mot en
-          annen. Derfor må vi peke katten mot jordkloden og deretter flytte den.
-          Men vi kan få programmet til å virke igjen, hvis vi bare husker
-          hvilken retning katten pekte før vi snudde den.
+          Det er ingen kommando i Scratch for å flytte en figur mot en annen.
+          Derfor må vi peke katten mot jordkloden og deretter flytte den. Men vi
+          kan få programmet til å virke igjen, hvis vi bare husker hvilken
+          retning katten pekte før vi snudde den.
         </p>
         <p>
           For at programmer skal huske ting bruker vi variabler. Lag en variabel
@@ -404,8 +401,8 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Vi kan nå bruke denne variabelen til å huske hvilken retning
-          katten pekte. Endre skriptet ditt ved å legge til to nye klosser:
+          Vi kan nå bruke denne variabelen til å huske hvilken retning katten
+          pekte. Endre skriptet ditt ved å legge til to nye klosser:
         </p>
         <pre><code class="blocks">når @greenFlag klikkes
 gå til x: (-200) y: (150)
@@ -424,20 +421,20 @@ slutt
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Kan du styre katten igjen?</p>
+        <p>Kan du styre katten igjen?</p>
       </li>
       <li>
         <p>
-          [ ] Hvis du ikke trykker på noen taster, vil katten da falle ned mot
+          Hvis du ikke trykker på noen taster, vil katten da falle ned mot
           jorden?
         </p>
       </li>
       <li>
         <p>
-          [ ] Legg merke til at hvis katten har kommet veldig nært jorden klarer
-          den ikke å fly tilbake til oss. Det er fordi gravitasjonen er
-          kraftigere jo nærmere jorda man er. Og når katten kommer nært jorda
-          har den ikke nok hastighet til å unnslippe jordas gravitasjon.
+          Legg merke til at hvis katten har kommet veldig nært jorden klarer den
+          ikke å fly tilbake til oss. Det er fordi gravitasjonen er kraftigere
+          jo nærmere jorda man er. Og når katten kommer nært jorda har den ikke
+          nok hastighet til å unnslippe jordas gravitasjon.
         </p>
         <p>Hvordan kan du endre på jordas gravitasjon og kattens hastighet?</p>
       </li>

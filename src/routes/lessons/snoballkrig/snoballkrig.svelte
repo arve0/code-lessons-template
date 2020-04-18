@@ -33,12 +33,12 @@
     <h2 class="check" id="sjekkliste">Sjekkliste</h2>
     <ul>
       <li>
-        <p>[ ] Start et nytt prosjekt. Slett kattefiguren.</p>
+        <p>Start et nytt prosjekt. Slett kattefiguren.</p>
       </li>
       <li>
         <p>
-          [ ] La oss lage en bakgrunn. Til dette spillet trenger vi en ganske
-          enkel bakgrunn med litt vinterfølelse. Den kan vi tegne selv:
+          La oss lage en bakgrunn. Til dette spillet trenger vi en ganske enkel
+          bakgrunn med litt vinterfølelse. Den kan vi tegne selv:
         </p>
         <p>
           Velg
@@ -65,7 +65,7 @@
         <p>Kall bakgrunnen for <code>Spill</code>.</p>
       </li>
       <li>
-        <p>[ ] Legg følgende lille skript på scenen:</p>
+        <p>Legg følgende lille skript på scenen:</p>
         <pre><code class="blocks">når @greenFlag klikkes
 send melding [start v]
 </code></pre>
@@ -76,7 +76,7 @@ send melding [start v]
       </li>
       <li>
         <p>
-          [ ] Neste steg er å finne en passende figur som vi kan styre rundt og
+          Neste steg er å finne en passende figur som vi kan styre rundt og
           kaste snøballer med. Vi har brukt snømannen,
           <code>Fantasi/Snowman</code>, men du kan bruke en figur du liker. Gi
           figuren navnet <code>Helten</code>.
@@ -84,7 +84,7 @@ send melding [start v]
       </li>
       <li>
         <p>
-          [ ] Lag en ny variabel, <code class="blockdata">hastighet</code>, som
+          Lag en ny variabel, <code class="blockdata">hastighet</code>, som
           gjelder kun for denne figuren, og lag dette skriptet:
         </p>
         <pre><code class="blocks">når @greenFlag klikkes
@@ -101,8 +101,8 @@ sett [hastighet v] til [5]
       </li>
       <li>
         <p>
-          [ ] Nå kan vi lage selve hovedløkken til <code>Helten</code>. Lag
-          først en løkke som starter på meldingen <code>start</code>:
+          Nå kan vi lage selve hovedløkken til <code>Helten</code>. Lag først en
+          løkke som starter på meldingen <code>start</code>:
         </p>
         <pre><code class="blocks">når jeg mottar [start v]
 gå til x: (0) y: (-75)
@@ -112,7 +112,7 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Inne i løkken trenger vi to
+          Inne i løkken trenger vi to
           <code class="blockcontrol">hvis</code>-klosser som flytter
           <code>Helten</code> <code class="blockdata">hastighet</code> steg mot
           høyre eller venstre når piltastene høyre og venstre er trykket. Lag
@@ -121,7 +121,7 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Til slutt lager du en <code class="blockcontrol">hvis</code>-kloss
+          Til slutt lager du en <code class="blockcontrol">hvis</code>-kloss
           hvor du sender ut meldingen <code>kast</code> når mellomrom-tasten
           trykkes.
         </p>
@@ -134,21 +134,20 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Beveger figuren din seg rundt på scenen når du trykker høyre og
+          Beveger figuren din seg rundt på scenen når du trykker høyre og
           venstre piltast? Det skal foreløbig ikke skje noe når du trykker
           mellomrom, siden ingen figurer svarer på <code>kast</code>-meldingen.
         </p>
       </li>
       <li>
         <p>
-          [ ] Du må sannsynligvis endre litt på <code>y</code>-posisjonen
-          figuren din starter på, slik at det ser naturlig ut i forhold til
-          bakgrunnen.
+          Du må sannsynligvis endre litt på <code>y</code>-posisjonen figuren
+          din starter på, slik at det ser naturlig ut i forhold til bakgrunnen.
         </p>
       </li>
       <li>
         <p>
-          [ ] Hvis du har en figur med flere drakter kan du også bruke
+          Hvis du har en figur med flere drakter kan du også bruke
           <code class="blocklooks">neste drakt</code>-klosser for å animere
           figuren din slik at den beveger seg mer naturlig.
         </p>
@@ -171,7 +170,7 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Tegn en ny figur. Bruk sirkelverkøyet til å tegne en liten hvit
+          Tegn en ny figur. Bruk sirkelverkøyet til å tegne en liten hvit
           sirkel, fargelegg den deretter slik at den blir helt hvit. Trykk på
           <img
             src="lessons/snoballkrig/../bilder/velg_senterpunkt.png"
@@ -183,7 +182,7 @@ slutt
       </li>
       <li>
         <p>
-          [ ] På samme måte som for <code>Helten</code> setter vi først opp noen
+          På samme måte som for <code>Helten</code> setter vi først opp noen
           standardinnstillinger for snøballen. Lag en variabel
           <code class="blockdata">hastighet</code> som kun gjelder for denne
           figuren:
@@ -196,7 +195,7 @@ sett [hastighet v] til [10]
       </li>
       <li>
         <p>
-          [ ] Vi bruker <code class="blocklooks">skjul</code> fordi vi vil lage
+          Vi bruker <code class="blocklooks">skjul</code> fordi vi vil lage
           kloner (kopier) av denne snøballen som vi kaster av gårde. Dette er et
           veldig nyttig triks i Scratch. Selve koden som reagerer på
           <code>kast</code>-meldingen er veldig enkel.
@@ -207,7 +206,7 @@ lag klon av [meg v]
       </li>
       <li>
         <p>
-          [ ] Selve oppførselen til hver enkelt snøball programmerer vi så på en
+          Selve oppførselen til hver enkelt snøball programmerer vi så på en
           <code class="blockcontrol">når jeg starter som klon</code>-kloss.
         </p>
         <pre><code class="blocks">når jeg starter som klon
@@ -228,14 +227,14 @@ slett denne klonen
     <ul>
       <li>
         <p>
-          [ ] Hva skjer når du trykker mellomrom-tasten? Kastes det snøballer i
+          Hva skjer når du trykker mellomrom-tasten? Kastes det snøballer i
           riktig retning?
         </p>
       </li>
       <li>
         <p>
-          [ ] Det ser kanskje ikke ut som om <code>Helten</code> kaster
-          snøballene med hendene? Du kan legge på noen
+          Det ser kanskje ikke ut som om <code>Helten</code> kaster snøballene
+          med hendene? Du kan legge på noen
           <code class="blockmotion">Bevegelse</code>-klosser rett før du
           <code class="blocklooks">vis</code>er snøballen for at det skal se
           bedre ut.
@@ -243,18 +242,17 @@ slett denne klonen
       </li>
       <li>
         <p>
-          [ ] Som en liten utfordring kan du også prøve å legge på litt effekt
-          av tyngdekraften på snøballen ved å endre litt på <code>y</code> mens
+          Som en liten utfordring kan du også prøve å legge på litt effekt av
+          tyngdekraften på snøballen ved å endre litt på <code>y</code> mens
           snøballen flyr.
         </p>
       </li>
       <li>
         <p>
-          [ ] Et lite problem er at <code>Helten</code> vår er
-          <em>for</em> flink til å kaste snøball! Hver gang vi trykker mellomrom
-          blir det kastet mange snøballer. Dette kan vi løse ganske enkelt ved å
-          vente til mellomrom-tasten er sluppet før vi kaster snøballen. Legg
-          til
+          Et lite problem er at <code>Helten</code> vår er <em>for</em> flink
+          til å kaste snøball! Hver gang vi trykker mellomrom blir det kastet
+          mange snøballer. Dette kan vi løse ganske enkelt ved å vente til
+          mellomrom-tasten er sluppet før vi kaster snøballen. Legg til
         </p>
         <pre><code class="blocks">vent til &lt;ikke &lt;tast [mellomrom v] trykket?&gt;&gt;
 </code></pre>
@@ -278,14 +276,14 @@ slett denne klonen
     <ul>
       <li>
         <p>
-          [ ] Lag en ny figur. Vi har brukt <code>Mennesker/Boy3 walking</code>,
-          men du kan bruke den figuren du liker. Kanskje det er morsommere å ha
+          Lag en ny figur. Vi har brukt <code>Mennesker/Boy3 walking</code>, men
+          du kan bruke den figuren du liker. Kanskje det er morsommere å ha
           snøballkrig mot et monster? Kall figuren <code>Skumling</code>.
         </p>
       </li>
       <li>
         <p>
-          [ ] På samme måte som for snøballene vil vi lage kloner av
+          På samme måte som for snøballene vil vi lage kloner av
           <code>Skumling</code>. Men først bestemmer vi hvordan han skal se ut.
           Lag igjen en variabel <code class="blockdata">hastighet</code> som
           gjelder kun for denne figuren. Deretter,
@@ -300,8 +298,8 @@ sett [hastighet v] til [3]
       </li>
       <li>
         <p>
-          [ ] Vi vil la klonene dukke opp med litt tilfeldig mellomrom, og fra
-          begge sider av skjermen.
+          Vi vil la klonene dukke opp med litt tilfeldig mellomrom, og fra begge
+          sider av skjermen.
         </p>
         <pre><code class="blocks">når jeg mottar [start v]
 gjenta for alltid
@@ -319,8 +317,8 @@ slutt
       </li>
       <li>
         <p>
-          [ ] På samme måte som for snøballene må vi også bestemme oppførselen
-          til hver enkelt <code>Skumling</code>.
+          På samme måte som for snøballene må vi også bestemme oppførselen til
+          hver enkelt <code>Skumling</code>.
         </p>
         <p>
           Lag først en
@@ -333,7 +331,7 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Deretter lager vi en <em>ny</em>
+          Deretter lager vi en <em>ny</em>
           <code class="blockcontrol">når jeg starter som klon</code>-kloss hvor
           vi undersøker om vi treffer enten en <strong>snøball</strong> eller
           <code>Helten</code>.
@@ -366,13 +364,13 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Dukker det opp skumlinger? Kommer de fra begge sider? Går de mot
+          Dukker det opp skumlinger? Kommer de fra begge sider? Går de mot
           midten?
         </p>
       </li>
       <li>
         <p>
-          [ ] Hva skjer når en <code>Skumling</code> blir truffet av en
+          Hva skjer når en <code>Skumling</code> blir truffet av en
           <strong>Snøball</strong>? Du kan kanskje legge på en passende
           lydeffekt og animasjon før klonen slettes? Vi ser også at snøballen
           flyr videre etter at den har truffet en <code>Skumling</code>. Prøv å
@@ -381,9 +379,7 @@ slutt
         </p>
       </li>
       <li>
-        <p>
-          [ ] Hva skjer når en <code>Skumling</code> tar <code>Helten</code>?
-        </p>
+        <p>Hva skjer når en <code>Skumling</code> tar <code>Helten</code>?</p>
       </li>
     </ul>
   </section>
@@ -398,7 +394,7 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Å telle poeng er ganske lett. Lag først en variabel som heter
+          Å telle poeng er ganske lett. Lag først en variabel som heter
           <code class="blockdata">Poeng</code> og la den gjelde for alle
           figurer. La variabelen også vises på scenen, slik at vi ser hvor mange
           poeng vi har fått.
@@ -406,14 +402,14 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Pass på at <code class="blockdata">Poeng</code> blir satt til 0
-          når meldingen <code>start</code> sendes, for eksempel med et skript på
+          Pass på at <code class="blockdata">Poeng</code> blir satt til 0 når
+          meldingen <code>start</code> sendes, for eksempel med et skript på
           scenen.
         </p>
       </li>
       <li>
         <p>
-          [ ] Endre <code class="blockdata">Poeng</code> med 1 når en
+          Endre <code class="blockdata">Poeng</code> med 1 når en
           <code>Skumling</code> blir truffet av en snøball.
         </p>
       </li>
@@ -427,9 +423,9 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Klikk på <code>Scene</code> til venstre for <code>Figurer</code>,
-          og velg <code>Bakgrunner</code>-fanen. Lag to kopier av bakgrunnen din
-          og kall dem henholdsvis <code>Meny</code> og <code>Slutt</code>.
+          Klikk på <code>Scene</code> til venstre for <code>Figurer</code>, og
+          velg <code>Bakgrunner</code>-fanen. Lag to kopier av bakgrunnen din og
+          kall dem henholdsvis <code>Meny</code> og <code>Slutt</code>.
         </p>
         <p>
           På <code>Meny</code>-bakgrunnen kan du lage en fin tittel. Skriv også
@@ -443,8 +439,8 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Endre nå litt på skriptene på scenen. Først vil vi bare vise
-          menyen når det grønne flagget klikkes:
+          Endre nå litt på skriptene på scenen. Først vil vi bare vise menyen
+          når det grønne flagget klikkes:
         </p>
         <pre><code class="blocks">når @greenFlag klikkes
 bytt bakgrunn til [Meny v]
@@ -461,7 +457,7 @@ send melding [start v]
       </li>
       <li>
         <p>
-          [ ] Til slutt må vi passe på at spillet faktisk avsluttes etter at
+          Til slutt må vi passe på at spillet faktisk avsluttes etter at
           <code>slutt</code>-meldingen er sendt. Legg på skript for å
           <code class="blockcontrol">slette denne klonen</code> på
           <strong>Snøball</strong> og <code>Skumling</code>, og skript for å
@@ -476,15 +472,14 @@ send melding [start v]
     <ul>
       <li>
         <p>
-          [ ] Fungerer programflyten? Starter spillet når du trykker
-          <code>S</code>? Avsluttes spillet når <code>Helten</code> blir fanget?
-          Vises de riktige bakgrunnene når de skal?
+          Fungerer programflyten? Starter spillet når du trykker <code>S</code>?
+          Avsluttes spillet når <code>Helten</code> blir fanget? Vises de
+          riktige bakgrunnene når de skal?
         </p>
       </li>
       <li>
         <p>
-          [ ] Legg gjerne på litt lydeffekter og enkle animasjoner der det
-          passer.
+          Legg gjerne på litt lydeffekter og enkle animasjoner der det passer.
         </p>
       </li>
     </ul>
@@ -500,17 +495,16 @@ send melding [start v]
   <ul>
     <li>
       <p>
-        [ ] Vi innfører først en ny variabel
-        <code class="blockdata">Nivå</code> som skal gjelde for alle figurer.
-        Denne styrer hvor vanskelig spillet skal være. La den gjerne være
-        synlig.
+        Vi innfører først en ny variabel <code class="blockdata">Nivå</code> som
+        skal gjelde for alle figurer. Denne styrer hvor vanskelig spillet skal
+        være. La den gjerne være synlig.
       </p>
     </li>
     <li>
       <p>
-        [ ] Vi regner ut nivå basert på <code class="blockdata">Poeng</code>.
-        Utvid skriptet ditt som mottar <code>start</code>-meldingen på scenen
-        med den følgende løkken:
+        Vi regner ut nivå basert på <code class="blockdata">Poeng</code>. Utvid
+        skriptet ditt som mottar <code>start</code>-meldingen på scenen med den
+        følgende løkken:
       </p>
       <pre><code class="blocks">gjenta for alltid
     sett [Nivå v] til ((1) + ([gulv v] av ((Poeng) / (5))))
@@ -524,7 +518,7 @@ slutt
     </li>
     <li>
       <p>
-        [ ] Nå kan vi bruke <code class="blockdata">Nivå</code> til å lage
+        Nå kan vi bruke <code class="blockdata">Nivå</code> til å lage
         <strong>Skumlingene</strong> slemmere. For eksempel kan de bli større,
         gå raskere og kanskje trenge flere snøballer før de blir borte.
       </p>
@@ -554,7 +548,7 @@ slutt
     </li>
     <li>
       <p>
-        [ ] For at en <code>Skumling</code> skal tåle flere snøballer må vi også
+        For at en <code>Skumling</code> skal tåle flere snøballer må vi også
         endre litt på hva som skjer når han blir truffet. I stedet for å bare
         slette klonen vil vi endre <code class="blockdata">Liv</code> med -1, og
         deretter gi poeng og slette klonen bare om
@@ -563,7 +557,7 @@ slutt
     </li>
     <li>
       <p>
-        [ ] Vi bør kanskje gi flere poeng for å jage bort de slemme
+        Vi bør kanskje gi flere poeng for å jage bort de slemme
         <strong>Skumlingene</strong>? Dette gjør du ved å endre
         <code class="blockdata">Poeng</code> med
         <code class="blockdata">Slem</code> når en <code>Skumling</code> jages
@@ -572,10 +566,10 @@ slutt
     </li>
     <li>
       <p>
-        [ ] Om vi får mer enn ett poeng for hver <code>Skumling</code> bør vi
-        også endre på hvordan vi regner ut <code class="blockdata">Nivå</code>.
-        Hvis ikke vil spillet bli veldig fort vanskeligere etterhvert. Du kan
-        for eksempel bruke denne utregningen:
+        Om vi får mer enn ett poeng for hver <code>Skumling</code> bør vi også
+        endre på hvordan vi regner ut <code class="blockdata">Nivå</code>. Hvis
+        ikke vil spillet bli veldig fort vanskeligere etterhvert. Du kan for
+        eksempel bruke denne utregningen:
       </p>
       <pre><code class="blocks">gjenta for alltid
     sett [Nivå v] til ((1) + ([gulv v] av ([kvadratrot v] av ((Poeng) / (3)))))
@@ -593,14 +587,14 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Blir spillet vanskeligere etterhvert? Prøv å endre på de
-          forskjellige variablene og innstilingene vi har laget slik at spillet
-          blir passe vanskelig.
+          Blir spillet vanskeligere etterhvert? Prøv å endre på de forskjellige
+          variablene og innstilingene vi har laget slik at spillet blir passe
+          vanskelig.
         </p>
       </li>
       <li>
         <p>
-          [ ] Har du flere ideer til hvordan spillet kan gjøres enda morsommere?
+          Har du flere ideer til hvordan spillet kan gjøres enda morsommere?
           Prøv dem ut!
         </p>
       </li>

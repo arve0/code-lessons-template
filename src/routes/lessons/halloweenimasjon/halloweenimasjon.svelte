@@ -34,13 +34,13 @@
     <ul>
       <li>
         <p>
-          [ ] Start et nytt prosjekt. Slett kattefiguren, ved for eksempel å
+          Start et nytt prosjekt. Slett kattefiguren, ved for eksempel å
           høyreklikke på kattefiguren og velge <code>slett</code>.
         </p>
       </li>
       <li>
         <p>
-          [ ] Velg en ny figur ved å klikke
+          Velg en ny figur ved å klikke
           <img
             src="lessons/halloweenimasjon/../bilder/hent-fra-bibliotek.png"
             alt="Velg figur fra biblioteket"
@@ -50,7 +50,7 @@
       </li>
       <li>
         <p>
-          [ ] Trykk på navne-feltet over figuren din. Gi den navnet
+          Trykk på navne-feltet over figuren din. Gi den navnet
           <code>Spøkelse</code>.
         </p>
         <figure>
@@ -62,7 +62,7 @@
       </li>
       <li>
         <p>
-          [ ] Nå skal vi lage et enkelt skript som får spøkelset til å fly over
+          Nå skal vi lage et enkelt skript som får spøkelset til å fly over
           skjermen. Bygg sammen en <code class="blockcontrol">gjenta</code>- og
           en <code class="blockmotion">gå</code>-kloss på denne måten:
         </p>
@@ -73,14 +73,14 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Klikk på skriptet ditt for å starte animasjonen. Flytter spøkelset
+          Klikk på skriptet ditt for å starte animasjonen. Flytter spøkelset
           ditt på seg? Ser du et problem?
         </p>
       </li>
       <li>
         <p>
-          [ ] Spøkelset ser ut som om det setter seg fast når det kommer til
-          kanten! Dette kan vi fikse med en
+          Spøkelset ser ut som om det setter seg fast når det kommer til kanten!
+          Dette kan vi fikse med en
           <code class="blockmotion">sprett tilbake</code>-kloss:
         </p>
         <pre><code class="blocks">gjenta (200) ganger
@@ -90,12 +90,12 @@ slutt
 </code></pre>
       </li>
       <li>
-        <p>[ ] Klikk på skriptet ditt igjen. Virker det bedre nå?</p>
+        <p>Klikk på skriptet ditt igjen. Virker det bedre nå?</p>
       </li>
       <li>
         <p>
-          [ ] Hmm ... Spøkelset flyr opp-ned ... Det ser litt rart ut. Vi kan si
-          at spøkelset bare skal snu seg sidelengs med en
+          Hmm ... Spøkelset flyr opp-ned ... Det ser litt rart ut. Vi kan si at
+          spøkelset bare skal snu seg sidelengs med en
           <code class="blockmotion">begrens rotasjon</code>-kloss. Denne legger
           vi helt først i skriptet på denne måten:
         </p>
@@ -108,7 +108,7 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Til slutt, det ser skumlere ut med en svart bakgrunn! Klikk på
+          Til slutt, det ser skumlere ut med en svart bakgrunn! Klikk på
           <code>Scene</code> helt til høyre på skjermen, deretter på
           <code class="blocklightgrey">Bakgrunner</code>-fanen nesten øverst på
           skjermen. Trykk til slutt på <code>Gjør om til pikselgrafikk</code>.
@@ -116,7 +116,7 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Klikk på malingsspannet,
+          Klikk på malingsspannet,
           <img
             src="lessons/halloweenimasjon/../bilder/fyll-med-farge.png"
             alt="Fyll med farge"
@@ -124,7 +124,7 @@ slutt
         </p>
       </li>
       <li>
-        <p>[ ] Gi bakgrunnen navnet <code>Svart</code>.</p>
+        <p>Gi bakgrunnen navnet <code>Svart</code>.</p>
       </li>
     </ul>
   </section>
@@ -147,7 +147,7 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Lag en ny figur ved å klikke
+          Lag en ny figur ved å klikke
           <img
             src="lessons/halloweenimasjon/../bilder/hent-fra-bibliotek.png"
             alt="Velg figur fra biblioteket"
@@ -157,9 +157,9 @@ slutt
       </li>
       <li>
         <p>
-          [ ] For at det skal se ut som flaggermusen kommer flyvende mot oss,
-          vil vi at den skal starte veldig liten, og deretter bli større. Lag
-          dette skriptet.
+          For at det skal se ut som flaggermusen kommer flyvende mot oss, vil vi
+          at den skal starte veldig liten, og deretter bli større. Lag dette
+          skriptet.
         </p>
         <pre><code class="blocks">sett størrelse til (0) %
 gjenta (100) ganger
@@ -168,12 +168,12 @@ slutt
 </code></pre>
       </li>
       <li>
-        <p>[ ] Trykk på skriptet for å se om det virker.</p>
+        <p>Trykk på skriptet for å se om det virker.</p>
       </li>
       <li>
         <p>
-          [ ] Et lite problem er at spøkelset også ligger på skjermen. Det vil
-          være bedre å skjule spøkelset når det ikke animeres. Klikk på
+          Et lite problem er at spøkelset også ligger på skjermen. Det vil være
+          bedre å skjule spøkelset når det ikke animeres. Klikk på
           spøkelsesfiguren, og legg til en <code class="blocklooks">vis</code>-
           og en <code class="blocklooks">skjul</code>-kloss i skriptet:
         </p>
@@ -188,13 +188,13 @@ skjul
       </li>
       <li>
         <p>
-          [ ] Klikk på spøkelset sitt skript. Skjules spøkelset etter at det er
+          Klikk på spøkelset sitt skript. Skjules spøkelset etter at det er
           ferdig med å fly frem og tilbake?
         </p>
       </li>
       <li>
         <p>
-          [ ] Vi kan også gjøre det samme med flaggermusen sitt skript. Klikk på
+          Vi kan også gjøre det samme med flaggermusen sitt skript. Klikk på
           flaggermus-figuren, og endre skriptet til
         </p>
         <pre><code class="blocks">sett størrelse til (0) %
@@ -207,8 +207,8 @@ skjul
       </li>
       <li>
         <p>
-          [ ] For å få litt variasjon vil vi at flaggermusen skal animeres over
-          en skummel skog-bakgrunn. Klikk på
+          For å få litt variasjon vil vi at flaggermusen skal animeres over en
+          skummel skog-bakgrunn. Klikk på
           <img
             src="lessons/halloweenimasjon/../bilder/velg-bakgrunn.png"
             alt="Velg en ferdig bakgrunn"
@@ -247,15 +247,15 @@ skjul
     </p>
     <ul>
       <li>
-        <p>[ ] Klikk på <code>Scene</code> og lag dette skriptet:</p>
+        <p>Klikk på <code>Scene</code> og lag dette skriptet:</p>
         <pre><code class="blocks">når jeg mottar [Animer spøkelse v]
 bytt bakgrunn til [Svart v]
 </code></pre>
       </li>
       <li>
         <p>
-          [ ] Klikk på spøkelsesfiguren og endre skriptet ved å legge til en
-          kloss på toppen:
+          Klikk på spøkelsesfiguren og endre skriptet ved å legge til en kloss
+          på toppen:
         </p>
         <pre><code class="blocks">når jeg mottar [Animer spøkelse v]
 begrens rotasjon [vend sideveis v]
@@ -269,8 +269,7 @@ skjul
       </li>
       <li>
         <p>
-          [ ] Nå venter skriptene våre på meldingen. For å teste kan vi dra
-          klossen
+          Nå venter skriptene våre på meldingen. For å teste kan vi dra klossen
         </p>
         <pre><code class="blocks">send melding [Animer spøkelse v]
 </code></pre>
@@ -278,22 +277,22 @@ skjul
       </li>
       <li>
         <p>
-          [ ] Send meldingen ved å klikke på
+          Send meldingen ved å klikke på
           <code class="blockevents">send melding</code>-klossen. Animeres
           spøkelset over en svart bakgrunn?
         </p>
       </li>
       <li>
         <p>
-          [ ] Vi vil nå gjøre det samme for flaggermusen. Legg til et nytt
-          skript på scenen:
+          Vi vil nå gjøre det samme for flaggermusen. Legg til et nytt skript på
+          scenen:
         </p>
         <pre><code class="blocks">når jeg mottar [Animer flaggermus v]
 bytt bakgrunn til [Skog v]
 </code></pre>
       </li>
       <li>
-        <p>[ ] Klikk på flaggermusfiguren og endre skriptet slik</p>
+        <p>Klikk på flaggermusfiguren og endre skriptet slik</p>
         <pre><code class="blocks">når jeg mottar [Animer flaggermus v]
 sett størrelse til (0) %
 vis
@@ -304,14 +303,14 @@ skjul
 </code></pre>
       </li>
       <li>
-        <p>[ ] Legg også til klossen</p>
+        <p>Legg også til klossen</p>
         <pre><code class="blocks">send melding [Animer flaggermus v]
 </code></pre>
         <p>for å teste at animasjonen fungerer.</p>
       </li>
       <li>
         <p>
-          [ ] Send meldingene som animerer spøkelset og flaggermusen. Starter
+          Send meldingene som animerer spøkelset og flaggermusen. Starter
           animasjonene når du klikker på meldingene? Byttes bakgrunnene riktig?
         </p>
       </li>
@@ -333,7 +332,7 @@ skjul
     <ul>
       <li>
         <p>
-          [ ] Vi begynner med å lage en
+          Vi begynner med å lage en
           <code class="blockcontrol">gjenta for alltid</code>-løkke på scenen,
           som sender meldinger:
         </p>
@@ -345,16 +344,14 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Klikk på skriptet for å teste det. Trykk den røde stopp-sirkelen
-          for å stoppe animasjonen. Vises animasjonene etter hverandre om og om
-          igjen?
+          Klikk på skriptet for å teste det. Trykk den røde stopp-sirkelen for å
+          stoppe animasjonen. Vises animasjonene etter hverandre om og om igjen?
         </p>
       </li>
       <li>
         <p>
-          [ ] Det vil se litt bedre ut med en kort pause mellom animasjonene.
-          Legg til et par <code class="blockcontrol">vent</code>-klosser i
-          skriptet.
+          Det vil se litt bedre ut med en kort pause mellom animasjonene. Legg
+          til et par <code class="blockcontrol">vent</code>-klosser i skriptet.
         </p>
         <pre><code class="blocks">gjenta for alltid
     send melding [Animer spøkelse v] og vent
@@ -366,8 +363,8 @@ slutt
       </li>
       <li>
         <p>
-          [ ] For å gjøre det enklere å starte animasjonen legger vi til en
-          kloss som gjør at animasjonen starter når det grønne flagget øverst på
+          For å gjøre det enklere å starte animasjonen legger vi til en kloss
+          som gjør at animasjonen starter når det grønne flagget øverst på
           skjermen klikkes.
         </p>
         <pre><code class="blocks">når @greenFlag klikkes
@@ -381,8 +378,8 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Vi kan også bruke grønt flagg-klosser på figurene for å være sikre
-          på at de starter animasjonen på riktig måte. Legg dette skriptet på
+          Vi kan også bruke grønt flagg-klosser på figurene for å være sikre på
+          at de starter animasjonen på riktig måte. Legg dette skriptet på
           spøkelset:
         </p>
         <pre><code class="blocks">når @greenFlag klikkes
@@ -391,7 +388,7 @@ gå til x: (0) y:(0)
 </code></pre>
       </li>
       <li>
-        <p>[ ] Legg et tilsvarende skript på flaggermusen:</p>
+        <p>Legg et tilsvarende skript på flaggermusen:</p>
         <pre><code class="blocks">når @greenFlag klikkes
 skjul
 gå til x: (0) y:(0)
@@ -405,15 +402,15 @@ gå til x: (0) y:(0)
     <ul>
       <li>
         <p>
-          [ ] Kjøres begge animasjonene etter hverandre? Dukker figurene opp når
-          de skal?
+          Kjøres begge animasjonene etter hverandre? Dukker figurene opp når de
+          skal?
         </p>
       </li>
       <li>
         <p>
-          [ ] Endre gjerne i animasjonene slik at du synes de ser bedre ut.
-          Kanskje du vil ha litt andre figurer? Hvordan kan du få figurene til å
-          bevege seg raskere? Kanskje litt mer tilfeldig? Prøv deg frem!
+          Endre gjerne i animasjonene slik at du synes de ser bedre ut. Kanskje
+          du vil ha litt andre figurer? Hvordan kan du få figurene til å bevege
+          seg raskere? Kanskje litt mer tilfeldig? Prøv deg frem!
         </p>
       </li>
     </ul>
@@ -434,7 +431,7 @@ gå til x: (0) y:(0)
     <ul>
       <li>
         <p>
-          [ ] Lag en ny figur ved å flytte pekeren over
+          Lag en ny figur ved å flytte pekeren over
           <img
             src="lessons/halloweenimasjon/../bilder/hent-fra-bibliotek.png"
             alt="Velg figur fra biblioteket"
@@ -450,7 +447,7 @@ gå til x: (0) y:(0)
       </li>
       <li>
         <p>
-          [ ] Lag en kopi av drakten du nettopp tegnet ved å høyreklikke på
+          Lag en kopi av drakten du nettopp tegnet ved å høyreklikke på
           miniatyren under <code>Ny drakt</code>-overskriften og velg
           <code>lag en kopi</code>.
         </p>
@@ -463,14 +460,14 @@ gå til x: (0) y:(0)
       </li>
       <li>
         <p>
-          [ ] Endre litt på den kopierte drakten, slik at du får to drakter som
-          er ganske, men ikke helt, like. Vi vil nå animere figuren ved å bytte
+          Endre litt på den kopierte drakten, slik at du får to drakter som er
+          ganske, men ikke helt, like. Vi vil nå animere figuren ved å bytte
           mellom de to draktene.
         </p>
       </li>
       <li>
         <p>
-          [ ] Klikk på <code class="blocklightgrey">Kode</code>-fanen og legg på
+          Klikk på <code class="blocklightgrey">Kode</code>-fanen og legg på
           dette skriptet:
         </p>
         <pre><code class="blocks">når jeg mottar [Animer gresskar v]
@@ -488,7 +485,7 @@ skjul
         </p>
       </li>
       <li>
-        <p>[ ] Legg også til startposisjonen for den figuren:</p>
+        <p>Legg også til startposisjonen for den figuren:</p>
         <pre><code class="blocks">når @greenFlag klikkes
 skjul
 gå til x: (0) y: (0)
@@ -496,9 +493,8 @@ gå til x: (0) y: (0)
       </li>
       <li>
         <p>
-          [ ] Gå så til scenen og legg på et skript som bytter til riktig
-          bakgrunn for den siste animasjonen. Her har vi brukt den svarte
-          bakgrunnen.
+          Gå så til scenen og legg på et skript som bytter til riktig bakgrunn
+          for den siste animasjonen. Her har vi brukt den svarte bakgrunnen.
         </p>
         <pre><code class="blocks">når jeg mottar [Animer gresskar v]
 bytt bakgrunn til [Svart v]
@@ -506,7 +502,7 @@ bytt bakgrunn til [Svart v]
       </li>
       <li>
         <p>
-          [ ] Til slutt legger vi denne siste animasjonen til i hovedløkken som
+          Til slutt legger vi denne siste animasjonen til i hovedløkken som
           viser animasjonene:
         </p>
         <pre><code class="blocks">når @greenFlag klikkes
@@ -564,9 +560,9 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Først lager vi en fil som viser animasjonen din i et større vindu
-          med svart bakgrunn. Dette gjør vi med litt HTML-kode. HTML er det
-          språket som brukes til å lage nettsider.
+          Først lager vi en fil som viser animasjonen din i et større vindu med
+          svart bakgrunn. Dette gjør vi med litt HTML-kode. HTML er det språket
+          som brukes til å lage nettsider.
         </p>
         <p>
           Last ned filen
@@ -578,36 +574,40 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Åpne filen i Notepad eller et tilsvarende program. Du vil se en
-          tekst som ser slik ut:
+          Åpne filen i Notepad eller et tilsvarende program. Du vil se en tekst
+          som ser slik ut:
         </p>
         <pre><code class="html"><span class="hljs-tag">&lt;<span class="hljs-name">html</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">title</span>&gt;</span>Halloweenimasjon<span class="hljs-tag">&lt;/<span class="hljs-name">title</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">title</span>&gt;</span>Halloweenimasjon<span class="hljs-tag">&lt;/<span class="hljs-name">title</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
 
-<span class="hljs-tag">&lt;<span class="hljs-name">body</span> <span class="hljs-attr">bgcolor</span>=<span class="hljs-string">"#000000"</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"overflow-y: hidden; height: 890px; margin-left: auto; margin-right: auto; width: 1180px;"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"applet"</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">iframe</span>
-  <span class="hljs-attr">style</span>=<span class="hljs-string">"margin-top:-56px; margin-left: -10px"</span>
-  <span class="hljs-attr">allowtransparency</span>=<span class="hljs-string">"true"</span>
-  <span class="hljs-attr">width</span>=<span class="hljs-string">"1200"</span>
-  <span class="hljs-attr">height</span>=<span class="hljs-string">"960"</span>
-  <span class="hljs-attr">src</span>=<span class="hljs-string">"http://scratch.mit.edu/projects/embed/30923784/?autostart=true"</span>
-  <span class="hljs-attr">frameborder</span>=<span class="hljs-string">"0"</span>
-  <span class="hljs-attr">scrolling</span>=<span class="hljs-string">"no"</span>
-  <span class="hljs-attr">seamless</span>=<span class="hljs-string">"seamless"</span>
-  <span class="hljs-attr">allowfullscreen</span>=<span class="hljs-string">""</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">iframe</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">body</span> <span class="hljs-attr">bgcolor</span>=<span class="hljs-string">"#000000"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span>
+      <span class="hljs-attr">style</span>=<span class="hljs-string">"overflow-y: hidden; height: 890px; margin-left: auto; margin-right: auto; width: 1180px;"</span>
+      <span class="hljs-attr">id</span>=<span class="hljs-string">"applet"</span>
+    &gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">iframe</span>
+        <span class="hljs-attr">style</span>=<span class="hljs-string">"margin-top:-56px; margin-left: -10px"</span>
+        <span class="hljs-attr">allowtransparency</span>=<span class="hljs-string">"true"</span>
+        <span class="hljs-attr">width</span>=<span class="hljs-string">"1200"</span>
+        <span class="hljs-attr">height</span>=<span class="hljs-string">"960"</span>
+        <span class="hljs-attr">src</span>=<span class="hljs-string">"http://scratch.mit.edu/projects/embed/30923784/?autostart=true"</span>
+        <span class="hljs-attr">frameborder</span>=<span class="hljs-string">"0"</span>
+        <span class="hljs-attr">scrolling</span>=<span class="hljs-string">"no"</span>
+        <span class="hljs-attr">seamless</span>=<span class="hljs-string">"seamless"</span>
+        <span class="hljs-attr">allowfullscreen</span>=<span class="hljs-string">""</span>
+      &gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">iframe</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span>
 </code></pre>
       </li>
       <li>
         <p>
-          [ ] Gjemt inne i denne teksten står det et Scratch-prosjektnummer. I
-          dette tilfelle er nummeret <code>30923784</code>. Du må bytte dette
-          nummeret med prosjektnummeret ditt.
+          Gjemt inne i denne teksten står det et Scratch-prosjektnummer. I dette
+          tilfelle er nummeret <code>30923784</code>. Du må bytte dette nummeret
+          med prosjektnummeret ditt.
         </p>
       </li>
     </ul>
@@ -625,23 +625,23 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Bytt <code>30923784</code> med ditt prosjektnummer og lagre filen.
+          Bytt <code>30923784</code> med ditt prosjektnummer og lagre filen.
         </p>
       </li>
       <li>
         <p>
-          [ ] I nettleseren din kan du nå åpne filen du nettopp endret. Velg
+          I nettleseren din kan du nå åpne filen du nettopp endret. Velg
           <code>Fil &gt; åpne fil</code>, eller noe som ligner, i nettleseren
           din. Velg den riktige filen.
         </p>
       </li>
       <li>
-        <p>[ ] Du skal nå se animasjonen din på svart bakgrunn.</p>
+        <p>Du skal nå se animasjonen din på svart bakgrunn.</p>
       </li>
       <li>
         <p>
-          [ ] Koble datamaskinen din til en prosjektør, og vis animasjonen din
-          på et hvitt laken, en gardin eller kanskje en vegg!
+          Koble datamaskinen din til en prosjektør, og vis animasjonen din på et
+          hvitt laken, en gardin eller kanskje en vegg!
         </p>
       </li>
     </ul>

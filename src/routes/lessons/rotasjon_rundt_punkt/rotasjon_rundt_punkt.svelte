@@ -32,17 +32,17 @@
     <h2 class="check" id="sjekkliste">Sjekkliste</h2>
     <ul>
       <li>
-        <p>[ ] Start et nytt prosjekt.</p>
+        <p>Start et nytt prosjekt.</p>
       </li>
       <li>
         <p>
-          [ ] Slett kattefiguren ved å høyreklikke på den og velge
+          Slett kattefiguren ved å høyreklikke på den og velge
           <code>slett</code>.
         </p>
       </li>
       <li>
         <p>
-          [ ] Legg til en ny figur. Klikk på
+          Legg til en ny figur. Klikk på
           <img
             src="lessons/rotasjon_rundt_punkt/../bilder/hent-fra-bibliotek.png"
             alt="Velg figur frabiblioteket"
@@ -51,11 +51,11 @@
         </p>
       </li>
       <li>
-        <p>[ ] Gi den nye figuren navnet <code>Hattulf</code>.</p>
+        <p>Gi den nye figuren navnet <code>Hattulf</code>.</p>
       </li>
       <li>
         <p>
-          [ ] Før vi begynner med selve oppgaven, skal vi legge inn en liten
+          Før vi begynner med selve oppgaven, skal vi legge inn en liten
           hjelpefunksjon om noe uventet skulle skje:
         </p>
         <pre><code class="blocks">når [n v] trykkes
@@ -66,9 +66,9 @@ gå til x: (0) y: (0)
       </li>
       <li>
         <p>
-          [ ] Skulle noe uventet skje nå, trenger du bare å trykke på tasten N
-          på tastaturet, så vil Hattulf gå tilbake til utgangspunktet, slik at
-          du kan prøve på nytt.
+          Skulle noe uventet skje nå, trenger du bare å trykke på tasten N på
+          tastaturet, så vil Hattulf gå tilbake til utgangspunktet, slik at du
+          kan prøve på nytt.
         </p>
       </li>
     </ul>
@@ -77,11 +77,11 @@ gå til x: (0) y: (0)
     <h2 class="flag" id="test-prosjektet">Test prosjektet</h2>
     <ul>
       <li>
-        <p>[ ] Bruk musepekeren og flytt Hattulf til et nytt sted i bildet.</p>
+        <p>Bruk musepekeren og flytt Hattulf til et nytt sted i bildet.</p>
       </li>
       <li>
         <p>
-          [ ] Trykk N på tastaturet ditt. Hopper Hattulf tilbake til midten av
+          Trykk N på tastaturet ditt. Hopper Hattulf tilbake til midten av
           bildet? Hvis ja: Gå videre til steg 2. Hvis nei: Feilsøk koden din,
           fiks den, test på nytt.
         </p>
@@ -95,10 +95,10 @@ gå til x: (0) y: (0)
   </h1>
   <ul>
     <li>
-      <p>[ ] Importer bakgrunnen 'xy-grid'</p>
+      <p>Importer bakgrunnen 'xy-grid'</p>
     </li>
     <li>
-      <p>[ ] Velg Hattulf. I scriptet</p>
+      <p>Velg Hattulf. I scriptet</p>
       <pre><code class="blocks">når [n v] trykkes
 vis
 pek i retning [90 v]
@@ -108,7 +108,7 @@ gå til x: (0) y: (0)
     </li>
     <li>
       <p>
-        [ ] Legg merke til punktet der x-aksen (vannrett) og y-aksen (loddrett)
+        Legg merke til punktet der x-aksen (vannrett) og y-aksen (loddrett)
         krysses. Det punktet kalles origo og er det stedet hvor både x = 0 og y
         = 0.
       </p>
@@ -119,17 +119,17 @@ gå til x: (0) y: (0)
     <ul>
       <li>
         <p>
-          [ ] Trykk N på tastaturet. Hattulf skal havne akkurat der de to grå
+          Trykk N på tastaturet. Hattulf skal havne akkurat der de to grå
           linjene for X = -100 og Y = 100 krysses.
         </p>
       </li>
       <li>
-        <p>[ ] Hvis alt ser greit ut, fortsett til neste steg.</p>
+        <p>Hvis alt ser greit ut, fortsett til neste steg.</p>
       </li>
       <li>
         <p>
-          [ ] Hvis noe ikke ser riktig ut, prøv å finne ut om du har gjort en
-          feil i koden din og prøv å trykke N på nytt.
+          Hvis noe ikke ser riktig ut, prøv å finne ut om du har gjort en feil i
+          koden din og prøv å trykke N på nytt.
         </p>
       </li>
     </ul>
@@ -142,7 +142,7 @@ gå til x: (0) y: (0)
   <p>Nå skal vi altså rotere Hattulf rundt origo på en ganske enkel måte.</p>
   <ul>
     <li>
-      <p>[ ] Lag dette skriptet til Hattulf:</p>
+      <p>Lag dette skriptet til Hattulf:</p>
       <pre><code class="blocks">når [pil høyre v] trykkes
 gå (200) steg
 snu @turnRight (90) grader
@@ -154,21 +154,21 @@ snu @turnRight (90) grader
     <ul>
       <li>
         <p>
-          [ ] Trykk tasten &quot;pil høyre&quot; på tastaturet. Hva skjer?
-          Fortsett til Hattulf er tilbake ved startpunktet sitt.
+          Trykk tasten &quot;pil høyre&quot; på tastaturet. Hva skjer? Fortsett
+          til Hattulf er tilbake ved startpunktet sitt.
         </p>
       </li>
       <li>
         <p>
-          [ ] Hvis du studerer koden vi nettopp laget til Hattulf, ser du at vi
-          ber Hattulf gå 200 steg. Hvorfor må vi gå så langt?
+          Hvis du studerer koden vi nettopp laget til Hattulf, ser du at vi ber
+          Hattulf gå 200 steg. Hvorfor må vi gå så langt?
         </p>
       </li>
       <li>
         <p>
-          [ ] Prøv å endre på antall steg Hattulf tar. Ender Hattulf opp på
-          samme sted som han startet etter at du har trykket &quot;pil
-          høyre&quot; fire ganger?
+          Prøv å endre på antall steg Hattulf tar. Ender Hattulf opp på samme
+          sted som han startet etter at du har trykket &quot;pil høyre&quot;
+          fire ganger?
         </p>
       </li>
     </ul>
@@ -179,26 +179,26 @@ snu @turnRight (90) grader
   <ul>
     <li>
       <p>
-        [ ] Legg til en ny figur. Denne gangen skal du få velge figur selv. Hvis
-        den blir veldig stor i forhold til alt det andre, kan du krympe den ned
-        til en passelig størrelse. Kall den nye figuren for &quot;Venn&quot;
+        Legg til en ny figur. Denne gangen skal du få velge figur selv. Hvis den
+        blir veldig stor i forhold til alt det andre, kan du krympe den ned til
+        en passelig størrelse. Kall den nye figuren for &quot;Venn&quot;
       </p>
     </li>
     <li>
       <p>
-        [ ] Lag en kopi av &quot;Når N trykkes&quot;-skriptet fra Hattulf til
-        Venn, men endre y-verdien til 50.
+        Lag en kopi av &quot;Når N trykkes&quot;-skriptet fra Hattulf til Venn,
+        men endre y-verdien til 50.
       </p>
     </li>
     <li>
       <p>
-        [ ] Kopier også over &quot;Når pil høyre trykkes&quot;-skriptet fra
-        Hattulf, men halver både antall steg og antall grader i skriptet.
+        Kopier også over &quot;Når pil høyre trykkes&quot;-skriptet fra Hattulf,
+        men halver både antall steg og antall grader i skriptet.
       </p>
     </li>
     <li>
       <p>
-        [ ] For litt mer moro kan du legge til en linje med kode som skrur på
+        For litt mer moro kan du legge til en linje med kode som skrur på
         <code class="blockpen">pennen</code> for begge figurene. Øverste del av
         pil høyre-skriptet skal da se slik ut:
       </p>
@@ -211,24 +211,24 @@ penn på
     <h2 class="flag" id="test-prosjektet-4">Test prosjektet</h2>
     <ul>
       <li>
-        <p>[ ] Trykk pil høyre. Hva skjer?</p>
+        <p>Trykk pil høyre. Hva skjer?</p>
       </li>
       <li>
         <p>
-          [ ] Trykk pil høyre slik at Hattulf kommer tilbake til utgangspunktet.
+          Trykk pil høyre slik at Hattulf kommer tilbake til utgangspunktet.
           Hvor langt har Venn kommet nå?
         </p>
       </li>
       <li>
         <p>
-          [ ] Hvor mange ganger på du trykke for at Venn kommer tilbake til
+          Hvor mange ganger på du trykke for at Venn kommer tilbake til
           utgangspunktet?
         </p>
       </li>
       <li>
         <p>
-          [ ] Klarer du å justere utgangspunktet til Venn, slik at figuren har
-          like lang avstand til origo for hver gang du trykker pil høyre?
+          Klarer du å justere utgangspunktet til Venn, slik at figuren har like
+          lang avstand til origo for hver gang du trykker pil høyre?
         </p>
       </li>
     </ul>

@@ -33,18 +33,16 @@
     <h2 class="check" id="plan">Plan</h2>
     <ul>
       <li>
-        <p>[ ] Et flyvende romskip</p>
+        <p>Et flyvende romskip</p>
       </li>
       <li>
-        <p>[ ] Vi ankommer månen</p>
+        <p>Vi ankommer månen</p>
       </li>
       <li>
-        <p>[ ] Klar for landing</p>
+        <p>Klar for landing</p>
       </li>
       <li>
-        <p>
-          [ ] Begrenset drivstoff, flere landingsplasser og andre utfordringer
-        </p>
+        <p>Begrenset drivstoff, flere landingsplasser og andre utfordringer</p>
       </li>
     </ul>
   </section>
@@ -84,31 +82,31 @@
     <h2 class="check" id="sjekkliste">Sjekkliste</h2>
     <ul>
       <li>
-        <p>[ ] Start et nytt prosjekt. Slett kattefiguren.</p>
+        <p>Start et nytt prosjekt. Slett kattefiguren.</p>
       </li>
       <li>
         <p>
-          [ ] Legg til en romskip-figur. Du kan gjerne bruke
+          Legg til en romskip-figur. Du kan gjerne bruke
           <code>Romfart/Spaceship</code>.
         </p>
       </li>
       <li>
-        <p>[ ] Lag romskipet ganske lite. Du kan for eksempel bruke</p>
+        <p>Lag romskipet ganske lite. Du kan for eksempel bruke</p>
         <pre><code class="blocks">sett størrelse til (20) %
 </code></pre>
         <p>rett etter at det grønne flagget er klikket.</p>
       </li>
       <li>
         <p>
-          [ ] Lag to nye variable, <code class="blockdata">fartX</code> og
+          Lag to nye variable, <code class="blockdata">fartX</code> og
           <code class="blockdata">fartY</code> som gjelder kun for denne
           romskip-figuren.
         </p>
       </li>
       <li>
         <p>
-          [ ] Vi lager først hovedløkken som lar romskipet falle, kun påvirket
-          av tyngdekraften. Skriv denne koden:
+          Vi lager først hovedløkken som lar romskipet falle, kun påvirket av
+          tyngdekraften. Skriv denne koden:
         </p>
         <pre><code class="blocks">når jeg mottar [Nytt spill v]
 gå til x: (0) y: (175)
@@ -135,8 +133,8 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Vi vil nå programmere kontrollen av romskipet. Først og fremst vil
-          vi at romskipet vender seg når vi trykker på piltastene mot høyre og
+          Vi vil nå programmere kontrollen av romskipet. Først og fremst vil vi
+          at romskipet vender seg når vi trykker på piltastene mot høyre og
           venstre.
         </p>
         <p>
@@ -149,7 +147,7 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Når pil opp-tasten trykkes vil vi at romskipet skal få litt ekstra
+          Når pil opp-tasten trykkes vil vi at romskipet skal få litt ekstra
           fart i den retningen romskipet peker. Som vi snakket om tidligere kan
           vi bruke de matematiske funksjonene sinus og cosinus for å få til
           dette. Legg også til denne blokken inne i
@@ -172,8 +170,8 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Prøv spillet ditt. Kan du styre romskipet rundt på skjermen?
-          Dersom du synes romskipet flyr for raskt eller sakte kan du justere
+          Prøv spillet ditt. Kan du styre romskipet rundt på skjermen? Dersom du
+          synes romskipet flyr for raskt eller sakte kan du justere
           <code class="blockdata">endre fart</code>-klossene, for eksempel slik,
         </p>
         <pre><code class="blocks">endre [fartX v] med ((0.3) * ((0) - ([cos v] av (retning))))
@@ -199,9 +197,9 @@ endre [fartY v] med ((0.3) * ([sin v] av (retning)))
     <ul>
       <li>
         <p>
-          [ ] Lag en ny bakgrunn, hvor du tegner et passende månelandskap. Gjør
-          det så lett eller vanskelig som du selv vil. Tegn også inn en eller
-          flere landingsplasser hvor romskipet skal lande. Vi vil bruke
+          Lag en ny bakgrunn, hvor du tegner et passende månelandskap. Gjør det
+          så lett eller vanskelig som du selv vil. Tegn også inn en eller flere
+          landingsplasser hvor romskipet skal lande. Vi vil bruke
           <code class="blocksensing">berører fargen</code>-klosser for å sjekke
           landingen senere, så det enkleste er å bruke en farge for landskapet
           og en annen for landingsplassen.
@@ -209,25 +207,24 @@ endre [fartY v] med ((0.3) * ([sin v] av (retning)))
       </li>
       <li>
         <p>
-          [ ] For at romskipet skal slutte å fly når det treffer bakken kan du
-          bytte ut <code class="blockcontrol">gjenta for alltid</code>-løkken
-          med en <code class="blockcontrol">gjenta til</code>-løkke hvor du
-          tester på om romskipet
-          <code class="blocksensing">berører fargen</code> du har brukt på
-          landskapet eller på landingsplassen.
+          For at romskipet skal slutte å fly når det treffer bakken kan du bytte
+          ut <code class="blockcontrol">gjenta for alltid</code>-løkken med en
+          <code class="blockcontrol">gjenta til</code>-løkke hvor du tester på
+          om romskipet <code class="blocksensing">berører fargen</code> du har
+          brukt på landskapet eller på landingsplassen.
         </p>
       </li>
       <li>
         <p>
-          [ ] Legg også til en
+          Legg også til en
           <code class="b">send melding [Sjekk landing v]</code> rett etter
           <code class="blockcontrol">gjenta til</code>-løkken.
         </p>
       </li>
       <li>
         <p>
-          [ ] Prøv spillet ditt igjen. Du skal nå kunne fly rundt helt til
-          romskipet kommer nær bakken.
+          Prøv spillet ditt igjen. Du skal nå kunne fly rundt helt til romskipet
+          kommer nær bakken.
         </p>
       </li>
     </ul>
@@ -243,7 +240,7 @@ endre [fartY v] med ((0.3) * ([sin v] av (retning)))
     <ul>
       <li>
         <p>
-          [ ] Når vi sjekker landingen til romskipet vil vi skille mellom tre
+          Når vi sjekker landingen til romskipet vil vi skille mellom tre
           forskjellige tilfeller:
         </p>
         <p>
@@ -269,7 +266,7 @@ endre [fartY v] med ((0.3) * ([sin v] av (retning)))
       </li>
       <li>
         <p>
-          [ ] Finn en måte å fortelle spilleren hvordan romskipet landet. Det
+          Finn en måte å fortelle spilleren hvordan romskipet landet. Det
           enkleste er kanskje å bare bruke en
           <code class="blocklooks">si</code>-kloss. Men du kan også bruke
           lydeffekter, forskjellige drakter eller kanskje en tekstplakat som
@@ -298,34 +295,34 @@ endre [fartY v] med ((0.3) * ([sin v] av (retning)))
     <ul>
       <li>
         <p>
-          [ ] Lag flere landingsplasser. Kanskje noen kan være vanskeligere enn
+          Lag flere landingsplasser. Kanskje noen kan være vanskeligere enn
           andre å lande på (enten på grunn av terrenget eller fordi selve
           landingsplassen er mindre).
         </p>
       </li>
       <li>
         <p>
-          [ ] Lag flere bakgrunner eller brett. Du kan enten la spilleren velge
-          seg en bakgrunn å spille på i begynnelsen av spillet, eller gå videre
-          fra brett til brett etterhvert som spilleren klarer å lande.
+          Lag flere bakgrunner eller brett. Du kan enten la spilleren velge seg
+          en bakgrunn å spille på i begynnelsen av spillet, eller gå videre fra
+          brett til brett etterhvert som spilleren klarer å lande.
         </p>
       </li>
       <li>
         <p>
-          [ ] Du kan også bruke flere bakgrunner som et brett. Dersom romskipet
-          flyr ut av skjermen på høyre side kan du la det dukke opp igjen på
-          venstre side av en annen bakgrunn, og motsatt.
+          Du kan også bruke flere bakgrunner som et brett. Dersom romskipet flyr
+          ut av skjermen på høyre side kan du la det dukke opp igjen på venstre
+          side av en annen bakgrunn, og motsatt.
         </p>
       </li>
       <li>
         <p>
-          [ ] Prøv å animere bruken av motoren. For eksempel, kan du lage en
-          kopi av den flyvende romskip-drakten, og endre den som følger. Klikk
-          først på romskipet, og deretter på den nye knappen som dukker opp
-          nederst i knapperekka (markert med rødt i figuren til venstre). Denne
-          vil dele opp romskip-figuren i mindre deler. Velg en passende
-          flammefarge, og bruk malingsspannet til å fargelegge de tre finnene på
-          romskipet slik at det ser ut som flammer som kommer fra motoren.
+          Prøv å animere bruken av motoren. For eksempel, kan du lage en kopi av
+          den flyvende romskip-drakten, og endre den som følger. Klikk først på
+          romskipet, og deretter på den nye knappen som dukker opp nederst i
+          knapperekka (markert med rødt i figuren til venstre). Denne vil dele
+          opp romskip-figuren i mindre deler. Velg en passende flammefarge, og
+          bruk malingsspannet til å fargelegge de tre finnene på romskipet slik
+          at det ser ut som flammer som kommer fra motoren.
         </p>
         <figure>
           <img
@@ -336,7 +333,7 @@ endre [fartY v] med ((0.3) * ([sin v] av (retning)))
       </li>
       <li>
         <p>
-          [ ] En av utfordringene i det originale Lunar Lander-spillet var at
+          En av utfordringene i det originale Lunar Lander-spillet var at
           spilleren bare hadde begrenset drivstoff tilgjengelig. Du kan legge
           til dette i ditt spill ved å lage en
           <code class="blockdata">Drivstoff</code>-variabel som du lar bli
@@ -347,16 +344,16 @@ endre [fartY v] med ((0.3) * ([sin v] av (retning)))
       </li>
       <li>
         <p>
-          [ ] Du kan lage forskjellige bonusting som spilleren kan plukke opp.
-          For å gjøre det litt utfordrende kan du la disse ligge på
-          måneoverflaten slik at spilleren må manøvrere forsiktig for å få tak i
-          dem. Eksempler på slike bonusting kan være ekstra drivstoff,
-          bonuspoeng, større landingsplass og så videre.
+          Du kan lage forskjellige bonusting som spilleren kan plukke opp. For å
+          gjøre det litt utfordrende kan du la disse ligge på måneoverflaten
+          slik at spilleren må manøvrere forsiktig for å få tak i dem. Eksempler
+          på slike bonusting kan være ekstra drivstoff, bonuspoeng, større
+          landingsplass og så videre.
         </p>
       </li>
       <li>
         <p>
-          [ ] En større endring i spillet kan være at landingsplassen er skjult
+          En større endring i spillet kan være at landingsplassen er skjult
           under bakken når spillet begynner, og spilleren må grave denne frem
           ved å slippe bomber fra romskipet. Du kan implementere dette for
           eksempel ved bruk av noen av klossene under

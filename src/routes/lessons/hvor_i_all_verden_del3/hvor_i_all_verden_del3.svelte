@@ -29,16 +29,16 @@
     <ul>
       <li>
         <p>
-          [ ] du har et helikopter som du kan styre over en rullende bakgrunn
-          med piltastene,
+          du har et helikopter som du kan styre over en rullende bakgrunn med
+          piltastene,
         </p>
       </li>
       <li>
-        <p>[ ] du har en stedfigur som kan bli funnet av helikopteret,</p>
+        <p>du har en stedfigur som kan bli funnet av helikopteret,</p>
       </li>
       <li>
         <p>
-          [ ] du har laget en ny kloss (funksjon) som heter
+          du har laget en ny kloss (funksjon) som heter
           <code class="blockmoreblocks">Reis til</code>.
         </p>
       </li>
@@ -59,14 +59,14 @@
     <ul>
       <li>
         <p>
-          [ ] Velg sted-figuren, og klikk på
+          Velg sted-figuren, og klikk på
           <code class="blockdata">Data</code>-kategorien. Lag en liste som du
           kaller <code>steder</code> og lar gjelde bare for denne figuren.
         </p>
       </li>
       <li>
         <p>
-          [ ] Det dukker nå opp en grå boks på scenen som heter
+          Det dukker nå opp en grå boks på scenen som heter
           <code>Sted: steder</code>. Vi kan la denne ligge på scenen inntil
           videre. Du vil også se at det har kommet noen nye klosser som gjør
           ting med lister. Skjønner du hva noen av disse klossene gjør?
@@ -74,8 +74,8 @@
       </li>
       <li>
         <p>
-          [ ] La oss fylle opp listen! Vi starter med en ny melding, og deretter
-          kan vi legge til ting i listen.
+          La oss fylle opp listen! Vi starter med en ny melding, og deretter kan
+          vi legge til ting i listen.
         </p>
         <pre><code class="blocks">når jeg mottar [Lag lister v]
 legg [London] til [steder v]
@@ -86,14 +86,13 @@ legg [Barcelona] til [steder v]
       </li>
       <li>
         <p>
-          [ ] Klikk på blokken du laget over slik at den kjører. Blir den grå
-          boksen på scenen fyllt med steder? Hva skjer om du klikker flere
-          ganger?
+          Klikk på blokken du laget over slik at den kjører. Blir den grå boksen
+          på scenen fyllt med steder? Hva skjer om du klikker flere ganger?
         </p>
       </li>
       <li>
         <p>
-          [ ] Vi kan sikre oss at hvert sted bare ligger en gang i listen ved å
+          Vi kan sikre oss at hvert sted bare ligger en gang i listen ved å
           tømme listen før vi fyller den opp. Legg til
         </p>
         <pre><code class="blocks">slett (alle v) i [steder v]
@@ -110,14 +109,14 @@ legg [Barcelona] til [steder v]
     <ul>
       <li>
         <p>
-          [ ] Lag to nye lister, <code>stederX</code> og
-          <code>stederY</code> som også gjelder kun for stedfiguren.
+          Lag to nye lister, <code>stederX</code> og <code>stederY</code> som
+          også gjelder kun for stedfiguren.
         </p>
       </li>
       <li>
         <p>
-          [ ] Vi vil nå utvide <code>Lag lister</code>-blokken slik at vi fyller
-          opp alle tre listene. Bruk dine egne reisemål og koordinater her om du
+          Vi vil nå utvide <code>Lag lister</code>-blokken slik at vi fyller opp
+          alle tre listene. Bruk dine egne reisemål og koordinater her om du
           vil:
         </p>
         <pre><code class="blocks">når jeg mottar [Lag lister v]
@@ -157,8 +156,8 @@ legg [-175] til [stederY v]
     <ul>
       <li>
         <p>
-          [ ] Først vil vi lage listene våre når spillet begynner. Endre på
-          koden for <code class="blockevents">Nytt spill</code> slik,
+          Først vil vi lage listene våre når spillet begynner. Endre på koden
+          for <code class="blockevents">Nytt spill</code> slik,
         </p>
         <pre><code class="blocks">når jeg mottar [Nytt spill v]
 send melding [Lag lister v]
@@ -168,16 +167,16 @@ send melding [Nytt sted v] og vent
       </li>
       <li>
         <p>
-          [ ] Lag en ny variabel som heter
-          <code class="blockdata">sted</code> og som gjelder kun for
-          sted-figuren. Denne variabelen vil være et tall som identifiserer
-          hvilken posisjon i listene det gjeldende reisemålet har.
+          Lag en ny variabel som heter <code class="blockdata">sted</code> og
+          som gjelder kun for sted-figuren. Denne variabelen vil være et tall
+          som identifiserer hvilken posisjon i listene det gjeldende reisemålet
+          har.
         </p>
       </li>
       <li>
         <p>
-          [ ] Koden for <code class="blockevents">Nytt sted</code> blir helt ny.
-          Nå skal vi bruke både listene våre og den nye
+          Koden for <code class="blockevents">Nytt sted</code> blir helt ny. Nå
+          skal vi bruke både listene våre og den nye
           <code class="blockmoreblocks">Reis til</code>-klossen vi lagde forrige
           gang.
         </p>
@@ -188,13 +187,13 @@ Reis til (element (sted) av [steder v]) (element (sted) av [stederX v]) (element
       </li>
       <li>
         <p>
-          [ ] Prøv å kjør spillet flere ganger. Virker det som om reisemålet
-          blir valgt tilfeldig?
+          Prøv å kjør spillet flere ganger. Virker det som om reisemålet blir
+          valgt tilfeldig?
         </p>
       </li>
       <li>
         <p>
-          [ ] For å få flere reiseoppgaver i hvert spill kan vi bare legge en
+          For å få flere reiseoppgaver i hvert spill kan vi bare legge en
           <code class="blockcontrol">gjenta _ ganger</code>-løkke rundt
           sendingen av meldingen <code>Nytt sted</code> i
           <code class="blockevents">Nytt spill</code>-blokken. Hvor mange ganger
@@ -220,9 +219,9 @@ Reis til (element (sted) av [steder v]) (element (sted) av [stederX v]) (element
     <ul>
       <li>
         <p>
-          [ ] For å unngå å bli spurt om å reise til samme sted flere ganger på
-          rad vil vi slette reisemål fra listene etterhvert som vi finner dem.
-          Legg til slettekommandoer helt nederst i
+          For å unngå å bli spurt om å reise til samme sted flere ganger på rad
+          vil vi slette reisemål fra listene etterhvert som vi finner dem. Legg
+          til slettekommandoer helt nederst i
           <code class="blockevents">Nytt sted</code>-blokken,
         </p>
         <pre><code class="blocks">slett (sted) i [steder v]
@@ -232,8 +231,8 @@ slett (sted) i [stederY v]
       </li>
       <li>
         <p>
-          [ ] Hva skjer om du prøver å gi flere oppgaver enn det er reisemål?
-          Prøv selv!
+          Hva skjer om du prøver å gi flere oppgaver enn det er reisemål? Prøv
+          selv!
         </p>
         <p>
           Den enkleste måten å unngå dette problemet på er å gi færre oppgaver
@@ -265,8 +264,8 @@ slett (sted) i [stederY v]
     <ul>
       <li>
         <p>
-          [ ] Lag en ny bakgrunn som kan brukes på startskjermen. Vi har tegnet
-          en ny bakgrunn selv ved å bruke vektorgrafikk, sette sammen to store
+          Lag en ny bakgrunn som kan brukes på startskjermen. Vi har tegnet en
+          ny bakgrunn selv ved å bruke vektorgrafikk, sette sammen to store
           firkanter og fylle dem med fargeoverganger. Deretter skrev vi litt
           tekst på denne bakgrunnen.
         </p>
@@ -295,7 +294,7 @@ slett (sted) i [stederY v]
     <ul>
       <li>
         <p>
-          [ ] For å lage denne programflyten kan vi stort sett bruke skript på
+          For å lage denne programflyten kan vi stort sett bruke skript på
           scenen. Lag de følgende enkle skriptene:
         </p>
         <pre><code class="blocks">når grønt flagg klikkes
@@ -322,8 +321,8 @@ send melding [Vis meny v]
       </li>
       <li>
         <p>
-          [ ] Vi må sende melding når spillet er slutt. Hvordan vet vi at
-          spillet er slutt?
+          Vi må sende melding når spillet er slutt. Hvordan vet vi at spillet er
+          slutt?
         </p>
         <p>
           Spillet slutter etter at vi har besøkt reisemålene. Det betyr at vi må
@@ -338,7 +337,7 @@ send melding [Vis meny v]
       </li>
       <li>
         <p>
-          [ ] Et problem er at helikopteret, stedet og kartet blir liggende over
+          Et problem er at helikopteret, stedet og kartet blir liggende over
           menyen når spillet er slutt. Vi må passe på at disse skjules. Legg
           følgende kode på alle de tre figurene:
         </p>
@@ -359,13 +358,12 @@ stopp [andre skript i figuren v] :: control
     <ul>
       <li>
         <p>
-          [ ] Fungerer programflyten som den skal? Starter spillet når du
-          trykker på mellomrom-tasten? Kommer du tilbake til menyen når spillet
-          er slutt?
+          Fungerer programflyten som den skal? Starter spillet når du trykker på
+          mellomrom-tasten? Kommer du tilbake til menyen når spillet er slutt?
         </p>
       </li>
       <li>
-        <p>[ ] Skjules og vises alle figurene når de skal?</p>
+        <p>Skjules og vises alle figurene når de skal?</p>
       </li>
     </ul>
   </section>
@@ -383,32 +381,31 @@ stopp [andre skript i figuren v] :: control
     <ul>
       <li>
         <p>
-          [ ] Lag en ny variabel, <code class="blockdata">Tid</code>, som
-          gjelder for alle figurer. Det ser ganske bra ut om du høyreklikker på
+          Lag en ny variabel, <code class="blockdata">Tid</code>, som gjelder
+          for alle figurer. Det ser ganske bra ut om du høyreklikker på
           <code class="blockgrey">Tid</code>-boksen på scenen og velger
           <code>stor</code>.
         </p>
       </li>
       <li>
         <p>
-          [ ] På scenen, sett <code class="blockdata">Tid</code> til for
-          eksempel 30 (sekunder) etter
-          <code class="blockevents">Nytt spill</code> mottas. Lag så en løkke
-          som gjentas til <code class="blockdata">Tid</code> er 0. Inne i løkken
-          kan du endre <code class="blockdata">Tid</code> med -1, og deretter
-          vente 1 sekund. Avslutt med å sende ut meldingen
+          På scenen, sett <code class="blockdata">Tid</code> til for eksempel 30
+          (sekunder) etter <code class="blockevents">Nytt spill</code> mottas.
+          Lag så en løkke som gjentas til <code class="blockdata">Tid</code> er
+          0. Inne i løkken kan du endre <code class="blockdata">Tid</code> med
+          -1, og deretter vente 1 sekund. Avslutt med å sende ut meldingen
           <code>Spill slutt</code> etter løkken.
         </p>
       </li>
       <li>
         <p>
-          [ ] Kanskje du kan gi spilleren litt ekstra tid hver gang han finner
-          et sted?
+          Kanskje du kan gi spilleren litt ekstra tid hver gang han finner et
+          sted?
         </p>
       </li>
       <li>
         <p>
-          [ ] Til slutt må du legge på en
+          Til slutt må du legge på en
           <code class="blockcontrol">stopp</code>-kloss også på scenen når
           spillet er slutt for at tiden skal stoppe når spilleren har funnet
           alle reisemålene.
@@ -421,11 +418,11 @@ stopp [andre skript i figuren v] :: control
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Fungerer tidtakingen? Telles tiden nedover mot 0?</p>
+        <p>Fungerer tidtakingen? Telles tiden nedover mot 0?</p>
       </li>
       <li>
         <p>
-          [ ] Avsluttes spillet når du har funnet alle reisemålene? Avsluttes
+          Avsluttes spillet når du har funnet alle reisemålene? Avsluttes
           spillet når tiden går ut?
         </p>
       </li>
@@ -444,7 +441,7 @@ stopp [andre skript i figuren v] :: control
     <ul>
       <li>
         <p>
-          [ ] Selv om leksjonene er ferdige betyr ikke det at du ikke kan
+          Selv om leksjonene er ferdige betyr ikke det at du ikke kan
           videreutvikle spillet ditt. En enkel utvidelse er å legge på flere
           reisemål. Her er for eksempel to steder du kan legge til,
         </p>
@@ -463,16 +460,16 @@ legg [-180] til [stederY v]
       </li>
       <li>
         <p>
-          [ ] En måte å gjøre spillet ganske forskjellig på, og samtidig ganske
+          En måte å gjøre spillet ganske forskjellig på, og samtidig ganske
           likt, er å bytte ut kartet over Europa med et kart over et annet
           område. Det finnes mange kart på nettet. Prøv deg fram!
         </p>
       </li>
       <li>
         <p>
-          [ ] Om spillet kjennes litt vanskelig kan man gi spilleren et hint ved
-          å la den sirkelen sakte komme til syne mens han leter etter
-          reisemålet. Om du lager en løkke som starter når
+          Om spillet kjennes litt vanskelig kan man gi spilleren et hint ved å
+          la den sirkelen sakte komme til syne mens han leter etter reisemålet.
+          Om du lager en løkke som starter når
           <code class="blockevents">Nytt spill</code> mottas, og som sakte
           endrer den gjennomsiktige effekten ned mot 0 vil spilleren enklere
           kunne finne de vanskelige reisemålene.
@@ -480,8 +477,8 @@ legg [-180] til [stederY v]
       </li>
       <li>
         <p>
-          [ ] Du kan også lage flere nivåer, for eksempel lett og vanskelig, ved
-          å lage forskjellige lister avhengig av hvilket nivå spilleren velger
+          Du kan også lage flere nivåer, for eksempel lett og vanskelig, ved å
+          lage forskjellige lister avhengig av hvilket nivå spilleren velger
           (for eksempel ved å trykke <code>1</code> eller <code>2</code> i
           stedet for mellomrom når spillet starter).
         </p>

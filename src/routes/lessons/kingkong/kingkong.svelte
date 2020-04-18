@@ -32,10 +32,9 @@
     <ul>
       <li>
         <p>
-          [ ] Åpne en ny fane i nettleseren din og gjør et søk, for eksempel
-          etter <code>skyscraper icon</code>. Velg gjerne
-          <em>Bildesøk</em> eller lignende for å bare se søkeresultatene som er
-          bilder.
+          Åpne en ny fane i nettleseren din og gjør et søk, for eksempel etter
+          <code>skyscraper icon</code>. Velg gjerne <em>Bildesøk</em> eller
+          lignende for å bare se søkeresultatene som er bilder.
         </p>
         <p>
           Finn en skyskraper som du liker. Velg deretter <em>Se bildet</em> for
@@ -75,7 +74,7 @@
     <h2 class="check" id="sjekkliste-2">Sjekkliste</h2>
     <ul>
       <li>
-        <p>[ ] Søk også opp figurer for fly og King Kong.</p>
+        <p>Søk også opp figurer for fly og King Kong.</p>
         <p>Her er noen eksempler, men bruk gjerne bilder du finner selv:</p>
         <figure>
           <img
@@ -102,8 +101,8 @@
       </li>
       <li>
         <p>
-          [ ] Etter at du har lastet ned bildene fra nettet er det på tide å ta
-          dem inn som nye figurer i Scratch. Gå tilbake til Scratch. Klikk på
+          Etter at du har lastet ned bildene fra nettet er det på tide å ta dem
+          inn som nye figurer i Scratch. Gå tilbake til Scratch. Klikk på
           <img
             src="lessons/kingkong/../bilder/hent-fra-fil.png"
             alt="Last opp figurfra fil"
@@ -115,8 +114,8 @@
       </li>
       <li>
         <p>
-          [ ] Figurene får navn fra bildefilene. Endre gjerne navnet på figurene
-          i figurlisten til <code>skyskraper</code>, <code>fly</code> og
+          Figurene får navn fra bildefilene. Endre gjerne navnet på figurene i
+          figurlisten til <code>skyskraper</code>, <code>fly</code> og
           <code>kong</code> slik at det blir enklere å holde oversikten.
         </p>
       </li>
@@ -149,7 +148,7 @@
     <ul>
       <li>
         <p>
-          [ ] La oss først tegne en enkel bakgrunn. Klikk på
+          La oss først tegne en enkel bakgrunn. Klikk på
           <img
             src="lessons/kingkong/../bilder/tegn-ny.png"
             alt="Tegn nybakgrunn"
@@ -159,10 +158,10 @@
       </li>
       <li>
         <p>
-          [ ] Velg Malingsbøtte-verktøyet (<em>Fyll med farge</em>) for å
-          fargelegge bakgrunnen. Finn et par fine himmelfarger, for eksempel en
-          overgang fra blå øverst til noe lysere nederst. Klikk på bakgrunnen
-          slik at den blir fargelagt.
+          Velg Malingsbøtte-verktøyet (<em>Fyll med farge</em>) for å fargelegge
+          bakgrunnen. Finn et par fine himmelfarger, for eksempel en overgang
+          fra blå øverst til noe lysere nederst. Klikk på bakgrunnen slik at den
+          blir fargelagt.
         </p>
         <figure>
           <img
@@ -173,14 +172,14 @@
       </li>
       <li>
         <p>
-          [ ] For en litt enkel gresseffekt skal vi nå velge
+          For en litt enkel gresseffekt skal vi nå velge
           <em>Rektangel</em>-verktøyet, og en helt svart farge. Tegn et svart
           rektangel på den nederste delen av bakgrunnen.
         </p>
       </li>
       <li>
         <p>
-          [ ] Velg så en ganske lys grønn farge og tegn et grønt rektangel som
+          Velg så en ganske lys grønn farge og tegn et grønt rektangel som
           dekker det meste av det svarte rektangelet, slik at det blir en svart
           strek mellom gresset og himmelen.
         </p>
@@ -193,7 +192,7 @@
       </li>
       <li>
         <p>
-          [ ] Velg deretter en litt mørkere grønn farge, og tegn et nytt grønt
+          Velg deretter en litt mørkere grønn farge, og tegn et nytt grønt
           rektangel som dekker den nedre delen av det forrige rektangelet.
           Gjenta dette med stadig mørkere grønnfarger til du har et passende
           antall striper som forestiller gresset. Se
@@ -203,10 +202,10 @@
       </li>
       <li>
         <p>
-          [ ] Du kan også tegne litt på figurene du har lastet ned. For
-          eksempel, om du lastet ned skyskraperen fra lenken over er den
-          gjennomsiktig! Det ser litt rart ut. Det blir bedre om du velger en
-          farge og fargelegger skyskraperen!
+          Du kan også tegne litt på figurene du har lastet ned. For eksempel, om
+          du lastet ned skyskraperen fra lenken over er den gjennomsiktig! Det
+          ser litt rart ut. Det blir bedre om du velger en farge og fargelegger
+          skyskraperen!
         </p>
       </li>
     </ul>
@@ -218,14 +217,14 @@
     <ul>
       <li>
         <p>
-          [ ] Klikk på <code>kong</code>-figuren og velg
-          <code>Drakter</code>-fanen. Høyreklikk på <code>kong</code>-drakten og
-          velg <code>Lag en kopi</code>.
+          Klikk på <code>kong</code>-figuren og velg <code>Drakter</code>-fanen.
+          Høyreklikk på <code>kong</code>-drakten og velg
+          <code>Lag en kopi</code>.
         </p>
       </li>
       <li>
         <p>
-          [ ] Klikk på kopien og bruk knappen
+          Klikk på kopien og bruk knappen
           <img
             src="lessons/kingkong/../bilder/speilvend.png"
             alt="speilvend"
@@ -236,8 +235,7 @@
       </li>
       <li>
         <p>
-          [ ] Gi de to draktene navnene <code>Høyre</code> og
-          <code>Venstre</code>.
+          Gi de to draktene navnene <code>Høyre</code> og <code>Venstre</code>.
         </p>
       </li>
     </ul>
@@ -274,10 +272,9 @@
     <ul>
       <li>
         <p>
-          [ ] La oss begynne med <code>skyskraper</code>-figuren. Denne er
-          ganske enkel. Vi vil bare passe på at den står i ro midt på skjermen i
-          en passende størrelse. Det kan vi gjøre med et skript som ligner
-          dette:
+          La oss begynne med <code>skyskraper</code>-figuren. Denne er ganske
+          enkel. Vi vil bare passe på at den står i ro midt på skjermen i en
+          passende størrelse. Det kan vi gjøre med et skript som ligner dette:
         </p>
         <pre><code class="blocks">når @greenFlag klikkes
 sett størrelse til (200) %
@@ -291,8 +288,8 @@ gå til x: (0) y: (-50)
       </li>
       <li>
         <p>
-          [ ] Neste steg er <strong>King Kong</strong>. Vi vil at han skal stå
-          på skyskraperen, og at vi kan flytte ham fra høyre til venstre side og
+          Neste steg er <strong>King Kong</strong>. Vi vil at han skal stå på
+          skyskraperen, og at vi kan flytte ham fra høyre til venstre side og
           tilbake igjen med piltastene. Dette er heller ikke så veldig
           vanskelig. Du må sikkert forandre litt på tallene, men et lite skript
           som ser omtrent slik ut gjør jobben:
@@ -320,14 +317,14 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Er <code>kong</code> og skyskraperen bra plassert i forhold til
+          Er <code>kong</code> og skyskraperen bra plassert i forhold til
           hverandre?
         </p>
       </li>
       <li>
         <p>
-          [ ] Flytter <strong>King Kong</strong> seg slik han skal når du
-          trykker på piltastene?
+          Flytter <strong>King Kong</strong> seg slik han skal når du trykker på
+          piltastene?
         </p>
       </li>
     </ul>
@@ -345,9 +342,9 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] For å kopiere det ene flyet skal vi bruke det som kalles kloning
-          for å lage nye fly med ujevne mellomrom. Lag først et skript som
-          stadig lager nye fly:
+          For å kopiere det ene flyet skal vi bruke det som kalles kloning for å
+          lage nye fly med ujevne mellomrom. Lag først et skript som stadig
+          lager nye fly:
         </p>
         <pre><code class="blocks">når @greenFlag klikkes
 skjul
@@ -360,9 +357,9 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Om du kjører spillet ditt skjer det ikke noe spennende enda, fordi
-          vi ikke har sagt hva alle flyklonene skal gjøre. La oss begynne med å
-          la dem fly skrått over skjermen:
+          Om du kjører spillet ditt skjer det ikke noe spennende enda, fordi vi
+          ikke har sagt hva alle flyklonene skal gjøre. La oss begynne med å la
+          dem fly skrått over skjermen:
         </p>
         <pre><code class="blocks">når jeg starter som klon
 pek i retning (45 v)
@@ -376,17 +373,17 @@ slett denne klonen
       </li>
       <li>
         <p>
-          [ ] Igjen må du justere tallene slik at de passer for deg. Vi vil at
-          flyet skal fly slik at det kommer borti <code>kong</code> om han står
-          på venstre side av skyskraperen, men vi vil ikke at flyet krasjer i
+          Igjen må du justere tallene slik at de passer for deg. Vi vil at flyet
+          skal fly slik at det kommer borti <code>kong</code> om han står på
+          venstre side av skyskraperen, men vi vil ikke at flyet krasjer i
           skyskraperen selv (se bildet
           <a href="lessons/kingkong/#introduksjon">øverst i oppgaven</a>).
         </p>
       </li>
       <li>
         <p>
-          [ ] Om du vil kan du klikke på <code>drakter</code> og rotere flyet
-          litt slik at det flyr i riktig retning.
+          Om du vil kan du klikke på <code>drakter</code> og rotere flyet litt
+          slik at det flyr i riktig retning.
         </p>
         <figure>
           <img
@@ -397,8 +394,8 @@ slett denne klonen
       </li>
       <li>
         <p>
-          [ ] Vi kan også få flyene til å komme fra begge retninger! Ved å bruke
-          et tilfeldig tall kan vi bestemme om flyet kommer fra høyre eller
+          Vi kan også få flyene til å komme fra begge retninger! Ved å bruke et
+          tilfeldig tall kan vi bestemme om flyet kommer fra høyre eller
           venstre. Endre koden din slik at den blir som følger:
         </p>
         <pre><code class="blocks">når jeg starter som klon
@@ -432,7 +429,7 @@ slett denne klonen
     <ul>
       <li>
         <p>
-          [ ] For at <code>kong</code> skal merke at han blir truffet av flyene
+          For at <code>kong</code> skal merke at han blir truffet av flyene
           lager vi et nytt skript på ham. Et enkelt utgangspunkt kan være:
         </p>
         <pre><code class="blocks">når @greenFlag klikkes
@@ -460,18 +457,16 @@ slutt
       <ul>
         <li>
           <p>
-            [ ] Legg til lydeffekter! Kanskje litt motorlyd fra flyene, og så
-            klart trenger vi en lyd når King Kong blir truffet av flyene.
+            Legg til lydeffekter! Kanskje litt motorlyd fra flyene, og så klart
+            trenger vi en lyd når King Kong blir truffet av flyene.
           </p>
         </li>
         <li>
-          <p>
-            [ ] Tell poeng! Kanskje du kan få poeng for hvert fly som passerer?
-          </p>
+          <p>Tell poeng! Kanskje du kan få poeng for hvert fly som passerer?</p>
         </li>
         <li>
           <p>
-            [ ] Tell liv! King Kong kan ikke bli truffet av flyene
+            Tell liv! King Kong kan ikke bli truffet av flyene
             <code class="blockcontrol">for alltid</code>. Legg til en
             <code class="blockdata">liv</code>-variabel som teller hvor mange
             liv du har igjen. Kanskje <code>kong</code> ramler ned fra
@@ -480,14 +475,14 @@ slutt
         </li>
         <li>
           <p>
-            [ ] Kan du utvide spillet? Kanskje kommer det fly i flere retninger
-            og King Kong må dukke eller hoppe for å unngå dem? Kanskje King Kong
+            Kan du utvide spillet? Kanskje kommer det fly i flere retninger og
+            King Kong må dukke eller hoppe for å unngå dem? Kanskje King Kong
             kan fange flyene på en eller annen måte og få poeng for det?
           </p>
         </li>
         <li>
           <p>
-            [ ] Kan du gjøre spillet vanskeligere etterhvert? For eksempel kan
+            Kan du gjøre spillet vanskeligere etterhvert? For eksempel kan
             flyene komme raskere etterhvert som du får flere poeng?
           </p>
         </li>

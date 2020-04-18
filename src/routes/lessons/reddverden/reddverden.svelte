@@ -31,10 +31,10 @@
     <ul>
       <li>
         <p>
-          [ ] Start et nytt prosjekt. Legg til en ny figur, enten fra
-          biblioteket, slik vi har gjort, eller tegn din helt egen hjelper! Vi
-          valgte figuren <code>nano</code>, da han har flere drakter som vi
-          tenker å bruke i utfordrings-delene.
+          Start et nytt prosjekt. Legg til en ny figur, enten fra biblioteket,
+          slik vi har gjort, eller tegn din helt egen hjelper! Vi valgte figuren
+          <code>nano</code>, da han har flere drakter som vi tenker å bruke i
+          utfordrings-delene.
         </p>
         <figure>
           <img src="lessons/reddverden/ronny.png" alt="Viser figuren nano" />
@@ -42,9 +42,9 @@
       </li>
       <li>
         <p>
-          [ ] Målet med spillet er å få all søppelet i bøttene de hører til.
-          Hver gang vi fjerner en søppel-figur så får vi et poeng. Målet vårt er
-          å få så mange poeng som det er søppel-biter.
+          Målet med spillet er å få all søppelet i bøttene de hører til. Hver
+          gang vi fjerner en søppel-figur så får vi et poeng. Målet vårt er å få
+          så mange poeng som det er søppel-biter.
         </p>
         <p>
           I første omgang vet ikke Ronny om noe av søppelet, så vi lar Ronny
@@ -59,11 +59,10 @@ sett [Poeng v] til [0]
       </li>
       <li>
         <p>
-          [ ] Legg til seks figurer som representerer søppel. Her kan du igjen
-          velge eksisterende figurer fra biblioteket, tegne dine egne, eller
-          finne noen bilder på nettet du syns passer. Selv valgte vi noen
-          bananer, et eple, en ballong, et helikopter, en melkekartong, og en
-          avis.
+          Legg til seks figurer som representerer søppel. Her kan du igjen velge
+          eksisterende figurer fra biblioteket, tegne dine egne, eller finne
+          noen bilder på nettet du syns passer. Selv valgte vi noen bananer, et
+          eple, en ballong, et helikopter, en melkekartong, og en avis.
         </p>
         <style>
           figure.inline > img {
@@ -85,7 +84,7 @@ sett [Poeng v] til [0]
       </li>
       <li>
         <p>
-          [ ] Velg så en bakgrunn som vi kan plassere figurene våre rundt i. Vi
+          Velg så en bakgrunn som vi kan plassere figurene våre rundt i. Vi
           valgte kjøkken fra biblioteket, men tegn gjerne noe eget eller finn et
           annet bilde du heller har lyst til å bruke.
         </p>
@@ -98,8 +97,8 @@ sett [Poeng v] til [0]
       </li>
       <li>
         <p>
-          [ ] Vi kommer til å flytte rundt på søppel-figurene, så det er viktig
-          at vi plasserer dem på nytt hver gang vi starter spillet.
+          Vi kommer til å flytte rundt på søppel-figurene, så det er viktig at
+          vi plasserer dem på nytt hver gang vi starter spillet.
         </p>
         <pre><code class="blocks">når @greenFlag klikkes
 gå til x: (78) y: (5)
@@ -115,7 +114,7 @@ gå til x: (78) y: (5)
     <h2 class="flag" id="test-prosjektet">Test prosjektet</h2>
     <ul>
       <li>
-        [ ] Om du flytter rundt på søppel-bitene, blir de satt tilbake når du
+        Om du flytter rundt på søppel-bitene, blir de satt tilbake når du
         trykker på det grønne flagget?
       </li>
     </ul>
@@ -134,8 +133,8 @@ gå til x: (78) y: (5)
     <ul>
       <li>
         <p>
-          [ ] Ronny kan kommunisere med søppelet ved hjelp av meldinger. Start
-          med å sende meldingen <code>Forbered spill</code>.
+          Ronny kan kommunisere med søppelet ved hjelp av meldinger. Start med å
+          sende meldingen <code>Forbered spill</code>.
         </p>
         <pre><code class="blocks">når @greenFlag klikkes
 sett [Mål v] til [0]
@@ -145,7 +144,7 @@ send melding [Forbered spill v]
       </li>
       <li>
         <p>
-          [ ] Hver av søppel-bitene må nå svare på beskjeden ved å øke
+          Hver av søppel-bitene må nå svare på beskjeden ved å øke
           <code>Mål</code> med en.
         </p>
         <pre><code class="blocks">når jeg mottar [Forbered spill v]
@@ -154,10 +153,10 @@ endre [Mål v] med (1)
       </li>
       <li>
         <p>
-          [ ] Før spillet kan starte må vi gi Ronny litt tid til å kommunisere
-          og la søppelet telle opp målet vi skal nå. En ting vi kan gjøre er å
-          la Ronny snakke litt. Når Ronny er ferdig med å prate, så kan vi
-          starte spillet.
+          Før spillet kan starte må vi gi Ronny litt tid til å kommunisere og la
+          søppelet telle opp målet vi skal nå. En ting vi kan gjøre er å la
+          Ronny snakke litt. Når Ronny er ferdig med å prate, så kan vi starte
+          spillet.
         </p>
         <pre><code class="blocks">når @greenFlag klikkes
 sett [Mål v] til [0]
@@ -176,12 +175,12 @@ si [Vi må sortere avfallet til hver sin kilde, kan du hjelpe meg med det?] i (3
     <ul>
       <li>
         <p>
-          [ ] Blir mål satt til riktig antall søppel-biter? I vårt tilfelle skal
-          det bli seks.
+          Blir mål satt til riktig antall søppel-biter? I vårt tilfelle skal det
+          bli seks.
         </p>
       </li>
       <li>
-        <p>[ ] Snakker Ronny?</p>
+        <p>Snakker Ronny?</p>
       </li>
     </ul>
   </section>
@@ -221,7 +220,7 @@ si [Vi må sortere avfallet til hver sin kilde, kan du hjelpe meg med det?] i (3
     <ul>
       <li>
         <p>
-          [ ] Tegn en ny figur for hver av bøttene <code>Mat</code>,
+          Tegn en ny figur for hver av bøttene <code>Mat</code>,
           <code>Plast</code> og <code>Papir</code>.
         </p>
         <figure class="inline">
@@ -241,7 +240,7 @@ si [Vi må sortere avfallet til hver sin kilde, kan du hjelpe meg med det?] i (3
       </li>
       <li>
         <p>
-          [ ] Vi ønsker ikke å vise bøttene før spillet er i gang. For å få til
+          Vi ønsker ikke å vise bøttene før spillet er i gang. For å få til
           dette kan vi benytte oss av <code>Start spill</code>-meldingen.
         </p>
         <pre><code class="blocks">når @greenFlag klikkes
@@ -253,7 +252,7 @@ vis
       </li>
       <li>
         <p>
-          [ ] Dette trikset kan vi også gjøre for søppelet, som også er greit å
+          Dette trikset kan vi også gjøre for søppelet, som også er greit å
           skjule før spillet er i gang.
         </p>
         <pre><code class="blocks">når @greenFlag klikkes
@@ -272,12 +271,11 @@ vis
     <ul>
       <li>
         <p>
-          [ ] Skjules bøttene i starten? Blir de vist når Ronny er ferdig å
-          snakke?
+          Skjules bøttene i starten? Blir de vist når Ronny er ferdig å snakke?
         </p>
       </li>
       <li>
-        <p>[ ] Skjer det samme med søppel-bitene?</p>
+        <p>Skjer det samme med søppel-bitene?</p>
       </li>
     </ul>
   </section>
@@ -292,8 +290,8 @@ vis
     <ul>
       <li>
         <p>
-          [ ] Måten vi flytter på søppel-bitene er at vi lar dem bevege seg
-          etter musepekeren til de er flyttet til sin passende bøtte.
+          Måten vi flytter på søppel-bitene er at vi lar dem bevege seg etter
+          musepekeren til de er flyttet til sin passende bøtte.
         </p>
         <pre><code class="blocks">når denne figuren klikkes
 gjenta til &lt;berører [Mat v] ?&gt;
@@ -303,8 +301,8 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Når søppelet er lagt i sin passende bøtte, trenger vi å legge til
-          ett poeng og skjule søppelet.
+          Når søppelet er lagt i sin passende bøtte, trenger vi å legge til ett
+          poeng og skjule søppelet.
         </p>
         <pre><code class="blocks">når denne figuren klikkes
 gjenta til &lt;berører [Mat v] ?&gt;
@@ -321,7 +319,7 @@ skjul
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        [ ] Når du trykker på en søppel-bit, følger den etter musepekeren?
+        Når du trykker på en søppel-bit, følger den etter musepekeren?
         Forsvinner søppelbiten når den går i den riktige bøtten? Husk at ikke
         alt skal i <code>Mat</code>, noe skal også i <code>Plast</code> eller
         <code>Papir</code>.
@@ -357,7 +355,7 @@ skjul
     <ul>
       <li>
         <p>
-          [ ] <code>Ronny</code> trenger å vite når spillet er over. Det kan vi
+          <code>Ronny</code> trenger å vite når spillet er over. Det kan vi
           gjøre ved å legge til <code>vent til</code>-blokk i skriptet hans.
         </p>
         <pre><code class="blocks">når @greenFlag klikkes
@@ -373,7 +371,7 @@ si [Takk for at du hjelper meg med å redde verden!]
       </li>
       <li>
         <p>
-          [ ] I tillegg til at Ronny takker oss for at vi kildesorterte alt
+          I tillegg til at Ronny takker oss for at vi kildesorterte alt
           avfallet, så ber vi han også sende meldingen
           <code>Spill ferdig</code>. Dette gjør at vi kan fortelle de andre
           figurene at spillet er ferdig.
@@ -388,7 +386,7 @@ skjul
       </li>
       <li>
         <p>
-          [ ] Til slutt kan vi forandre bakgrunnen når spillet avsluttes, for å
+          Til slutt kan vi forandre bakgrunnen når spillet avsluttes, for å
           gjøre avslutningen enda litt finere. Trykk på <code>Scene</code> og
           legg til en bakgrunn.
         </p>
@@ -402,9 +400,8 @@ skjul
       </li>
       <li>
         <p>
-          [ ] Til slutt trenger vi å fortelle når bakgrunnen skal skiftes. Du
-          kan gjøre det ved å legge til følgende på skriptet til
-          <code>Scene</code>.
+          Til slutt trenger vi å fortelle når bakgrunnen skal skiftes. Du kan
+          gjøre det ved å legge til følgende på skriptet til <code>Scene</code>.
         </p>
         <pre><code class="blocks">når jeg mottar [Spill ferdig v]
 bytt bakgrunn til [water and rocks v]
@@ -417,8 +414,8 @@ bytt bakgrunn til [water and rocks v]
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        [ ] Når alt søppelet er sortert, blir bakgrunnen byttet og Ronny takker
-        for hjelpen?
+        Når alt søppelet er sortert, blir bakgrunnen byttet og Ronny takker for
+        hjelpen?
       </li>
     </ul>
   </section>

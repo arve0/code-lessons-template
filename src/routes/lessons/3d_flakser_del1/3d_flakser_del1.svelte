@@ -42,10 +42,10 @@
     <h2 class="check" id="sjekkliste">Sjekkliste</h2>
     <ul>
       <li>
-        <p>[ ] Tegn figuren <strong>Ring</strong>. Jo enklere jo bedre.</p>
+        <p>Tegn figuren <strong>Ring</strong>. Jo enklere jo bedre.</p>
       </li>
       <li>
-        <p>[ ] Gi ringfiguren disse skriptene:</p>
+        <p>Gi ringfiguren disse skriptene:</p>
         <pre><code class="blocks">når jeg mottar [Nytt spill v]
 skjul
 gjenta for alltid
@@ -73,8 +73,7 @@ slett denne klonen
     <h2 class="flag" id="test-prosjektet">Test prosjektet</h2>
     <ul>
       <li>
-        [ ] Hva gjør de to skriptene over? Ser det ut som om ringene kommer mot
-        deg?
+        Hva gjør de to skriptene over? Ser det ut som om ringene kommer mot deg?
       </li>
     </ul>
   </section>
@@ -94,12 +93,12 @@ slett denne klonen
     <ul>
       <li>
         <p>
-          [ ] Lag en variabel som heter <code class="blockdata">distanse</code>.
+          Lag en variabel som heter <code class="blockdata">distanse</code>.
           Pass på at den kun gjelder for denne figuren.
         </p>
       </li>
       <li>
-        <p>[ ] Endre skriptet over til dette:</p>
+        <p>Endre skriptet over til dette:</p>
         <pre><code class="blocks">når jeg starter som klon
 gå til x: (0) y: (0)
 vis
@@ -114,8 +113,8 @@ slett denne klonen
       </li>
       <li>
         <p>
-          [ ] Det kan hende du må endre litt på tallene i skriptet over for at
-          det skal se bra ut. Prøv deg frem!
+          Det kan hende du må endre litt på tallene i skriptet over for at det
+          skal se bra ut. Prøv deg frem!
         </p>
       </li>
     </ul>
@@ -158,7 +157,7 @@ slett denne klonen
     <h2 class="check" id="sjekkliste-3">Sjekkliste</h2>
     <ul>
       <li>
-        <p>[ ] Prøv først å endre på blokken som plasserer ring-klonene til</p>
+        <p>Prøv først å endre på blokken som plasserer ring-klonene til</p>
         <pre><code class="blocks">gå til x: (tilfeldig tall fra (-100) til (100)) y: (tilfeldig tall fra (-100) til (100))
 </code></pre>
         <p>
@@ -172,13 +171,13 @@ slett denne klonen
       </li>
       <li>
         <p>
-          [ ] Lag variabler <code class="blockdata">ringX</code> og
+          Lag variabler <code class="blockdata">ringX</code> og
           <code class="blockdata">ringY</code> som
           <em>kun gjelder for ringfiguren</em>.
         </p>
       </li>
       <li>
-        <p>[ ] Erstatt blokken som først plasserer ringen med dette:</p>
+        <p>Erstatt blokken som først plasserer ringen med dette:</p>
         <pre><code class="blocks">sett [ringX v] til (tilfeldig tall fra (-100) til (100)
 sett [ringY v] til (tilfeldig tall fra (-100) til (100)
 gå til x: (ringX) y: (ringY)
@@ -219,20 +218,20 @@ gå til x: (ringX) y: (ringY)
     <ul>
       <li>
         <p>
-          [ ] Lag en ny figur. Det er best om den er symmetrisk, slik at det kan
-          se ut som om den flyr innover i skjermen uten at det ser teit ut, bruk
+          Lag en ny figur. Det er best om den er symmetrisk, slik at det kan se
+          ut som om den flyr innover i skjermen uten at det ser teit ut, bruk
           for eksempel flaggermus-figuren. Kall den <strong>Flakse</strong>.
         </p>
       </li>
       <li>
         <p>
-          [ ] Lag to nye variabler, <code class="blockdata">x</code> og
+          Lag to nye variabler, <code class="blockdata">x</code> og
           <code class="blockdata">y</code>. La dem gjelde
           <em>for alle figurer</em>.
         </p>
       </li>
       <li>
-        <p>[ ] Gi Flakse følgende skript:</p>
+        <p>Gi Flakse følgende skript:</p>
         <pre><code class="blocks">når jeg mottar [Nytt spill v]
 sett [x v] til [0]
 sett [y v] til [0]
@@ -266,8 +265,8 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Nå vil vi at posisjonen til ringene skal endre seg når vi styrer.
-          Det kan vi få til ved å endre klossen
+          Nå vil vi at posisjonen til ringene skal endre seg når vi styrer. Det
+          kan vi få til ved å endre klossen
         </p>
         <pre><code class="blocks">gå til x: ((ringX) / (distanse)) y: ((ringY) / (distanse))
 </code></pre>
@@ -289,7 +288,7 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Er det mulig å styre figuren gjennom alle ringene? Husk at spillet
+          Er det mulig å styre figuren gjennom alle ringene? Husk at spillet
           skal være akkurat passe vanskelig, og ihvertfall ikke umulig. Gå
           gjennom alle skriptene og endre på verdiene slik at spillet er gøy å
           spille, og slik at det ser bra ut. Kanskje du må endre på størrelsen
@@ -300,12 +299,12 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Tegn din egen figur! Flaggermusfiguren er kanskje ikke helt
-          perfekt. Prøv å se om du kan finne noen bilder på nettet du kan bruke,
-          eller tegn din helt egen figur (den burde være et fugleliknende dyr).
-          Husk at det ser mye bedre ut om figuren er symmetrisk. Det er lurt å
-          gi figuren to drakter; en med vingene ned og en med vingene opp. Da
-          kan vi senere få Flakse til å flakse!
+          Tegn din egen figur! Flaggermusfiguren er kanskje ikke helt perfekt.
+          Prøv å se om du kan finne noen bilder på nettet du kan bruke, eller
+          tegn din helt egen figur (den burde være et fugleliknende dyr). Husk
+          at det ser mye bedre ut om figuren er symmetrisk. Det er lurt å gi
+          figuren to drakter; en med vingene ned og en med vingene opp. Da kan
+          vi senere få Flakse til å flakse!
         </p>
       </li>
     </ul>

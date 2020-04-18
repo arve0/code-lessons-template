@@ -32,14 +32,13 @@
     <ul>
       <li>
         <p>
-          [ ] Start et nytt Scratch-prosjekt. Du vil se en kattefigur midt på
+          Start et nytt Scratch-prosjekt. Du vil se en kattefigur midt på
           scenen.
         </p>
       </li>
       <li>
         <p>
-          [ ] Pusle sammen de følgende klossene i kode-området i midten av
-          skjermen.
+          Pusle sammen de følgende klossene i kode-området i midten av skjermen.
         </p>
         <pre><code class="blocks">når @greenFlag klikkes
 gå til x: (0) y: (0)
@@ -61,20 +60,19 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] For å starte programmet du nettopp puslet sammen kan du klikke på
-          det grønne flagget over scenen.
+          For å starte programmet du nettopp puslet sammen kan du klikke på det
+          grønne flagget over scenen.
         </p>
       </li>
       <li>
         <p>
-          [ ] Begynner katten å rotere rundt slik at den alltid ser mot
-          musepekeren?
+          Begynner katten å rotere rundt slik at den alltid ser mot musepekeren?
         </p>
       </li>
       <li>
         <p>
-          [ ] For å stoppe programmet ditt kan du klikke på det røde
-          stopp-tegnet ved siden av det grønne flagget.
+          For å stoppe programmet ditt kan du klikke på det røde stopp-tegnet
+          ved siden av det grønne flagget.
         </p>
       </li>
     </ul>
@@ -99,21 +97,21 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Gi først kattefiguren din navnet <code>Katt</code>. Dette gjør du
-          ved å skrive <code>Katt</code> i tekstfeltet over kattefiguren.
+          Gi først kattefiguren din navnet <code>Katt</code>. Dette gjør du ved
+          å skrive <code>Katt</code> i tekstfeltet over kattefiguren.
         </p>
       </li>
       <li>
         <p>
-          [ ] Klikk på <code class="blocklightgrey">Drakter</code>-fanen øverst
-          på skjermen. Du vil nå se to kattefigurer. Slett en av dem ved å
-          klikke på den lille x-en i hjørnet av figuren.
+          Klikk på <code class="blocklightgrey">Drakter</code>-fanen øverst på
+          skjermen. Du vil nå se to kattefigurer. Slett en av dem ved å klikke
+          på den lille x-en i hjørnet av figuren.
         </p>
       </li>
       <li>
         <p>
-          [ ] Gjør katten mindre ved å klikke på den i det store bildet, og
-          deretter dra i et av hjørnene.
+          Gjør katten mindre ved å klikke på den i det store bildet, og deretter
+          dra i et av hjørnene.
         </p>
         <figure>
           <img
@@ -124,7 +122,7 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Roter deretter katten ved å dra i den lille rundingen over katten.
+          Roter deretter katten ved å dra i den lille rundingen over katten.
         </p>
         <figure>
           <img
@@ -135,7 +133,7 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Til slutt kan du ta tak i kattefiguren ved å klikke på den lille
+          Til slutt kan du ta tak i kattefiguren ved å klikke på den lille
           rundingen midt på katten. Flytt den et stykke til siden. Følg med på
           scenen øverst til venstre at du ikke drar den av skjermen.
         </p>
@@ -154,15 +152,15 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Start programmet ditt igjen. Flytter katten seg i sirkel når du
+          Start programmet ditt igjen. Flytter katten seg i sirkel når du
           beveger musepekeren?
         </p>
       </li>
       <li>
         <p>
-          [ ] Fungerer bevegelsen bra? Ser katten passe stor ut? Husk at du kan
-          gå tilbake og endre på kattefiguren senere hvis du oppdager noe som
-          kunne vært bedre.
+          Fungerer bevegelsen bra? Ser katten passe stor ut? Husk at du kan gå
+          tilbake og endre på kattefiguren senere hvis du oppdager noe som kunne
+          vært bedre.
         </p>
       </li>
     </ul>
@@ -205,13 +203,13 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Klikk på <code class="blocklightgrey">Kode</code>-fanen slik at du
-          ser skriptet du skrev tidligere.
+          Klikk på <code class="blocklightgrey">Kode</code>-fanen slik at du ser
+          skriptet du skrev tidligere.
         </p>
       </li>
       <li>
         <p>
-          [ ] Klikk på
+          Klikk på
           <img
             src="lessons/soloball/../bilder/hent-fra-bibliotek.png"
             alt="Velg figur fra biblioteket"
@@ -221,13 +219,13 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Hvis du klikker kategorien <code>Sport</code> vil du se flere
-          baller. Velg en av dem.
+          Hvis du klikker kategorien <code>Sport</code> vil du se flere baller.
+          Velg en av dem.
         </p>
       </li>
       <li>
         <p>
-          [ ] Vi skal nå se en annen måte å gjøre figurer mindre på. Finn
+          Vi skal nå se en annen måte å gjøre figurer mindre på. Finn
           <code>Størrelse</code> feltet over ball-figuren. Den har nå verdien
           100. Skriv en mindre verdi, da blir ballen mindre. Prøv ulike tall til
           ballen ser ut som riktig størrelse i forhold til katten.
@@ -235,8 +233,8 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Nå lager vi et program for ballen. Vi vil at ballen skal starte
-          midt på skjermen. Deretter går den inn i en løkke hvor den flytter seg
+          Nå lager vi et program for ballen. Vi vil at ballen skal starte midt
+          på skjermen. Deretter går den inn i en løkke hvor den flytter seg
           litt, og snur om katten kommer borti den.
         </p>
         <pre><code class="blocks">når @greenFlag klikkes
@@ -254,7 +252,7 @@ slutt
         </p>
       </li>
       <li>
-        <p>[ ] Skjønner du hvorfor</p>
+        <p>Skjønner du hvorfor</p>
         <pre><code class="blocks">pek i retning ((180) + (retning))
 </code></pre>
         <p>gjør at ballen snur? Vi vil se nærmere på dette i Steg 6.</p>
@@ -266,22 +264,22 @@ slutt
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Beveger ballen seg? Snur ballen når katten berører den?</p>
+        <p>Beveger ballen seg? Snur ballen når katten berører den?</p>
       </li>
       <li>
-        <p>[ ] Hva skjer om ballen flyr forbi katten?</p>
+        <p>Hva skjer om ballen flyr forbi katten?</p>
       </li>
       <li>
         <p>
-          [ ] Starter ballen midt på skjermen igjen hvis du trykker på det
-          grønne flagget en gang til?
+          Starter ballen midt på skjermen igjen hvis du trykker på det grønne
+          flagget en gang til?
         </p>
       </li>
       <li>
         <p>
-          [ ] Hvis du synes ballen blir for lett &quot;fanget&quot; av katten
-          kan du prøve å gjøre katten litt mindre. Vi vil finne en bedre løsning
-          på dette problemet i Ekstra 3-delen.
+          Hvis du synes ballen blir for lett &quot;fanget&quot; av katten kan du
+          prøve å gjøre katten litt mindre. Vi vil finne en bedre løsning på
+          dette problemet i Ekstra 3-delen.
         </p>
       </li>
     </ul>
@@ -300,8 +298,8 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Vi skal nå lage en figur som vi tegner selv. For å gjøre dette
-          holder du musepekeren over
+          Vi skal nå lage en figur som vi tegner selv. For å gjøre dette holder
+          du musepekeren over
           <img
             src="lessons/soloball/../bilder/hent-fra-bibliotek.png"
             alt="Hent fra bibliotek"
@@ -310,14 +308,14 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Velg linje-verktøyet på venstre side av skjermen, og trykk så
+          Velg linje-verktøyet på venstre side av skjermen, og trykk så
           <code>Kant</code> boksen for å velge farge. Velg en godt synlig farge,
           eksempel rød.
         </p>
       </li>
       <li>
         <p>
-          [ ] Tegn en liten loddrett strek til høyre på figuren din. Hold gjerne
+          Tegn en liten loddrett strek til høyre på figuren din. Hold gjerne
           inne <code>Skift</code>-knappen, da får du en helt loddrett strek.
         </p>
         <figure>
@@ -328,12 +326,12 @@ slutt
         </figure>
       </li>
       <li>
-        <p>[ ] Klikk på <code class="blocklightgrey">Kode</code>-fanen.</p>
+        <p>Klikk på <code class="blocklightgrey">Kode</code>-fanen.</p>
       </li>
       <li>
         <p>
-          [ ] Vi skal nå tegne et sirkelformet nett ved å stemple denne figuren
-          på bakgrunnen mange ganger i en sirkel. Lag det følgende skriptet:
+          Vi skal nå tegne et sirkelformet nett ved å stemple denne figuren på
+          bakgrunnen mange ganger i en sirkel. Lag det følgende skriptet:
         </p>
         <pre><code class="blocks">når @greenFlag klikkes
 gå til x: (0) y: (0)
@@ -354,17 +352,17 @@ slutt
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Tegnes det en sirkel på bakgrunnen når spillet starter?</p>
+        <p>Tegnes det en sirkel på bakgrunnen når spillet starter?</p>
       </li>
       <li>
         <p>
-          [ ] Det kan hende du må flytte litt på katt- og nett-figuren for at de
+          Det kan hende du må flytte litt på katt- og nett-figuren for at de
           skal passe sammen. Vi vil at det skal se ut omtrent som på bildet i
           begynnelsen av denne oppgaven.
         </p>
       </li>
       <li>
-        <p>[ ] Skjer det noe når ballen treffer nettet?</p>
+        <p>Skjer det noe når ballen treffer nettet?</p>
       </li>
     </ul>
   </section>
@@ -383,13 +381,13 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Klikk på ball-figuren, slik at du ser skriptet vi tidligere lagde
-          for denne.
+          Klikk på ball-figuren, slik at du ser skriptet vi tidligere lagde for
+          denne.
         </p>
       </li>
       <li>
         <p>
-          [ ] Vi skal nå bruke
+          Vi skal nå bruke
           <code class="blocksensing">berører fargen</code>-klossen for å oppdage
           at ballen treffer nettet. Legg til nye klosser i skriptet ditt slik at
           det blir seende slik ut:
@@ -409,7 +407,7 @@ slutt
       </li>
       <li>
         <p>
-          [ ] For å få riktig farge i
+          For å få riktig farge i
           <code class="blocksensing">berører fargen</code>-klossen klikker du
           først på den lille firkanten hvor fargen vises. I boksen som vises
           midt på skjermen med fargevalg, så er det et lite
@@ -425,13 +423,13 @@ slutt
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Stopper ballen når den kommer til nettet?</p>
+        <p>Stopper ballen når den kommer til nettet?</p>
       </li>
       <li>
         <p>
-          [ ] Med <code class="blockcontrol">stopp alle</code>-klossen stoppes
-          hele spillet når ballen treffer nettet. For å spille videre må du
-          klikke det grønne flagget igjen.
+          Med <code class="blockcontrol">stopp alle</code>-klossen stoppes hele
+          spillet når ballen treffer nettet. For å spille videre må du klikke
+          det grønne flagget igjen.
         </p>
       </li>
     </ul>
@@ -475,15 +473,14 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Velg kattefiguren, trykk på <code>Variabel</code> kategorien og
-          lag en ny variabel på katten som du kaller
-          <code>retning av katt</code> (og velg at den skal være synlig for alle
-          figurer).
+          Velg kattefiguren, trykk på <code>Variabel</code> kategorien og lag en
+          ny variabel på katten som du kaller <code>retning av katt</code> (og
+          velg at den skal være synlig for alle figurer).
         </p>
       </li>
       <li>
         <p>
-          [ ] I kattens skript, juster slik at den hele tiden oppdaterer denne
+          I kattens skript, juster slik at den hele tiden oppdaterer denne
           variabelen med sin retning:
         </p>
       </li>
@@ -520,7 +517,7 @@ slutt
 </code></pre>
     <ul>
       <li>
-        <p>[ ] Endre i skriptet til ballen slik at spretten blir bedre,</p>
+        <p>Endre i skriptet til ballen slik at spretten blir bedre,</p>
         <pre><code class="blocks">når @greenFlag klikkes
 gå til x: (0) y: (0)
 gjenta for alltid
@@ -541,12 +538,11 @@ slutt
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Ser du at ballen spretter litt mer naturlig nå?</p>
+        <p>Ser du at ballen spretter litt mer naturlig nå?</p>
       </li>
       <li>
         <p>
-          [ ] Har du noen ideer til hvordan spillet kan bli enda bedre? Prøv dem
-          ut!
+          Har du noen ideer til hvordan spillet kan bli enda bedre? Prøv dem ut!
         </p>
       </li>
     </ul>
@@ -585,14 +581,14 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Klikk på <code>Data</code>-kategorien og deretter på
+          Klikk på <code>Data</code>-kategorien og deretter på
           <code class="blocklightgrey">Lag en Variabel</code>.
         </p>
       </li>
       <li>
         <p>
-          [ ] Gi variabelen navnet <code class="blockdata">Poeng</code>, og la
-          den gjelde for alle figurer. Legg merke til at når du klikker
+          Gi variabelen navnet <code class="blockdata">Poeng</code>, og la den
+          gjelde for alle figurer. Legg merke til at når du klikker
           <code>OK</code> dukker det opp en boks som heter
           <code class="blockdata">Poeng</code> på scenen, og flere nye klosser
           under <code class="blocklightgrey">Lag en Variabel</code>.
@@ -606,7 +602,7 @@ slutt
     </p>
     <ul>
       <li>
-        <p>[ ] Legg på to nye klosser i skriptet som styrer ballen:</p>
+        <p>Legg på to nye klosser i skriptet som styrer ballen:</p>
         <pre><code class="blocks">når @greenFlag klikkes
 gå til x: (0) y: (0)
 sett [Poeng v] til [0]
@@ -647,15 +643,15 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] For å endre hastigheten underveis i spillet trenger vi en
-          variabel. Lag en ny variabel som du kaller
+          For å endre hastigheten underveis i spillet trenger vi en variabel.
+          Lag en ny variabel som du kaller
           <code class="blockdata">Hastighet</code>. Du kan la denne gjelde kun
           for denne figuren.
         </p>
       </li>
       <li>
         <p>
-          [ ] Hastigheten er ikke så interessant å vise på scenen. Du kan skjule
+          Hastigheten er ikke så interessant å vise på scenen. Du kan skjule
           boksen på scenen ved å fjerne avhukingen ved siden av
           <code class="blockdata">Hastighet</code>.
         </p>
@@ -668,8 +664,8 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Vi vil nå sette hastigheten til <code>3</code> (du kan bruke et
-          annet tall om du vil) når spillet starter. Deretter vil vi øke denne
+          Vi vil nå sette hastigheten til <code>3</code> (du kan bruke et annet
+          tall om du vil) når spillet starter. Deretter vil vi øke denne
           littegrann hver gang katten berører ballen. Dette gjør vi på samme
           måte som når vi teller poeng.
         </p>
@@ -717,7 +713,7 @@ slutt
     </p>
     <ul>
       <li>
-        [ ] Vi skal nå lage nok en variabel. Denne skal hete
+        Vi skal nå lage nok en variabel. Denne skal hete
         <code class="blockdata">Flytt</code>, kun gjelde for denne figuren, og
         heller ikke vises på scenen.
       </li>
@@ -731,7 +727,7 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Utvid skriptet ditt som under. Legg spesielt merke til at
+          Utvid skriptet ditt som under. Legg spesielt merke til at
           <code class="blockcontrol">hvis</code>-testen har blitt utvidet.
         </p>
         <pre><code class="blocks">når @greenFlag klikkes
@@ -764,16 +760,16 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Du kan bytte kattefiguren med en annen figur. Dette gjør du
-          enklest ved å gå til <code>Drakter</code>-fanen fordi da beholder du
-          skriptet du allerede har laget på figuren. Her kan du velge en av de
-          ferdige figurene eller tegne en ny figur selv.
+          Du kan bytte kattefiguren med en annen figur. Dette gjør du enklest
+          ved å gå til <code>Drakter</code>-fanen fordi da beholder du skriptet
+          du allerede har laget på figuren. Her kan du velge en av de ferdige
+          figurene eller tegne en ny figur selv.
         </p>
       </li>
       <li>
         <p>
-          [ ] Prøv å legg på lyder, for eksempel når katten berører ballen eller
-          når ballen treffer nettet. Se på de forskjellige klossene i
+          Prøv å legg på lyder, for eksempel når katten berører ballen eller når
+          ballen treffer nettet. Se på de forskjellige klossene i
           <code class="blocksound">Lyder</code>-kategorien, og lydene som finnes
           under <code>Lyder</code>-fanen.
         </p>

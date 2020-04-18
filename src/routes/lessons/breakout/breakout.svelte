@@ -38,16 +38,16 @@
     <h2 class="check" id="plan">Plan</h2>
     <ul>
       <li>
-        <p>[ ] Bokser ... Mange bokser!</p>
+        <p>Bokser ... Mange bokser!</p>
       </li>
       <li>
-        <p>[ ] En sprettende ball og en enkel racket</p>
+        <p>En sprettende ball og en enkel racket</p>
       </li>
       <li>
-        <p>[ ] Boksene forsvinner ...</p>
+        <p>Boksene forsvinner ...</p>
       </li>
       <li>
-        <p>[ ] Fallende bokser, bonuser, flere brett og andre utfordringer</p>
+        <p>Fallende bokser, bonuser, flere brett og andre utfordringer</p>
       </li>
     </ul>
   </section>
@@ -72,20 +72,20 @@
     <h2 class="check" id="sjekkliste">Sjekkliste</h2>
     <ul>
       <li>
-        <p>[ ] Start et nytt prosjekt. Slett kattefiguren.</p>
+        <p>Start et nytt prosjekt. Slett kattefiguren.</p>
       </li>
       <li>
         <p>
-          [ ] Lag en boksfigur. Denne kan du tegne selv eller bruke
+          Lag en boksfigur. Denne kan du tegne selv eller bruke
           <code>Button3</code> i biblioteket.
         </p>
       </li>
       <li>
         <p>
-          [ ] Vi vil nå klone denne ene boksen mange ganger. For å lage flere
-          rekker med bokser bruker vi to løkker. Vi trenger også å vite hvor
-          mange bokser vi har slik at vi senere kan sjekke om vi har skutt ned
-          alle. Lag derfor en variabel
+          Vi vil nå klone denne ene boksen mange ganger. For å lage flere rekker
+          med bokser bruker vi to løkker. Vi trenger også å vite hvor mange
+          bokser vi har slik at vi senere kan sjekke om vi har skutt ned alle.
+          Lag derfor en variabel
           <code class="blockdata">Antall bokser</code> som gjelder for alle
           figurer. I denne koden må du kanskje endre de forskjellige tallene
           litt, slik at de passer størrelsen på din boks.
@@ -107,10 +107,10 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Selve oppførselen til hver boks kan vi så kode i et eget skript
-          som starter når klonen lages. Siden vi enda ikke har en ball, lager vi
-          et enkelt skript hvor hver boks (det vil her si alle boksene) blir
-          borte når mellomrom trykkes.
+          Selve oppførselen til hver boks kan vi så kode i et eget skript som
+          starter når klonen lages. Siden vi enda ikke har en ball, lager vi et
+          enkelt skript hvor hver boks (det vil her si alle boksene) blir borte
+          når mellomrom trykkes.
         </p>
         <pre><code class="blocks">når jeg starter som klon
 vis
@@ -148,13 +148,13 @@ slett denne klonen
     <ul>
       <li>
         <p>
-          [ ] Lag en racket-figur. Tegn gjerne en selv, ellers kan du bruke for
+          Lag en racket-figur. Tegn gjerne en selv, ellers kan du bruke for
           eksempel <code>Paddle</code> fra biblioteket.
         </p>
       </li>
       <li>
         <p>
-          [ ] Lag et skript som starter når det mottar <code>Nytt spill</code>.
+          Lag et skript som starter når det mottar <code>Nytt spill</code>.
           Dette skriptet må plassere racketen et passende sted nederst på
           skjermen. Deretter kan det gå inn i en løkke hvor racketen alltid
           flyttes sidelengs når <code>Pil venstre</code>- eller
@@ -163,43 +163,43 @@ slett denne klonen
       </li>
       <li>
         <p>
-          [ ] Lag en ball-figur. Du kan enten finne en i biblioteket, eller
-          tegne en selv.
+          Lag en ball-figur. Du kan enten finne en i biblioteket, eller tegne en
+          selv.
         </p>
       </li>
       <li>
         <p>
-          [ ] Vi vil ha muligheten til senere enkelt å endre hastigheten til
-          ballen. Lag derfor en ny variabel
-          <code class="blockdata">hastighet</code> som gjelder for ball-figuren.
+          Vi vil ha muligheten til senere enkelt å endre hastigheten til ballen.
+          Lag derfor en ny variabel <code class="blockdata">hastighet</code> som
+          gjelder for ball-figuren.
         </p>
       </li>
       <li>
         <p>
-          [ ] Lag et skript som starter på <code>Nytt spill</code>-meldingen.
-          Først i skriptet vil du plassere ballen slik at den hviler på
-          racketen, og gi den en tilfeldig retning oppover (for eksempel mellom
-          -45 og 45 grader). Deretter kan ballen gå inn i en løkke som gjentas
-          helt til <code>y</code>-posisjonen av ballen blir mindre enn et
-          passende tall (<code>-160</code> er et bra utgangspunkt, men dette vil
-          variere avhengig av hvor du plasserer racketen og hvor stor ballen
-          er). Inne i denne løkken vil du flytte ballen
+          Lag et skript som starter på <code>Nytt spill</code>-meldingen. Først
+          i skriptet vil du plassere ballen slik at den hviler på racketen, og
+          gi den en tilfeldig retning oppover (for eksempel mellom -45 og 45
+          grader). Deretter kan ballen gå inn i en løkke som gjentas helt til
+          <code>y</code>-posisjonen av ballen blir mindre enn et passende tall
+          (<code>-160</code> er et bra utgangspunkt, men dette vil variere
+          avhengig av hvor du plasserer racketen og hvor stor ballen er). Inne i
+          denne løkken vil du flytte ballen
           <code class="blockdata">hastighet</code> steg, og la den
           <code class="blockmotion">sprette tilbake ved kanten</code>.
         </p>
       </li>
       <li>
         <p>
-          [ ] Vi vil nå la ballen sprette på racketen. I løkken til racketen kan
-          du legge til en <code class="blockcontrol">hvis</code>-test hvor du
+          Vi vil nå la ballen sprette på racketen. I løkken til racketen kan du
+          legge til en <code class="blockcontrol">hvis</code>-test hvor du
           sender en <code>Sprett horisontalt</code>-melding når ballen berører
           racketen.
         </p>
       </li>
       <li>
         <p>
-          [ ] Ballen må svare på denne meldingen ved å endre retning, for
-          eksempel med kode som ser omtrent ut som følger:
+          Ballen må svare på denne meldingen ved å endre retning, for eksempel
+          med kode som ser omtrent ut som følger:
         </p>
         <pre><code class="blocks">når jeg mottar [Sprett horisontalt v]
 pek i retning ((180) - (retning))
@@ -224,7 +224,7 @@ pek i retning ((180) - (retning))
     <ul>
       <li>
         <p>
-          [ ] Vi har jo allerede laget kode som får boksene til å forsvinne. Men
+          Vi har jo allerede laget kode som får boksene til å forsvinne. Men
           inntil nå har boksene forsvunnet når vi trykker mellomrom-tasten.
           Endre denne koden slik at boksene i stedet forsvinner når de berører
           ballen.
@@ -232,9 +232,8 @@ pek i retning ((180) - (retning))
       </li>
       <li>
         <p>
-          [ ] La også boksene sende ut en
-          <code>Sprett horisontalt</code>--melding etter at de har berørt
-          ballen, men før de (klonene) slettes.
+          La også boksene sende ut en <code>Sprett horisontalt</code>--melding
+          etter at de har berørt ballen, men før de (klonene) slettes.
         </p>
       </li>
     </ul>
@@ -242,37 +241,36 @@ pek i retning ((180) - (retning))
     <ul>
       <li>
         <p>
-          [ ] For at spillet skal se litt bedre ut, kan du legge på en
-          startmeny, kanskje med en stilig forside eller intro-animasjon?
+          For at spillet skal se litt bedre ut, kan du legge på en startmeny,
+          kanskje med en stilig forside eller intro-animasjon?
         </p>
       </li>
       <li>
         <p>
-          [ ] Legg på passende lyd-effekter. Du bør ihvertfall spille av lyder
-          når ballen spretter på boksene, men tenk også over om det er andre
+          Legg på passende lyd-effekter. Du bør ihvertfall spille av lyder når
+          ballen spretter på boksene, men tenk også over om det er andre
           hendelser hvor det passer å spille enkle lyder?
         </p>
       </li>
       <li>
         <p>
-          [ ] La også noe skje når du taper spillet. Det vil si når
+          La også noe skje når du taper spillet. Det vil si når
           <code class="blockcontrol">gjenta til</code>-løkken på ballen er
           ferdig.
         </p>
       </li>
       <li>
         <p>
-          [ ] Ved hjelp av
-          <code class="blockdata">Antall bokser</code>-variabelen kan du også
-          sjekke om spilleren har klart å fjerne alle boksene og vinne spillet.
-          Gi spilleren beskjed om at hun har vunnet!
+          Ved hjelp av <code class="blockdata">Antall bokser</code>-variabelen
+          kan du også sjekke om spilleren har klart å fjerne alle boksene og
+          vinne spillet. Gi spilleren beskjed om at hun har vunnet!
         </p>
       </li>
       <li>
         <p>
-          [ ] Tenk litt på hvordan du har lyst til å utvikle spillet videre.
-          Hvordan kan du gjøre det enda morsommere for deg og dine venner? I
-          neste del finnes noen ideer.
+          Tenk litt på hvordan du har lyst til å utvikle spillet videre. Hvordan
+          kan du gjøre det enda morsommere for deg og dine venner? I neste del
+          finnes noen ideer.
         </p>
       </li>
     </ul>
@@ -295,26 +293,26 @@ pek i retning ((180) - (retning))
     <ul>
       <li>
         <p>
-          [ ] Legg til en poeng-teller. Du må først bestemme hva spilleren skal
-          få poeng for, for eksempel at ballen treffer en boks. Deretter lager
-          du en <code class="blockdata">Poeng</code>-variabel som du endrer
+          Legg til en poeng-teller. Du må først bestemme hva spilleren skal få
+          poeng for, for eksempel at ballen treffer en boks. Deretter lager du
+          en <code class="blockdata">Poeng</code>-variabel som du endrer
           etterhvert.
         </p>
       </li>
       <li>
-        <p>[ ] La hastigheten øke etterhvert i spillet.</p>
+        <p>La hastigheten øke etterhvert i spillet.</p>
       </li>
       <li>
         <p>
-          [ ] En morsommere, og mer naturlig, sprett på racketen kan du få ved å
-          ta hensyn til hvor på racketen ballen treffer. Dette kan du gjøre for
+          En morsommere, og mer naturlig, sprett på racketen kan du få ved å ta
+          hensyn til hvor på racketen ballen treffer. Dette kan du gjøre for
           eksempel ved å sammenligne <code>x</code>-posisjonen til ballen og
           racketen.
         </p>
       </li>
       <li>
         <p>
-          [ ] Hvis ballen treffer på siden av en boks burde den sprette på en
+          Hvis ballen treffer på siden av en boks burde den sprette på en
           vertikal (stående) vegg i stedet for en horisontal (liggende). For å
           kode dette kan du lage en ny melding tilsvarende
           <code>Sprett horisontalt</code>. Tallet <code>180</code> i koden må
@@ -323,25 +321,24 @@ pek i retning ((180) - (retning))
       </li>
       <li>
         <p>
-          [ ] Kanskje du kan videreutvikle hele konseptet, slik at det er mulig
-          å plukke opp power-ups etterhvert som man spiller. For eksempel noe
-          som endrer hastigheten på ballen, endrer størrelsen på racketen, gir
+          Kanskje du kan videreutvikle hele konseptet, slik at det er mulig å
+          plukke opp power-ups etterhvert som man spiller. For eksempel noe som
+          endrer hastigheten på ballen, endrer størrelsen på racketen, gir
           ekstra poeng eller kanskje lager litt skru på ballen.
         </p>
       </li>
       <li>
         <p>
-          [ ] I stedet for at boksene bare forsvinner når ballen treffer dem,
-          kan du la dem løsne og falle nedover. Videre kan spilleren få ekstra
-          poeng eller bonuser om hun klarer å fange de fallende boksene med
-          racketen.
+          I stedet for at boksene bare forsvinner når ballen treffer dem, kan du
+          la dem løsne og falle nedover. Videre kan spilleren få ekstra poeng
+          eller bonuser om hun klarer å fange de fallende boksene med racketen.
         </p>
       </li>
       <li>
         <p>
-          [ ] Bruk forskjellige farger på boksene. På denne måten kan du lage
-          brett som ser forskjellige ut. Du kan også la de forskjellige boksene
-          gi forskjellige poeng eller bonuser.
+          Bruk forskjellige farger på boksene. På denne måten kan du lage brett
+          som ser forskjellige ut. Du kan også la de forskjellige boksene gi
+          forskjellige poeng eller bonuser.
         </p>
         <p>
           En måte å designe slike brett på kan være ved å først lage de

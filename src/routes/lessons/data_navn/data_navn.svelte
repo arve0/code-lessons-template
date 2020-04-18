@@ -33,7 +33,7 @@
     <ul>
       <li>
         <p>
-          [ ] Gå til navnesidene hos Statistisk Sentralbyrå:
+          Gå til navnesidene hos Statistisk Sentralbyrå:
           <a href="http://www.ssb.no/navn">ssb.no/navn</a>. Klikk litt rundt på
           dem for å bli kjent med hvilke data som er tilgjengelige. Prøv å søke
           på ditt eget navn og se på
@@ -48,9 +48,9 @@
       </li>
       <li>
         <p>
-          [ ] Vi vil hente ut lister med alle jente- og guttenavnene. Disse
-          finner vi ved å klikke på fanen <strong>Tabeller</strong>. På denne
-          siden finner du blant annet to tabeller som heter
+          Vi vil hente ut lister med alle jente- og guttenavnene. Disse finner
+          vi ved å klikke på fanen <strong>Tabeller</strong>. På denne siden
+          finner du blant annet to tabeller som heter
           <strong>Jentenavn, alfabetisk</strong> og
           <strong>Guttenavn, alfabetisk</strong> (med årstall). Last ned disse
           to tabellene enten i <strong>Excel</strong> eller
@@ -59,7 +59,7 @@
       </li>
       <li>
         <p>
-          [ ] Åpne filene du nettopp lastet ned i Excel eller et tilsvarende
+          Åpne filene du nettopp lastet ned i Excel eller et tilsvarende
           regnearkprogram.
         </p>
         <p>
@@ -70,8 +70,8 @@
       </li>
       <li>
         <p>
-          [ ] Legg begge listene inn i det samme regnearket, og gi dem
-          beskrivende overskrifter. Dette vil se ut omtrent som dette:
+          Legg begge listene inn i det samme regnearket, og gi dem beskrivende
+          overskrifter. Dette vil se ut omtrent som dette:
         </p>
         <figure>
           <img
@@ -82,16 +82,15 @@
       </li>
       <li>
         <p>
-          [ ] Dette er viktig! Lagre regnearket som CSV. Du gjør dette ved å
-          velge <strong>Lagre som</strong> eller <strong>Eksporter</strong> fra
-          menyen og deretter velge formatet <strong>CSV</strong>. Gi filen din
-          et navn du vil kjenne igjen, for eksempel
-          <code>navnelister.csv</code>.
+          Dette er viktig! Lagre regnearket som CSV. Du gjør dette ved å velge
+          <strong>Lagre som</strong> eller <strong>Eksporter</strong> fra menyen
+          og deretter velge formatet <strong>CSV</strong>. Gi filen din et navn
+          du vil kjenne igjen, for eksempel <code>navnelister.csv</code>.
         </p>
       </li>
       <li>
         <p>
-          [ ] Gå til verktøyet for å
+          Gå til verktøyet for å
           <a href="lessons/data_navn/../data/data.html"
             >lese data inn i Scratch</a
           >. Trykk på knappen <strong>Last opp datafil</strong>, og velg
@@ -112,11 +111,11 @@
     <h2 class="check" id="sjekkliste-2">Sjekkliste</h2>
     <ul>
       <li>
-        <p>[ ] Start et nytt Scratchprosjekt.</p>
+        <p>Start et nytt Scratchprosjekt.</p>
       </li>
       <li>
         <p>
-          [ ] Velg <strong>Fil</strong> i menyen og klikk på
+          Velg <strong>Fil</strong> i menyen og klikk på
           <strong>Last opp fra maskinen</strong>. Velg filen som ble lastet ned
           i forrige steg, sannsynligvis heter den <code>data.sb2</code> og
           ligger i katalogen <code>Nedlastinger</code>.
@@ -124,8 +123,8 @@
       </li>
       <li>
         <p>
-          [ ] Klikk <strong>OK</strong>. Navnelistene vil nå lastes inn. Det
-          skal se omtrent slik ut:
+          Klikk <strong>OK</strong>. Navnelistene vil nå lastes inn. Det skal se
+          omtrent slik ut:
         </p>
         <figure>
           <img
@@ -136,7 +135,7 @@
       </li>
       <li>
         <p>
-          [ ] Navnelistene er eksempler på noe som rett og slett kalles
+          Navnelistene er eksempler på noe som rett og slett kalles
           <strong>lister</strong> i Scratch. De programmeres ved hjelp av
           klosser som ligger i <code class="blockdata">Data</code>-kategorien.
           Som for variabler kan du ta listene vekk fra Scenen ved å fjerne
@@ -172,21 +171,21 @@
     <ul>
       <li>
         <p>
-          [ ] Vi begynner med å la katten spørre om et navn. Til dette kan vi
-          bruke <code class="b">spør [Skriv et navn] og vent</code>-klossen.
+          Vi begynner med å la katten spørre om et navn. Til dette kan vi bruke
+          <code class="b">spør [Skriv et navn] og vent</code>-klossen.
         </p>
       </li>
       <li>
         <p>
-          [ ] For at katten skal kunne huske navnet vi forteller den vil vi
-          bruke en variabel. Klikk på <code class="blockdata">Data</code> og
-          deretter <code>Lag en variabel</code>. Kall variabelen
+          For at katten skal kunne huske navnet vi forteller den vil vi bruke en
+          variabel. Klikk på <code class="blockdata">Data</code> og deretter
+          <code>Lag en variabel</code>. Kall variabelen
           <code class="b">(Navn)</code>.
         </p>
       </li>
       <li>
         <p>
-          [ ] Vi kan nå ta vare på svaret i
+          Vi kan nå ta vare på svaret i
           <code class="b">(Navn)</code>-variabelen.
         </p>
         <pre><code class="blocks">spør [skriv et navn] og vent
@@ -195,7 +194,7 @@ sett [Navn v] til (svar)
       </li>
       <li>
         <p>
-          [ ] Om du ser på klossene som nå finnes i
+          Om du ser på klossene som nå finnes i
           <code class="blockdata">Data</code>-kategorien er det en som sier
           <code class="b">&lt;[Guttenavn v] inneholder [thing]?&gt;</code>.
           Denne klossen kan vi bruke for å finne ut om et navn finnes i
@@ -205,7 +204,7 @@ sett [Navn v] til (svar)
       </li>
       <li>
         <p>
-          [ ] Lag en sjekk for om <code class="b">(Navn)</code> er et jentenavn:
+          Lag en sjekk for om <code class="b">(Navn)</code> er et jentenavn:
         </p>
         <pre><code class="blocks">spør [skriv et navn] og vent
 sett [Navn v] til (svar)
@@ -221,18 +220,18 @@ slutt
     <p><strong>Klikk på koden din.</strong></p>
     <ul>
       <li>
-        <p>[ ] Spør katten deg om å skrive inn et navn?</p>
+        <p>Spør katten deg om å skrive inn et navn?</p>
       </li>
       <li>
         <p>
-          [ ] Skriv inn et jentenavn, for eksempel <code>Emma</code>. Sier
-          katten at <code>Emma er et jentenavn</code>?
+          Skriv inn et jentenavn, for eksempel <code>Emma</code>. Sier katten at
+          <code>Emma er et jentenavn</code>?
         </p>
       </li>
       <li>
         <p>
-          [ ] Hva skjer om du skriver inn et guttenavn? Eller et ord som ikke er
-          et navn?
+          Hva skjer om du skriver inn et guttenavn? Eller et ord som ikke er et
+          navn?
         </p>
       </li>
     </ul>
@@ -242,22 +241,22 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Lag en sjekk for om <code class="b">(Navn)</code> er et guttenavn.
+          Lag en sjekk for om <code class="b">(Navn)</code> er et guttenavn.
           Prøv å lag denne selv. Du kan gjøre det på akkurat samme måte som for
           jentenavn. Legg den nye hvis-testen under den du allerede har.
         </p>
       </li>
       <li>
         <p>
-          [ ] Legg til en <code class="b">for alltid</code>-løkke rundt hele
-          koden din. På den måten vil katten stadig spørre deg om nye navn.
+          Legg til en <code class="b">for alltid</code>-løkke rundt hele koden
+          din. På den måten vil katten stadig spørre deg om nye navn.
         </p>
       </li>
       <li>
         <p>
-          [ ] Legg også en <code class="b">når grønt flagg klikkes</code>-kloss
-          på toppen av koden din, slik at du kan starte programmet ved å klikke
-          på det grønne flagget.
+          Legg også en <code class="b">når grønt flagg klikkes</code>-kloss på
+          toppen av koden din, slik at du kan starte programmet ved å klikke på
+          det grønne flagget.
         </p>
       </li>
     </ul>
@@ -267,7 +266,7 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Dette er et veldig enkelt eksempel på hva man kan gjøre med
+          Dette er et veldig enkelt eksempel på hva man kan gjøre med
           navnelistene (og det har noen problemer: for eksempel finner ikke
           katten dobbeltnavn som <code>Geir Arne</code>). Har du noen ideer til
           hvordan du kan bruke navnelistene på en enda mer spennende måte?
@@ -275,7 +274,7 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Kjenner du til andre datasett som du har lyst til å jobbe med i
+          Kjenner du til andre datasett som du har lyst til å jobbe med i
           Scratch? Bruk
           <a href="lessons/data_navn/../data/data.html">dataverktøyet</a> for å
           lese inn dataene.

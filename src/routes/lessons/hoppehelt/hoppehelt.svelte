@@ -27,18 +27,18 @@
     <h2 class="check" id="sjekkliste">Sjekkliste</h2>
     <ul>
       <li>
-        <p>[ ] Start et nytt prosjekt, og slett kattefiguren.</p>
+        <p>Start et nytt prosjekt, og slett kattefiguren.</p>
       </li>
       <li>
         <p>
-          [ ] Tegn en ny bakgrunn som består av en ensfarget rett strek ganske
-          langt ned på skjermen. Bruk vektorgrafikk. Dette er bakken som vår
-          helt skal løpe på.
+          Tegn en ny bakgrunn som består av en ensfarget rett strek ganske langt
+          ned på skjermen. Bruk vektorgrafikk. Dette er bakken som vår helt skal
+          løpe på.
         </p>
       </li>
       <li>
         <p>
-          [ ] For å enklere legge på en tittel senere lager vi en
+          For å enklere legge på en tittel senere lager vi en
           <code>Nytt spill</code>-melding på scenen:
         </p>
         <pre><code class="blocks">når @greenFlag klikkes
@@ -58,7 +58,7 @@ send melding [Nytt spill v]
     <ul>
       <li>
         <p>
-          [ ] Tegn en enkel liten strekfigur som ser ut som om han løper mot
+          Tegn en enkel liten strekfigur som ser ut som om han løper mot
           venstre. Gi figuren navnet <code>Helt 1</code>.
         </p>
         <p>
@@ -68,7 +68,7 @@ send melding [Nytt spill v]
       </li>
       <li>
         <p>
-          [ ] Lag en ny variabel som du kaller
+          Lag en ny variabel som du kaller
           <code class="blockdata">sprett</code>. Det er viktig at denne gjelder
           kun for denne figuren.
         </p>
@@ -79,7 +79,7 @@ send melding [Nytt spill v]
       </li>
       <li>
         <p>
-          [ ] I heltens hovedløkke lar vi gravitasjonen virke ved at vi stadig
+          I heltens hovedløkke lar vi gravitasjonen virke ved at vi stadig
           prøver å gjøre <code class="blockdata">sprett</code> mindre, samtidig
           som vi sier at dersom helten berører bakken skal han ikke falle.
         </p>
@@ -101,13 +101,13 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Prøv å endre startposisjonen til helten, spesielt y-koordinaten.
-          Får du helten til å falle mot bakken?
+          Prøv å endre startposisjonen til helten, spesielt y-koordinaten. Får
+          du helten til å falle mot bakken?
         </p>
       </li>
       <li>
         <p>
-          [ ] Legg til en ny <code class="blockcontrol">hvis</code>-test inne i
+          Legg til en ny <code class="blockcontrol">hvis</code>-test inne i
           <code class="blockcontrol">hvis</code>-testen du allerede har. Hvis
           tasten <code>m</code> trykkes setter du
           <code class="blockdata">sprett</code> til et positivt tall. Prøv deg
@@ -123,12 +123,12 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Står eller løper helten på bakken? Figuren skal ikke bevege seg
+          Står eller løper helten på bakken? Figuren skal ikke bevege seg
           sidelengs.
         </p>
       </li>
       <li>
-        <p>[ ] Hopper helten når du trykker på <code>m</code>-tasten?</p>
+        <p>Hopper helten når du trykker på <code>m</code>-tasten?</p>
       </li>
     </ul>
   </section>
@@ -141,7 +141,7 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Lag en ny figur ved å tegne en liten fargelagt boks som helten kan
+          Lag en ny figur ved å tegne en liten fargelagt boks som helten kan
           hoppe over. Kall figuren <code>Boks</code>. Bruk
           <img
             src="lessons/hoppehelt/../bilder/velg_senterpunkt.png"
@@ -152,7 +152,7 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Når boksen mottar meldingen <code>Nytt spill</code> vil vi at den
+          Når boksen mottar meldingen <code>Nytt spill</code> vil vi at den
           plasserer seg på bakken helt til venstre på skjermen. Bruk en
           <code class="blockmotion">gå til</code>-kloss og lag dette skriptet
           selv. Pass på at boksen ikke berører kanten av skjermen.
@@ -160,7 +160,7 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Etter at du har funnet en bra plassering på boksen kan du utvide
+          Etter at du har funnet en bra plassering på boksen kan du utvide
           skriptet ved å <code class="blocklooks">skjule</code> figuren, samt
           lage en løkke hvor boksen lager en klone av seg selv hvert andre
           sekund.
@@ -168,7 +168,7 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Gå til scenen og lag en variabel du kaller
+          Gå til scenen og lag en variabel du kaller
           <code class="blockdata">hastighet</code>. Lag et skript på scenen som
           setter denne variabelen til <code>3</code> når meldingen
           <code>Nytt spill</code> mottas.
@@ -176,13 +176,13 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Gå tilbake til boksfiguren. Vi vil nå at boksklonene flytter seg
-          mot helten. Lag et nytt skript som begynner når boksen starter som
-          klon. I dette skriptet må du
-          <code class="blocklooks">vise</code> boksen. Deretter kan du starte en
-          løkke som gjentas til boksen berører kanten. Inne i løkken vil du
-          endre x med <code class="blockdata">hastighet</code>. Etter løkken kan
-          du slette denne klonen.
+          Gå tilbake til boksfiguren. Vi vil nå at boksklonene flytter seg mot
+          helten. Lag et nytt skript som begynner når boksen starter som klon. I
+          dette skriptet må du <code class="blocklooks">vise</code> boksen.
+          Deretter kan du starte en løkke som gjentas til boksen berører kanten.
+          Inne i løkken vil du endre x med
+          <code class="blockdata">hastighet</code>. Etter løkken kan du slette
+          denne klonen.
         </p>
       </li>
     </ul>
@@ -192,13 +192,13 @@ slutt
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Kommer det en jevn strøm av bokser mot helten?</p>
+        <p>Kommer det en jevn strøm av bokser mot helten?</p>
       </li>
       <li>
-        <p>[ ] Kan du bruke <code>m</code> til å hoppe over boksene?</p>
+        <p>Kan du bruke <code>m</code> til å hoppe over boksene?</p>
       </li>
       <li>
-        <p>[ ] Hva skjer om helten springer inn i en boks?</p>
+        <p>Hva skjer om helten springer inn i en boks?</p>
       </li>
     </ul>
   </section>
@@ -207,7 +207,7 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Vi vil la spillet stoppe når helten springer inn i en boks. Gå til
+          Vi vil la spillet stoppe når helten springer inn i en boks. Gå til
           <code>Helt 1</code>. Bytt nå ut
           <code class="blockcontrol">gjenta for alltid</code>-løkken med en
           <code class="blockcontrol">gjenta til</code>-løkke som du lar gjenta
@@ -216,14 +216,14 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Etter den nye <code class="blockcontrol">gjenta til</code>-løkken
-          kan du sende ut en ny melding <code>Spill slutt</code>.
+          Etter den nye <code class="blockcontrol">gjenta til</code>-løkken kan
+          du sende ut en ny melding <code>Spill slutt</code>.
         </p>
       </li>
       <li>
         <p>
-          [ ] Klikk på boks-figuren. Legg til et skript som stopper andre skript
-          i figuren, og deretter sletter denne klonen etter at
+          Klikk på boks-figuren. Legg til et skript som stopper andre skript i
+          figuren, og deretter sletter denne klonen etter at
           <code>Spill slutt</code> mottas.
         </p>
         <p>
@@ -233,8 +233,8 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Vi kan spille en liten lyd hver gang vi har hoppet over en boks.
-          Legg til en
+          Vi kan spille en liten lyd hver gang vi har hoppet over en boks. Legg
+          til en
         </p>
         <pre><code class="blocks">spill tone (60) i (0.5) takter
 </code></pre>
@@ -246,8 +246,8 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Om du tester dette vil du se at boksene blir hengende litt mens
-          lyden spilles. En enkel måte å unngå dette på er å legge til en
+          Om du tester dette vil du se at boksene blir hengende litt mens lyden
+          spilles. En enkel måte å unngå dette på er å legge til en
           <code class="blocklooks">skjul</code>-kloss rett før
           <code class="blocksound">spill tone</code>-klossen.
         </p>
@@ -304,7 +304,7 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Se på skriptene til <code>Boks</code>. Ser du at du har en
+          Se på skriptene til <code>Boks</code>. Ser du at du har en
           <em>generator-løkke</em> som lager nye bokser omtrent hvert annet
           sekund (du har kanskje lagt på en
           <code class="blockoperators">tilfeldig</code>-kloss i denne løkken).
@@ -318,7 +318,7 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Lag en ny variabel som du kaller
+          Lag en ny variabel som du kaller
           <code class="blockdata">er generator</code>. Denne må gjelde kun for
           denne figuren. Vi vil bruke denne variabelen til å identifisere
           generator-løkken.
@@ -326,7 +326,7 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Vi legger nå nemlig på en ny løkke som lager tre uavhengige
+          Vi legger nå nemlig på en ny løkke som lager tre uavhengige
           generator-løkker. Endre skriptet som kjøres for
           <code>Nytt spill</code> til dette:
         </p>
@@ -346,8 +346,8 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Vi vil nå bygge opp igjen skriptet som kjører når en boks starter
-          som klon. Lag først det følgende
+          Vi vil nå bygge opp igjen skriptet som kjører når en boks starter som
+          klon. Lag først det følgende
         </p>
         <pre><code class="blocks">når jeg starter som klon
 hvis &lt;(er generator) = [ja]&gt;
@@ -358,14 +358,14 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Flytt nå generator-løkken som du la til side tidligere inn i
+          Flytt nå generator-løkken som du la til side tidligere inn i
           <code class="blockcontrol">hvis</code>-testen rett under
           <code class="blockdata">sett er generator</code>-klossen.
         </p>
       </li>
       <li>
         <p>
-          [ ] Tilsvarende legger du flytt-løkken fra tidligere inn i
+          Tilsvarende legger du flytt-løkken fra tidligere inn i
           <code class="blockcontrol">ellers</code>-testen.
         </p>
       </li>
@@ -376,7 +376,7 @@ slutt
     </p>
     <ul>
       <li>
-        [ ] Klikk på <code>Scene</code> helt til venstre på skjermen. Gå til
+        Klikk på <code>Scene</code> helt til venstre på skjermen. Gå til
         <code class="blocklightgrey">Bakgrunner</code>. Tegn to nye streker i
         samme farge som den første. Test spillet og flytt strekene slik at
         boksene flytter seg naturlig på toppen av dem.
@@ -388,12 +388,10 @@ slutt
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>
-          [ ] Har du tre rader med bokser som kommer skliende over skjermen?
-        </p>
+        <p>Har du tre rader med bokser som kommer skliende over skjermen?</p>
       </li>
       <li>
-        <p>[ ] Det er foreløpig bare en hoppehelt på den nederste raden?</p>
+        <p>Det er foreløpig bare en hoppehelt på den nederste raden?</p>
       </li>
     </ul>
   </section>
@@ -408,13 +406,13 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Lag en kopi av <code>Helt 1</code>-figuren. Kopien blir automatisk
+          Lag en kopi av <code>Helt 1</code>-figuren. Kopien blir automatisk
           hetende <code>Helt 2</code>.
         </p>
       </li>
       <li>
         <p>
-          [ ] Klikk på <code>Helt 2</code>. Det eneste vi trenger å endre på er
+          Klikk på <code>Helt 2</code>. Det eneste vi trenger å endre på er
           y-posisjonen og tasten som brukes til å hoppe.
         </p>
         <p>
@@ -432,9 +430,9 @@ slutt
     </p>
     <ul>
       <li>
-        [ ] Lag en ny kopi av <code>Helt 1</code>-figuren. Endre denne kopien
-        slik at den har posisjon 110 høyere enn <code>Helt 2</code>, og slik at
-        den hopper når du trykker på <code>o</code>.
+        Lag en ny kopi av <code>Helt 1</code>-figuren. Endre denne kopien slik
+        at den har posisjon 110 høyere enn <code>Helt 2</code>, og slik at den
+        hopper når du trykker på <code>o</code>.
       </li>
     </ul>
   </section>
@@ -443,8 +441,8 @@ slutt
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        [ ] Du skal nå ha tre hoppehelter som alle må hoppe over boksene som
-        kommer! Dette har plutselig blitt et ganske vanskelig spill som krever
+        Du skal nå ha tre hoppehelter som alle må hoppe over boksene som kommer!
+        Dette har plutselig blitt et ganske vanskelig spill som krever
         konsentrasjon og koordinasjon!
       </li>
     </ul>

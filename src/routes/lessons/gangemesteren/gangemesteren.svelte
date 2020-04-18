@@ -32,11 +32,11 @@
     <h2 class="check" id="sjekkliste">Sjekkliste</h2>
     <ul>
       <li>
-        <p>[ ] Start et nytt prosjekt og slett kattefiguren.</p>
+        <p>Start et nytt prosjekt og slett kattefiguren.</p>
       </li>
       <li>
         <p>
-          [ ] Legg til en ny figur ved å klikke på
+          Legg til en ny figur ved å klikke på
           <img
             src="lessons/gangemesteren/../bilder/hent-fra-bibliotek.png"
             alt="Velg figur frabiblioteket"
@@ -47,7 +47,7 @@
       </li>
       <li>
         <p>
-          [ ] Vi skal nå bruke
+          Vi skal nå bruke
           <code class="blockoperators">tilfeldig tall</code>-klosser slik at
           <code>Læremester</code> kan spørre oss om tilfeldige gangestykker.
           Skriv dette skriptet:
@@ -65,20 +65,19 @@ si (tilfeldig tall fra (2) til (10)) i (2) sekunder
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Stiller <code>Læremester</code> deg et gangestykke?</p>
+        <p>Stiller <code>Læremester</code> deg et gangestykke?</p>
       </li>
       <li>
         <p>
-          [ ] Vi skal etterhvert se hvordan vi kan få
-          <code>Læremester</code> til å si hele teksten, i stedet for bare et
-          ord om gangen.
+          Vi skal etterhvert se hvordan vi kan få <code>Læremester</code> til å
+          si hele teksten, i stedet for bare et ord om gangen.
         </p>
       </li>
       <li>
         <p>
-          [ ] Foreløpig kan du ikke svare <code>Læremester</code> (ihvertfall
-          ikke med datamaskinen, prøv gjerne å regne ut svaret og si det til dem
-          som sitter ved siden av deg).
+          Foreløpig kan du ikke svare <code>Læremester</code> (ihvertfall ikke
+          med datamaskinen, prøv gjerne å regne ut svaret og si det til dem som
+          sitter ved siden av deg).
         </p>
       </li>
     </ul>
@@ -99,7 +98,7 @@ si (tilfeldig tall fra (2) til (10)) i (2) sekunder
     <ul>
       <li>
         <p>
-          [ ] For å få Scratch til å regne bruker vi
+          For å få Scratch til å regne bruker vi
           <code class="blockoperators">Operatorer</code>-klosser. Prøv for
           eksempel å dra gangeklossen - med
           <code class="blockoperators">*</code>-tegnet - til skriptområdet på
@@ -115,7 +114,7 @@ si (tilfeldig tall fra (2) til (10)) i (2) sekunder
       </li>
       <li>
         <p>
-          [ ] Vi vil nå kombinere gangeklossen med
+          Vi vil nå kombinere gangeklossen med
           <code class="blockoperators">tilfeldig tall</code>-klossen, men for å
           få dette til trenger vi en måte å huske de tilfeldige tallene:
           <strong>Variabler</strong>. Gå til
@@ -128,8 +127,8 @@ si (tilfeldig tall fra (2) til (10)) i (2) sekunder
       </li>
       <li>
         <p>
-          [ ] Skriv nå et <strong>helt nytt skript</strong> (la det ligge ved
-          siden av det skriptet du skrev i forrige steg).
+          Skriv nå et <strong>helt nytt skript</strong> (la det ligge ved siden
+          av det skriptet du skrev i forrige steg).
         </p>
         <pre><code class="blocks">når jeg mottar [Nytt spørsmål v]
 sett [tall1 v] til (tilfeldig tall fra (2) til (10))
@@ -139,9 +138,9 @@ sett [riktig svar v] til ((tall1) * (tall2))
       </li>
       <li>
         <p>
-          [ ] Prøv å klikke på skriptet for å teste det (siden det ikke starter
-          med et grønt flagg kan vi ikke teste det på den vanlige måten). Om du
-          ser på variablene på scenen skal de endre seg hver gang du klikker på
+          Prøv å klikke på skriptet for å teste det (siden det ikke starter med
+          et grønt flagg kan vi ikke teste det på den vanlige måten). Om du ser
+          på variablene på scenen skal de endre seg hver gang du klikker på
           skriptet. Er <code class="blockdata">riktig svar</code> rett?
         </p>
         <figure>
@@ -166,14 +165,14 @@ sett [riktig svar v] til ((tall1) * (tall2))
     <ul>
       <li>
         <p>
-          [ ] Lag en ny variabel, <code class="blockdata">spørsmål</code>. Også
+          Lag en ny variabel, <code class="blockdata">spørsmål</code>. Også
           denne skal gjelde for alle figurer.
         </p>
       </li>
       <li>
         <p>
-          [ ] Klossen <code class="blockoperators">sett sammen</code> kan brukes
-          for å sette sammen flere tall og ord. Vi skal nå bruke to
+          Klossen <code class="blockoperators">sett sammen</code> kan brukes for
+          å sette sammen flere tall og ord. Vi skal nå bruke to
           <code class="blockoperators">sett sammen</code>-klosser på denne
           måten:
         </p>
@@ -196,8 +195,7 @@ sett [riktig svar v] til ((tall1) * (tall2))
       </li>
       <li>
         <p>
-          [ ] Legg denne klossen til nederst i
-          <code>Nytt spørsmål</code>-skriptet:
+          Legg denne klossen til nederst i <code>Nytt spørsmål</code>-skriptet:
         </p>
         <pre><code class="blocks">når jeg mottar [Nytt spørsmål v]
 sett [tall1 v] til (tilfeldig tall fra (2) til (10))
@@ -208,9 +206,9 @@ sett [spørsmål v] til (sett sammen (sett sammen (tall1) [ ganger ]) (tall2))
       </li>
       <li>
         <p>
-          [ ] Nå skal vi få <code>Læremester</code> til å stille oss spørsmålet
-          vi har satt sammen. <strong>Bytt ut</strong> det første skriptet (med
-          det grønne flagget) du skrev med dette:
+          Nå skal vi få <code>Læremester</code> til å stille oss spørsmålet vi
+          har satt sammen. <strong>Bytt ut</strong> det første skriptet (med det
+          grønne flagget) du skrev med dette:
         </p>
         <pre><code class="blocks">når grønt flagg klikkes
 send melding [Nytt spørsmål v] og vent
@@ -225,16 +223,16 @@ spør (spørsmål) og vent
     <ul>
       <li>
         <p>
-          [ ] Stiller <code>Læremester</code> deg et skikkelig spørsmål, for
+          Stiller <code>Læremester</code> deg et skikkelig spørsmål, for
           eksempel <code>9 ganger 6</code>?
         </p>
       </li>
       <li>
-        <p>[ ] Er spørsmålene forskjellige hver gang?</p>
+        <p>Er spørsmålene forskjellige hver gang?</p>
       </li>
       <li>
         <p>
-          [ ] Om du vil ha en liten utfordring kan du prøve å bruke flere
+          Om du vil ha en liten utfordring kan du prøve å bruke flere
           <code class="blockoperators">sett sammen</code>-klosser slik at
           spørsmålet blir for eksempel <code>Hva er 9 ganger 6?</code>.
         </p>
@@ -252,15 +250,15 @@ spør (spørsmål) og vent
     <ul>
       <li>
         <p>
-          [ ] Du ser kanskje at <code class="blockdata">riktig svar</code> vises
-          på scenen? Da blir det jo ikke særlig vanskelig! Ta bort alle
-          variablene fra scenen ved å gå til <code>Data</code>-kategorien og
-          fjern haken foran hver variabel.
+          Du ser kanskje at <code class="blockdata">riktig svar</code> vises på
+          scenen? Da blir det jo ikke særlig vanskelig! Ta bort alle variablene
+          fra scenen ved å gå til <code>Data</code>-kategorien og fjern haken
+          foran hver variabel.
         </p>
       </li>
       <li>
         <p>
-          [ ] Nå skal vi bruke en
+          Nå skal vi bruke en
           <code class="blockcontrol">hvis ellers</code>-kloss for å gjøre
           forskjellige ting ettersom du svarer riktig eller feil på
           gangestykkene. <strong>Utvid</strong> det ene skriptet ditt på denne
@@ -287,12 +285,12 @@ slutt
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Hva skjer om du svarer riktig?</p>
+        <p>Hva skjer om du svarer riktig?</p>
       </li>
       <li>
         <p>
-          [ ] Klikk det grønne flagget igjen for å få en ny oppgave. Hva skjer
-          om du ikke svarer riktig?
+          Klikk det grønne flagget igjen for å få en ny oppgave. Hva skjer om du
+          ikke svarer riktig?
         </p>
       </li>
     </ul>
@@ -311,8 +309,8 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Vi bruker først en <code class="blockcontrol">gjenta</code>-kloss
-          slik at vi kan få flere oppgaver. Legg merke til at vi også sender en
+          Vi bruker først en <code class="blockcontrol">gjenta</code>-kloss slik
+          at vi kan få flere oppgaver. Legg merke til at vi også sender en
           <code class="blockevents">Nytt spørsmål</code>-melding hvis svaret er
           riktig. Hvis svaret er feil stiller vi det samme spørsmålet en gang
           til.
@@ -332,22 +330,22 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Vi kan også telle poeng hver gang du svarer riktig. For å gjøre
-          dette trenger vi en ny variabel, <code class="blockdata">Poeng</code>.
-          Denne skal gjelde for alle figurer, og denne lar vi være på scenen
-          slik at vi ser den.
+          Vi kan også telle poeng hver gang du svarer riktig. For å gjøre dette
+          trenger vi en ny variabel, <code class="blockdata">Poeng</code>. Denne
+          skal gjelde for alle figurer, og denne lar vi være på scenen slik at
+          vi ser den.
         </p>
       </li>
       <li>
         <p>
-          [ ] Legg til en kloss i skriptet som setter
+          Legg til en kloss i skriptet som setter
           <code class="blockdata">Poeng</code> til <code>0</code> rett etter at
           det grønne flagget klikkes.
         </p>
       </li>
       <li>
         <p>
-          [ ] Legg også til en kloss som endrer
+          Legg også til en kloss som endrer
           <code class="blockdata">Poeng</code> med <code>1</code> hvis
           <code class="blocksensing">svar</code> er riktig.
         </p>
@@ -359,15 +357,13 @@ slutt
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>
-          [ ] Får du flere oppgaver uten at du må trykke på det grønne flagget?
-        </p>
+        <p>Får du flere oppgaver uten at du må trykke på det grønne flagget?</p>
       </li>
       <li>
-        <p>[ ] Får du et poeng hver gang du svarer riktig?</p>
+        <p>Får du et poeng hver gang du svarer riktig?</p>
       </li>
       <li>
-        <p>[ ] Klarer du 10 poeng?</p>
+        <p>Klarer du 10 poeng?</p>
       </li>
     </ul>
   </section>
@@ -398,14 +394,14 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Legg til en ny figur som vi kan få litt hjelp fra. Du kan velge
+          Legg til en ny figur som vi kan få litt hjelp fra. Du kan velge
           hvilken figur du vil, men vi har brukt <code>Dyr/Elephant</code>. Gi
           figuren navnet <code>Hjelper</code>.
         </p>
       </li>
       <li>
         <p>
-          [ ] For å tegne et rutenett med Hjelpere bruker vi to
+          For å tegne et rutenett med Hjelpere bruker vi to
           <code class="blockcontrol">gjenta</code>-klosser i tillegg til
           <code class="blockpen">stemple avtrykk</code> som tegner Hjelperne på
           skjermen. Blokken <code class="blockpen">stemple avtrykk</code> er i
@@ -438,9 +434,9 @@ skjul
       </li>
       <li>
         <p>
-          [ ] Nå skal vi tegne dette rutenettet hver gang vi lager et nytt
-          spørsmål. Klikk på <code>Læremester</code>, og legg til en kloss
-          nederst i <code>Nytt spørsmål</code>-skriptet:
+          Nå skal vi tegne dette rutenettet hver gang vi lager et nytt spørsmål.
+          Klikk på <code>Læremester</code>, og legg til en kloss nederst i
+          <code>Nytt spørsmål</code>-skriptet:
         </p>
         <pre><code class="blocks">når jeg mottar [Nytt spørsmål v]
 sett [tall1 v] til (tilfeldig tall fra (2) til (10))
@@ -456,7 +452,7 @@ send melding [Tegn hjelper v]
     <h2 class="flag" id="test-prosjektet-5">Test prosjektet</h2>
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
-      <li>[ ] Tegnes det et rutenett av hjelpere til hver oppgave?</li>
+      <li>Tegnes det et rutenett av hjelpere til hver oppgave?</li>
     </ul>
   </section>
   <section class="challenge">
@@ -464,13 +460,13 @@ send melding [Tegn hjelper v]
     <ul>
       <li>
         <p>
-          [ ] Du kan forandre hvor vanskelige gangestykkene er ved å forandre
+          Du kan forandre hvor vanskelige gangestykkene er ved å forandre
           tallene i <code class="blockoperators">tilfeldig tall</code>-klossene.
         </p>
       </li>
       <li>
         <p>
-          [ ] Om du gir <code>Hjelper</code> flere drakter kan du bruke en
+          Om du gir <code>Hjelper</code> flere drakter kan du bruke en
           <code class="blocklooks">neste drakt</code>-kloss i
           <code>Tegn hjelper</code>-skriptet for å få litt variasjon i
           hjelperfigurene. Om du gjør dette er det enklest om draktene er
@@ -479,16 +475,16 @@ send melding [Tegn hjelper v]
       </li>
       <li>
         <p>
-          [ ] Kanskje <code>Læremester</code> kan gi litt mer hjelp når man
-          svarer feil? Klarer du få henne til å si
+          Kanskje <code>Læremester</code> kan gi litt mer hjelp når man svarer
+          feil? Klarer du få henne til å si
           <code>Nei, det riktige svaret er større</code> eller
           <code>Nei, det riktige svaret er mindre</code>?
         </p>
       </li>
       <li>
         <p>
-          [ ] <code>Læremester</code> kan mye rart! Kanskje hun kan lære bort
-          andre ting enn gangestykker?
+          <code>Læremester</code> kan mye rart! Kanskje hun kan lære bort andre
+          ting enn gangestykker?
         </p>
       </li>
     </ul>

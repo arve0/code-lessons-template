@@ -29,7 +29,7 @@
     <ul>
       <li>
         <p>
-          [ ] Klikk på Scene og velg en ferdig bakgrunn,
+          Klikk på Scene og velg en ferdig bakgrunn,
           <img
             src="lessons/orkenlop/../bilder/bakgrunn-fra-bibliotek.png"
             alt="velg en ferdig bakgrunn"
@@ -38,13 +38,12 @@
       </li>
       <li>
         <p>
-          [ ] Fjern katten ved å høyreklikke på figuren og velg
-          <code>slett</code>.
+          Fjern katten ved å høyreklikke på figuren og velg <code>slett</code>.
         </p>
       </li>
       <li>
         <p>
-          [ ] Legg til en ny figur ved å trykke på
+          Legg til en ny figur ved å trykke på
           <img
             src="lessons/orkenlop/../bilder/hent-fra-bibliotek.png"
             alt="velg figur fra biblioteket"
@@ -53,7 +52,7 @@
       </li>
       <li>
         <p>
-          [ ] Legg så til enda en ny figur: velg <code>Dyr/Parrot</code>. Krymp
+          Legg så til enda en ny figur: velg <code>Dyr/Parrot</code>. Krymp
           figuren slik at den er omtrent like stor som løvinnen ved å bruke
           <img src="lessons/orkenlop/../bilder/krymp.png" alt="krymp" />.
         </p>
@@ -74,7 +73,7 @@
     <ul>
       <li>
         <p>
-          [ ] Velg først løvefiguren og få den til å
+          Velg først løvefiguren og få den til å
           <code class="blockmotion">gå 4 steg</code> når du trykker
           <code>L</code> tasten.
         </p>
@@ -84,7 +83,7 @@ gå (4) steg
       </li>
       <li>
         <p>
-          [ ] Velg så papegøyefiguren og la den
+          Velg så papegøyefiguren og la den
           <code class="blockmotion">gå 4 steg</code> når du trykker
           <code>A</code> tasten.
         </p>
@@ -99,7 +98,7 @@ gå (4) steg
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        [ ] Beveger løvinnen og papegøyen seg over skjermen når du trykker på
+        Beveger løvinnen og papegøyen seg over skjermen når du trykker på
         <code>A</code> og <code>L</code> tastene?
       </li>
     </ul>
@@ -120,28 +119,28 @@ gå (4) steg
     <ul>
       <li>
         <p>
-          [ ] Legg til en ny figur. Velg <code>Ting/Button3</code>. Flytt den
-          til midten av scenen.
+          Legg til en ny figur. Velg <code>Ting/Button3</code>. Flytt den til
+          midten av scenen.
         </p>
       </li>
       <li>
         <p>
-          [ ] Klikk på <code>Drakter</code>-fanen og verktøyet
-          <code>T</code> for å legge til tekst. Trykk på venstre kant av knappen
-          for å legge til et tekstfelt og skriv inn teksten <code>Start</code>.
-          Du kan flytte på teksten ved å trykke en gang på den, og endre innhold
-          ved å dobbeltklikke.
+          Klikk på <code>Drakter</code>-fanen og verktøyet <code>T</code> for å
+          legge til tekst. Trykk på venstre kant av knappen for å legge til et
+          tekstfelt og skriv inn teksten <code>Start</code>. Du kan flytte på
+          teksten ved å trykke en gang på den, og endre innhold ved å
+          dobbeltklikke.
         </p>
       </li>
       <li>
-        <p>[ ] Legg nå til et skript som viser figuren når spillet starter:</p>
+        <p>Legg nå til et skript som viser figuren når spillet starter:</p>
         <pre><code class="blocks">når grønt flagg klikkes
 vis
 </code></pre>
       </li>
       <li>
         <p>
-          [ ] I tillegg vil vi at knappen først teller ned fra 3, sier
+          I tillegg vil vi at knappen først teller ned fra 3, sier
           <code>LØP!</code> og deretter blir skjult når den klikkes. Dette
           ordner du med følgende skript:
         </p>
@@ -162,13 +161,13 @@ skjul
     </p>
     <ul>
       <li>
-        <p>[ ] Teller knappen ned?</p>
+        <p>Teller knappen ned?</p>
       </li>
       <li>
-        <p>[ ] Sier den <code>LØP!</code>?</p>
+        <p>Sier den <code>LØP!</code>?</p>
       </li>
       <li>
-        <p>[ ] Blir den borte?</p>
+        <p>Blir den borte?</p>
       </li>
     </ul>
     <p>
@@ -181,16 +180,16 @@ skjul
     <ul>
       <li>
         <p>
-          [ ] For å vite når kappløpet har startet og sluttet lager vi en
-          variabel med navnet <code class="blockdata">kappløp</code>. Variabelen
-          skal være tilgjengelig <code>for alle figurer</code>. Fjern avhukingen
+          For å vite når kappløpet har startet og sluttet lager vi en variabel
+          med navnet <code class="blockdata">kappløp</code>. Variabelen skal
+          være tilgjengelig <code>for alle figurer</code>. Fjern avhukingen
           foran variabelen, slik at den ikke vises på scenen.
         </p>
       </li>
       <li>
         <p>
-          [ ] Sett <code class="blockdata">kappløp</code> til 0 når spillet
-          startes ved å forandre
+          Sett <code class="blockdata">kappløp</code> til 0 når spillet startes
+          ved å forandre
           <code class="blockevents">når grønt flagg klikkes</code>-skriptet
           slik:
         </p>
@@ -201,7 +200,7 @@ sett [kappløp v] til [0]
       </li>
       <li>
         <p>
-          [ ] Når nedtellingen er ferdig og løpet begynner, forandrer vi
+          Når nedtellingen er ferdig og løpet begynner, forandrer vi
           <code class="blockdata">kappløp</code>-verdien til 1. Dette gjør du
           ved å legge til klossen
           <code class="blockdata">Sett kappløp til 1</code> under
@@ -212,8 +211,8 @@ sett [kappløp v] til [0]
       </li>
       <li>
         <p>
-          [ ] Nå må vi lage en regel som sier at figurene bare får lov til å
-          bevege seg etter at løpet har startet – det vil si når
+          Nå må vi lage en regel som sier at figurene bare får lov til å bevege
+          seg etter at løpet har startet – det vil si når
           <code class="blockdata">kappløp</code> har verdien 1. Klikk først på
           papegøyen. Så endrer du:
         </p>
@@ -224,7 +223,7 @@ slutt
 </code></pre>
       </li>
       <li>
-        <p>[ ] Gjenta det samme for løvinnen.</p>
+        <p>Gjenta det samme for løvinnen.</p>
       </li>
     </ul>
   </section>
@@ -233,8 +232,7 @@ slutt
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        [ ] Kan løvinnen og papegøyen bare flytte seg når nedtellingen er
-        ferdig?
+        Kan løvinnen og papegøyen bare flytte seg når nedtellingen er ferdig?
       </li>
     </ul>
   </section>
@@ -254,7 +252,7 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Legg til en kloss i papegøyens skript som sier
+          Legg til en kloss i papegøyens skript som sier
           <code class="blockdata">sett kappløp til 0</code> hvis figuren berører
           kanten av skjermen:
         </p>
@@ -268,9 +266,7 @@ slutt
 </code></pre>
       </li>
       <li>
-        <p>
-          [ ] Spill så inn en lyd som skal spilles av hvis papegøyen vinner.
-        </p>
+        <p>Spill så inn en lyd som skal spilles av hvis papegøyen vinner.</p>
         <p>
           Trykk på <code>Lyder</code>-fanen og deretter mikrofon-ikonet og spill
           inn en morsom trudelutt! Opptaket starter når du har klikket på
@@ -282,7 +278,7 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Deretter legger du til klossene som spiller lyden og lar papegøyen
+          Deretter legger du til klossene som spiller lyden og lar papegøyen
           fortelle at den vant:
         </p>
         <pre><code class="blocks">når [a v] trykkes
@@ -297,7 +293,7 @@ slutt
 </code></pre>
       </li>
       <li>
-        <p>[ ] Gjør tilsvarende for løvinnen.</p>
+        <p>Gjør tilsvarende for løvinnen.</p>
       </li>
     </ul>
   </section>
@@ -307,12 +303,12 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Kan du trykke på startknappen og deretter bevege dyrene med
-          tastene <code>A</code> og <code>L</code>?
+          Kan du trykke på startknappen og deretter bevege dyrene med tastene
+          <code>A</code> og <code>L</code>?
         </p>
       </li>
       <li>
-        <p>[ ] Kommer riktig vinnerlyd og melding opp på skjermen?</p>
+        <p>Kommer riktig vinnerlyd og melding opp på skjermen?</p>
       </li>
     </ul>
   </section>
@@ -332,7 +328,7 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Klikk på papegøyefiguren og legg til en kloss som sender melding
+          Klikk på papegøyefiguren og legg til en kloss som sender melding
           <code>Avslutt</code> etter at figuren sier den har vunnet.
         </p>
         <pre><code class="blocks">når [a v] trykkes
@@ -349,7 +345,7 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Vi trenger nå et nytt skript som lytter etter denne
+          Vi trenger nå et nytt skript som lytter etter denne
           avslutningsmeldingen og flytter papegøyen tilbake til start.
         </p>
         <pre><code class="blocks">når jeg mottar [Avslutt v]
@@ -358,14 +354,13 @@ sett x til (-170)
       </li>
       <li>
         <p>
-          [ ] Gjør det samme for løvinnen. Test forskjellige
-          <code>x</code>-verdier for å være sikker på at løvinnen og papegøyen
-          starter fra samme sted.
+          Gjør det samme for løvinnen. Test forskjellige <code>x</code>-verdier
+          for å være sikker på at løvinnen og papegøyen starter fra samme sted.
         </p>
       </li>
       <li>
         <p>
-          [ ] For at figurene skal stå på startstreken når kappløpet starter den
+          For at figurene skal stå på startstreken når kappløpet starter den
           aller første gangen må vi også legge til følgende klosser på begge
           figurene:
         </p>
@@ -375,9 +370,9 @@ sett x til (-170)
       </li>
       <li>
         <p>
-          [ ] For at spillerne skal kunne klikke i gang nye runder må vi passe
-          på at start-knappen kommer tilbake etter hver avsluttet runde. Klikk
-          på startknapp-figuren og legg til et skript som viser knappen når
+          For at spillerne skal kunne klikke i gang nye runder må vi passe på at
+          start-knappen kommer tilbake etter hver avsluttet runde. Klikk på
+          startknapp-figuren og legg til et skript som viser knappen når
           avslutningsmeldingen blir mottatt.
         </p>
         <pre><code class="blocks">når jeg mottar [Avslutt v]
@@ -391,7 +386,7 @@ vis
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        [ ] Kan du spille mot en venn? En av dere styrer papegøyen ved å trykke
+        Kan du spille mot en venn? En av dere styrer papegøyen ved å trykke
         <code>A</code>, og den andre løvinnen ved å trykke <code>L</code>.
       </li>
     </ul>
@@ -414,21 +409,21 @@ vis
     <ul>
       <li>
         <p>
-          [ ] <strong>Legg til en rakett</strong> som kan brukes én gang per
-          kappløp og som flytter papegøyen eller løvinnen
+          <strong>Legg til en rakett</strong> som kan brukes én gang per kappløp
+          og som flytter papegøyen eller løvinnen
           <strong>30 steg på en gang.</strong>
         </p>
       </li>
       <li>
         <p>
-          [ ] <strong>Legg til en ny drakt</strong> med ild som kommer ut bak
+          <strong>Legg til en ny drakt</strong> med ild som kommer ut bak
           figurene. La denne aktiveres når raketten avfyres.
         </p>
       </li>
       <li>
         <p>
-          [ ] <strong>Lag en lyd</strong> som figuren kan gi fra seg når
-          raketten avfyres.
+          <strong>Lag en lyd</strong> som figuren kan gi fra seg når raketten
+          avfyres.
         </p>
       </li>
     </ul>
@@ -457,13 +452,13 @@ slutt
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Fungerer raketten slik du hadde planlagt?</p>
+        <p>Fungerer raketten slik du hadde planlagt?</p>
       </li>
       <li>
-        <p>[ ] Hva skjer om man forsøker å bruke raketten to ganger?</p>
+        <p>Hva skjer om man forsøker å bruke raketten to ganger?</p>
       </li>
       <li>
-        <p>[ ] Hva skjer om man bruker raketten for å komme til mål?</p>
+        <p>Hva skjer om man bruker raketten for å komme til mål?</p>
       </li>
     </ul>
   </section>
@@ -483,40 +478,40 @@ slutt
     </p>
     <ul>
       <li>
-        <p>[ ] Velg papegøyens skript.</p>
+        <p>Velg papegøyens skript.</p>
       </li>
       <li>
         <p>
-          [ ] Velg <code class="blockmoreblocks">Flere klosser</code>-paletten
-          og klikk så på <code>Lag en kloss</code>-knappen.
+          Velg <code class="blockmoreblocks">Flere klosser</code>-paletten og
+          klikk så på <code>Lag en kloss</code>-knappen.
         </p>
       </li>
       <li>
-        <p>[ ] Kall klossen din <code>ferdig</code> og trykk OK.</p>
+        <p>Kall klossen din <code>ferdig</code> og trykk OK.</p>
       </li>
       <li>
         <p>
-          [ ] Du vil nå få en
+          Du vil nå få en
           <code class="blockmoreblocks">definer ferdig</code>-kloss i
           skriptvinduet ditt. Flytt den litt for seg selv.
         </p>
       </li>
       <li>
         <p>
-          [ ] Løsriv hele <code class="blockcontrol">hvis</code
+          Løsriv hele <code class="blockcontrol">hvis</code
           ><code class="blocksensing">berører kant?</code>-klossen og dra den
           til <code class="blockmoreblocks">definer ferdig</code>-klossen.
         </p>
       </li>
       <li>
         <p>
-          [ ] Kan du dra <code class="blockmoreblocks">ferdig</code>-klossen fra
+          Kan du dra <code class="blockmoreblocks">ferdig</code>-klossen fra
           paletten og bruke den på samme måte som andre kodeklosser?
         </p>
       </li>
       <li>
         <p>
-          [ ] Slett den andre <code class="blockcontrol">hvis</code
+          Slett den andre <code class="blockcontrol">hvis</code
           ><code class="blocksensing">berører kant?</code>-klossen fra skriptet
           ditt og erstatt også den med en
           <code class="blockmoreblocks">ferdig</code>-kloss.
@@ -545,7 +540,7 @@ hvis &lt;&lt;(kappløp) = [1]&gt; og &lt;(rakett_brukt) = [0]&gt;&gt;
       </li>
       <li>
         <p>
-          [ ] Gjør dette koden din enklere å lese? Kan du lage en tilsvarende
+          Gjør dette koden din enklere å lese? Kan du lage en tilsvarende
           egendefinert kloss for løvinnen?
         </p>
       </li>

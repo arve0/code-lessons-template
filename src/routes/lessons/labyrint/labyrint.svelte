@@ -35,17 +35,17 @@
     <h2 class="check" id="sjekkliste">Sjekkliste</h2>
     <ul>
       <li>
-        <p>[ ] Start et nytt prosjekt.</p>
+        <p>Start et nytt prosjekt.</p>
       </li>
       <li>
         <p>
-          [ ] Slett kattefiguren ved å høyreklikke på den og velge
+          Slett kattefiguren ved å høyreklikke på den og velge
           <code>slett</code>.
         </p>
       </li>
       <li>
         <p>
-          [ ] Legg til en ny figur. Klikk på
+          Legg til en ny figur. Klikk på
           <img
             src="lessons/labyrint/../bilder/hent-fra-bibliotek.png"
             alt="Velg figur fra biblioteket"
@@ -55,8 +55,8 @@
       </li>
       <li>
         <p>
-          [ ] Gi den nye figuren navnet <code>Utforsker</code>: trykk på
-          navnfeltet over figuren og skriv inn det nye navnet.
+          Gi den nye figuren navnet <code>Utforsker</code>: trykk på navnfeltet
+          over figuren og skriv inn det nye navnet.
         </p>
         <p>
           Vi begynner med å la figuren bevege seg oppover skjermen når vi
@@ -64,9 +64,7 @@
         </p>
       </li>
       <li>
-        <p>
-          [ ] Legg til følgende skript på <code>Utforsker</code>-figuren din.
-        </p>
+        <p>Legg til følgende skript på <code>Utforsker</code>-figuren din.</p>
         <pre><code class="blocks">når [pil opp v] trykkes
 pek i retning (0 v)
 gå (5) steg
@@ -79,7 +77,7 @@ gå (5) steg
       </li>
       <li>
         <p>
-          [ ] Legg også til disse skriptene, slik at <code>Utforsker</code> har
+          Legg også til disse skriptene, slik at <code>Utforsker</code> har
           totalt fire skript, ett for hver tast.
         </p>
         <pre><code class="blocks">når [pil ned v] trykkes
@@ -102,10 +100,10 @@ gå (5) steg
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Beveger utforskeren din seg rundt slik du hadde forventet?</p>
+        <p>Beveger utforskeren din seg rundt slik du hadde forventet?</p>
       </li>
       <li>
-        <p>[ ] Kan du forandre hvor raskt utforskeren flytter seg?</p>
+        <p>Kan du forandre hvor raskt utforskeren flytter seg?</p>
       </li>
     </ul>
     <p>
@@ -125,20 +123,20 @@ gå (5) steg
     <ul>
       <li>
         <p>
-          [ ] Lag en ny variabel ved å gå til
+          Lag en ny variabel ved å gå til
           <code class="blockdata">Variabler</code>-kategorien og klikk
           <code>Lag en Variabel</code>.
         </p>
       </li>
       <li>
         <p>
-          [ ] Kall variabelen <code>hastighet</code>, og velg at den bare skal
+          Kall variabelen <code>hastighet</code>, og velg at den bare skal
           gjelde <code>For denne figuren</code>.
         </p>
       </li>
       <li>
         <p>
-          [ ] Til slutt, fjern avhukingen ved siden av den nye
+          Til slutt, fjern avhukingen ved siden av den nye
           <code class="b">(hastighet)</code>-klossen for at variabelen ikke skal
           vises på scenen.
         </p>
@@ -151,7 +149,7 @@ gå (5) steg
     <ul>
       <li>
         <p>
-          [ ] Lag først et nytt skript som setter verdien av
+          Lag først et nytt skript som setter verdien av
           <code class="b">(hastighet)</code> til <code>10</code>.
         </p>
         <pre><code class="blocks">når @greenFlag klikkes
@@ -160,8 +158,8 @@ sett [hastighet v] til [10]
       </li>
       <li>
         <p>
-          [ ] Deretter endrer vi de fire skriptene vi allerede har laget slik at
-          de bruker <code class="b">(hastighet)</code>.
+          Deretter endrer vi de fire skriptene vi allerede har laget slik at de
+          bruker <code class="b">(hastighet)</code>.
         </p>
         <pre><code class="blocks">når [pil opp v] trykkes
 pek i retning (0 v)
@@ -188,19 +186,18 @@ gå (hastighet) steg
     <ul>
       <li>
         <p>
-          [ ] Beveger utforskeren din seg fortsatt rundt slik den gjorde
-          tidligere?
+          Beveger utforskeren din seg fortsatt rundt slik den gjorde tidligere?
         </p>
       </li>
       <li>
         <p>
-          [ ] Forandrer hastigheten til utforskeren seg hvis du endrer verdien
-          av <code class="b">(hastighet)</code> og klikker på det grønne flagget
+          Forandrer hastigheten til utforskeren seg hvis du endrer verdien av
+          <code class="b">(hastighet)</code> og klikker på det grønne flagget
           igjen?
         </p>
       </li>
       <li>
-        <p>[ ] Velg en hastighet du synes passer.</p>
+        <p>Velg en hastighet du synes passer.</p>
       </li>
     </ul>
   </section>
@@ -221,7 +218,7 @@ gå (hastighet) steg
     <ul>
       <li>
         <p>
-          [ ] Trykk <code>Velg et bakgrunnsbilde</code>
+          Trykk <code>Velg et bakgrunnsbilde</code>
           <img
             src="lessons/labyrint/../bilder/velg-bakgrunn.png"
             alt="Velg figur fra biblioteket"
@@ -232,11 +229,11 @@ gå (hastighet) steg
         </p>
       </li>
       <li>
-        <p>[ ] Gi den nye bakgrunnen navnet <code>Labyrint</code>.</p>
+        <p>Gi den nye bakgrunnen navnet <code>Labyrint</code>.</p>
       </li>
       <li>
         <p>
-          [ ] Velg en farge du liker og tegn en liten labyrint. Det er viktig at
+          Velg en farge du liker og tegn en liten labyrint. Det er viktig at
           alle veggene i labyrinten har samme farge (vi oppdager hvorfor snart).
           Du kan velge selv hvordan labyrinten skal se ut, den trenger ikke en
           gang å ha rette vegger!
@@ -273,17 +270,16 @@ gå (hastighet) steg
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Kan du bevege utforskerfiguren din rundt inne i labyrinten?</p>
+        <p>Kan du bevege utforskerfiguren din rundt inne i labyrinten?</p>
       </li>
       <li>
         <p>
-          [ ] Dersom figuren din er for stor kan du gjøre den mindre ved å
-          trykke på figuren, og så gjøre tallet i <code>Størrelse</code>-boksen
-          mindre.
+          Dersom figuren din er for stor kan du gjøre den mindre ved å trykke på
+          figuren, og så gjøre tallet i <code>Størrelse</code>-boksen mindre.
         </p>
       </li>
       <li>
-        <p>[ ] Hva skjer dersom figuren din går på veggen i labyrinten?</p>
+        <p>Hva skjer dersom figuren din går på veggen i labyrinten?</p>
       </li>
     </ul>
   </section>
@@ -313,7 +309,7 @@ gå (hastighet) steg
     <ul>
       <li>
         <p>
-          [ ] Vi legger
+          Vi legger
           <code class="b">&lt;berører fargen [#ffffff]&gt;</code>-klossen inn i
           skriptet vi allerede har laget som setter
           <code class="b">(hastighet)</code>-variabelen.
@@ -331,7 +327,7 @@ slutt
       </li>
       <li>
         <p>
-          [ ] For å få riktig farge i
+          For å få riktig farge i
           <code class="b">berører fargen [#cc0000]</code>-klossen klikker du
           først på den lille firkanten hvor fargen vises. Det dukker opp en boks
           med fargevalg. Under fargevalgene er det et ikon. Klikk ikonet,
@@ -347,12 +343,12 @@ slutt
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Blir utforskeren stoppet når hun prøver å gå gjennom veggen?</p>
+        <p>Blir utforskeren stoppet når hun prøver å gå gjennom veggen?</p>
       </li>
       <li>
         <p>
-          [ ] Skjønner du hvordan skriptet sier at utforskeren ikke kan gå
-          gjennom veggen?
+          Skjønner du hvordan skriptet sier at utforskeren ikke kan gå gjennom
+          veggen?
         </p>
       </li>
     </ul>
@@ -389,8 +385,8 @@ slutt
     <h2 class="check" id="sjekkliste-5">Sjekkliste</h2>
     <ul>
       <li>
-        [ ] Legg til en ny figur. Du kan velge en figur fra biblioteket ved å
-        flytte musepekeren over
+        Legg til en ny figur. Du kan velge en figur fra biblioteket ved å flytte
+        musepekeren over
         <img
           src="lessons/labyrint/../bilder/hent-fra-bibliotek.png"
           alt="Velg figur fra biblioteket"
@@ -402,12 +398,12 @@ slutt
     <p>. Vi brukte figuren <code>Ting/Star1</code>.</p>
     <ul>
       <li>
-        <p>[ ] Gi den nye figuren navnet <code>Skatt</code>.</p>
+        <p>Gi den nye figuren navnet <code>Skatt</code>.</p>
       </li>
       <li>
         <p>
-          [ ] Dra skatten rundt inne i labyrinten din, og gjem den et sted den
-          er vanskelig å komme til.
+          Dra skatten rundt inne i labyrinten din, og gjem den et sted den er
+          vanskelig å komme til.
         </p>
       </li>
     </ul>
@@ -426,8 +422,8 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Pass på at figuren <code>Skatt</code> er markert, og skriv
-          følgende kode:
+          Pass på at figuren <code>Skatt</code> er markert, og skriv følgende
+          kode:
         </p>
         <pre><code class="blocks">når @greenFlag klikkes
 gjenta for alltid
@@ -444,11 +440,11 @@ slutt
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Forsvinner skatten når utforskeren finner fram til den?</p>
+        <p>Forsvinner skatten når utforskeren finner fram til den?</p>
       </li>
       <li>
         <p>
-          [ ] Hva skjer når du prøver å starte spillet på nytt etter å ha funnet
+          Hva skjer når du prøver å starte spillet på nytt etter å ha funnet
           skatten? Hvor har skatten blitt av?
         </p>
       </li>
@@ -463,7 +459,7 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Vi må passe på at skatten vises på begynnelsen av spillet. Endre
+          Vi må passe på at skatten vises på begynnelsen av spillet. Endre
           skriptet på <code>Skatt</code> ved å legge til
           <code class="b">vis</code> helt i begynnelsen.
         </p>
@@ -483,17 +479,17 @@ slutt
     </p>
     <ul>
       <li>
-        <p>[ ] Klikk på <code>Utforsker</code>-figuren.</p>
+        <p>Klikk på <code>Utforsker</code>-figuren.</p>
       </li>
       <li>
         <p>
-          [ ] Legg til en <code class="b">gå til x: () y: ()</code>-kloss rett
-          etter <code class="b">sett [hastighet v] til (10)</code>-klossen.
+          Legg til en <code class="b">gå til x: () y: ()</code>-kloss rett etter
+          <code class="b">sett [hastighet v] til (10)</code>-klossen.
         </p>
       </li>
       <li>
         <p>
-          [ ] For å finne ut hvilke tall vi vil bruke for <code>x</code> og
+          For å finne ut hvilke tall vi vil bruke for <code>x</code> og
           <code>y</code> kan vi gjøre følgende. Dra utforskeren til et sted det
           er fint å starte fra. Se på tallene over figur-lista. Sammen med
           <code>Utforsker</code>-figuren står det <code>x</code> og
@@ -504,7 +500,7 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Hele skriptet vil nå se slik ut (dine tall for <code>x</code> og
+          Hele skriptet vil nå se slik ut (dine tall for <code>x</code> og
           <code>y</code> vil være forskjellige):
         </p>
         <pre><code class="blocks">når @greenFlag klikkes
@@ -526,13 +522,11 @@ slutt
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>
-          [ ] Forsvinner fortsatt skatten når utforskeren finner fram til den?
-        </p>
+        <p>Forsvinner fortsatt skatten når utforskeren finner fram til den?</p>
       </li>
       <li>
         <p>
-          [ ] Virker spillet slik det skal når du starter det på nytt etter å ha
+          Virker spillet slik det skal når du starter det på nytt etter å ha
           funnet skatten?
         </p>
       </li>
@@ -554,14 +548,14 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Legg til en ny figur. Vi brukte <code>Dyr/Frog</code>. Gi den
-          navnet <code>Froskekonge</code>.
+          Legg til en ny figur. Vi brukte <code>Dyr/Frog</code>. Gi den navnet
+          <code>Froskekonge</code>.
         </p>
       </li>
       <li>
         <p>
-          [ ] Plasser den nye figuren et sted i labyrinten. Gjør den mindre
-          eller større om nødvendig.
+          Plasser den nye figuren et sted i labyrinten. Gjør den mindre eller
+          større om nødvendig.
         </p>
       </li>
     </ul>
@@ -572,7 +566,7 @@ slutt
     </p>
     <ul>
       <li>
-        <p>[ ] Legg til følgende kode:</p>
+        <p>Legg til følgende kode:</p>
         <pre><code class="blocks">når @greenFlag klikkes
 gjenta for alltid
     hvis &lt;berører [Utforsker v]?&gt;
@@ -594,12 +588,11 @@ slutt
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Hva skjer om utforskeren kommer borti froskekongen?</p>
+        <p>Hva skjer om utforskeren kommer borti froskekongen?</p>
       </li>
       <li>
         <p>
-          [ ] Hva skjer når du finner skatten etter å ha blitt tatt av
-          froskekongen?
+          Hva skjer når du finner skatten etter å ha blitt tatt av froskekongen?
         </p>
       </li>
     </ul>
@@ -610,9 +603,9 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Start et nytt skript på <code>Froskekonge</code>-figuren. Igjen
-          kan du bytte ut tallene for <code>x</code> og <code>y</code> med noe
-          som passer for din labyrint.
+          Start et nytt skript på <code>Froskekonge</code>-figuren. Igjen kan du
+          bytte ut tallene for <code>x</code> og <code>y</code> med noe som
+          passer for din labyrint.
         </p>
         <pre><code class="blocks">når @greenFlag klikkes
 gå til x: (50) y: (100)
@@ -621,8 +614,8 @@ pek i retning (-90 v)
       </li>
       <li>
         <p>
-          [ ] Før vi lar <code>Froskekonge</code> begynne å bevege seg lager vi
-          en <code class="b">(hastighet)</code>-variabel også for ham. Klikk på
+          Før vi lar <code>Froskekonge</code> begynne å bevege seg lager vi en
+          <code class="b">(hastighet)</code>-variabel også for ham. Klikk på
           <code class="blockdata">Variabler</code>, og deretter
           <code>Lag en Variabel</code>. Kall variabelen
           <code>hastighet</code> og la den gjelde kun
@@ -632,9 +625,9 @@ pek i retning (-90 v)
       </li>
       <li>
         <p>
-          [ ] Vi kan nå utvide skriptet slik at froskekongen går fram og
-          tilbake. Vi får ham til å snu når han treffer veggen på nesten samme
-          måte som vi hindrer utforskeren i å gå gjennom veggen.
+          Vi kan nå utvide skriptet slik at froskekongen går fram og tilbake. Vi
+          får ham til å snu når han treffer veggen på nesten samme måte som vi
+          hindrer utforskeren i å gå gjennom veggen.
         </p>
         <pre><code class="blocks">når @greenFlag klikkes
 gå til x: (50) y: (100)
@@ -657,8 +650,8 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Legg til kode som lar <code>Froskekonge</code> snu seg tilfeldig
-          rundt i labyrinten:
+          Legg til kode som lar <code>Froskekonge</code> snu seg tilfeldig rundt
+          i labyrinten:
         </p>
         <pre><code class="blocks">når @greenFlag klikkes
 gå til x: (50) y: (100)
@@ -684,7 +677,7 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Klossen
+          Klossen
           <code class="b"
             >hvis &lt;(tilfeldig tall fra (1) til (25)) = [1]&gt;</code
           >
@@ -693,7 +686,7 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Dette <em>noe</em> er
+          Dette <em>noe</em> er
           <code class="b"
             >snu @turnRight ((tilfeldig tall fra (-1) til (1)) * (90))
             grader</code
@@ -723,20 +716,20 @@ slutt
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Klarer du å få tak i skatten?</p>
+        <p>Klarer du å få tak i skatten?</p>
       </li>
       <li>
         <p>
-          [ ] Om du synes spillet er for lett eller vanskelig er det mange måter
-          du kan endre dette på! Prøv å lag froskekongen større eller mindre.
-          Prøv å endre hastigheten på både utforskeren og froskekongen. Om du
-          endrer tallet 25 i det siste skriptet vi laget for
+          Om du synes spillet er for lett eller vanskelig er det mange måter du
+          kan endre dette på! Prøv å lag froskekongen større eller mindre. Prøv
+          å endre hastigheten på både utforskeren og froskekongen. Om du endrer
+          tallet 25 i det siste skriptet vi laget for
           <code>Froskekonge</code> vil han endre retning oftere eller sjednere.
         </p>
       </li>
       <li>
         <p>
-          [ ] Du kan også prøve å lage flere skatter. Prøv å høyreklikk på
+          Du kan også prøve å lage flere skatter. Prøv å høyreklikk på
           <code>Skatt</code>-figuren og velg <code>Lag en kopi</code>.
         </p>
       </li>

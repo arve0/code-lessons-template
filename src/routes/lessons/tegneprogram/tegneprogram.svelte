@@ -28,7 +28,7 @@
     <ul>
       <li>
         <p>
-          [ ] Last ned zip-filen
+          Last ned zip-filen
           <a href="lessons/tegneprogram/tegneprogram_bildefiler.zip"
             >tegneprogram_bildefiler.zip</a
           >
@@ -38,7 +38,7 @@
       </li>
       <li>
         <p>
-          [ ] Pakk ut zip-filen ved å høyreklikke på den og velge
+          Pakk ut zip-filen ved å høyreklikke på den og velge
           <code>Extract All</code>, <code>Pakk ut filer</code> eller noe
           lignende.
         </p>
@@ -59,13 +59,13 @@
     <ul>
       <li>
         <p>
-          [ ] Start et nytt Scratch-prosjekt. Slett katten ved å høyreklikke på
-          den og velge <code>slett</code>.
+          Start et nytt Scratch-prosjekt. Slett katten ved å høyreklikke på den
+          og velge <code>slett</code>.
         </p>
       </li>
       <li>
         <p>
-          [ ] Klikk på <code>Scene</code> og deretter på
+          Klikk på <code>Scene</code> og deretter på
           <code>Bakgrunner</code>-fanen. Klikk
           <img
             src="lessons/tegneprogram/../bilder/hent-fra-fil.png"
@@ -77,7 +77,7 @@
       </li>
       <li>
         <p>
-          [ ] Klikk
+          Klikk
           <img
             src="lessons/tegneprogram/../bilder/hent-fra-fil.png"
             alt="hent fra fil"
@@ -89,8 +89,8 @@
       </li>
       <li>
         <p>
-          [ ] Bytt til <code>Drakter</code>-fanen og velg senterpunkt for
-          figuren ved hjelp av
+          Bytt til <code>Drakter</code>-fanen og velg senterpunkt for figuren
+          ved hjelp av
           <img
             src="lessons/tegneprogram/../bilder/velg_senterpunkt.png"
             alt="Velg senterpunkt"
@@ -106,7 +106,7 @@
       </li>
       <li>
         <p>
-          [ ] Få blyanten til å følge musepekeren rundt på scenen ved å bruke
+          Få blyanten til å følge musepekeren rundt på scenen ved å bruke
           <code class="blockcontrol">for alltid</code>- og
           <code class="blockmotion">gå til musepeker</code>-klossene.
         </p>
@@ -127,9 +127,9 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Vi vil bruke museknappen til å kontrollere blyanten - når
-          museknappen er nede tegner blyanten og når museknappen er oppe tegner
-          den ikke. Vi kan gjøre dette ved å bruke enn
+          Vi vil bruke museknappen til å kontrollere blyanten - når museknappen
+          er nede tegner blyanten og når museknappen er oppe tegner den ikke. Vi
+          kan gjøre dette ved å bruke enn
           <code class="blockcontrol">hvis ellers</code>- og en
           <code class="blocksensing">museknappen er nede?</code>-kloss. Utvid
           skriptet som følger.
@@ -152,12 +152,12 @@ slutt
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Følger blyanten musa rundt?</p>
+        <p>Følger blyanten musa rundt?</p>
       </li>
       <li>
         <p>
-          [ ] Hva skjer om du holder museknappen nede og flytter på musa? Ikke
-          bry deg om fargen enda.
+          Hva skjer om du holder museknappen nede og flytter på musa? Ikke bry
+          deg om fargen enda.
         </p>
       </li>
     </ul>
@@ -167,7 +167,7 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Etterhvert vil skjermen bli ganske full av rabbel. Vi kan bruke
+          Etterhvert vil skjermen bli ganske full av rabbel. Vi kan bruke
           <code class="blockpen">slett</code>-klossen til å fjerne dette.
         </p>
         <pre><code class="blocks">når grønt flagg klikkes
@@ -188,9 +188,7 @@ slutt
     <h2 class="flag" id="test-prosjektet-ditt-2">Test prosjektet ditt</h2>
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
-      <li>
-        [ ] Forsvinner tegningene dine når du klikker på det grønne flagget?
-      </li>
+      <li>Forsvinner tegningene dine når du klikker på det grønne flagget?</li>
     </ul>
   </section>
 </section>
@@ -208,18 +206,18 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Lag en ny figur fra ressurskatalogen du lastet ned i begynnelsen
-          av prosjektet. Velg <code>cancel-button.png</code>.
+          Lag en ny figur fra ressurskatalogen du lastet ned i begynnelsen av
+          prosjektet. Velg <code>cancel-button.png</code>.
         </p>
       </li>
       <li>
-        <p>[ ] Bytt navn på figuren til <code>Slett</code>.</p>
+        <p>Bytt navn på figuren til <code>Slett</code>.</p>
       </li>
       <li>
-        <p>[ ] Flytt figuren til nederste høyre hjørne av scenen.</p>
+        <p>Flytt figuren til nederste høyre hjørne av scenen.</p>
       </li>
       <li>
-        <p>[ ] Gi slette-figuren dette skriptet:</p>
+        <p>Gi slette-figuren dette skriptet:</p>
         <pre><code class="blocks">når denne figuren klikkes
 slett
 </code></pre>
@@ -230,7 +228,7 @@ slett
     <h2 class="flag" id="test-prosjektet-ditt-3">Test prosjektet ditt</h2>
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
-      <li>[ ] Fjerner sletteknappen alle tegningene dine?</li>
+      <li>Fjerner sletteknappen alle tegningene dine?</li>
     </ul>
   </section>
 </section>
@@ -252,18 +250,16 @@ slett
     <h2 class="check" id="sjekkliste-5">Sjekkliste</h2>
     <ul>
       <li>
-        <p>
-          [ ] Lag en ny figur ved å laste opp <code>red-selector.gif</code>.
-        </p>
+        <p>Lag en ny figur ved å laste opp <code>red-selector.gif</code>.</p>
       </li>
       <li>
         <p>
-          [ ] Gi figuren navnet <code>Rød</code> og flytt den ned i venstre
-          hjørne av skjermen.
+          Gi figuren navnet <code>Rød</code> og flytt den ned i venstre hjørne
+          av skjermen.
         </p>
       </li>
       <li>
-        <p>[ ] Gi den et skript som sender meldingen <code>Rød</code>.</p>
+        <p>Gi den et skript som sender meldingen <code>Rød</code>.</p>
         <pre><code class="blocks">når denne figuren klikkes
 send melding [Rød v]
 </code></pre>
@@ -274,7 +270,7 @@ send melding [Rød v]
       </li>
       <li>
         <p>
-          [ ] Klikk på blyanten, og deretter på
+          Klikk på blyanten, og deretter på
           <code class="blocklightgrey">Drakter</code>-fanen. Importer drakten
           <code>red-pencil.png</code>. Sett midtpunktet til blyantspissen for
           denne drakten også.
@@ -282,10 +278,9 @@ send melding [Rød v]
       </li>
       <li>
         <p>
-          [ ] Legg til et nytt skript. Når blyanten får meldingen
-          <code>Rød</code>, skal den forandre drakt til <code>red-pencil</code>.
-          Og så skal den selvsagt også begynne å tegne rødt. Slik bygger du
-          skriptet:
+          Legg til et nytt skript. Når blyanten får meldingen <code>Rød</code>,
+          skal den forandre drakt til <code>red-pencil</code>. Og så skal den
+          selvsagt også begynne å tegne rødt. Slik bygger du skriptet:
         </p>
         <pre><code class="blocks">når jeg mottar [Rød v]
 bytt drakt til [red-pencil v]
@@ -305,13 +300,13 @@ velg pennfarge [#FF0000]
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Begynn å tegne en strek.</p>
+        <p>Begynn å tegne en strek.</p>
       </li>
       <li>
-        <p>[ ] Bytt til rødt, og se om fargen forandres.</p>
+        <p>Bytt til rødt, og se om fargen forandres.</p>
       </li>
       <li>
-        <p>[ ] Kommer streken fra blyantspissen nå også?</p>
+        <p>Kommer streken fra blyantspissen nå også?</p>
       </li>
     </ul>
   </section>
@@ -319,8 +314,7 @@ velg pennfarge [#FF0000]
     <h2 class="check" id="sjekkliste-6">Sjekkliste</h2>
     <ul>
       <li>
-        [ ] Gjenta punktene over for å lage blå, gule og grønne knapper og
-        blyanter.
+        Gjenta punktene over for å lage blå, gule og grønne knapper og blyanter.
       </li>
     </ul>
   </section>
@@ -329,16 +323,16 @@ velg pennfarge [#FF0000]
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Fungerer alle knappene?</p>
+        <p>Fungerer alle knappene?</p>
       </li>
       <li>
-        <p>[ ] Skifter de til en annen farge på blyanten?</p>
+        <p>Skifter de til en annen farge på blyanten?</p>
       </li>
       <li>
-        <p>[ ] Tegner de med riktig farge?</p>
+        <p>Tegner de med riktig farge?</p>
       </li>
       <li>
-        <p>[ ] Tegner alle figurene fra tuppen av blyanten?</p>
+        <p>Tegner alle figurene fra tuppen av blyanten?</p>
       </li>
     </ul>
   </section>
@@ -380,8 +374,8 @@ velg pennfarge [#FF0000]
     <ul>
       <li>
         <p>
-          [ ] Legg til testene som sier at blyanten bare får følge musepekeren
-          hvis <code>y</code> er større enn <em>-120</em> og mindre enn
+          Legg til testene som sier at blyanten bare får følge musepekeren hvis
+          <code>y</code> er større enn <em>-120</em> og mindre enn
           <em>170</em> og <code>x</code> er større enn <em>-230</em> og mindre
           enn <em>230</em>. For å få plass til alle testene må du først legge
           inn en <code class="blockoperators">_ og _</code>-kloss, og deretter
@@ -404,12 +398,11 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Siden vi ikke kan tegne utenfor tavla, er det like greit at
-          blyanten bare blir borte når musepekeren går utenfor tavla. For å
-          gjøre dette må vi erstatte
-          <code class="blockcontrol">hvis</code>-klossen ovenfor med en
-          <code class="blockcontrol">hvis - ellers</code>-kloss. Reglene blir
-          nå: <strong>Hvis</strong> musepekeren er innenfor tavlas
+          Siden vi ikke kan tegne utenfor tavla, er det like greit at blyanten
+          bare blir borte når musepekeren går utenfor tavla. For å gjøre dette
+          må vi erstatte <code class="blockcontrol">hvis</code>-klossen ovenfor
+          med en <code class="blockcontrol">hvis - ellers</code>-kloss. Reglene
+          blir nå: <strong>Hvis</strong> musepekeren er innenfor tavlas
           <code>x</code>- og <code>y</code>-koordinater følger blyanten pekeren,
           <strong>ellers</strong> skjules blyanten.
         </p>
@@ -449,15 +442,13 @@ slutt
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Kan du fremdeles tegne på tavla?</p>
+        <p>Kan du fremdeles tegne på tavla?</p>
       </li>
       <li>
-        <p>[ ] Kan du tegne utenfor tavla?</p>
+        <p>Kan du tegne utenfor tavla?</p>
       </li>
       <li>
-        <p>
-          [ ] Hva skjer med blyanten når musepekeren går ut og inn av tavla?
-        </p>
+        <p>Hva skjer med blyanten når musepekeren går ut og inn av tavla?</p>
       </li>
     </ul>
   </section>
@@ -474,21 +465,20 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Last opp en figur fra fil. Velg filen <code>eraser.png</code> fra
+          Last opp en figur fra fil. Velg filen <code>eraser.png</code> fra
           katalogen du lastet ned i starten. Kall figuren <code>Viskelær</code>.
         </p>
       </li>
       <li>
         <p>
-          [ ] Gjør figuren litt mindre med krympeknappen,
+          Gjør figuren litt mindre med krympeknappen,
           <img src="lessons/tegneprogram/../bilder/krymp.png" alt="krymp" />, og
           deretter drar du den ned i høyre hjørne, ved siden av slett-knappen.
         </p>
       </li>
       <li>
         <p>
-          [ ] Gi viskelær-figuren et skript som sender meldingen
-          <code>Visk</code>.
+          Gi viskelær-figuren et skript som sender meldingen <code>Visk</code>.
         </p>
         <pre><code class="blocks">når denne figuren klikkes
 send melding [Visk v]
@@ -496,17 +486,16 @@ send melding [Visk v]
       </li>
       <li>
         <p>
-          [ ] For å få blyanten til å viske må du legge til viskelæret også som
-          en drakt på denne. Klikk blyantfiguren. Gå til
-          <code>Drakter</code>-fanen og importer <code>eraser.png</code> igjen.
-          Husk å sette senterpunktet til viskelæret foran.
+          For å få blyanten til å viske må du legge til viskelæret også som en
+          drakt på denne. Klikk blyantfiguren. Gå til <code>Drakter</code>-fanen
+          og importer <code>eraser.png</code> igjen. Husk å sette senterpunktet
+          til viskelæret foran.
         </p>
       </li>
       <li>
         <p>
-          [ ] Blyanten svarer på <code>Visk</code>-meldingen med å bytte
-          pennfarge til grå (bruk fargevelgeren for å velge bakgrunnsfargen til
-          tavla).
+          Blyanten svarer på <code>Visk</code>-meldingen med å bytte pennfarge
+          til grå (bruk fargevelgeren for å velge bakgrunnsfargen til tavla).
         </p>
         <pre><code class="blocks">når jeg mottar [Visk v]
 bytt drakt til [eraser v]
@@ -520,13 +509,13 @@ velg pennfarge [#606060]
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Klarer viskelæret å viske?</p>
+        <p>Klarer viskelæret å viske?</p>
       </li>
       <li>
-        <p>[ ] Fungerer det helt ut til kantene av tavla?</p>
+        <p>Fungerer det helt ut til kantene av tavla?</p>
       </li>
       <li>
-        <p>[ ] Går det greit å veksle mellom blyant og viskelær?</p>
+        <p>Går det greit å veksle mellom blyant og viskelær?</p>
       </li>
     </ul>
   </section>
@@ -539,7 +528,7 @@ velg pennfarge [#606060]
     <ul>
       <li>
         <p>
-          [ ] Legg til en ny figur med valgfritt utseende og kall den
+          Legg til en ny figur med valgfritt utseende og kall den
           <code>Stempel</code>. Vi valgte Scratch-logoen fra
           <code>Ting</code>-mappen i biblioteket. Krymp figuren og plasser den
           nederst på skjermen ved siden av de andre verktøyene. Når figuren
@@ -551,13 +540,13 @@ send melding [Stempel v]
       </li>
       <li>
         <p>
-          [ ] Legg til en ny drakt for blyantfiguren. Det skal være samme drakt
-          som du nettopp ga stempelet.
+          Legg til en ny drakt for blyantfiguren. Det skal være samme drakt som
+          du nettopp ga stempelet.
         </p>
       </li>
       <li>
         <p>
-          [ ] Velg blyanten og lag en variabel. Kall variabelen
+          Velg blyanten og lag en variabel. Kall variabelen
           <code class="blockdata">stempelmodus</code> og la den gjelde
           <code>For denne figuren</code>. Fjern avhukingen foran variabelen slik
           at den ikke vises på scenen. Oppgaven til denne variabelen er å holde
@@ -566,7 +555,7 @@ send melding [Stempel v]
       </li>
       <li>
         <p>
-          [ ] Legg til et skript for blyanten som responderer på
+          Legg til et skript for blyanten som responderer på
           <code>Stempel</code>-meldingen. Skriptet skal skifte drakt til den
           samme drakten du valgte for stempelet. Deretter skal det sette verdien
           til <code class="blockdata">stempelmodus</code> lik <code>på</code>.
@@ -578,7 +567,7 @@ sett [stempelmodus v] til [på]
       </li>
       <li>
         <p>
-          [ ] Forandre de andre skriptene som er knyttet til fargevelgerne og
+          Forandre de andre skriptene som er knyttet til fargevelgerne og
           viskelæret slik at de setter
           <code class="blockdata">stempelmodus</code> lik <code>av</code>. For
           eksempel blir viskelærskriptet slik:
@@ -591,7 +580,7 @@ sett [stempelmodus v] til [av]
       </li>
       <li>
         <p>
-          [ ] Til slutt må vi sjekke variabelen inne i
+          Til slutt må vi sjekke variabelen inne i
           <code class="blockcontrol">hvis</code
           ><code class="blocksensing">museknappen er nede?</code> for å se om vi
           skal tegne eller stemple. Hvis
@@ -628,10 +617,10 @@ slutt
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Klarer du å stemple avtrykk?</p>
+        <p>Klarer du å stemple avtrykk?</p>
       </li>
       <li>
-        <p>[ ] Hva skjer når du skifter tilbake til en av blyantene?</p>
+        <p>Hva skjer når du skifter tilbake til en av blyantene?</p>
       </li>
     </ul>
   </section>
@@ -652,7 +641,7 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Legg til regnbue-knappen som figur. Du finner den i katalogen du
+          Legg til regnbue-knappen som figur. Du finner den i katalogen du
           lastet ned i starten. Den heter <code>rainbow-selector.gif</code>.
           Kall den <code>Regnbue</code> og sett den ved siden av de andre
           knappene nederst til venstre. Figuren skal sende meldingen
@@ -661,16 +650,16 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Legg til regnbue-blyanten fra filen
+          Legg til regnbue-blyanten fra filen
           <code>rainbow-pencil.png</code> som en ny drakt til blyanten. Husk å
           justere senterpunktet.
         </p>
       </li>
       <li>
         <p>
-          [ ] Nå må du lage et skript som får pennfargen til å skifte mange
-          ganger i sekundet. Vi fant ut at å endre fargen med 5 hvert 0.05
-          sekunder fungerer fint, men du bør prøve ut egne verdier også.
+          Nå må du lage et skript som får pennfargen til å skifte mange ganger i
+          sekundet. Vi fant ut at å endre fargen med 5 hvert 0.05 sekunder
+          fungerer fint, men du bør prøve ut egne verdier også.
         </p>
       </li>
     </ul>
@@ -698,12 +687,10 @@ slutt
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Virker regnbueblyanten?</p>
+        <p>Virker regnbueblyanten?</p>
       </li>
       <li>
-        <p>
-          [ ] Hva skjer når du skifter tilbake til en av de andre blyantene?
-        </p>
+        <p>Hva skjer når du skifter tilbake til en av de andre blyantene?</p>
       </li>
     </ul>
   </section>
@@ -738,10 +725,10 @@ slutt
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Virker alle snarveiene?</p>
+        <p>Virker alle snarveiene?</p>
       </li>
       <li>
-        <p>[ ] Virker knappene på skjermen fremdeles også?</p>
+        <p>Virker knappene på skjermen fremdeles også?</p>
       </li>
     </ul>
   </section>
@@ -762,21 +749,20 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Lag to nye figurer ved å importere
-          <code>bigger-selector.gif</code> og
+          Lag to nye figurer ved å importere <code>bigger-selector.gif</code> og
           <code>smaller-selctor.gif</code> fra katalogen med ressurser. Kall
           figurene <code>Større</code> og <code>Mindre</code>.
         </p>
       </li>
       <li>
         <p>
-          [ ] La figurene sende ut meldingene <code>Større</code> og
+          La figurene sende ut meldingene <code>Større</code> og
           <code>Mindre</code>.
         </p>
       </li>
       <li>
         <p>
-          [ ] Blyanten kan svare på meldingen ved å enten
+          Blyanten kan svare på meldingen ved å enten
           <code class="blockpen">endre pennebredde</code> med 1 eller
           <code class="blocklooks">endre størrelse</code> med 10, avhengig av
           verdien på <code>stempelmodus</code>.
@@ -796,21 +782,20 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Glem ikke å lage snarveier for disse funksjonene også. For
-          eksempel <code>pil opp</code> for større og <code>pil ned</code> for
-          mindre.
+          Glem ikke å lage snarveier for disse funksjonene også. For eksempel
+          <code>pil opp</code> for større og <code>pil ned</code> for mindre.
         </p>
       </li>
       <li>
         <p>
-          [ ] Har du lagt merke til at også blyantfiguren blir større når du
+          Har du lagt merke til at også blyantfiguren blir større når du
           forstørrer stempelet? For å unngå dette kan vi sette størrelsen til
           100% hver gang en ny farge klikkes.
         </p>
       </li>
       <li>
         <p>
-          [ ] For å gjøre det enda mer avansert kan du få stempelet til å huske
+          For å gjøre det enda mer avansert kan du få stempelet til å huske
           størrelsen sin fra gang til gang. Den enkleste måten å gjøre dette på
           er å opprette en ny variabel som du kaller
           <code class="blockdata">stempelstørrelse</code>. Denne må oppdateres
@@ -825,14 +810,14 @@ slutt
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Fungerer forstørrelsesknappen?</p>
+        <p>Fungerer forstørrelsesknappen?</p>
       </li>
       <li>
-        <p>[ ] Fungerer forminskingsknappen?</p>
+        <p>Fungerer forminskingsknappen?</p>
       </li>
       <li>
         <p>
-          [ ] Hva skjer om du bytter til stempelet, endrer størrelsen og så
+          Hva skjer om du bytter til stempelet, endrer størrelsen og så
           forandrer tilbake til blyanten?
         </p>
       </li>

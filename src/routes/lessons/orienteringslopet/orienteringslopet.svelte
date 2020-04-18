@@ -28,14 +28,14 @@
     <ul>
       <li>
         <p>
-          [ ] Gå til
+          Gå til
           <a href="https://scratch.mit.edu/projects/261157815" target="_blank"
             >https://scratch.mit.edu/projects/261157815</a
           >.
         </p>
       </li>
       <li>
-        <p>[ ] Se inni prosjektet, og trykk remiks-knappen.</p>
+        <p>Se inni prosjektet, og trykk remiks-knappen.</p>
       </li>
     </ul>
     <p>Nå får du en kopi av prosjektet.</p>
@@ -65,25 +65,25 @@
     <ul>
       <li>
         <p>
-          [ ] Prøv ulike måter å kode ham omkring slik at han berører hver
-          bokstav. Når han har berørt alle bokstavene, skifter scenen utseende
-          og jubler for deg.
+          Prøv ulike måter å kode ham omkring slik at han berører hver bokstav.
+          Når han har berørt alle bokstavene, skifter scenen utseende og jubler
+          for deg.
         </p>
       </li>
       <li>
         <p>
-          [ ] Du kommer nok til å trenge kommandoer fra
+          Du kommer nok til å trenge kommandoer fra
           <code class="blockevents">Hendelser</code>,
           <code class="blockcontrol">Styring</code> og
           <code class="blockmotion">Bevegelse</code>. Men alle klosser er lov!
         </p>
       </li>
       <li>
-        <p>[ ] Du trenger ikke treffe bokstavene i alfabetisk rekkefølge.</p>
+        <p>Du trenger ikke treffe bokstavene i alfabetisk rekkefølge.</p>
       </li>
       <li>
         <p>
-          [ ] Du trenger ikke å løpe i en ring, alt du må gjøre er å berøre alle
+          Du trenger ikke å løpe i en ring, alt du må gjøre er å berøre alle
           bokstavene på en eller annen måte.
         </p>
       </li>
@@ -98,7 +98,7 @@
     <h2 class="flag" id="test-prosjektet">Test prosjektet</h2>
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
-      <li>[ ] Fungerer koden?</li>
+      <li>Fungerer koden?</li>
     </ul>
   </section>
   <section class="challenge">

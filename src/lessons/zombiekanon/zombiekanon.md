@@ -1,10 +1,9 @@
 ---
 title: Zombiekanon
 level: 2
-author: 'Thomas Kjeldahl Nilsson og Stein Olav Romslo'
+author: "Thomas Kjeldahl Nilsson og Stein Olav Romslo"
 language: nb
 ---
-
 
 # Introduksjon {.intro}
 
@@ -12,33 +11,31 @@ Vi skal lage et spill der målet er å skyte zombiene før de tar oss.
 
 ![Illustrasjon av et ferdig zombiekanon-spill](zombiekanon.png)
 
-
 # Steg 1: Lag en remiks av Zombiekanon {.activity}
 
-*Vi tar utgangspunkt i et prosjekt som allerede er laget.*
+_Vi tar utgangspunkt i et prosjekt som allerede er laget._
 
 ## Sjekkliste {.check}
 
-- [ ] Gå til
-  [https://scratch.mit.edu/projects/266969817](https://scratch.mit.edu/projects/266969817){target=_blank}.
+- Gå til
+  [https://scratch.mit.edu/projects/266969817](https://scratch.mit.edu/projects/266969817){target=\_blank}.
 
-- [ ] Se inni prosjektet, og trykk remiks-knappen.
+- Se inni prosjektet, og trykk remiks-knappen.
 
 Nå får du en kopi av prosjektet.
 
-
 # Steg 2: Gjør det mulig å styre kanonen {.activity}
 
-*Lag kode som lar deg styre kanonen med piltastene.*
+_Lag kode som lar deg styre kanonen med piltastene._
 
 Begynn å legge inn kode under klossen `Når pil høyre trykkes`{.blockevents}.
 Etterpå gjør du tilsvarende for pil venstre.
 
 ## Sjekkliste {.check}
 
-- [ ] Hva må skje når pil høyre trykkes?
+- Hva må skje når pil høyre trykkes?
 
-- [ ] Prøv å justere hvor raskt kanonen snus.
+- Prøv å justere hvor raskt kanonen snus.
 
 ## Tips {.tip}
 
@@ -50,17 +47,17 @@ legge til og trekke fra grader på retningen.
 
 # Steg 3: Få kanonen til å skyte automatisk {.activity}
 
-*Lag kode som gjør at kanonen skyter zombiene automatisk.*
+_Lag kode som gjør at kanonen skyter zombiene automatisk._
 
 ## Sjekkliste {.check}
 
-- [ ] Hvordan kan kanonen vite hvor zombiene er?
+- Hvordan kan kanonen vite hvor zombiene er?
 
 ## Test prosjektet {.flag}
 
-__Klikk på det grønne flagget.__
+**Klikk på det grønne flagget.**
 
-- [ ]  Fungerer koden?
+- Fungerer koden?
 
 ## Lagre prosjektet {.save}
 

@@ -31,14 +31,14 @@
     <ul>
       <li>
         <p>
-          [ ] Vi må først laste ned filen som inneholder kartet fra nettet. Hvis
-          du allerede har fått denne filen på datamaskinen din kan du hoppe over
+          Vi må først laste ned filen som inneholder kartet fra nettet. Hvis du
+          allerede har fått denne filen på datamaskinen din kan du hoppe over
           det neste punktet.
         </p>
       </li>
       <li>
         <p>
-          [ ] Høyreklikk på lenken
+          Høyreklikk på lenken
           <a href="lessons/norgestur/norgeskart.png">norgeskart.png</a> og velg
           at den skal åpnes i en ny fane. Klikk på den nye fanen som blir åpnet.
           Dette vil vise et bilde av et norgeskart. Høyreklikk på bildet, og
@@ -48,13 +48,13 @@
       </li>
       <li>
         <p>
-          [ ] Start et nytt Scratch-prosjekt. Slett kattefiguren, for eksempel
-          ved å høyreklikke på den og velge <code>slett</code>.
+          Start et nytt Scratch-prosjekt. Slett kattefiguren, for eksempel ved å
+          høyreklikke på den og velge <code>slett</code>.
         </p>
       </li>
       <li>
         <p>
-          [ ] Legg inn norgeskartet som bakgrunn ved å velge
+          Legg inn norgeskartet som bakgrunn ved å velge
           <img
             src="lessons/norgestur/../bilder/hent-fra-fil.png"
             alt="Last opp bakgrunn frafil"
@@ -91,7 +91,7 @@
     <ul>
       <li>
         <p>
-          [ ] Legg til en ny figur ved å klikke
+          Legg til en ny figur ved å klikke
           <img
             src="lessons/norgestur/../bilder/hent-fra-bibliotek.png"
             alt="Velg figur frabiblioteket"
@@ -103,8 +103,8 @@
       </li>
       <li>
         <p>
-          [ ] Klikk <code class="blockmotion">i</code> og skift navn på figuren
-          til <code>Helikopter</code>. Sett også rotasjonsmåten til
+          Klikk <code class="blockmotion">i</code> og skift navn på figuren til
+          <code>Helikopter</code>. Sett også rotasjonsmåten til
           <img
             src="lessons/norgestur/../bilder/rotasjonsmate-hv.png"
             alt="vend sideveis"
@@ -114,7 +114,7 @@
       </li>
       <li>
         <p>
-          [ ] Vi begynner med å gjøre helikopteret mindre, samt sikre oss at det
+          Vi begynner med å gjøre helikopteret mindre, samt sikre oss at det
           alltid starter på samme sted. Lag dette skriptet:
         </p>
         <pre><code class="blocks">når grønt flagg klikkes
@@ -124,11 +124,11 @@ gå til x: (0) y: (0)
       </li>
       <li>
         <p>
-          [ ] Vi skal nå programmere at helikopteret kontrolleres med
-          piltastene. Vi gjør dette ved å starte en løkke som vi gjentar for
-          alltid. Inne i denne evige løkken tester vi om piltastene er trykket
-          og i så fall flytter vi helikopteret. Først lager vi koden som flytter
-          helikopteret oppover:
+          Vi skal nå programmere at helikopteret kontrolleres med piltastene. Vi
+          gjør dette ved å starte en løkke som vi gjentar for alltid. Inne i
+          denne evige løkken tester vi om piltastene er trykket og i så fall
+          flytter vi helikopteret. Først lager vi koden som flytter helikopteret
+          oppover:
         </p>
         <pre><code class="blocks">når grønt flagg klikkes
 sett størrelse til (25) %
@@ -149,17 +149,15 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Starter en liten utgave av helikopteret omtrent midt på skjermen
-          (litt nordvest for Trondheim)?
+          Starter en liten utgave av helikopteret omtrent midt på skjermen (litt
+          nordvest for Trondheim)?
         </p>
       </li>
       <li>
-        <p>
-          [ ] Flytter helikopteret seg oppover når du trykker pil opp-tasten?
-        </p>
+        <p>Flytter helikopteret seg oppover når du trykker pil opp-tasten?</p>
       </li>
       <li>
-        <p>[ ] Skjer det noe når du trykker de andre piltastene?</p>
+        <p>Skjer det noe når du trykker de andre piltastene?</p>
       </li>
     </ul>
   </section>
@@ -169,9 +167,9 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Koden for å flytte helikopteret med de andre piltastene er veldig
-          lik koden som flytter helikopteret oppover. Vi kan derfor kopiere
-          denne! Høyreklikk på klossen <code class="blockcontrol">hvis </code
+          Koden for å flytte helikopteret med de andre piltastene er veldig lik
+          koden som flytter helikopteret oppover. Vi kan derfor kopiere denne!
+          Høyreklikk på klossen <code class="blockcontrol">hvis</code
           ><code class="blocksensing">tast pil opp trykket?</code>, og velg
           <code>lag en kopi</code>. Slipp disse klossene inn i
           <code class="blockcontrol">for alltid</code>-løkken. Gjenta til du har
@@ -208,12 +206,12 @@ slutt
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Kan du bruke alle fire piltastene til å flytte helikopteret?</p>
+        <p>Kan du bruke alle fire piltastene til å flytte helikopteret?</p>
       </li>
       <li>
         <p>
-          [ ] Hva er det som bestemmer hvor fort helikopteret beveger seg? Prøv
-          å forandre på skriptet ditt slik at helikopteret flyr raskere eller
+          Hva er det som bestemmer hvor fort helikopteret beveger seg? Prøv å
+          forandre på skriptet ditt slik at helikopteret flyr raskere eller
           saktere.
         </p>
       </li>
@@ -233,9 +231,8 @@ slutt
       <code class="blockdata">hastighet</code>. Deretter kan du sette denne
       variabelen lik 2 etter at det grønne flagget klikkes. Til slutt kan du
       bytte ut <code class="blockmotion">gå 2 steg</code>-klossene med
-      <code class="blockmotion">gå </code
-      ><code class="blockdata">hastighet</code
-      ><code class="blockmotion"> steg</code>-klosser.
+      <code class="blockmotion">gå</code><code class="blockdata">hastighet</code
+      ><code class="blockmotion">steg</code>-klosser.
     </p>
   </section>
 </section>
@@ -254,8 +251,8 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Vi skal nå tegne vår egen figur som vi vil bruke til å markere et
-          sted på kartet. Klikk
+          Vi skal nå tegne vår egen figur som vi vil bruke til å markere et sted
+          på kartet. Klikk
           <img
             src="lessons/norgestur/../bilder/tegn-ny.png"
             alt="Tegn ny figur"
@@ -265,18 +262,18 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Vi trenger bare en ganske liten sirkel. Velg en passende farge,
-          for eksempel vil rød synes ganske godt på kartet. Velg deretter
+          Vi trenger bare en ganske liten sirkel. Velg en passende farge, for
+          eksempel vil rød synes ganske godt på kartet. Velg deretter
           sirkelverktøyet, og marker den fyllte sirkelen (ellipsen) til venstre
           under tegnevinduet.
         </p>
       </li>
       <li>
         <p>
-          [ ] Før vi begynner å tegne kan du forstørre tegningen din ved å
-          trykke på forstørrelsesglasset nederst til høyre. For eksempel vil
-          800% forstørrelse passe bra. Hold inne <code>skift</code>-knappen mens
-          du drar ut en sirkel som er omtrent fire ruter stor.
+          Før vi begynner å tegne kan du forstørre tegningen din ved å trykke på
+          forstørrelsesglasset nederst til høyre. For eksempel vil 800%
+          forstørrelse passe bra. Hold inne <code>skift</code>-knappen mens du
+          drar ut en sirkel som er omtrent fire ruter stor.
           <code>skift</code>-knappen hjelper deg til å lage en helt rund sirkel.
         </p>
         <figure>
@@ -288,21 +285,21 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Klikk på <code class="blockmotion">i</code> og gi denne nye
-          figuren navnet <code>Sted</code>.
+          Klikk på <code class="blockmotion">i</code> og gi denne nye figuren
+          navnet <code>Sted</code>.
         </p>
       </li>
       <li>
         <p>
-          [ ] Dra denne nye sted-figuren til et sted på kartet du vil at skal
-          være første reisemål. Vi har brukt <code>Hønefoss</code> som første
+          Dra denne nye sted-figuren til et sted på kartet du vil at skal være
+          første reisemål. Vi har brukt <code>Hønefoss</code> som første
           reisemål, men du kan velge et annet sted om du vil.
         </p>
       </li>
       <li>
         <p>
-          [ ] Vi trenger nå posisjonen til reisemålet vårt. Denne finner vi ved
-          se på figurinformasjonen etter tallene som står bak <code>x</code> og
+          Vi trenger nå posisjonen til reisemålet vårt. Denne finner vi ved se
+          på figurinformasjonen etter tallene som står bak <code>x</code> og
           <code>y</code>. Disse tallene kalles koordinater. I eksempelet under
           er koordinatene <code>x: 6</code> og <code>y: -112</code>. Disse
           forteller hvor på kartet vi har lagt reisemålet.
@@ -316,8 +313,8 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Klikk på <code class="blocklightgrey">Skript</code>-fanen. Vi skal
-          nå lage koden som legger <code>Sted</code>-figuren på riktig sted, og
+          Klikk på <code class="blocklightgrey">Skript</code>-fanen. Vi skal nå
+          lage koden som legger <code>Sted</code>-figuren på riktig sted, og
           senere oppdager om helikopteret reiser dit.
         </p>
         <pre><code class="blocks">når grønt flagg klikkes
@@ -341,11 +338,11 @@ si [Fant Hønefoss!] i (2) sekunder
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Er <code>Sted</code>-figuren der den skal være på kartet?</p>
+        <p>Er <code>Sted</code>-figuren der den skal være på kartet?</p>
       </li>
       <li>
         <p>
-          [ ] Sier den <code>Fant Hønefoss!</code> (eller ditt reisemål) når
+          Sier den <code>Fant Hønefoss!</code> (eller ditt reisemål) når
           helikopteret flyr til reisemålet?
         </p>
       </li>
@@ -367,14 +364,14 @@ si [Fant Hønefoss!] i (2) sekunder
     <ul>
       <li>
         <p>
-          [ ] Flytt <code>Sted</code>-figuren til et nytt sted på kartet. Vi
-          bruker <code>Tromsø</code>. Finn koordinatene til dette nye stedet på
-          samme måte som sist.
+          Flytt <code>Sted</code>-figuren til et nytt sted på kartet. Vi bruker
+          <code>Tromsø</code>. Finn koordinatene til dette nye stedet på samme
+          måte som sist.
         </p>
       </li>
       <li>
         <p>
-          [ ] Legg til en melding nederst i <code>Hønefoss</code>-skriptet som
+          Legg til en melding nederst i <code>Hønefoss</code>-skriptet som
           kaller et nytt reisemål. Lag deretter et nytt skript for det nye
           stedet. Dette nye skriptet er veldig likt det første, så du bør
           høyreklikke på
@@ -403,10 +400,10 @@ si [Fant Tromsø!] i (2) sekunder
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Flytter reisemålet seg etter at du har funnet det første?</p>
+        <p>Flytter reisemålet seg etter at du har funnet det første?</p>
       </li>
       <li>
-        <p>[ ] Oppdager også det andre reisemålet at du finner det?</p>
+        <p>Oppdager også det andre reisemålet at du finner det?</p>
       </li>
     </ul>
   </section>
@@ -429,7 +426,7 @@ si [Fant Tromsø!] i (2) sekunder
     <ul>
       <li>
         <p>
-          [ ] Lag en ny variabel, ved å klikke på
+          Lag en ny variabel, ved å klikke på
           <code class="blockdata">Data</code> og deretter
           <code>Lag en variabel</code>. Kall variabelen
           <code class="blockdata">Reis til</code> og velg at den skal gjelde
@@ -438,15 +435,15 @@ si [Fant Tromsø!] i (2) sekunder
       </li>
       <li>
         <p>
-          [ ] Legg merke til at det dukket opp en boks på kartet,
-          <code class="blocklightgrey">Reis til </code
+          Legg merke til at det dukket opp en boks på kartet,
+          <code class="blocklightgrey">Reis til</code
           ><code class="blockdata">0</code>. Flytt denne boksen til et passende
           sted slik at den er lett å lese.
         </p>
       </li>
       <li>
         <p>
-          [ ] Nå kan vi oppdatere koden til <code>Sted</code> slik at den setter
+          Nå kan vi oppdatere koden til <code>Sted</code> slik at den setter
           denne <code class="blockdata">Reis til</code>-variabelen. Endre først
           <code>Hønefoss</code>-skriptet som følger:
         </p>
@@ -459,7 +456,7 @@ send melding [Sted: Tromsø v]
 </code></pre>
       </li>
       <li>
-        <p>[ ] Endre også det andre reisemål-skriptet på samme måte:</p>
+        <p>Endre også det andre reisemål-skriptet på samme måte:</p>
         <pre><code class="blocks">når jeg mottar [Sted: Tromsø v]
 gå til x: (103) y: (121)
 sett [Reis til v] til [Tromsø]
@@ -474,12 +471,12 @@ si [Fant Tromsø!] i (2) sekunder
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Fungerer fortsatt spillet som tidligere?</p>
+        <p>Fungerer fortsatt spillet som tidligere?</p>
       </li>
       <li>
         <p>
-          [ ] Oppdaterer <code class="blockdata">Reis til</code>-variabelen seg
-          slik du forventet?
+          Oppdaterer <code class="blockdata">Reis til</code>-variabelen seg slik
+          du forventet?
         </p>
       </li>
     </ul>
@@ -493,7 +490,7 @@ si [Fant Tromsø!] i (2) sekunder
     <ul>
       <li>
         <p>
-          [ ] Legg til en <code class="blocklooks">skjul</code>-kloss i
+          Legg til en <code class="blocklooks">skjul</code>-kloss i
           oppstartskriptet på <code>Sted</code>-figuren.
         </p>
         <pre><code class="blocks">når grønt flagg klikkes
@@ -508,10 +505,10 @@ send melding [Sted: Hønefoss v]
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Blir den røde sirkelen borte?</p>
+        <p>Blir den røde sirkelen borte?</p>
       </li>
       <li>
-        <p>[ ] Hva skjer om du reiser til Hønefoss?</p>
+        <p>Hva skjer om du reiser til Hønefoss?</p>
       </li>
     </ul>
     <p>
@@ -526,7 +523,7 @@ send melding [Sted: Hønefoss v]
     <ul>
       <li>
         <p>
-          [ ] I stedet for å skjule sirkelen helt vil vi heller gjøre den
+          I stedet for å skjule sirkelen helt vil vi heller gjøre den
           gjennomsiktig! Bytt ut <code class="blocklooks">skjul</code>-klossen
           med en <code class="blocklooks">sett effekt</code>-kloss.
         </p>
@@ -548,10 +545,10 @@ send melding [Sted: Hønefoss v]
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Er fortsatt den røde sirkelen usynlig?</p>
+        <p>Er fortsatt den røde sirkelen usynlig?</p>
       </li>
       <li>
-        <p>[ ] Hva skjer nå om du reiser til Hønefoss?</p>
+        <p>Hva skjer nå om du reiser til Hønefoss?</p>
       </li>
     </ul>
   </section>
@@ -574,9 +571,9 @@ send melding [Sted: Hønefoss v]
     <ul>
       <li>
         <p>
-          [ ] La oss lage en ny melding, <code>Fant sted</code>, som vi kan
-          sende hver gang spilleren finner et reisemål. Denne meldingen kan vi
-          så bruke til å kjøre et skript hver gang vi finner et reisemål. Endre
+          La oss lage en ny melding, <code>Fant sted</code>, som vi kan sende
+          hver gang spilleren finner et reisemål. Denne meldingen kan vi så
+          bruke til å kjøre et skript hver gang vi finner et reisemål. Endre
           <code>Sted</code>-skriptene som følger:
         </p>
         <pre><code class="blocks">når jeg mottar [Sted: Hønefoss v]
@@ -595,7 +592,7 @@ send melding [Fant sted v] og vent
       </li>
       <li>
         <p>
-          [ ] Når vi mottar <code>Fant sted</code>-meldingen vil vi vise hvor
+          Når vi mottar <code>Fant sted</code>-meldingen vil vi vise hvor
           reisemålet faktisk ligger. Siden sirkelen snart flyttes videre kan vi
           ikke bare gjøre figuren synlig, vi må også
           <code class="blockpen">stemple avtrykk</code> av figuren på
@@ -615,13 +612,12 @@ sett [gjennomsiktig v] effekt til (100)
     <ul>
       <li>
         <p>
-          [ ] Dukker den røde sirkelen opp etterhvert som du finner reisemålene?
+          Dukker den røde sirkelen opp etterhvert som du finner reisemålene?
         </p>
       </li>
       <li>
         <p>
-          [ ] Hva skjer om du starter spillet på nytt etter å ha funnet
-          reisemålene?
+          Hva skjer om du starter spillet på nytt etter å ha funnet reisemålene?
         </p>
       </li>
     </ul>
@@ -631,8 +627,8 @@ sett [gjennomsiktig v] effekt til (100)
     <ul>
       <li>
         <p>
-          [ ] For å være sikker på at avtrykkene (de røde sirklene) blir borte
-          når vi starter spillet på nytt kan vi bruke
+          For å være sikker på at avtrykkene (de røde sirklene) blir borte når
+          vi starter spillet på nytt kan vi bruke
           <code class="blockpen">slett</code>-klossen. Legg til en kloss på
           oppstart-skripet:
         </p>
@@ -645,7 +641,7 @@ send melding [Sted: Hønefoss v]
       </li>
       <li>
         <p>
-          [ ] La oss også legge på en enkel lydeffekt når spilleren finner et
+          La oss også legge på en enkel lydeffekt når spilleren finner et
           reisemål. Siden vi har meldingen <code>Fant sted</code> er dette
           enkelt. Klikk først på <code class="blocklightgrey">Lyder</code>-fanen
           og velg en ny lyd fra biblioteket. Vi bruker
@@ -654,7 +650,7 @@ send melding [Sted: Hønefoss v]
       </li>
       <li>
         <p>
-          [ ] Spill lyden når et sted blir funnet. Klikk
+          Spill lyden når et sted blir funnet. Klikk
           <code class="blocklightgrey">Skript</code>-fanen og legg til en
           <code class="blocksound">start lyden</code>-kloss.
         </p>
@@ -672,10 +668,10 @@ sett [gjennomsiktig v] effekt til (100)
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Blir de røde sirklene slettet når du starter spillet på nytt?</p>
+        <p>Blir de røde sirklene slettet når du starter spillet på nytt?</p>
       </li>
       <li>
-        <p>[ ] Spilles det av en liten lyd når du finner et reisemål?</p>
+        <p>Spilles det av en liten lyd når du finner et reisemål?</p>
       </li>
     </ul>
   </section>
@@ -693,16 +689,16 @@ sett [gjennomsiktig v] effekt til (100)
     <ul>
       <li>
         <p>
-          [ ] Klikk på <code>Scene</code> til venstre for figurene. Skript som
-          skal gjelde for hele spillet, og ikke en spesiell figur kan man legge
-          på scenen. I dette tilfellet vil vi ha en variabel som teller ned hvor
+          Klikk på <code>Scene</code> til venstre for figurene. Skript som skal
+          gjelde for hele spillet, og ikke en spesiell figur kan man legge på
+          scenen. I dette tilfellet vil vi ha en variabel som teller ned hvor
           mye tid spilleren har til å reise rundt. Denne er et bra eksempel på
           noe som tilhører hele spillet.
         </p>
       </li>
       <li>
         <p>
-          [ ] Velg <code class="blockdata">Data</code> og
+          Velg <code class="blockdata">Data</code> og
           <code class="blocklightgrey">Lag en variabel</code>. Kall variabelen
           <code class="blockdata">Tid</code>. Legg merke til at siden vi lager
           variabelen på scenen må den gjelde for alle figurer.
@@ -710,8 +706,8 @@ sett [gjennomsiktig v] effekt til (100)
       </li>
       <li>
         <p>
-          [ ] Når spillet starter vil vi gi spilleren litt tid. Dette gjør vi
-          ved å sette <code class="blockdata">Tid</code> til for eksempel
+          Når spillet starter vil vi gi spilleren litt tid. Dette gjør vi ved å
+          sette <code class="blockdata">Tid</code> til for eksempel
           <code>30</code>, du kan selvsagt eksperimentere med andre tall.
           Deretter starter vi en løkke som teller ned hvert sekund.
         </p>
@@ -730,7 +726,7 @@ send melding [Avslutt v]
         </p>
       </li>
       <li>
-        <p>[ ] Lag et nytt skript på scenen som avslutter spillet.</p>
+        <p>Lag et nytt skript på scenen som avslutter spillet.</p>
         <pre><code class="blocks">når jeg mottar [Avslutt v]
 stopp [alle v] :: control
 </code></pre>
@@ -742,15 +738,15 @@ stopp [alle v] :: control
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Starter tiden på 30 når spillet begynner?</p>
+        <p>Starter tiden på 30 når spillet begynner?</p>
       </li>
       <li>
-        <p>[ ] Telles tiden ned etterhvert?</p>
+        <p>Telles tiden ned etterhvert?</p>
       </li>
       <li>
         <p>
-          [ ] Avsluttes spillet (helikopteret kan ikke fly rundt lengre) når
-          tiden løper ut?
+          Avsluttes spillet (helikopteret kan ikke fly rundt lengre) når tiden
+          løper ut?
         </p>
       </li>
     </ul>
@@ -764,7 +760,7 @@ stopp [alle v] :: control
     <ul>
       <li>
         <p>
-          [ ] Lag et nytt skript på scenen som reagerer på meldingen
+          Lag et nytt skript på scenen som reagerer på meldingen
           <code>Fant sted</code>.
         </p>
         <pre><code class="blocks">når jeg mottar [Fant sted v]
@@ -793,13 +789,13 @@ endre [Tid v] med (10)
     </p>
     <ul>
       <li>
-        <p>[ ] Velg figuren <code>Sted</code>.</p>
+        <p>Velg figuren <code>Sted</code>.</p>
       </li>
       <li>
         <p>
-          [ ] Vi har gjort <code>Sted</code>-figuren helt gjennomsiktig. For å
-          gjøre den synlig igjen, kan du bare klikke på (du trenger ikke legge
-          den til i noe skript) klossen
+          Vi har gjort <code>Sted</code>-figuren helt gjennomsiktig. For å gjøre
+          den synlig igjen, kan du bare klikke på (du trenger ikke legge den til
+          i noe skript) klossen
           <code class="blocklooks">ta bort grafiske effekter</code> i
           <code class="blocklooks">Utseende</code>-kategorien. Det kan også være
           nyttig å klikke på <code class="blockpen">slett</code>-klossen i
@@ -808,13 +804,13 @@ endre [Tid v] med (10)
       </li>
       <li>
         <p>
-          [ ] Flytt den røde sirkelen til et nytt sted. Noter deg koordinatene
-          ved å se på figurinformasjonen, <code class="blockmotion">i</code>.
+          Flytt den røde sirkelen til et nytt sted. Noter deg koordinatene ved å
+          se på figurinformasjonen, <code class="blockmotion">i</code>.
         </p>
       </li>
       <li>
         <p>
-          [ ] Høyreklikk på skriptet som begynner
+          Høyreklikk på skriptet som begynner
           <code class="blockevents">når jeg mottar Sted: Hønefoss</code> og velg
           <code>lag en kopi</code>. Oppdater denne kopien med navnet og
           koordinatene du fant ovenfor.
@@ -822,9 +818,9 @@ endre [Tid v] med (10)
       </li>
       <li>
         <p>
-          [ ] Nedenfor har vi lagt til tre nye steder (samt lagt til en melding
-          for å reise videre fra Tromsø). Dine skript bør ligne på disse, men
-          kan gjerne inneholde andre navn og koordinater.
+          Nedenfor har vi lagt til tre nye steder (samt lagt til en melding for
+          å reise videre fra Tromsø). Dine skript bør ligne på disse, men kan
+          gjerne inneholde andre navn og koordinater.
         </p>
         <pre><code class="blocks">når jeg mottar [Sted: Hønefoss v]
 gå til x: (6) y: (-112)
@@ -869,10 +865,10 @@ send melding [Avslutt v]
     <p><strong>Klikk på det grønne flagget.</strong></p>
     <ul>
       <li>
-        <p>[ ] Kan du reise innom alle stedene?</p>
+        <p>Kan du reise innom alle stedene?</p>
       </li>
       <li>
-        <p>[ ] Virker stedene å være riktig plassert på kartet?</p>
+        <p>Virker stedene å være riktig plassert på kartet?</p>
       </li>
     </ul>
   </section>
@@ -942,8 +938,8 @@ send melding [Avslutt v]
     <ul>
       <li>
         <p>
-          [ ] Nedenfor er noen hint om hvordan dette kan gjøres. Vær oppmerksom
-          på at skriptene bruker noen variable du selv må lage.
+          Nedenfor er noen hint om hvordan dette kan gjøres. Vær oppmerksom på
+          at skriptene bruker noen variable du selv må lage.
         </p>
         <pre><code class="blocks">definer sjekk sted
 hvis &lt;&lt;(tilfeldig tall fra (1) til (Antall steder totalt)) &gt; [1]&gt; eller &lt;berører fargen [#ff0000]?&gt;&gt;
@@ -970,15 +966,15 @@ send melding [Sted: Tromsø v]
       </li>
       <li>
         <p>
-          [ ] Siden dette vil hoppe over reisemål, er det viktig at det siste
+          Siden dette vil hoppe over reisemål, er det viktig at det siste
           reisemålet sender melding om at vi skal besøke det første reisemålet
           igjen, i stedet for at spillet avsluttes etter det siste reisemålet.
         </p>
       </li>
       <li>
         <p>
-          [ ] Det blir også vanskeligere å vite når spilleren har funnet alle
-          (eller mange nok) reisemål. En måte å gjøre dette på er å bruke en ny
+          Det blir også vanskeligere å vite når spilleren har funnet alle (eller
+          mange nok) reisemål. En måte å gjøre dette på er å bruke en ny
           variabel, for eksempel
           <code class="blockdata">Antall steder funnet</code>, som teller hvor
           mange steder som er funnet. Når mange nok steder er funnet kan det
@@ -1001,29 +997,29 @@ send melding [Sted: Tromsø v]
     <ul>
       <li>
         <p>
-          [ ] Åpne nettleseren din og finn en søkemotor som for eksempel Google,
+          Åpne nettleseren din og finn en søkemotor som for eksempel Google,
           Bing eller DuckDuckGo.
         </p>
       </li>
       <li>
         <p>
-          [ ] Søk etter et kart du er interessert i, for eksempel
+          Søk etter et kart du er interessert i, for eksempel
           <code>Europakart</code>. Velg å bare se bilderesultatene.
         </p>
       </li>
       <li>
         <p>
-          [ ] Når du finner et kart du synes ser bra ut, klikk på det slik at du
+          Når du finner et kart du synes ser bra ut, klikk på det slik at du
           kommer til originalbildet. Deretter kan du prøve å høyreklikke på
           kartet, og velge Lagre bilde eller noe som ligner.
         </p>
       </li>
       <li>
         <p>
-          [ ] Før du bruker kartet i et prosjekt du deler med andre, må du
-          undersøke om du har rettigheter til å bruke kartet. Noen ganger vil
-          det stå på nettsiden du fant kartet på at du kan bruke det (et
-          eksempel på dette kan du se på
+          Før du bruker kartet i et prosjekt du deler med andre, må du undersøke
+          om du har rettigheter til å bruke kartet. Noen ganger vil det stå på
+          nettsiden du fant kartet på at du kan bruke det (et eksempel på dette
+          kan du se på
           <a href="http://no.wikipedia.org/wiki/Fil:EUR_location_NOR.PNG"
             >http://no.wikipedia.org/wiki/Fil:EUR_location_NOR.PNG</a
           >). Andre ganger må du ta kontakt med de som eier nettsiden (for
@@ -1033,7 +1029,7 @@ send melding [Sted: Tromsø v]
       </li>
       <li>
         <p>
-          [ ] Bakgrunner i Scratch skal helst ha oppløsningen 480 x 360
+          Bakgrunner i Scratch skal helst ha oppløsningen 480 x 360
           bildepunkter. Som regel vil ikke kartene du finner på nettet ha denne
           oppløsningen. Det gjør som regel ingenting, fordi Scratch vil gjøre
           bildene mindre om de er for store. Om bildet er mindre enn 480 x 360
@@ -1045,8 +1041,8 @@ send melding [Sted: Tromsø v]
       </li>
       <li>
         <p>
-          [ ] Les inn det nye kartet i Scratchprosjektet ditt på samme måte som
-          du leste inn det opprinnelige norgeskartet i Steg 1, ved å velge
+          Les inn det nye kartet i Scratchprosjektet ditt på samme måte som du
+          leste inn det opprinnelige norgeskartet i Steg 1, ved å velge
           <img
             src="lessons/norgestur/../bilder/hent-fra-fil.png"
             alt="Last opp bakgrunnfra fil"
@@ -1055,7 +1051,7 @@ send melding [Sted: Tromsø v]
         </p>
       </li>
       <li>
-        <p>[ ] Lag reisemål basert på det nye kartet!</p>
+        <p>Lag reisemål basert på det nye kartet!</p>
       </li>
     </ul>
   </section>

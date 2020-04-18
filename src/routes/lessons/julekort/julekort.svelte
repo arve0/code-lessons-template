@@ -26,15 +26,15 @@
     <ul>
       <li>
         <p>
-          [ ] Start et nytt prosjekt. Når du står på startsiden til Scratch,
-          trykk på navnet ditt øverst i høyre hjørne. Trykk så &quot;Mine
-          ting&quot; og til slutt &quot;Nytt prosjekt&quot;. Du vil se en katt
-          som venter på å bli programmert!
+          Start et nytt prosjekt. Når du står på startsiden til Scratch, trykk
+          på navnet ditt øverst i høyre hjørne. Trykk så &quot;Mine ting&quot;
+          og til slutt &quot;Nytt prosjekt&quot;. Du vil se en katt som venter
+          på å bli programmert!
         </p>
       </li>
       <li>
         <p>
-          [ ] Trykk på
+          Trykk på
           <img
             src="lessons/julekort/../bilder/velg-bakgrunn.png"
             alt="Velg figur fra biblioteket"
@@ -47,13 +47,13 @@
       </li>
       <li>
         <p>
-          [ ] Slett kattefiguren <code>Sprite1</code> ved å høyreklikke på ham
-          og slette.
+          Slett kattefiguren <code>Sprite1</code> ved å høyreklikke på ham og
+          slette.
         </p>
       </li>
       <li>
         <p>
-          [ ] Velg nye figurer fra biblioteket med dette ikonet nede til høyre:
+          Velg nye figurer fra biblioteket med dette ikonet nede til høyre:
           <img
             src="lessons/julekort/../bilder/hent-fra-bibliotek.png"
             alt="Hent fra bibliotek"
@@ -73,10 +73,10 @@
     <ul>
       <li>
         <p>
-          [ ] Velg isbjørnen og fanen
-          <code class="blocklightgrey">Skript</code> og lag denne koden. Når
-          isbjørnen blir klikket på skal den si <code>God jul!</code>. Deretter
-          skal den skifte utseende hvert sekund, 10 ganger.
+          Velg isbjørnen og fanen <code class="blocklightgrey">Skript</code> og
+          lag denne koden. Når isbjørnen blir klikket på skal den si
+          <code>God jul!</code>. Deretter skal den skifte utseende hvert sekund,
+          10 ganger.
         </p>
         <pre><code class="blocks">når denne figuren klikkes
 si [God jul!] i (2) sekunder
@@ -93,10 +93,10 @@ slutt
     <p><strong>Klikk på isbjørnen og se om koden din virker.</strong></p>
     <ul>
       <li>
-        <p>[ ] Sier isbjørnen <code>God jul!</code>?</p>
+        <p>Sier isbjørnen <code>God jul!</code>?</p>
       </li>
       <li>
-        <p>[ ] Forandrer isbjørnen stilling?</p>
+        <p>Forandrer isbjørnen stilling?</p>
       </li>
     </ul>
   </section>
@@ -105,7 +105,7 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Velg snømannen og fanen <code>Skript</code> og lag denne koden.
+          Velg snømannen og fanen <code>Skript</code> og lag denne koden.
           Snømannen skal spørre etter navnet ditt. Den setter svaret inn i en ny
           setning. Deretter skal den skifte farge.
         </p>
@@ -124,13 +124,13 @@ slutt
     <p><strong>Klikk på snømannen og se om koden din virker.</strong></p>
     <ul>
       <li>
-        <p>[ ] Spør snømannen om navnet ditt?</p>
+        <p>Spør snømannen om navnet ditt?</p>
       </li>
       <li>
-        <p>[ ] Svarer snømannen med navnet ditt når du har skrevet det inn?</p>
+        <p>Svarer snømannen med navnet ditt når du har skrevet det inn?</p>
       </li>
       <li>
-        <p>[ ] Forandrer snømannen farge?</p>
+        <p>Forandrer snømannen farge?</p>
       </li>
     </ul>
   </section>
@@ -139,9 +139,8 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Velg juletreet og fanen
-          <code class="blocklightgrey">Skript</code> og lag denne koden. Nå skal
-          juletreet skifte farge og utseende.
+          Velg juletreet og fanen <code class="blocklightgrey">Skript</code> og
+          lag denne koden. Nå skal juletreet skifte farge og utseende.
         </p>
         <pre><code class="blocks">når @greenFlag klikkes
 gjenta for alltid
@@ -158,10 +157,10 @@ slutt
     <p><strong>Trykk på det grønne flagget og se om alt virker.</strong></p>
     <ul>
       <li>
-        <p>[ ] Endrer treet farge?</p>
+        <p>Endrer treet farge?</p>
       </li>
       <li>
-        <p>[ ] Danser treet fra side til side?</p>
+        <p>Danser treet fra side til side?</p>
       </li>
     </ul>
   </section>
@@ -176,8 +175,8 @@ slutt
     <ul>
       <li>
         <p>
-          [ ] Legge til din egen velkomsthilsen, for eksempel &quot;God
-          jul&quot; eller du kan synge din egen julesang.
+          Legge til din egen velkomsthilsen, for eksempel &quot;God jul&quot;
+          eller du kan synge din egen julesang.
         </p>
         <p>
           Klikk på <code>Scene</code>, og velg fanen
@@ -202,8 +201,8 @@ spill lyden [julehilsen v] til den er ferdig
       </li>
       <li>
         <p>
-          [ ] Kanskje finne på noen andre morsomme animasjoner? Snømannen kan
-          danse eller turne litt? Kan vi ha snakkende eller hoppende gale
+          Kanskje finne på noen andre morsomme animasjoner? Snømannen kan danse
+          eller turne litt? Kan vi ha snakkende eller hoppende gale
           julepresanger? Du bestemmer!
         </p>
       </li>

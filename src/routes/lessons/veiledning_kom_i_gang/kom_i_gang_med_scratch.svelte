@@ -34,7 +34,7 @@
     <ul>
       <li>
         <p>
-          [ ] Velg en oppgave blant
+          Velg en oppgave blant
           <a href="lessons/veiledning_kom_i_gang/../">Scratchoppgavene</a> på
           <a href="lessons/veiledning_kom_i_gang/../../"
             >kodeklubben.github.io</a
@@ -50,7 +50,7 @@
       </li>
       <li>
         <p>
-          [ ] Jobb gjennom oppgaven selv.
+          Jobb gjennom oppgaven selv.
           <a href="lessons/veiledning_kom_i_gang/#opprett-brukere"
             >Lag deg en bruker</a
           >
@@ -153,7 +153,7 @@
     <ul>
       <li>
         <p>
-          [ ] La alle barna koble seg opp på nett. Om noen bruker
+          La alle barna koble seg opp på nett. Om noen bruker
           <a href="https://scratch.mit.edu/scratch2download/"
             >Scratch offline</a
           >
@@ -162,25 +162,25 @@
       </li>
       <li>
         <p>
-          [ ] Be barna gå til hjemmesiden til Scratch på
+          Be barna gå til hjemmesiden til Scratch på
           <a href="https://scratch.mit.edu/">scratch.mit.edu</a>.
         </p>
       </li>
       <li>
         <p>
-          [ ] Om siden er på engelsk kan dere endre til norsk språk i
+          Om siden er på engelsk kan dere endre til norsk språk i
           nedtrekksmenyen nederst på siden.
         </p>
       </li>
       <li>
         <p>
-          [ ] Be barna klikke <code>Bli Scratch-bruker</code> øverst til høyre
-          på siden, og fylle ut skjemaet.
+          Be barna klikke <code>Bli Scratch-bruker</code> øverst til høyre på
+          siden, og fylle ut skjemaet.
         </p>
       </li>
       <li>
         <p>
-          [ ] Underveis blir barna bedt om å oppgi en e-postadresse. Denne vil
+          Underveis blir barna bedt om å oppgi en e-postadresse. Denne vil
           brukes for å bekrefte kontoen som gir tilgang til en del ekstra
           funksjonalitet. Det er <em>ikke</em> nødvendig at denne bekreftes med
           en gang.
@@ -217,17 +217,17 @@
     <ul>
       <li>
         <p>
-          [ ] Det kan være nyttig å be barna senke skjermene før du begynner,
-          slik at de i størst mulig grad følger med på det dere gjør sammen.
-          Start gjerne med å spørre: <strong>Hva er programmering?</strong> Gjør
-          et poeng av at
+          Det kan være nyttig å be barna senke skjermene før du begynner, slik
+          at de i størst mulig grad følger med på det dere gjør sammen. Start
+          gjerne med å spørre: <strong>Hva er programmering?</strong> Gjør et
+          poeng av at
           <em>programmering er en måte vi beskriver hvordan noe skal gjøres</em
           >.
         </p>
       </li>
       <li>
         <p>
-          [ ] Klikk <code>Programmering</code> øverst til venstre på
+          Klikk <code>Programmering</code> øverst til venstre på
           <a href="https://scratch.mit.edu/">Scratch-hjemmesiden</a>. Dette
           åpner scratchmiljøet hvor all programmeringen skjer.
         </p>
@@ -243,7 +243,7 @@
         </figure>
       </li>
       <li>
-        <p>[ ] Pek raskt på de tre delene av scratchmiljøet:</p>
+        <p>Pek raskt på de tre delene av scratchmiljøet:</p>
         <ul>
           <li>
             <p>
@@ -267,17 +267,16 @@
       </li>
       <li>
         <p>
-          [ ] Pek på den øverste blå klossen,
-          <code class="b">gå (10) steg</code>. Fortell at når vi klikker på den
-          forteller vi katten at den skal gå. Klikk på klossen flere ganger mens
-          du påpeker at katten begynner å flytte seg over skjermen.
-          <em>Vi programmerer katten!</em>
+          Pek på den øverste blå klossen, <code class="b">gå (10) steg</code>.
+          Fortell at når vi klikker på den forteller vi katten at den skal gå.
+          Klikk på klossen flere ganger mens du påpeker at katten begynner å
+          flytte seg over skjermen. <em>Vi programmerer katten!</em>
         </p>
       </li>
       <li>
         <p>
-          [ ] Fortell at det er mange forskjellige kommandoer vi kan gi til
-          katten. Klikk på den neste klossen,
+          Fortell at det er mange forskjellige kommandoer vi kan gi til katten.
+          Klikk på den neste klossen,
           <code class="b">vend høyre (15) grader</code>, og vis hvordan katten
           nå begynner å snu seg. Be barna legge merke til at katten snur seg
           uten å flytte seg over skjermen.
@@ -285,7 +284,7 @@
       </li>
       <li>
         <p>
-          [ ] Nå skal vi se at vi kan kombinere kommandoer. Dra
+          Nå skal vi se at vi kan kombinere kommandoer. Dra
           <code class="b">gå (10) steg</code>-klossen over til kodevinduet på
           høyre side. Trykk gjerne noen ganger på forstørrelsesglasset nederst
           til høyre slik at det blir enklere for barna å lese klossene. Dra
@@ -308,7 +307,7 @@ vend høyre (15) grader
       </li>
       <li>
         <p>
-          [ ] Endre tallet <code>10</code> i
+          Endre tallet <code>10</code> i
           <code class="b">gå (10) steg</code>-klossen til <code>20</code>.
           Katten tar nå lengre steg, og det blir enklere å se at den både
           <em>går</em> og <em>vender</em>.
@@ -316,7 +315,7 @@ vend høyre (15) grader
       </li>
       <li>
         <p>
-          [ ] Klikk på noen av de andre kategoriene,
+          Klikk på noen av de andre kategoriene,
           <code class="blocklooks">Utseende</code>,
           <code class="blocksound">Lyd</code>, osv. Vis hvordan hver kategori
           inneholder flere kommandoer.
@@ -334,7 +333,7 @@ vend høyre (15) grader
       </li>
       <li>
         <p>
-          [ ] Vis at vi også kan ta klosser ut av skript, ved å dra
+          Vis at vi også kan ta klosser ut av skript, ved å dra
           <code class="b">vend høyre (15) grader</code> tilbake til venstre og
           slippe den over klosselisten. Klossen er nå slettet. Vis at katten nå
           beveger seg rett frem mens den skifter farge.
@@ -342,7 +341,7 @@ vend høyre (15) grader
       </li>
       <li>
         <p>
-          [ ] Legg til klossen <code class="b">pek mot [ v]</code> nederst i
+          Legg til klossen <code class="b">pek mot [ v]</code> nederst i
           skriptet. Trykk på nedtrekksmenyen og velg <code>musepeker</code>.
           Skriptet ser nå slik ut:
         </p>
@@ -357,9 +356,9 @@ pek mot [musepeker v]
       </li>
       <li>
         <p>
-          [ ] Nå kommer det morsomste! Fortell barna hvordan datamaskiner er
-          veldig flinke til å gjøre ting mange ganger. Dette programmerer vi ved
-          hjelp av noe som heter løkker.
+          Nå kommer det morsomste! Fortell barna hvordan datamaskiner er veldig
+          flinke til å gjøre ting mange ganger. Dette programmerer vi ved hjelp
+          av noe som heter løkker.
         </p>
         <p>
           Klikk på <code class="blockcontrol">Styring</code>-kategorien, og dra
@@ -376,15 +375,14 @@ slutt
       </li>
       <li>
         <p>
-          [ ] Klikk på skriptet. Katten begynner å jage musepekeren rundt
-          omkring! Flytt musepekeren til scenen, og la katten jage den rundt en
-          liten stund. <em>Vi har laget et lite spill!</em>
+          Klikk på skriptet. Katten begynner å jage musepekeren rundt omkring!
+          Flytt musepekeren til scenen, og la katten jage den rundt en liten
+          stund. <em>Vi har laget et lite spill!</em>
         </p>
       </li>
       <li>
         <p>
-          [ ] Klikk på det røde stoppsymbolet over scenen for å avslutte
-          spillet.
+          Klikk på det røde stoppsymbolet over scenen for å avslutte spillet.
         </p>
       </li>
     </ul>
