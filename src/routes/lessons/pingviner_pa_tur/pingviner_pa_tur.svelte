@@ -23,7 +23,9 @@
     <em
       >Om du allerede kjenner Scratch og har en Scratchbruker kan du gå videre
       til
-      <a href="lessons/pingviner_pa_tur/#steg-1-en-pingvin-pa-tur">Steg 1</a
+      <a
+        href="lessons/pingviner_pa_tur/pingviner_pa_tur#steg-1-en-pingvin-pa-tur"
+        >Steg 1</a
       >.</em
     >
   </p>

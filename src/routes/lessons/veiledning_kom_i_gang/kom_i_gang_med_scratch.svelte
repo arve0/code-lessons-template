@@ -51,12 +51,15 @@
       <li>
         <p>
           Jobb gjennom oppgaven selv.
-          <a href="lessons/veiledning_kom_i_gang/#opprett-brukere"
+          <a
+            href="lessons/veiledning_kom_i_gang/kom_i_gang_med_scratch#opprett-brukere"
             >Lag deg en bruker</a
           >
           på <a href="http://scratch.mit.edu/">Scratch-hjemmesiden</a> (se
-          <a href="lessons/veiledning_kom_i_gang/#opprett-brukere">nedenfor</a>)
-          om du ikke allerede har det. Følg deretter oppgaven og programmer
+          <a
+            href="lessons/veiledning_kom_i_gang/kom_i_gang_med_scratch#opprett-brukere"
+            >nedenfor</a
+          >) om du ikke allerede har det. Følg deretter oppgaven og programmer
           denne selv. Dette gir deg nyttig erfaring i forhold til hvilke
           utfordringer barna blir stilt ovenfor.
         </p>

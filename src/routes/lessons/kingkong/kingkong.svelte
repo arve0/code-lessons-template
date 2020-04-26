@@ -196,8 +196,8 @@
           rektangel som dekker den nedre delen av det forrige rektangelet.
           Gjenta dette med stadig mørkere grønnfarger til du har et passende
           antall striper som forestiller gresset. Se
-          <a href="lessons/kingkong/#introduksjon">øverst i oppgaven</a> for et
-          ferdig eksempel.
+          <a href="lessons/kingkong/kingkong#introduksjon">øverst i oppgaven</a>
+          for et ferdig eksempel.
         </p>
       </li>
       <li>
@@ -377,7 +377,8 @@ slett denne klonen
           skal fly slik at det kommer borti <code>kong</code> om han står på
           venstre side av skyskraperen, men vi vil ikke at flyet krasjer i
           skyskraperen selv (se bildet
-          <a href="lessons/kingkong/#introduksjon">øverst i oppgaven</a>).
+          <a href="lessons/kingkong/kingkong#introduksjon">øverst i oppgaven</a
+          >).
         </p>
       </li>
       <li>
