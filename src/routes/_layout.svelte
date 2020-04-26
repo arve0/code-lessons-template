@@ -5,7 +5,7 @@
 	export let segment;
 
 	afterUpdate(() => {
-		scratchblocks.renderMatching("code.blocks", { style: "scratch3" })
+		scratchblocks.renderMatching("code.blocks", { style: "scratch3", languages: ["nb"] })
 	});
 </script>
 

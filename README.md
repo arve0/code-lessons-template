@@ -32,7 +32,7 @@ npx degit arve0/code-lessons-template my-app
 
 ### Using GitHub templates
 
-Alternatively, you can use GitHub's template feature with the [code-lessons-template](https://github.com/arve0/code-lessons-template).
+Alternatively, you can use GitHub's template feature with the [code-lessons-template repository](https://github.com/arve0/code-lessons-template).
 
 ### Running the project
 
@@ -54,6 +54,8 @@ npm run build:lessons
 Open up [localhost:3000](http://localhost:3000) and start clicking around.
 
 Consult [sapper.svelte.dev](https://sapper.svelte.dev) for help getting started.
+
+Scratchblocks settings is in [\_layout.svelte](src/routes/_layout.svelte).
 
 ## Structure
 
