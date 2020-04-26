@@ -44,14 +44,14 @@ for (const filename of files) {
       throw new Error(`No title in ${filename}`);
     }
 
-    const base_path = path.relative("src", path.dirname(filename));
+    const file_path = path.relative("src", filename.replace(/\.md$/, ""));
     const html = prettier.format(
       header({ ...lesson.attributes, filename }) +
         markdown
           .render(lesson.body)
           .replace(
             /(src|href)="([^"]+)"/g,
-            make_urls_relative_to_root(base_path)
+            make_urls_relative_to_root(file_path)
           ),
       { parser: "html" }
     );
@@ -86,11 +86,14 @@ function header({ filename, title }) {
 `;
 }
 
-function make_urls_relative_to_root(base_path) {
+function make_urls_relative_to_root(file_path) {
   return function (match, attribute, url) {
     if (url.match(/^(http|https):\/\//) !== null) {
       return match;
+    } else if (url.match(/^#/) !== null) {
+      return `${attribute}="${file_path}${url}"`;
     }
-    return `${attribute}="${base_path}/${url}"`;
+    const dir_path = path.dirname(file_path);
+    return `${attribute}="${dir_path}/${url}"`;
   };
 }
